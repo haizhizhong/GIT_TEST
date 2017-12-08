@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsManagementFees" targetNamespace="http://tempuri.org/dsManagementFees.xsd" xmlns:mstns="http://tempuri.org/dsManagementFees.xsd" xmlns="http://tempuri.org/dsManagementFees.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsManagementFees" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsManagementFees" msprop:Generator_DataSetName="dsManagementFees">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Proj_ManagementFees" msprop:Generator_UserTableName="LD_Proj_ManagementFees" msprop:Generator_RowDeletedName="LD_Proj_ManagementFeesRowDeleted" msprop:Generator_RowChangedName="LD_Proj_ManagementFeesRowChanged" msprop:Generator_RowClassName="LD_Proj_ManagementFeesRow" msprop:Generator_RowChangingName="LD_Proj_ManagementFeesRowChanging" msprop:Generator_RowEvArgName="LD_Proj_ManagementFeesRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Proj_ManagementFeesRowChangeEventHandler" msprop:Generator_TableClassName="LD_Proj_ManagementFeesDataTable" msprop:Generator_TableVarName="tableLD_Proj_ManagementFees" msprop:Generator_RowDeletingName="LD_Proj_ManagementFeesRowDeleting" msprop:Generator_TablePropName="LD_Proj_ManagementFees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Pri_ID" msprop:Generator_UserColumnName="Pri_ID" msprop:Generator_ColumnVarNameInTable="columnPri_ID" msprop:Generator_ColumnPropNameInRow="Pri_ID" msprop:Generator_ColumnPropNameInTable="Pri_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ManagementFee_ID" msprop:Generator_UserColumnName="ManagementFee_ID" msprop:Generator_ColumnVarNameInTable="columnManagementFee_ID" msprop:Generator_ColumnPropNameInRow="ManagementFee_ID" msprop:Generator_ColumnPropNameInTable="ManagementFee_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OffSetDays" msprop:Generator_UserColumnName="OffSetDays" msprop:Generator_ColumnVarNameInTable="columnOffSetDays" msprop:Generator_ColumnPropNameInRow="OffSetDays" msprop:Generator_ColumnPropNameInTable="OffSetDaysColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OffSetDate" msprop:Generator_UserColumnName="OffSetDate" msprop:Generator_ColumnVarNameInTable="columnOffSetDate" msprop:Generator_ColumnPropNameInRow="OffSetDate" msprop:Generator_ColumnPropNameInTable="OffSetDateColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Percentage" msprop:Generator_UserColumnName="Percentage" msprop:Generator_ColumnVarNameInTable="columnPercentage" msprop:Generator_ColumnPropNameInRow="Percentage" msprop:Generator_ColumnPropNameInTable="PercentageColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Lv1ID" msprop:Generator_UserColumnName="Lv1ID" msprop:Generator_ColumnVarNameInTable="columnLv1ID" msprop:Generator_ColumnPropNameInRow="Lv1ID" msprop:Generator_ColumnPropNameInTable="Lv1IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Lv2ID" msprop:Generator_UserColumnName="Lv2ID" msprop:Generator_ColumnVarNameInTable="columnLv2ID" msprop:Generator_ColumnPropNameInRow="Lv2ID" msprop:Generator_ColumnPropNameInTable="Lv2IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Lv3ID" msprop:Generator_UserColumnName="Lv3ID" msprop:Generator_ColumnVarNameInTable="columnLv3ID" msprop:Generator_ColumnPropNameInRow="Lv3ID" msprop:Generator_ColumnPropNameInTable="Lv3IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Lv4ID" msprop:Generator_UserColumnName="Lv4ID" msprop:Generator_ColumnVarNameInTable="columnLv4ID" msprop:Generator_ColumnPropNameInRow="Lv4ID" msprop:Generator_ColumnPropNameInTable="Lv4IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GST" msprop:Generator_UserColumnName="GST" msprop:Generator_ColumnVarNameInTable="columnGST" msprop:Generator_ColumnPropNameInRow="GST" msprop:Generator_ColumnPropNameInTable="GSTColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Supplier_ID" msprop:Generator_UserColumnName="Supplier_ID" msprop:Generator_ColumnVarNameInTable="columnSupplier_ID" msprop:Generator_ColumnPropNameInRow="Supplier_ID" msprop:Generator_ColumnPropNameInTable="Supplier_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PST" msprop:Generator_UserColumnName="PST" msprop:Generator_ColumnPropNameInRow="PST" msprop:Generator_ColumnVarNameInTable="columnPST" msprop:Generator_ColumnPropNameInTable="PSTColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Proj_ManagementFees" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7976AA1E-2C87-46B0-BFF8-EA36D37ADFB6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LD_ProjInvestors</RootNamespace>
+    <AssemblyName>LD_ProjInvestors</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\DotNetCompileDirectory%28no running%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="GridG, Version=1.0.6031.27479, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMConnection, Version=1.0.6038.16389, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\HMConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TUC_HMDevXManager, Version=1.0.5917.27590, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WS_Popups, Version=1.0.6008.20844, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsBeneficalOwner.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBeneficalOwner.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCustomers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCustomers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGLMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGLMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGLSubcode.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGLSubcode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsInvestor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsInvestor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjInvestorDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjInvestorDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjInvestorHeader.cs">
+      <DependentUpon>dsProjInvestorHeader.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjInvestorHeader.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjInvestorHeader.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsShareOwners.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsShareOwners.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsShares.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsShares.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSupplier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucProjInvestors.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucProjInvestors.Designer.cs">
+      <DependentUpon>ucProjInvestors.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="ucProjInvestors.resx">
+      <DependentUpon>ucProjInvestors.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsBeneficalOwner.xsc">
+      <DependentUpon>dsBeneficalOwner.xsd</DependentUpon>
+    </None>
+    <None Include="dsBeneficalOwner.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBeneficalOwner.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsBeneficalOwner.xss">
+      <DependentUpon>dsBeneficalOwner.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustomers.xsc">
+      <DependentUpon>dsCustomers.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustomers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCustomers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCustomers.xss">
+      <DependentUpon>dsCustomers.xsd</DependentUpon>
+    </None>
+    <None Include="dsGLMaster.xsc">
+      <DependentUpon>dsGLMaster.xsd</DependentUpon>
+    </None>
+    <None Include="dsGLMaster.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGLMaster.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsGLMaster.xss">
+      <DependentUpon>dsGLMaster.xsd</DependentUpon>
+    </None>
+    <None Include="dsGLSubcode.xsc">
+      <DependentUpon>dsGLSubcode.xsd</DependentUpon>
+    </None>
+    <None Include="dsGLSubcode.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGLSubcode.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsGLSubcode.xss">
+      <DependentUpon>dsGLSubcode.xsd</DependentUpon>
+    </None>
+    <None Include="dsInvestor.xsc">
+      <DependentUpon>dsInvestor.xsd</DependentUpon>
+    </None>
+    <None Include="dsInvestor.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsInvestor.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsInvestor.xss">
+      <DependentUpon>dsInvestor.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjInvestorDetail.xsc">
+      <DependentUpon>dsProjInvestorDetail.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjInvestorDetail.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjInvestorDetail.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProjInvestorDetail.xss">
+      <DependentUpon>dsProjInvestorDetail.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjInvestorHeader.xsc">
+      <DependentUpon>dsProjInvestorHeader.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjInvestorHeader.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjInvestorHeader.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProjInvestorHeader.xss">
+      <DependentUpon>dsProjInvestorHeader.xsd</DependentUpon>
+    </None>
+    <None Include="dsShareOwners.xsc">
+      <DependentUpon>dsShareOwners.xsd</DependentUpon>
+    </None>
+    <None Include="dsShareOwners.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsShareOwners.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsShareOwners.xss">
+      <DependentUpon>dsShareOwners.xsd</DependentUpon>
+    </None>
+    <None Include="dsShares.xsc">
+      <DependentUpon>dsShares.xsd</DependentUpon>
+    </None>
+    <None Include="dsShares.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsShares.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsShares.xss">
+      <DependentUpon>dsShares.xsd</DependentUpon>
+    </None>
+    <None Include="dsSupplier.xsc">
+      <DependentUpon>dsSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="dsSupplier.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSupplier.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSupplier.xss">
+      <DependentUpon>dsSupplier.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

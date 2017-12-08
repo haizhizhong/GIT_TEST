@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsShares" targetNamespace="http://tempuri.org/dsShares.xsd" xmlns:mstns="http://tempuri.org/dsShares.xsd" xmlns="http://tempuri.org/dsShares.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsShares" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsShares" msprop:Generator_DataSetName="dsShares">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Shares" msprop:Generator_UserTableName="LD_Shares" msprop:Generator_RowDeletedName="LD_SharesRowDeleted" msprop:Generator_RowChangedName="LD_SharesRowChanged" msprop:Generator_RowClassName="LD_SharesRow" msprop:Generator_RowChangingName="LD_SharesRowChanging" msprop:Generator_RowEvArgName="LD_SharesRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_SharesRowChangeEventHandler" msprop:Generator_TableClassName="LD_SharesDataTable" msprop:Generator_TableVarName="tableLD_Shares" msprop:Generator_RowDeletingName="LD_SharesRowDeleting" msprop:Generator_TablePropName="LD_Shares">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHARES_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="SHARES_ID" msprop:Generator_ColumnVarNameInTable="columnSHARES_ID" msprop:Generator_ColumnPropNameInRow="SHARES_ID" msprop:Generator_ColumnPropNameInTable="SHARES_IDColumn" type="xs:int" />
+              <xs:element name="PRI_ID" msprop:Generator_UserColumnName="PRI_ID" msprop:Generator_ColumnVarNameInTable="columnPRI_ID" msprop:Generator_ColumnPropNameInRow="PRI_ID" msprop:Generator_ColumnPropNameInTable="PRI_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SHAREOWNERS_ID" msprop:Generator_UserColumnName="SHAREOWNERS_ID" msprop:Generator_ColumnVarNameInTable="columnSHAREOWNERS_ID" msprop:Generator_ColumnPropNameInRow="SHAREOWNERS_ID" msprop:Generator_ColumnPropNameInTable="SHAREOWNERS_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SHARE_PCT" msprop:Generator_UserColumnName="SHARE_PCT" msprop:Generator_ColumnVarNameInTable="columnSHARE_PCT" msprop:Generator_ColumnPropNameInRow="SHARE_PCT" msprop:Generator_ColumnPropNameInTable="SHARE_PCTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Responsibility" msprop:Generator_UserColumnName="Responsibility" msprop:Generator_ColumnVarNameInTable="columnResponsibility" msprop:Generator_ColumnPropNameInRow="Responsibility" msprop:Generator_ColumnPropNameInTable="ResponsibilityColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Distribution" msprop:Generator_UserColumnName="Distribution" msprop:Generator_ColumnVarNameInTable="columnDistribution" msprop:Generator_ColumnPropNameInRow="Distribution" msprop:Generator_ColumnPropNameInTable="DistributionColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Supplier_ID" msprop:Generator_UserColumnName="Supplier_ID" msprop:Generator_ColumnVarNameInTable="columnSupplier_ID" msprop:Generator_ColumnPropNameInRow="Supplier_ID" msprop:Generator_ColumnPropNameInTable="Supplier_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Customer_Id" msprop:Generator_UserColumnName="Customer_Id" msprop:Generator_ColumnVarNameInTable="columnCustomer_Id" msprop:Generator_ColumnPropNameInRow="Customer_Id" msprop:Generator_ColumnPropNameInTable="Customer_IdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GL_Subcode" msprop:Generator_UserColumnName="GL_Subcode" msprop:Generator_ColumnVarNameInTable="columnGL_Subcode" msprop:Generator_ColumnPropNameInRow="GL_Subcode" msprop:Generator_ColumnPropNameInTable="GL_SubcodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SetupComplete" msprop:Generator_UserColumnName="SetupComplete" msprop:Generator_ColumnVarNameInTable="columnSetupComplete" msprop:Generator_ColumnPropNameInRow="SetupComplete" msprop:Generator_ColumnPropNameInTable="SetupCompleteColumn" type="xs:boolean" />
+              <xs:element name="LoanDrawAccount" msprop:Generator_UserColumnName="LoanDrawAccount" msprop:Generator_ColumnPropNameInRow="LoanDrawAccount" msprop:Generator_ColumnVarNameInTable="columnLoanDrawAccount" msprop:Generator_ColumnPropNameInTable="LoanDrawAccountColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LoanRepayAccount" msprop:Generator_UserColumnName="LoanRepayAccount" msprop:Generator_ColumnPropNameInRow="LoanRepayAccount" msprop:Generator_ColumnVarNameInTable="columnLoanRepayAccount" msprop:Generator_ColumnPropNameInTable="LoanRepayAccountColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Shares" />
+      <xs:field xpath="mstns:SHARES_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

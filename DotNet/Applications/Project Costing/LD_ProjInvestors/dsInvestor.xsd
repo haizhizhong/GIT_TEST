@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsInvestor" targetNamespace="http://tempuri.org/dsInvestor.xsd" xmlns:mstns="http://tempuri.org/dsInvestor.xsd" xmlns="http://tempuri.org/dsInvestor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsInvestor" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsInvestor" msprop:Generator_DataSetName="dsInvestor">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Investor_Header" msprop:Generator_UserTableName="LD_Investor_Header" msprop:Generator_RowDeletedName="LD_Investor_HeaderRowDeleted" msprop:Generator_RowChangedName="LD_Investor_HeaderRowChanged" msprop:Generator_RowClassName="LD_Investor_HeaderRow" msprop:Generator_RowChangingName="LD_Investor_HeaderRowChanging" msprop:Generator_RowEvArgName="LD_Investor_HeaderRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Investor_HeaderRowChangeEventHandler" msprop:Generator_TableClassName="LD_Investor_HeaderDataTable" msprop:Generator_TableVarName="tableLD_Investor_Header" msprop:Generator_RowDeletingName="LD_Investor_HeaderRowDeleting" msprop:Generator_TablePropName="LD_Investor_Header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Investor" msprop:Generator_UserColumnName="Investor" msprop:Generator_ColumnVarNameInTable="columnInvestor" msprop:Generator_ColumnPropNameInRow="Investor" msprop:Generator_ColumnPropNameInTable="InvestorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Investor_Group" msprop:Generator_UserColumnName="Investor_Group" msprop:Generator_ColumnVarNameInTable="columnInvestor_Group" msprop:Generator_ColumnPropNameInRow="Investor_Group" msprop:Generator_ColumnPropNameInTable="Investor_GroupColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Responsibility" msprop:Generator_UserColumnName="Responsibility" msprop:Generator_ColumnVarNameInTable="columnResponsibility" msprop:Generator_ColumnPropNameInRow="Responsibility" msprop:Generator_ColumnPropNameInTable="ResponsibilityColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Distribution" msprop:Generator_UserColumnName="Distribution" msprop:Generator_ColumnVarNameInTable="columnDistribution" msprop:Generator_ColumnPropNameInRow="Distribution" msprop:Generator_ColumnPropNameInTable="DistributionColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Proportinate" msprop:Generator_UserColumnName="Proportinate" msprop:Generator_ColumnVarNameInTable="columnProportinate" msprop:Generator_ColumnPropNameInRow="Proportinate" msprop:Generator_ColumnPropNameInTable="ProportinateColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Supplier_ID" msprop:Generator_UserColumnName="Supplier_ID" msprop:Generator_ColumnVarNameInTable="columnSupplier_ID" msprop:Generator_ColumnPropNameInRow="Supplier_ID" msprop:Generator_ColumnPropNameInTable="Supplier_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GL_Subcode" msprop:Generator_UserColumnName="GL_Subcode" msprop:Generator_ColumnVarNameInTable="columnGL_Subcode" msprop:Generator_ColumnPropNameInRow="GL_Subcode" msprop:Generator_ColumnPropNameInTable="GL_SubcodeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Investor_Header" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

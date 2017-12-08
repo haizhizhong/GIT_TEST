@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLotEntryLookups" targetNamespace="http://tempuri.org/dsLotEntryLookups.xsd" xmlns:mstns="http://tempuri.org/dsLotEntryLookups.xsd" xmlns="http://tempuri.org/dsLotEntryLookups.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLotEntryLookups" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLotEntryLookups" msprop:Generator_DataSetName="dsLotEntryLookups">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Multi_LotEntry_Lookups" msprop:Generator_UserTableName="LD_Multi_LotEntry_Lookups" msprop:Generator_RowDeletedName="LD_Multi_LotEntry_LookupsRowDeleted" msprop:Generator_RowChangedName="LD_Multi_LotEntry_LookupsRowChanged" msprop:Generator_RowClassName="LD_Multi_LotEntry_LookupsRow" msprop:Generator_RowChangingName="LD_Multi_LotEntry_LookupsRowChanging" msprop:Generator_RowEvArgName="LD_Multi_LotEntry_LookupsRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Multi_LotEntry_LookupsRowChangeEventHandler" msprop:Generator_TableClassName="LD_Multi_LotEntry_LookupsDataTable" msprop:Generator_TableVarName="tableLD_Multi_LotEntry_Lookups" msprop:Generator_RowDeletingName="LD_Multi_LotEntry_LookupsRowDeleting" msprop:Generator_TablePropName="LD_Multi_LotEntry_Lookups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lot_Class_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Lot_Class_ID" msprop:Generator_ColumnVarNameInTable="columnLot_Class_ID" msprop:Generator_ColumnPropNameInRow="Lot_Class_ID" msprop:Generator_ColumnPropNameInTable="Lot_Class_IDColumn" type="xs:int" />
+              <xs:element name="Code" msprop:Generator_UserColumnName="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lot_Sub_Class_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Lot_Sub_Class_ID" msprop:Generator_ColumnVarNameInTable="columnLot_Sub_Class_ID" msprop:Generator_ColumnPropNameInRow="Lot_Sub_Class_ID" msprop:Generator_ColumnPropNameInTable="Lot_Sub_Class_IDColumn" type="xs:int" />
+              <xs:element name="Code" msprop:Generator_UserColumnName="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LD_Lot_Class_ID" msprop:Generator_UserColumnName="LD_Lot_Class_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Lot_Class_ID" msprop:Generator_ColumnPropNameInRow="LD_Lot_Class_ID" msprop:Generator_ColumnPropNameInTable="LD_Lot_Class_IDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2" msprop:Generator_UserTableName="Table2" msprop:Generator_RowDeletedName="Table2RowDeleted" msprop:Generator_RowChangedName="Table2RowChanged" msprop:Generator_RowClassName="Table2Row" msprop:Generator_RowChangingName="Table2RowChanging" msprop:Generator_RowEvArgName="Table2RowChangeEvent" msprop:Generator_RowEvHandlerName="Table2RowChangeEventHandler" msprop:Generator_TableClassName="Table2DataTable" msprop:Generator_TableVarName="tableTable2" msprop:Generator_RowDeletingName="Table2RowDeleting" msprop:Generator_TablePropName="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lot_Status_ID" msprop:Generator_UserColumnName="Lot_Status_ID" msprop:Generator_ColumnVarNameInTable="columnLot_Status_ID" msprop:Generator_ColumnPropNameInRow="Lot_Status_ID" msprop:Generator_ColumnPropNameInTable="Lot_Status_IDColumn" type="xs:int" />
+              <xs:element name="Lot_Status" msprop:Generator_UserColumnName="Lot_Status" msprop:Generator_ColumnVarNameInTable="columnLot_Status" msprop:Generator_ColumnPropNameInRow="Lot_Status" msprop:Generator_ColumnPropNameInTable="Lot_StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3" msprop:Generator_UserTableName="Table3" msprop:Generator_RowDeletedName="Table3RowDeleted" msprop:Generator_RowChangedName="Table3RowChanged" msprop:Generator_RowClassName="Table3Row" msprop:Generator_RowChangingName="Table3RowChanging" msprop:Generator_RowEvArgName="Table3RowChangeEvent" msprop:Generator_RowEvHandlerName="Table3RowChangeEventHandler" msprop:Generator_TableClassName="Table3DataTable" msprop:Generator_TableVarName="tableTable3" msprop:Generator_RowDeletingName="Table3RowDeleting" msprop:Generator_TablePropName="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sub_Status_ID" msprop:Generator_UserColumnName="Sub_Status_ID" msprop:Generator_ColumnVarNameInTable="columnSub_Status_ID" msprop:Generator_ColumnPropNameInRow="Sub_Status_ID" msprop:Generator_ColumnPropNameInTable="Sub_Status_IDColumn" type="xs:int" />
+              <xs:element name="Sub_Status" msprop:Generator_UserColumnName="Sub_Status" msprop:Generator_ColumnVarNameInTable="columnSub_Status" msprop:Generator_ColumnPropNameInRow="Sub_Status" msprop:Generator_ColumnPropNameInTable="Sub_StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LD_Lot_Status_ID" msprop:Generator_UserColumnName="LD_Lot_Status_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Lot_Status_ID" msprop:Generator_ColumnPropNameInRow="LD_Lot_Status_ID" msprop:Generator_ColumnPropNameInTable="LD_Lot_Status_IDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table4" msprop:Generator_UserTableName="Table4" msprop:Generator_RowDeletedName="Table4RowDeleted" msprop:Generator_TableClassName="Table4DataTable" msprop:Generator_RowChangedName="Table4RowChanged" msprop:Generator_RowClassName="Table4Row" msprop:Generator_RowChangingName="Table4RowChanging" msprop:Generator_RowEvArgName="Table4RowChangeEvent" msprop:Generator_RowEvHandlerName="Table4RowChangeEventHandler" msprop:Generator_TablePropName="Table4" msprop:Generator_TableVarName="tableTable4" msprop:Generator_RowDeletingName="Table4RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Shapes_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Shapes_ID" msprop:Generator_ColumnPropNameInRow="Shapes_ID" msprop:Generator_ColumnVarNameInTable="columnShapes_ID" msprop:Generator_ColumnPropNameInTable="Shapes_IDColumn" type="xs:int" />
+              <xs:element name="Shape" msprop:Generator_UserColumnName="Shape" msprop:Generator_ColumnPropNameInRow="Shape" msprop:Generator_ColumnVarNameInTable="columnShape" msprop:Generator_ColumnPropNameInTable="ShapeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table5" msprop:Generator_UserTableName="Table5" msprop:Generator_RowDeletedName="Table5RowDeleted" msprop:Generator_TableClassName="Table5DataTable" msprop:Generator_RowChangedName="Table5RowChanged" msprop:Generator_RowClassName="Table5Row" msprop:Generator_RowChangingName="Table5RowChanging" msprop:Generator_RowEvArgName="Table5RowChangeEvent" msprop:Generator_RowEvHandlerName="Table5RowChangeEventHandler" msprop:Generator_TablePropName="Table5" msprop:Generator_TableVarName="tableTable5" msprop:Generator_RowDeletingName="Table5RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Grading_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Grading_ID" msprop:Generator_ColumnPropNameInRow="Grading_ID" msprop:Generator_ColumnVarNameInTable="columnGrading_ID" msprop:Generator_ColumnPropNameInTable="Grading_IDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table6" msprop:Generator_UserTableName="Table6" msprop:Generator_RowDeletedName="Table6RowDeleted" msprop:Generator_TableClassName="Table6DataTable" msprop:Generator_RowChangedName="Table6RowChanged" msprop:Generator_RowClassName="Table6Row" msprop:Generator_RowChangingName="Table6RowChanging" msprop:Generator_RowEvArgName="Table6RowChangeEvent" msprop:Generator_RowEvHandlerName="Table6RowChangeEventHandler" msprop:Generator_TablePropName="Table6" msprop:Generator_TableVarName="tableTable6" msprop:Generator_RowDeletingName="Table6RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BuildType_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="BuildType_ID" msprop:Generator_ColumnPropNameInRow="BuildType_ID" msprop:Generator_ColumnVarNameInTable="columnBuildType_ID" msprop:Generator_ColumnPropNameInTable="BuildType_IDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table7" msprop:Generator_UserTableName="Table7" msprop:Generator_RowDeletedName="Table7RowDeleted" msprop:Generator_TableClassName="Table7DataTable" msprop:Generator_RowChangedName="Table7RowChanged" msprop:Generator_RowClassName="Table7Row" msprop:Generator_RowChangingName="Table7RowChanging" msprop:Generator_RowEvArgName="Table7RowChangeEvent" msprop:Generator_RowEvHandlerName="Table7RowChangeEventHandler" msprop:Generator_TablePropName="Table7" msprop:Generator_TableVarName="tableTable7" msprop:Generator_RowDeletingName="Table7RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Orientation_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Orientation_ID" msprop:Generator_ColumnPropNameInRow="Orientation_ID" msprop:Generator_ColumnVarNameInTable="columnOrientation_ID" msprop:Generator_ColumnPropNameInTable="Orientation_IDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table8" msprop:Generator_UserTableName="Table8" msprop:Generator_RowDeletedName="Table8RowDeleted" msprop:Generator_TableClassName="Table8DataTable" msprop:Generator_RowChangedName="Table8RowChanged" msprop:Generator_RowClassName="Table8Row" msprop:Generator_RowChangingName="Table8RowChanging" msprop:Generator_RowEvArgName="Table8RowChangeEvent" msprop:Generator_RowEvHandlerName="Table8RowChangeEventHandler" msprop:Generator_TablePropName="Table8" msprop:Generator_TableVarName="tableTable8" msprop:Generator_RowDeletingName="Table8RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Amenity_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Amenity_ID" msprop:Generator_ColumnPropNameInRow="Amenity_ID" msprop:Generator_ColumnVarNameInTable="columnAmenity_ID" msprop:Generator_ColumnPropNameInTable="Amenity_IDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table9" msprop:Generator_UserTableName="Table9" msprop:Generator_RowDeletedName="Table9RowDeleted" msprop:Generator_TableClassName="Table9DataTable" msprop:Generator_RowChangedName="Table9RowChanged" msprop:Generator_RowClassName="Table9Row" msprop:Generator_RowChangingName="Table9RowChanging" msprop:Generator_RowEvArgName="Table9RowChangeEvent" msprop:Generator_RowEvHandlerName="Table9RowChangeEventHandler" msprop:Generator_TablePropName="Table9" msprop:Generator_TableVarName="tableTable9" msprop:Generator_RowDeletingName="Table9RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Zoning_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Zoning_ID" msprop:Generator_ColumnPropNameInRow="Zoning_ID" msprop:Generator_ColumnVarNameInTable="columnZoning_ID" msprop:Generator_ColumnPropNameInTable="Zoning_IDColumn" type="xs:int" />
+              <xs:element name="Zone" msprop:Generator_UserColumnName="Zone" msprop:Generator_ColumnPropNameInRow="Zone" msprop:Generator_ColumnVarNameInTable="columnZone" msprop:Generator_ColumnPropNameInTable="ZoneColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table10" msprop:Generator_UserTableName="Table10" msprop:Generator_RowDeletedName="Table10RowDeleted" msprop:Generator_TableClassName="Table10DataTable" msprop:Generator_RowChangedName="Table10RowChanged" msprop:Generator_RowClassName="Table10Row" msprop:Generator_RowChangingName="Table10RowChanging" msprop:Generator_RowEvArgName="Table10RowChangeEvent" msprop:Generator_RowEvHandlerName="Table10RowChangeEventHandler" msprop:Generator_TablePropName="Table10" msprop:Generator_TableVarName="tableTable10" msprop:Generator_RowDeletingName="Table10RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="stp_code" msprop:Generator_UserColumnName="stp_code" msprop:Generator_ColumnPropNameInRow="stp_code" msprop:Generator_ColumnVarNameInTable="columnstp_code" msprop:Generator_ColumnPropNameInTable="stp_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="stp_desc" msprop:Generator_UserColumnName="stp_desc" msprop:Generator_ColumnPropNameInRow="stp_desc" msprop:Generator_ColumnVarNameInTable="columnstp_desc" msprop:Generator_ColumnPropNameInTable="stp_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Multi_LotEntry_Lookups" />
+      <xs:field xpath="mstns:Lot_Class_ID" />
+    </xs:unique>
+    <xs:unique name="Table1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table1" />
+      <xs:field xpath="mstns:Lot_Sub_Class_ID" />
+    </xs:unique>
+    <xs:unique name="Table2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table2" />
+      <xs:field xpath="mstns:Lot_Status_ID" />
+    </xs:unique>
+    <xs:unique name="Table3_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table3" />
+      <xs:field xpath="mstns:Sub_Status_ID" />
+    </xs:unique>
+    <xs:unique name="Table4_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table4" />
+      <xs:field xpath="mstns:Shapes_ID" />
+    </xs:unique>
+    <xs:unique name="Table5_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table5" />
+      <xs:field xpath="mstns:Grading_ID" />
+    </xs:unique>
+    <xs:unique name="Table6_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table6" />
+      <xs:field xpath="mstns:BuildType_ID" />
+    </xs:unique>
+    <xs:unique name="Table7_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table7" />
+      <xs:field xpath="mstns:Orientation_ID" />
+    </xs:unique>
+    <xs:unique name="Table8_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table8" />
+      <xs:field xpath="mstns:Amenity_ID" />
+    </xs:unique>
+    <xs:unique name="Table9_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table9" />
+      <xs:field xpath="mstns:Zoning_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

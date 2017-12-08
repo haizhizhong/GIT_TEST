@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD_Proj_ManagementFees", "LD_Proj_ManagementFees\LD_Proj_ManagementFees.csproj", "{AF82980B-AEF5-40D1-A390-22FD3C888DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{97ED35A9-1657-4B11-9602-4A9F6C8DD0A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF82980B-AEF5-40D1-A390-22FD3C888DD7} = {AF82980B-AEF5-40D1-A390-22FD3C888DD7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF82980B-AEF5-40D1-A390-22FD3C888DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF82980B-AEF5-40D1-A390-22FD3C888DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF82980B-AEF5-40D1-A390-22FD3C888DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF82980B-AEF5-40D1-A390-22FD3C888DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97ED35A9-1657-4B11-9602-4A9F6C8DD0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97ED35A9-1657-4B11-9602-4A9F6C8DD0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97ED35A9-1657-4B11-9602-4A9F6C8DD0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97ED35A9-1657-4B11-9602-4A9F6C8DD0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

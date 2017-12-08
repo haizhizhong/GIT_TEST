@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dsLotEntry1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>226, 17</value>
+  </metadata>
+  <metadata name="bsClass.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>634, 17</value>
+  </metadata>
+  <metadata name="bsSubClass.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>722, 17</value>
+  </metadata>
+  <metadata name="bsStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>829, 17</value>
+  </metadata>
+  <metadata name="bsSubStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>923, 17</value>
+  </metadata>
+  <metadata name="bsZoning.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>451, 54</value>
+  </metadata>
+  <metadata name="bsShape.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1036, 17</value>
+  </metadata>
+  <metadata name="bsProv.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>547, 54</value>
+  </metadata>
+  <metadata name="bsGrading.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="bsBuildType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 54</value>
+  </metadata>
+  <metadata name="bsOrientation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>230, 54</value>
+  </metadata>
+  <metadata name="bsAmenity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>348, 54</value>
+  </metadata>
+  <metadata name="bs_Acknowledgement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>379, 91</value>
+  </metadata>
+  <metadata name="bs_lueBuildingRestrictions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 91</value>
+  </metadata>
+  <metadata name="bs_Easement_Restrictions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>198, 91</value>
+  </metadata>
+  <metadata name="bsClass.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>634, 17</value>
+  </metadata>
+  <metadata name="dsLotEntryLookups1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>482, 17</value>
+  </metadata>
+  <metadata name="dsLotEntryLookups1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>482, 17</value>
+  </metadata>
+  <metadata name="bsSubClass.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>722, 17</value>
+  </metadata>
+  <metadata name="bsStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>829, 17</value>
+  </metadata>
+  <metadata name="bsSubStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>923, 17</value>
+  </metadata>
+  <metadata name="bsZoning.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>451, 54</value>
+  </metadata>
+  <metadata name="bsShape.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1036, 17</value>
+  </metadata>
+  <metadata name="bsProv.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>547, 54</value>
+  </metadata>
+  <metadata name="bsGrading.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="bsBuildType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 54</value>
+  </metadata>
+  <metadata name="bsOrientation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>230, 54</value>
+  </metadata>
+  <metadata name="bsAmenity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>348, 54</value>
+  </metadata>
+  <metadata name="bs_Acknowledgement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>379, 91</value>
+  </metadata>
+  <metadata name="ds_lueBuildingRestrictions1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>814, 54</value>
+  </metadata>
+  <metadata name="ds_lueBuildingRestrictions1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>814, 54</value>
+  </metadata>
+  <metadata name="bs_lueBuildingRestrictions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 91</value>
+  </metadata>
+  <metadata name="bs_Easement_Restrictions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>198, 91</value>
+  </metadata>
+  <metadata name="sqlConnTR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT     username, proj_lot_id, pri_id, lot_num, block_num, plan_num, lot_class_id, lot_sub_class_id, lot_status_id, sub_status_id, parcel_number, title_number, long_legal, 
+                      frontage, depth, area_metre, area_hectares, corner, zoning_id, shapes_id, curb_treatment, rear_side_treatment, paired_proj_lot_id, address_1, address_2, city, prov, 
+                      postal, ma_prefix_dir, ma_number, ma_name, ma_site, ma_suffix, ma_suffix_dir, ma_city, ma_prov, ma_postal, original_price, current_price, commission_amt, 
+                      commission_pct, grading_id, buildtype_id, orientation_id, amenity_id, area_ft, area_acres, Building_Restriction_ID, Easement_Restriction_ID, 
+                      Acknowledgement_Restriction_ID
+FROM         Working_PROJ_LOT
+WHERE     (username = @username)</value>
+  </data>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [Working_PROJ_LOT] ([username], [pri_id], [lot_num], [block_num], [plan_num], [lot_class_id], [lot_sub_class_id], [lot_status_id], [sub_status_id], [parcel_number], [title_number], [long_legal], [frontage], [depth], [area_metre], [area_hectares], [corner], [zoning_id], [shapes_id], [curb_treatment], [rear_side_treatment], [paired_proj_lot_id], [address_1], [address_2], [city], [prov], [postal], [ma_prefix_dir], [ma_number], [ma_name], [ma_site], [ma_suffix], [ma_suffix_dir], [ma_city], [ma_prov], [ma_postal], [original_price], [current_price], [commission_amt], [commission_pct], [grading_id], [buildtype_id], [orientation_id], [amenity_id], [area_ft], [area_acres], [Building_Restriction_ID], [Easement_Restriction_ID], [Acknowledgement_Restriction_ID]) VALUES (@username, @pri_id, @lot_num, @block_num, @plan_num, @lot_class_id, @lot_sub_class_id, @lot_status_id, @sub_status_id, @parcel_number, @title_number, @long_legal, @frontage, @depth, @area_metre, @area_hectares, @corner, @zoning_id, @shapes_id, @curb_treatment, @rear_side_treatment, @paired_proj_lot_id, @address_1, @address_2, @city, @prov, @postal, @ma_prefix_dir, @ma_number, @ma_name, @ma_site, @ma_suffix, @ma_suffix_dir, @ma_city, @ma_prov, @ma_postal, @p1, @current_price, @commission_amt, @commission_pct, @grading_id, @buildtype_id, @orientation_id, @amenity_id, @area_ft, @area_acres, @Building_Restriction_ID, @Easement_Restriction_ID, @Acknowledgement_Restriction_ID);
+SELECT username, proj_lot_id, pri_id, lot_num, block_num, plan_num, lot_class_id, lot_sub_class_id, lot_status_id, sub_status_id, parcel_number, title_number, long_legal, frontage, depth, area_metre, area_hectares, corner, zoning_id, shapes_id, curb_treatment, rear_side_treatment, paired_proj_lot_id, address_1, address_2, city, prov, postal, ma_prefix_dir, ma_number, ma_name, ma_site, ma_suffix, ma_suffix_dir, ma_city, ma_prov, ma_postal, original_price, current_price, commission_amt, commission_pct, grading_id, buildtype_id, orientation_id, amenity_id, area_ft, area_acres, Building_Restriction_ID, Easement_Restriction_ID, Acknowledgement_Restriction_ID FROM Working_PROJ_LOT WHERE (proj_lot_id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [Working_PROJ_LOT] SET [username] = @username, [pri_id] = @pri_id, [lot_num] = @lot_num, [block_num] = @block_num, [plan_num] = @plan_num, [lot_class_id] = @lot_class_id, [lot_sub_class_id] = @lot_sub_class_id, [lot_status_id] = @lot_status_id, [sub_status_id] = @sub_status_id, [parcel_number] = @parcel_number, [title_number] = @title_number, [long_legal] = @long_legal, [frontage] = @frontage, [depth] = @depth, [area_metre] = @area_metre, [area_hectares] = @area_hectares, [corner] = @corner, [zoning_id] = @zoning_id, [shapes_id] = @shapes_id, [curb_treatment] = @curb_treatment, [rear_side_treatment] = @rear_side_treatment, [paired_proj_lot_id] = @paired_proj_lot_id, [address_1] = @address_1, [address_2] = @address_2, [city] = @city, [prov] = @prov, [postal] = @postal, [ma_prefix_dir] = @ma_prefix_dir, [ma_number] = @ma_number, [ma_name] = @ma_name, [ma_site] = @ma_site, [ma_suffix] = @ma_suffix, [ma_suffix_dir] = @ma_suffix_dir, [ma_city] = @ma_city, [ma_prov] = @ma_prov, [ma_postal] = @ma_postal, [original_price] = @p1, [current_price] = @current_price, [commission_amt] = @commission_amt, [commission_pct] = @commission_pct, [grading_id] = @grading_id, [buildtype_id] = @buildtype_id, [orientation_id] = @orientation_id, [amenity_id] = @amenity_id, [area_ft] = @area_ft, [area_acres] = @area_acres, [Building_Restriction_ID] = @Building_Restriction_ID, [Easement_Restriction_ID] = @Easement_Restriction_ID, [Acknowledgement_Restriction_ID] = @Acknowledgement_Restriction_ID WHERE (((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ([proj_lot_id] = @Original_proj_lot_id) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_lot_num = 1 AND [lot_num] IS NULL) OR ([lot_num] = @Original_lot_num)) AND ((@IsNull_block_num = 1 AND [block_num] IS NULL) OR ([block_num] = @Original_block_num)) AND ((@IsNull_plan_num = 1 AND [plan_num] IS NULL) OR ([plan_num] = @Original_plan_num)) AND ((@IsNull_lot_class_id = 1 AND [lot_class_id] IS NULL) OR ([lot_class_id] = @Original_lot_class_id)) AND ((@IsNull_lot_sub_class_id = 1 AND [lot_sub_class_id] IS NULL) OR ([lot_sub_class_id] = @Original_lot_sub_class_id)) AND ((@IsNull_lot_status_id = 1 AND [lot_status_id] IS NULL) OR ([lot_status_id] = @Original_lot_status_id)) AND ((@IsNull_sub_status_id = 1 AND [sub_status_id] IS NULL) OR ([sub_status_id] = @Original_sub_status_id)) AND ((@IsNull_parcel_number = 1 AND [parcel_number] IS NULL) OR ([parcel_number] = @Original_parcel_number)) AND ((@IsNull_title_number = 1 AND [title_number] IS NULL) OR ([title_number] = @Original_title_number)) AND ((@IsNull_long_legal = 1 AND [long_legal] IS NULL) OR ([long_legal] = @Original_long_legal)) AND ((@IsNull_frontage = 1 AND [frontage] IS NULL) OR ([frontage] = @Original_frontage)) AND ((@IsNull_depth = 1 AND [depth] IS NULL) OR ([depth] = @Original_depth)) AND ((@IsNull_area_metre = 1 AND [area_metre] IS NULL) OR ([area_metre] = @Original_area_metre)) AND ((@IsNull_area_hectares = 1 AND [area_hectares] IS NULL) OR ([area_hectares] = @Original_area_hectares)) AND ((@IsNull_corner = 1 AND [corner] IS NULL) OR ([corner] = @Original_corner)) AND ((@IsNull_zoning_id = 1 AND [zoning_id] IS NULL) OR ([zoning_id] = @Original_zoning_id)) AND ((@IsNull_shapes_id = 1 AND [shapes_id] IS NULL) OR ([shapes_id] = @Original_shapes_id)) AND ((@IsNull_curb_treatment = 1 AND [curb_treatment] IS NULL) OR ([curb_treatment] = @Original_curb_treatment)) AND ((@IsNull_rear_side_treatment = 1 AND [rear_side_treatment] IS NULL) OR ([rear_side_treatment] = @Original_rear_side_treatment)) AND ((@IsNull_paired_proj_lot_id = 1 AND [paired_proj_lot_id] IS NULL) OR ([paired_proj_lot_id] = @Original_paired_proj_lot_id)) AND ((@IsNull_address_1 = 1 AND [address_1] IS NULL) OR ([address_1] = @Original_address_1)) AND ((@IsNull_address_2 = 1 AND [address_2] IS NULL) OR ([address_2] = @Original_address_2)) AND ((@IsNull_city = 1 AND [city] IS NULL) OR ([city] = @Original_city)) AND ((@IsNull_prov = 1 AND [prov] IS NULL) OR ([prov] = @Original_prov)) AND ((@IsNull_postal = 1 AND [postal] IS NULL) OR ([postal] = @Original_postal)) AND ((@IsNull_ma_prefix_dir = 1 AND [ma_prefix_dir] IS NULL) OR ([ma_prefix_dir] = @Original_ma_prefix_dir)) AND ((@IsNull_ma_number = 1 AND [ma_number] IS NULL) OR ([ma_number] = @Original_ma_number)) AND ((@IsNull_ma_name = 1 AND [ma_name] IS NULL) OR ([ma_name] = @Original_ma_name)) AND ((@IsNull_ma_site = 1 AND [ma_site] IS NULL) OR ([ma_site] = @Original_ma_site)) AND ((@IsNull_ma_suffix = 1 AND [ma_suffix] IS NULL) OR ([ma_suffix] = @Original_ma_suffix)) AND ((@IsNull_ma_suffix_dir = 1 AND [ma_suffix_dir] IS NULL) OR ([ma_suffix_dir] = @Original_ma_suffix_dir)) AND ((@IsNull_ma_city = 1 AND [ma_city] IS NULL) OR ([ma_city] = @Original_ma_city)) AND ((@IsNull_ma_prov = 1 AND [ma_prov] IS NULL) OR ([ma_prov] = @Original_ma_prov)) AND ((@IsNull_ma_postal = 1 AND [ma_postal] IS NULL) OR ([ma_postal] = @Original_ma_postal)) AND ((@p3 = 1 AND [original_price] IS NULL) OR ([original_price] = @p2)) AND ((@IsNull_current_price = 1 AND [current_price] IS NULL) OR ([current_price] = @Original_current_price)) AND ((@IsNull_commission_amt = 1 AND [commission_amt] IS NULL) OR ([commission_amt] = @Original_commission_amt)) AND ((@IsNull_commission_pct = 1 AND [commission_pct] IS NULL) OR ([commission_pct] = @Original_commission_pct)) AND ((@IsNull_grading_id = 1 AND [grading_id] IS NULL) OR ([grading_id] = @Original_grading_id)) AND ((@IsNull_buildtype_id = 1 AND [buildtype_id] IS NULL) OR ([buildtype_id] = @Original_buildtype_id)) AND ((@IsNull_orientation_id = 1 AND [orientation_id] IS NULL) OR ([orientation_id] = @Original_orientation_id)) AND ((@IsNull_amenity_id = 1 AND [amenity_id] IS NULL) OR ([amenity_id] = @Original_amenity_id)) AND ((@IsNull_area_ft = 1 AND [area_ft] IS NULL) OR ([area_ft] = @Original_area_ft)) AND ((@IsNull_area_acres = 1 AND [area_acres] IS NULL) OR ([area_acres] = @Original_area_acres)) AND ((@IsNull_Building_Restriction_ID = 1 AND [Building_Restriction_ID] IS NULL) OR ([Building_Restriction_ID] = @Original_Building_Restriction_ID)) AND ((@IsNull_Easement_Restriction_ID = 1 AND [Easement_Restriction_ID] IS NULL) OR ([Easement_Restriction_ID] = @Original_Easement_Restriction_ID)) AND ((@IsNull_Acknowledgement_Restriction_ID = 1 AND [Acknowledgement_Restriction_ID] IS NULL) OR ([Acknowledgement_Restriction_ID] = @Original_Acknowledgement_Restriction_ID)));
+SELECT username, proj_lot_id, pri_id, lot_num, block_num, plan_num, lot_class_id, lot_sub_class_id, lot_status_id, sub_status_id, parcel_number, title_number, long_legal, frontage, depth, area_metre, area_hectares, corner, zoning_id, shapes_id, curb_treatment, rear_side_treatment, paired_proj_lot_id, address_1, address_2, city, prov, postal, ma_prefix_dir, ma_number, ma_name, ma_site, ma_suffix, ma_suffix_dir, ma_city, ma_prov, ma_postal, original_price, current_price, commission_amt, commission_pct, grading_id, buildtype_id, orientation_id, amenity_id, area_ft, area_acres, Building_Restriction_ID, Easement_Restriction_ID, Acknowledgement_Restriction_ID FROM Working_PROJ_LOT WHERE (proj_lot_id = @proj_lot_id)</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [Working_PROJ_LOT] WHERE (((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ([proj_lot_id] = @Original_proj_lot_id) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_lot_num = 1 AND [lot_num] IS NULL) OR ([lot_num] = @Original_lot_num)) AND ((@IsNull_block_num = 1 AND [block_num] IS NULL) OR ([block_num] = @Original_block_num)) AND ((@IsNull_plan_num = 1 AND [plan_num] IS NULL) OR ([plan_num] = @Original_plan_num)) AND ((@IsNull_lot_class_id = 1 AND [lot_class_id] IS NULL) OR ([lot_class_id] = @Original_lot_class_id)) AND ((@IsNull_lot_sub_class_id = 1 AND [lot_sub_class_id] IS NULL) OR ([lot_sub_class_id] = @Original_lot_sub_class_id)) AND ((@IsNull_lot_status_id = 1 AND [lot_status_id] IS NULL) OR ([lot_status_id] = @Original_lot_status_id)) AND ((@IsNull_sub_status_id = 1 AND [sub_status_id] IS NULL) OR ([sub_status_id] = @Original_sub_status_id)) AND ((@IsNull_parcel_number = 1 AND [parcel_number] IS NULL) OR ([parcel_number] = @Original_parcel_number)) AND ((@IsNull_title_number = 1 AND [title_number] IS NULL) OR ([title_number] = @Original_title_number)) AND ((@IsNull_long_legal = 1 AND [long_legal] IS NULL) OR ([long_legal] = @Original_long_legal)) AND ((@IsNull_frontage = 1 AND [frontage] IS NULL) OR ([frontage] = @Original_frontage)) AND ((@IsNull_depth = 1 AND [depth] IS NULL) OR ([depth] = @Original_depth)) AND ((@IsNull_area_metre = 1 AND [area_metre] IS NULL) OR ([area_metre] = @Original_area_metre)) AND ((@IsNull_area_hectares = 1 AND [area_hectares] IS NULL) OR ([area_hectares] = @Original_area_hectares)) AND ((@IsNull_corner = 1 AND [corner] IS NULL) OR ([corner] = @Original_corner)) AND ((@IsNull_zoning_id = 1 AND [zoning_id] IS NULL) OR ([zoning_id] = @Original_zoning_id)) AND ((@IsNull_shapes_id = 1 AND [shapes_id] IS NULL) OR ([shapes_id] = @Original_shapes_id)) AND ((@IsNull_curb_treatment = 1 AND [curb_treatment] IS NULL) OR ([curb_treatment] = @Original_curb_treatment)) AND ((@IsNull_rear_side_treatment = 1 AND [rear_side_treatment] IS NULL) OR ([rear_side_treatment] = @Original_rear_side_treatment)) AND ((@IsNull_paired_proj_lot_id = 1 AND [paired_proj_lot_id] IS NULL) OR ([paired_proj_lot_id] = @Original_paired_proj_lot_id)) AND ((@IsNull_address_1 = 1 AND [address_1] IS NULL) OR ([address_1] = @Original_address_1)) AND ((@IsNull_address_2 = 1 AND [address_2] IS NULL) OR ([address_2] = @Original_address_2)) AND ((@IsNull_city = 1 AND [city] IS NULL) OR ([city] = @Original_city)) AND ((@IsNull_prov = 1 AND [prov] IS NULL) OR ([prov] = @Original_prov)) AND ((@IsNull_postal = 1 AND [postal] IS NULL) OR ([postal] = @Original_postal)) AND ((@IsNull_ma_prefix_dir = 1 AND [ma_prefix_dir] IS NULL) OR ([ma_prefix_dir] = @Original_ma_prefix_dir)) AND ((@IsNull_ma_number = 1 AND [ma_number] IS NULL) OR ([ma_number] = @Original_ma_number)) AND ((@IsNull_ma_name = 1 AND [ma_name] IS NULL) OR ([ma_name] = @Original_ma_name)) AND ((@IsNull_ma_site = 1 AND [ma_site] IS NULL) OR ([ma_site] = @Original_ma_site)) AND ((@IsNull_ma_suffix = 1 AND [ma_suffix] IS NULL) OR ([ma_suffix] = @Original_ma_suffix)) AND ((@IsNull_ma_suffix_dir = 1 AND [ma_suffix_dir] IS NULL) OR ([ma_suffix_dir] = @Original_ma_suffix_dir)) AND ((@IsNull_ma_city = 1 AND [ma_city] IS NULL) OR ([ma_city] = @Original_ma_city)) AND ((@IsNull_ma_prov = 1 AND [ma_prov] IS NULL) OR ([ma_prov] = @Original_ma_prov)) AND ((@IsNull_ma_postal = 1 AND [ma_postal] IS NULL) OR ([ma_postal] = @Original_ma_postal)) AND ((@p3 = 1 AND [original_price] IS NULL) OR ([original_price] = @p2)) AND ((@IsNull_current_price = 1 AND [current_price] IS NULL) OR ([current_price] = @Original_current_price)) AND ((@IsNull_commission_amt = 1 AND [commission_amt] IS NULL) OR ([commission_amt] = @Original_commission_amt)) AND ((@IsNull_commission_pct = 1 AND [commission_pct] IS NULL) OR ([commission_pct] = @Original_commission_pct)) AND ((@IsNull_grading_id = 1 AND [grading_id] IS NULL) OR ([grading_id] = @Original_grading_id)) AND ((@IsNull_buildtype_id = 1 AND [buildtype_id] IS NULL) OR ([buildtype_id] = @Original_buildtype_id)) AND ((@IsNull_orientation_id = 1 AND [orientation_id] IS NULL) OR ([orientation_id] = @Original_orientation_id)) AND ((@IsNull_amenity_id = 1 AND [amenity_id] IS NULL) OR ([amenity_id] = @Original_amenity_id)) AND ((@IsNull_area_ft = 1 AND [area_ft] IS NULL) OR ([area_ft] = @Original_area_ft)) AND ((@IsNull_area_acres = 1 AND [area_acres] IS NULL) OR ([area_acres] = @Original_area_acres)) AND ((@IsNull_Building_Restriction_ID = 1 AND [Building_Restriction_ID] IS NULL) OR ([Building_Restriction_ID] = @Original_Building_Restriction_ID)) AND ((@IsNull_Easement_Restriction_ID = 1 AND [Easement_Restriction_ID] IS NULL) OR ([Easement_Restriction_ID] = @Original_Easement_Restriction_ID)) AND ((@IsNull_Acknowledgement_Restriction_ID = 1 AND [Acknowledgement_Restriction_ID] IS NULL) OR ([Acknowledgement_Restriction_ID] = @Original_Acknowledgement_Restriction_ID)))</value>
+  </data>
+  <metadata name="daLotEntry.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>121, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daLotEntryLookups.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>336, 17</value>
+  </metadata>
+  <metadata name="da_lueBuildingRestrictions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>632, 54</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 114</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand7.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_Building_Restrictions] WHERE (([Building_Restrictions_ID] = @Original_Building_Restrictions_ID) AND ([Restriction] = @Original_Restriction) AND ((@IsNull_RestrictionType_ID = 1 AND [RestrictionType_ID] IS NULL) OR ([RestrictionType_ID] = @Original_RestrictionType_ID)))</value>
+  </data>
+  <metadata name="sqlInsertCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand6.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_Building_Restrictions] ([Restriction], [ExDescription], [RestrictionType_ID]) VALUES (@Restriction, @ExDescription, @RestrictionType_ID);
+SELECT Building_Restrictions_ID, Restriction, ExDescription, RestrictionType_ID FROM LD_Building_Restrictions WHERE (Building_Restrictions_ID = SCOPE_IDENTITY()) ORDER BY Restriction</value>
+  </data>
+  <metadata name="sqlSelectCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>171, 114</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand7.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_Building_Restrictions] SET [Restriction] = @Restriction, [ExDescription] = @ExDescription, [RestrictionType_ID] = @RestrictionType_ID WHERE (([Building_Restrictions_ID] = @Original_Building_Restrictions_ID) AND ([Restriction] = @Original_Restriction) AND ((@IsNull_RestrictionType_ID = 1 AND [RestrictionType_ID] IS NULL) OR ([RestrictionType_ID] = @Original_RestrictionType_ID)));
+SELECT Building_Restrictions_ID, Restriction, ExDescription, RestrictionType_ID FROM LD_Building_Restrictions WHERE (Building_Restrictions_ID = @Building_Restrictions_ID) ORDER BY Restriction</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>116</value>
+  </metadata>
+</root>

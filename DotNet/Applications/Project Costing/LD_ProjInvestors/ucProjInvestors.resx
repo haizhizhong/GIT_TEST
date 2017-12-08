@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        ID, PRI_ID, LD_Investor_Header_ID, Responsibility, Distribution, Proportinate, Supplier_ID, GL_Subcode, SetupComplete
+FROM            LD_PROJ_Investor_Header
+WHERE        (PRI_ID = @PRI_ID)</value>
+  </data>
+  <metadata name="sqlTRConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>25, 15</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_PROJ_Investor_Header] ([PRI_ID], [LD_Investor_Header_ID], [Responsibility], [Distribution], [Proportinate], [Supplier_ID], [GL_Subcode], [SetupComplete]) VALUES (@PRI_ID, @LD_Investor_Header_ID, @Responsibility, @Distribution, @Proportinate, @Supplier_ID, @GL_Subcode, @SetupComplete);
+SELECT ID, PRI_ID, LD_Investor_Header_ID, Responsibility, Distribution, Proportinate, Supplier_ID, GL_Subcode, SetupComplete FROM LD_PROJ_Investor_Header WHERE (ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_PROJ_Investor_Header] SET [PRI_ID] = @PRI_ID, [LD_Investor_Header_ID] = @LD_Investor_Header_ID, [Responsibility] = @Responsibility, [Distribution] = @Distribution, [Proportinate] = @Proportinate, [Supplier_ID] = @Supplier_ID, [GL_Subcode] = @GL_Subcode, [SetupComplete] = @SetupComplete WHERE (([ID] = @Original_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_LD_Investor_Header_ID = 1 AND [LD_Investor_Header_ID] IS NULL) OR ([LD_Investor_Header_ID] = @Original_LD_Investor_Header_ID)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Proportinate = 1 AND [Proportinate] IS NULL) OR ([Proportinate] = @Original_Proportinate)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)) AND ((@IsNull_SetupComplete = 1 AND [SetupComplete] IS NULL) OR ([SetupComplete] = @Original_SetupComplete)));
+SELECT ID, PRI_ID, LD_Investor_Header_ID, Responsibility, Distribution, Proportinate, Supplier_ID, GL_Subcode, SetupComplete FROM LD_PROJ_Investor_Header WHERE (ID = @ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_PROJ_Investor_Header] WHERE (([ID] = @Original_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_LD_Investor_Header_ID = 1 AND [LD_Investor_Header_ID] IS NULL) OR ([LD_Investor_Header_ID] = @Original_LD_Investor_Header_ID)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Proportinate = 1 AND [Proportinate] IS NULL) OR ([Proportinate] = @Original_Proportinate)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)) AND ((@IsNull_SetupComplete = 1 AND [SetupComplete] IS NULL) OR ([SetupComplete] = @Original_SetupComplete)))</value>
+  </data>
+  <metadata name="daProjInvestorHeader.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>168, 15</value>
+  </metadata>
+  <metadata name="dsProjInvestorHeader1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>338, 15</value>
+  </metadata>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>513, 15</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>268</value>
+  </metadata>
+  <metadata name="dsShares1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>910, 93</value>
+  </metadata>
+  <metadata name="lDShareOwnersBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>529, 132</value>
+  </metadata>
+  <metadata name="dsShareOwners1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>616, 132</value>
+  </metadata>
+  <metadata name="sUPPLIERMASTERBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>743, 132</value>
+  </metadata>
+  <metadata name="dsSupplier1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1259, 15</value>
+  </metadata>
+  <metadata name="cUSTOMERSBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>976, 132</value>
+  </metadata>
+  <metadata name="dsCustomers1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>247, 132</value>
+  </metadata>
+  <metadata name="gLSUBCODESBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 171</value>
+  </metadata>
+  <metadata name="dsGLSubcode1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1066, 54</value>
+  </metadata>
+  <metadata name="gLMASTERBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>228, 171</value>
+  </metadata>
+  <metadata name="dsGLMaster1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>493, 132</value>
+  </metadata>
+  <metadata name="bsProjInvestorDetail.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="dsProjInvestorDetail1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>808, 15</value>
+  </metadata>
+  <metadata name="bsBeneficalOwner.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>484, 54</value>
+  </metadata>
+  <metadata name="dsBeneficalOwner1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>328, 54</value>
+  </metadata>
+  <metadata name="bs_ProjInvestorHeader.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>975, 15</value>
+  </metadata>
+  <metadata name="lDInvestorHeaderBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 93</value>
+  </metadata>
+  <metadata name="dsInvestor1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>825, 54</value>
+  </metadata>
+  <metadata name="sUPPLIERMASTERBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>583, 93</value>
+  </metadata>
+  <metadata name="gLSUBCODESBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>379, 93</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_PROJ_Investor_Detail] ([LD_PROJ_Investor_Header_ID], [BeneficalOwner_ID], [Share]) VALUES (@LD_PROJ_Investor_Header_ID, @BeneficalOwner_ID, @Share);
+SELECT ID, LD_PROJ_Investor_Header_ID, BeneficalOwner_ID, Share FROM LD_PROJ_Investor_Detail WHERE (ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_PROJ_Investor_Detail] SET [LD_PROJ_Investor_Header_ID] = @LD_PROJ_Investor_Header_ID, [BeneficalOwner_ID] = @BeneficalOwner_ID, [Share] = @Share WHERE (([ID] = @Original_ID) AND ((@IsNull_LD_PROJ_Investor_Header_ID = 1 AND [LD_PROJ_Investor_Header_ID] IS NULL) OR ([LD_PROJ_Investor_Header_ID] = @Original_LD_PROJ_Investor_Header_ID)) AND ((@IsNull_BeneficalOwner_ID = 1 AND [BeneficalOwner_ID] IS NULL) OR ([BeneficalOwner_ID] = @Original_BeneficalOwner_ID)) AND ((@IsNull_Share = 1 AND [Share] IS NULL) OR ([Share] = @Original_Share)));
+SELECT ID, LD_PROJ_Investor_Header_ID, BeneficalOwner_ID, Share FROM LD_PROJ_Investor_Detail WHERE (ID = @ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_PROJ_Investor_Detail] WHERE (([ID] = @Original_ID) AND ((@IsNull_LD_PROJ_Investor_Header_ID = 1 AND [LD_PROJ_Investor_Header_ID] IS NULL) OR ([LD_PROJ_Investor_Header_ID] = @Original_LD_PROJ_Investor_Header_ID)) AND ((@IsNull_BeneficalOwner_ID = 1 AND [BeneficalOwner_ID] IS NULL) OR ([BeneficalOwner_ID] = @Original_BeneficalOwner_ID)) AND ((@IsNull_Share = 1 AND [Share] IS NULL) OR ([Share] = @Original_Share)))</value>
+  </data>
+  <metadata name="daProjInvestorDetail.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>646, 15</value>
+  </metadata>
+  <metadata name="daSupplier.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1149, 15</value>
+  </metadata>
+  <metadata name="sqlCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SUPPLIER_MASTER] WHERE (((@IsNull_SUPPLIER_ID = 1 AND [SUPPLIER_ID] IS NULL) OR ([SUPPLIER_ID] = @Original_SUPPLIER_ID)) AND ([SUPPLIER] = @Original_SUPPLIER) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_ACTIVE = 1 AND [ACTIVE] IS NULL) OR ([ACTIVE] = @Original_ACTIVE)))</value>
+  </data>
+  <metadata name="sqlCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SUPPLIER_MASTER] ([SUPPLIER_ID], [SUPPLIER], [NAME], [ACTIVE]) VALUES (@SUPPLIER_ID, @SUPPLIER, @NAME, @ACTIVE);
+SELECT SUPPLIER_ID, SUPPLIER, NAME, ACTIVE FROM SUPPLIER_MASTER WHERE (SUPPLIER = @SUPPLIER)</value>
+  </data>
+  <metadata name="sqlCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE [SUPPLIER_MASTER] SET [SUPPLIER_ID] = @SUPPLIER_ID, [SUPPLIER] = @SUPPLIER, [NAME] = @NAME, [ACTIVE] = @ACTIVE WHERE (((@IsNull_SUPPLIER_ID = 1 AND [SUPPLIER_ID] IS NULL) OR ([SUPPLIER_ID] = @Original_SUPPLIER_ID)) AND ([SUPPLIER] = @Original_SUPPLIER) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_ACTIVE = 1 AND [ACTIVE] IS NULL) OR ([ACTIVE] = @Original_ACTIVE)));
+SELECT SUPPLIER_ID, SUPPLIER, NAME, ACTIVE FROM SUPPLIER_MASTER WHERE (SUPPLIER = @SUPPLIER)</value>
+  </data>
+  <metadata name="daBeneficalOwner.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>178, 54</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_Benefical_Owners] WHERE (([ID] = @Original_ID) AND ((@IsNull_BeneficalOwner = 1 AND [BeneficalOwner] IS NULL) OR ([BeneficalOwner] = @Original_BeneficalOwner)) AND ((@IsNull_BeneficalOwnerName = 1 AND [BeneficalOwnerName] IS NULL) OR ([BeneficalOwnerName] = @Original_BeneficalOwnerName)) AND ((@IsNull_YearEnd = 1 AND [YearEnd] IS NULL) OR ([YearEnd] = @Original_YearEnd)))</value>
+  </data>
+  <metadata name="sqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_Benefical_Owners] ([BeneficalOwner], [BeneficalOwnerName], [YearEnd]) VALUES (@BeneficalOwner, @BeneficalOwnerName, @YearEnd);
+SELECT ID, BeneficalOwner, BeneficalOwnerName, YearEnd FROM LD_Benefical_Owners WHERE (ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_Benefical_Owners] SET [BeneficalOwner] = @BeneficalOwner, [BeneficalOwnerName] = @BeneficalOwnerName, [YearEnd] = @YearEnd WHERE (([ID] = @Original_ID) AND ((@IsNull_BeneficalOwner = 1 AND [BeneficalOwner] IS NULL) OR ([BeneficalOwner] = @Original_BeneficalOwner)) AND ((@IsNull_BeneficalOwnerName = 1 AND [BeneficalOwnerName] IS NULL) OR ([BeneficalOwnerName] = @Original_BeneficalOwnerName)) AND ((@IsNull_YearEnd = 1 AND [YearEnd] IS NULL) OR ([YearEnd] = @Original_YearEnd)));
+SELECT ID, BeneficalOwner, BeneficalOwnerName, YearEnd FROM LD_Benefical_Owners WHERE (ID = @ID)</value>
+  </data>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand3.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_Investor_Header] ([Investor], [Investor_Group], [Responsibility], [Distribution], [Proportinate], [Supplier_ID], [GL_Subcode]) VALUES (@Investor, @Investor_Group, @Responsibility, @Distribution, @Proportinate, @Supplier_ID, @GL_Subcode);
+SELECT ID, Investor, Investor_Group, Responsibility, Distribution, Proportinate, Supplier_ID, GL_Subcode FROM LD_Investor_Header WHERE (ID = SCOPE_IDENTITY()) ORDER BY Investor</value>
+  </data>
+  <metadata name="sqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_Investor_Header] SET [Investor] = @Investor, [Investor_Group] = @Investor_Group, [Responsibility] = @Responsibility, [Distribution] = @Distribution, [Proportinate] = @Proportinate, [Supplier_ID] = @Supplier_ID, [GL_Subcode] = @GL_Subcode WHERE (([ID] = @Original_ID) AND ((@IsNull_Investor = 1 AND [Investor] IS NULL) OR ([Investor] = @Original_Investor)) AND ((@IsNull_Investor_Group = 1 AND [Investor_Group] IS NULL) OR ([Investor_Group] = @Original_Investor_Group)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Proportinate = 1 AND [Proportinate] IS NULL) OR ([Proportinate] = @Original_Proportinate)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)));
+SELECT ID, Investor, Investor_Group, Responsibility, Distribution, Proportinate, Supplier_ID, GL_Subcode FROM LD_Investor_Header WHERE (ID = @ID) ORDER BY Investor</value>
+  </data>
+  <metadata name="sqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_Investor_Header] WHERE (([ID] = @Original_ID) AND ((@IsNull_Investor = 1 AND [Investor] IS NULL) OR ([Investor] = @Original_Investor)) AND ((@IsNull_Investor_Group = 1 AND [Investor_Group] IS NULL) OR ([Investor_Group] = @Original_Investor_Group)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Proportinate = 1 AND [Proportinate] IS NULL) OR ([Proportinate] = @Original_Proportinate)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)))</value>
+  </data>
+  <metadata name="daInvestor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>716, 54</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand5.CommandText" xml:space="preserve">
+    <value>UPDATE [GL_SUBCODES] SET [SUB_CODE] = @SUB_CODE, [SUB_CODE_DESC] = @SUB_CODE_DESC WHERE (([SUB_CODE] = @Original_SUB_CODE) AND ((@IsNull_SUB_CODE_DESC = 1 AND [SUB_CODE_DESC] IS NULL) OR ([SUB_CODE_DESC] = @Original_SUB_CODE_DESC)));
+SELECT SUB_CODE, SUB_CODE_DESC FROM GL_SUBCODES WHERE (SUB_CODE = @SUB_CODE) ORDER BY SUB_CODE</value>
+  </data>
+  <metadata name="sqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daGLSubcode.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>939, 54</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand6.CommandText" xml:space="preserve">
+    <value>SELECT        SHARES_ID, PRI_ID, SHAREOWNERS_ID, SHARE_PCT, Responsibility, Distribution, Supplier_ID, Customer_Id, GL_Subcode, SetupComplete, LoanDrawAccount, 
+                         LoanRepayAccount
+FROM            LD_Shares
+where PRI_ID = @PRI_ID</value>
+  </data>
+  <metadata name="sqlInsertCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand6.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_Shares] ([PRI_ID], [SHAREOWNERS_ID], [SHARE_PCT], [Responsibility], [Distribution], [Supplier_ID], [Customer_Id], [GL_Subcode], [SetupComplete], [LoanDrawAccount], [LoanRepayAccount]) VALUES (@PRI_ID, @SHAREOWNERS_ID, @SHARE_PCT, @Responsibility, @Distribution, @Supplier_ID, @Customer_Id, @GL_Subcode, @SetupComplete, @LoanDrawAccount, @LoanRepayAccount);
+SELECT SHARES_ID, PRI_ID, SHAREOWNERS_ID, SHARE_PCT, Responsibility, Distribution, Supplier_ID, Customer_Id, GL_Subcode, SetupComplete, LoanDrawAccount, LoanRepayAccount FROM LD_Shares WHERE (SHARES_ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand6.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_Shares] SET [PRI_ID] = @PRI_ID, [SHAREOWNERS_ID] = @SHAREOWNERS_ID, [SHARE_PCT] = @SHARE_PCT, [Responsibility] = @Responsibility, [Distribution] = @Distribution, [Supplier_ID] = @Supplier_ID, [Customer_Id] = @Customer_Id, [GL_Subcode] = @GL_Subcode, [SetupComplete] = @SetupComplete, [LoanDrawAccount] = @LoanDrawAccount, [LoanRepayAccount] = @LoanRepayAccount WHERE (([SHARES_ID] = @Original_SHARES_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_SHAREOWNERS_ID = 1 AND [SHAREOWNERS_ID] IS NULL) OR ([SHAREOWNERS_ID] = @Original_SHAREOWNERS_ID)) AND ((@IsNull_SHARE_PCT = 1 AND [SHARE_PCT] IS NULL) OR ([SHARE_PCT] = @Original_SHARE_PCT)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_Customer_Id = 1 AND [Customer_Id] IS NULL) OR ([Customer_Id] = @Original_Customer_Id)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)) AND ([SetupComplete] = @Original_SetupComplete) AND ((@IsNull_LoanDrawAccount = 1 AND [LoanDrawAccount] IS NULL) OR ([LoanDrawAccount] = @Original_LoanDrawAccount)) AND ((@IsNull_LoanRepayAccount = 1 AND [LoanRepayAccount] IS NULL) OR ([LoanRepayAccount] = @Original_LoanRepayAccount)));
+SELECT SHARES_ID, PRI_ID, SHAREOWNERS_ID, SHARE_PCT, Responsibility, Distribution, Supplier_ID, Customer_Id, GL_Subcode, SetupComplete, LoanDrawAccount, LoanRepayAccount FROM LD_Shares WHERE (SHARES_ID = @SHARES_ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand6.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_Shares] WHERE (([SHARES_ID] = @Original_SHARES_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_SHAREOWNERS_ID = 1 AND [SHAREOWNERS_ID] IS NULL) OR ([SHAREOWNERS_ID] = @Original_SHAREOWNERS_ID)) AND ((@IsNull_SHARE_PCT = 1 AND [SHARE_PCT] IS NULL) OR ([SHARE_PCT] = @Original_SHARE_PCT)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_Customer_Id = 1 AND [Customer_Id] IS NULL) OR ([Customer_Id] = @Original_Customer_Id)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)) AND ([SetupComplete] = @Original_SetupComplete) AND ((@IsNull_LoanDrawAccount = 1 AND [LoanDrawAccount] IS NULL) OR ([LoanDrawAccount] = @Original_LoanDrawAccount)) AND ((@IsNull_LoanRepayAccount = 1 AND [LoanRepayAccount] IS NULL) OR ([LoanRepayAccount] = @Original_LoanRepayAccount)))</value>
+  </data>
+  <metadata name="daShares.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>809, 93</value>
+  </metadata>
+  <metadata name="daCustomers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1017, 93</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand7.CommandText" xml:space="preserve">
+    <value>DELETE FROM [CUSTOMERS] WHERE (([CUSTOMER_ID] = @Original_CUSTOMER_ID) AND ([CUSTOMER_CODE] = @Original_CUSTOMER_CODE) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_ACTIVE = 1 AND [ACTIVE] IS NULL) OR ([ACTIVE] = @Original_ACTIVE)))</value>
+  </data>
+  <metadata name="sqlInsertCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand7.CommandText" xml:space="preserve">
+    <value>INSERT INTO [CUSTOMERS] ([CUSTOMER_ID], [CUSTOMER_CODE], [NAME], [ACTIVE]) VALUES (@CUSTOMER_ID, @CUSTOMER_CODE, @NAME, @ACTIVE);
+SELECT CUSTOMER_ID, CUSTOMER_CODE, NAME, ACTIVE FROM CUSTOMERS WHERE (CUSTOMER_ID = @CUSTOMER_ID)</value>
+  </data>
+  <metadata name="sqlSelectCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand7.CommandText" xml:space="preserve">
+    <value>UPDATE [CUSTOMERS] SET [CUSTOMER_ID] = @CUSTOMER_ID, [CUSTOMER_CODE] = @CUSTOMER_CODE, [NAME] = @NAME, [ACTIVE] = @ACTIVE WHERE (([CUSTOMER_ID] = @Original_CUSTOMER_ID) AND ([CUSTOMER_CODE] = @Original_CUSTOMER_CODE) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_ACTIVE = 1 AND [ACTIVE] IS NULL) OR ([ACTIVE] = @Original_ACTIVE)));
+SELECT CUSTOMER_ID, CUSTOMER_CODE, NAME, ACTIVE FROM CUSTOMERS WHERE (CUSTOMER_ID = @CUSTOMER_ID)</value>
+  </data>
+  <metadata name="daGLMaster.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>146, 132</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand8.CommandText" xml:space="preserve">
+    <value>UPDATE [GL_MASTER] SET [SEG_1] = @SEG_1, [DESCRIPTION] = @DESCRIPTION WHERE (([SEG_1] = @Original_SEG_1) AND ([DESCRIPTION] = @Original_DESCRIPTION));
+SELECT SEG_1, DESCRIPTION FROM GL_MASTER WHERE (SEG_1 = @SEG_1)</value>
+  </data>
+  <metadata name="sqlSelectCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand8.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_Share_Owners] ([OwnerName], [Address_1], [Address_2], [City], [State], [Zip], [Phone], [LoanDrawAccount], [LoanRepayAccount], [Responsibility], [Distribution], [Supplier_ID], [Customer_Id], [GL_Subcode], [SHARE_PCT], [SetupComplete]) VALUES (@OwnerName, @Address_1, @Address_2, @City, @State, @Zip, @Phone, @LoanDrawAccount, @LoanRepayAccount, @Responsibility, @Distribution, @Supplier_ID, @Customer_Id, @GL_Subcode, @SHARE_PCT, @SetupComplete);
+SELECT ShareOwners_ID, OwnerName, Address_1, Address_2, City, State, Zip, Phone, LoanDrawAccount, LoanRepayAccount, Responsibility, Distribution, Supplier_ID, Customer_Id, GL_Subcode, SHARE_PCT, SetupComplete FROM LD_Share_Owners WHERE (ShareOwners_ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand9.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_Share_Owners] SET [OwnerName] = @OwnerName, [Address_1] = @Address_1, [Address_2] = @Address_2, [City] = @City, [State] = @State, [Zip] = @Zip, [Phone] = @Phone, [LoanDrawAccount] = @LoanDrawAccount, [LoanRepayAccount] = @LoanRepayAccount, [Responsibility] = @Responsibility, [Distribution] = @Distribution, [Supplier_ID] = @Supplier_ID, [Customer_Id] = @Customer_Id, [GL_Subcode] = @GL_Subcode, [SHARE_PCT] = @SHARE_PCT, [SetupComplete] = @SetupComplete WHERE (([ShareOwners_ID] = @Original_ShareOwners_ID) AND ([OwnerName] = @Original_OwnerName) AND ((@IsNull_Address_1 = 1 AND [Address_1] IS NULL) OR ([Address_1] = @Original_Address_1)) AND ((@IsNull_Address_2 = 1 AND [Address_2] IS NULL) OR ([Address_2] = @Original_Address_2)) AND ((@IsNull_City = 1 AND [City] IS NULL) OR ([City] = @Original_City)) AND ((@IsNull_State = 1 AND [State] IS NULL) OR ([State] = @Original_State)) AND ((@IsNull_Zip = 1 AND [Zip] IS NULL) OR ([Zip] = @Original_Zip)) AND ((@IsNull_Phone = 1 AND [Phone] IS NULL) OR ([Phone] = @Original_Phone)) AND ((@IsNull_LoanDrawAccount = 1 AND [LoanDrawAccount] IS NULL) OR ([LoanDrawAccount] = @Original_LoanDrawAccount)) AND ((@IsNull_LoanRepayAccount = 1 AND [LoanRepayAccount] IS NULL) OR ([LoanRepayAccount] = @Original_LoanRepayAccount)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_Customer_Id = 1 AND [Customer_Id] IS NULL) OR ([Customer_Id] = @Original_Customer_Id)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)) AND ((@IsNull_SHARE_PCT = 1 AND [SHARE_PCT] IS NULL) OR ([SHARE_PCT] = @Original_SHARE_PCT)) AND ([SetupComplete] = @Original_SetupComplete));
+SELECT ShareOwners_ID, OwnerName, Address_1, Address_2, City, State, Zip, Phone, LoanDrawAccount, LoanRepayAccount, Responsibility, Distribution, Supplier_ID, Customer_Id, GL_Subcode, SHARE_PCT, SetupComplete FROM LD_Share_Owners WHERE (ShareOwners_ID = @ShareOwners_ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand9.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_Share_Owners] WHERE (([ShareOwners_ID] = @Original_ShareOwners_ID) AND ([OwnerName] = @Original_OwnerName) AND ((@IsNull_Address_1 = 1 AND [Address_1] IS NULL) OR ([Address_1] = @Original_Address_1)) AND ((@IsNull_Address_2 = 1 AND [Address_2] IS NULL) OR ([Address_2] = @Original_Address_2)) AND ((@IsNull_City = 1 AND [City] IS NULL) OR ([City] = @Original_City)) AND ((@IsNull_State = 1 AND [State] IS NULL) OR ([State] = @Original_State)) AND ((@IsNull_Zip = 1 AND [Zip] IS NULL) OR ([Zip] = @Original_Zip)) AND ((@IsNull_Phone = 1 AND [Phone] IS NULL) OR ([Phone] = @Original_Phone)) AND ((@IsNull_LoanDrawAccount = 1 AND [LoanDrawAccount] IS NULL) OR ([LoanDrawAccount] = @Original_LoanDrawAccount)) AND ((@IsNull_LoanRepayAccount = 1 AND [LoanRepayAccount] IS NULL) OR ([LoanRepayAccount] = @Original_LoanRepayAccount)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_Customer_Id = 1 AND [Customer_Id] IS NULL) OR ([Customer_Id] = @Original_Customer_Id)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)) AND ((@IsNull_SHARE_PCT = 1 AND [SHARE_PCT] IS NULL) OR ([SHARE_PCT] = @Original_SHARE_PCT)) AND ([SetupComplete] = @Original_SetupComplete))</value>
+  </data>
+  <metadata name="daShareOwners.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>242, 93</value>
+  </metadata>
+</root>

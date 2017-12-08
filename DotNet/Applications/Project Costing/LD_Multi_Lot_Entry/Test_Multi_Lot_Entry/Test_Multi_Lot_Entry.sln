@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Multi_Lot_Entry", "Test_Multi_Lot_Entry.csproj", "{EAE43DF5-513F-466A-8659-576155D55993}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2568F822-0AB4-4A5E-BEFE-8536A4A5F9FD} = {2568F822-0AB4-4A5E-BEFE-8536A4A5F9FD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD_Multi_Lot_Entry", "..\LD_Multi_Lot_Entry\LD_Multi_Lot_Entry.csproj", "{2568F822-0AB4-4A5E-BEFE-8536A4A5F9FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAE43DF5-513F-466A-8659-576155D55993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE43DF5-513F-466A-8659-576155D55993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE43DF5-513F-466A-8659-576155D55993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE43DF5-513F-466A-8659-576155D55993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2568F822-0AB4-4A5E-BEFE-8536A4A5F9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2568F822-0AB4-4A5E-BEFE-8536A4A5F9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2568F822-0AB4-4A5E-BEFE-8536A4A5F9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2568F822-0AB4-4A5E-BEFE-8536A4A5F9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
