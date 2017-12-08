@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLandUse" targetNamespace="http://tempuri.org/dsLandUse.xsd" xmlns:mstns="http://tempuri.org/dsLandUse.xsd" xmlns="http://tempuri.org/dsLandUse.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLandUse" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLandUse" msprop:Generator_DataSetName="dsLandUse">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Land_Use" msprop:Generator_UserTableName="LD_Land_Use" msprop:Generator_RowDeletedName="LD_Land_UseRowDeleted" msprop:Generator_TableClassName="LD_Land_UseDataTable" msprop:Generator_RowChangedName="LD_Land_UseRowChanged" msprop:Generator_RowClassName="LD_Land_UseRow" msprop:Generator_RowChangingName="LD_Land_UseRowChanging" msprop:Generator_RowEvArgName="LD_Land_UseRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Land_UseRowChangeEventHandler" msprop:Generator_TablePropName="LD_Land_Use" msprop:Generator_TableVarName="tableLD_Land_Use" msprop:Generator_RowDeletingName="LD_Land_UseRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Land_Use_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Land_Use_ID" msprop:Generator_ColumnPropNameInRow="Land_Use_ID" msprop:Generator_ColumnVarNameInTable="columnLand_Use_ID" msprop:Generator_ColumnPropNameInTable="Land_Use_IDColumn" type="xs:int" />
+              <xs:element name="Code" msprop:Generator_UserColumnName="Code" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInTable="CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Land_Use" />
+      <xs:field xpath="mstns:Land_Use_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

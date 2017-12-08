@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>232</value>
+  </metadata>
+  <metadata name="dsProject1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>352, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="beBaseFolder.Buttons" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAPzJCvywCt+cCvyfCuWRCvyOCvaNCvyHCr9pCvx+Cvd5Cu50CsRfDehoCvxwCvdr
+        CvJrCtZgCvxoCsZTCvxhCvxaCvldCvxZCqlCFPxSCvxMCtJBCvxGCrw3Dfw+CtE0CsAxCrwzDfw5CuQ3
+        CqoxEaguEqQpE6MpFKYhDJIbD5UaEo4YEaklHo0TEI4VEY4XFJweGI8cGJAfG5UrKJcuK5o8OJ9LR6JU
+        UqNVU4UKCoYLC40QDY0TEYwTEYgSEo0XFpAcG4wbG44gHpIkIpkxL5o7OplHR6FPTp1PT6RhYaRkZKdo
+        Z6x4eKx6eq59fa1+frCDg7OMjLWTk7menrukpL2pqb2rq8CwsMCyssG0tMO7u8W/v8fDw////wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABdACwAAAAAEAAQAAAInQC7dMniI4fBg1EEKlSohIUIDxw0fCCycOGWICM0ZLhgoUWVik+STHkCowIF
+        CQ464KjYpUiOHzk2PICQYEGPLRW1AAERAoWCHSYilGDCkgqPBgcKnDBCQ8cQll2cqDAwYMKNLlaUfGR5
+        hEQAAjKgLuQygwEAF1jEKrzyQgAGKGoVSlmBwEZchUtSxLirsEYOK3y7aBHSJHAXKkgWBgQAOw==
+</value>
+  </data>
+  <metadata name="bsLandSubType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1074, 251</value>
+  </metadata>
+  <data name="hlDocumentLibrary.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAWBSURBVEhLrZT5U1NXGIYT4lKmy892UOuG1tZWBgcQpag4VkUxIAiCIoJAEMEiVZAtQEggYVEW
+        RRyBylKxWAhB9gAKGIEgguhYDYSgQFgkEJOoCOrbc4N1+gd4Z568uXe+83znfDcT2me+6DQDugHtexOr
+        FevMf2UbrTLjGpvu4G05EMDb7OCrZxOFPYHpy7Nk+ujZuM+HZ0Fh580zt/OO38hkRZvaOBkzGAwa7QvD
+        L7/eeTC8K/bcDQxPzWDsFfASwNQHQE3lx++T7wHVf7wDJmbnoJ5Pkpq0iifdBgzDb2gLDb9aZONwEr4n
+        +Wi8+wB37stwq3sADZ0KNNyXk+wnyFF/Tw7x/5H2oa5DhlqS0idK8PKbQGcYGpFTGyzyOpWoTc+rxamY
+        LHAyyyB6OImiDiWKpIR2Ja4R/qRoU6KwdRgFrUOEYeS3DiK/bRiF0nEEptVoDBgLiZBGW+R7JkWTUybB
+        GUE+LhY3QjED9Khn0TM1x4PJObooVLPonphBJ8lOFZUzkE0DUbktWhptHiWkf3ssOFHDuyyCy3EBItOL
+        0a76APGATk+dQovbwzNoJYNqI0OVTAANg29QLdeghlDVp0GHCogrbNXS6Av0QiOPwHhNXKYQrv58RKQW
+        4+74e31xLeG2chY3uoYguH4bMTlVSL7RjJKeUTSQJhUyNcqfqnFn7APYeRJKuEQvdD/B1bDTiuHoG4uQ
+        lGtoUr5DZa8G4ufTSBW2wSWQD2d/LtwC+DgclIRjYRlIL5eiQv4awsdqcoJ3CKeOTF+wVC886B2lPcsv
+        gL0nG8EJ+agfnEHVwDRyW+RwZMXigC8HCdnlyK2Swi/yEo4Gp8DzzDnkSfpR1vsatYq3CLnc9FFIZyxx
+        cA/V+oVmYI9bGE5yr6KayER9b5AlfgwXsmtWWDqE0n5crrwHJxYHPmcz4Eya/NHwCCWyVyh+rEPQxcZP
+        wqXMQyFaj4BEWO8+DlZEll5W0DmBws5xFEnkqOweRF2fDr7R2djt8rteFp36F8p6xnGlfRx5XWoEZoh1
+        RLhML9zrEqx190+Apc1RHP4tGddJx+zWEeRKx1D0SAOR4j1SKh/CZn8gDnixca6gDlX/qJAjfYGUhufI
+        vjcFv/O1lHA5Jfxut2Og1s2HA8utR+AaIMDV7pdIuzWEC01zXLmvRXheM6x2eCKz9C6q+6eR0aJEongA
+        SfXPcKlNBZ+kakq4gggNlu2099e5eEbD3PoQ+S0mIKdTTTo/05MsJtmoRFKtAudLWnG9W4XkxmHEVyuQ
+        WKcAnzzPkLyAF7+KCOfrhcu327F0ju6RMLNyJUPnIUs6CQEpTKwbQGL9cwjITo5EZGObwwkcicoBr0aB
+        hJoBcKvl4FbJcb5lDO68Ckq4khKu2GLrrWOSN7xh00E4+HBxoW2SFCr0CwXiQbBLH8HUygUmZo6wtmVB
+        UPkUcTXPEFvRh+ibfRA0jsCNI9LRaPNX6YW/7PDQ7XE5DVNLZzC9YpHaMkGK5eCQBZzKfsRV9cMvLh+2
+        TkGISv8bmXeUiBT1gS3qRWRZL7jiYThHCymhMY1ON1i5ebu7bpdTMEwsHGFHZpncPIao8rkFUWUysMt7
+        Iagjw2+Q44pEiTjSLKzkCSKETxFO4NQOwTGy9JPQ2HLrobc7HYKw3swBez3YSGoeJzsgMiKiktpFpEiO
+        iPJ+hAllRCIjsrkMKyXCumFK+JYI11DCxWbWrupd+0/DfLMbmMfiwZdMI+LmCCIrRhFBCC8fQdjNUZyl
+        KB9FKLkPFSkJI3P3FROwDRGqyUtZSgkZRsvWs1av29a+crWFdM0GptTUmS81cYiVrif8bB/T8ZN9rJ4f
+        98V84gfCWjuSdrEda/dxpYstPI4T1zzy50AzoD4+z0Vj/AvuTzEhwdLxYwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="hlViewProject.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAR3SURBVDhPjZN7MNV5GId/xbY1adVO2mE3YbaU1jKpVCZFzdpQFnNIurgUckuXlSXrcpYjHEkU
+        CXFSThenSK1tVbszGyqEZnOpjSklHXdiuz1rrL+amumZef96P+/zvjPf+QofQkN9suC1ZsF091WGdpvM
+        54W4ms2OWm+qG+20aNZPIpOvHOyNtTQ/m6g6lv4IVMePE8RbLL69sn9z3utrkgfUHILmbGjLh4e5UJFI
+        pzyIavG6lgRrPbmzvtqicWOzH0TnC3XheLB9FLeTh2nNp69ORktFLvXXcqj89Rjll7O5c01G81/5PL2R
+        TXdJJDdCLF/uWTAl8XMV4f3nG+pqqDXl7bhMdRqNZYdRZEmI2umJ01prFptaoDvfHG2D5ZgsXIGdlRWh
+        fh7IM6XUlqTyT7Y/6et0rqqPF6aO6f5H7VNVoVSy4cSTS7HkSUMI2+HNUnM7LGzc2bYjnNC4NCKSsog+
+        lENMyjECgqNHepsxWvgdgZ5byE4MpS4zkJjvdQtVBGH8mFYQQhwXi1oK9nIg1I8jhw4SJ03H1j2aiIxS
+        Lty+T+VjJRmKMlz9xESnyVGUN5FefBsHr1iC9yUglUiQ7NrK9UgRTnOnuo1K52iqqxTuE1XliP1RFCro
+        6OxBnCxna3geR8/fpOqJkobBF9ztGcDGdTfG5i5EHDhBcXkzoQfPs0ecQ9szJaflcqR+LsTZzrujMUGY
+        IGy30LG8nug5fEZ+joGh13R19+O2M4WAmLMky8pIOXVxRNpP6unLmFm5sdjSFWtRIPLfaojPvY6Tz37a
+        O7oYfg1nC4tItjccNFcTVgl2SwzC/jgj4/7DdoZHuu0d3Wz0T8InUk5S3u9Y2G5lmdUmTMydMVnujJGZ
+        IyttPDh5qQrx0Ss4bpPwqK2DV6/gcecLCpLjMZ42LUyYbeLgVlT2iM52JV09g3QoewmKyMR1VybpZyrx
+        DZYyY9YS9OavZo6RFVp6ZgSFJXPhzyaCYk7jufsgT9q76O0fort3gONFLWjMtvIQNLT0JwXHltQ0PVDy
+        7HkPff3/IjtbhrloHz+nXSFLcYuAkCSWrnTGdIWIwL1Szl/9m4zCala7RJOWXURv3zDK7gGaWvvZGCCr
+        nzRFS330AfWNba0zC+retLX3oOx6wYPWDjx2JrHKRYw4vYy8klpyFRXkFlZwruweqadu8oO3FJFXDA33
+        n9LTN0S7sp+Eo7feauqttB+VjjD6Iw1NRe5H8mvf1DU+o6t3iOq7D9nsn4CFKBzvcBkRh0uJSCsl6Bc5
+        q9dH4ugZRWVNM30DL6lvek58RuVbHQMbn1Hju+gYWNl6/XiyNq/wLg0tg9TdayM1uxi/kFTW+0pw9o3D
+        OziFpPRzI4tbaRzJZMnrcNmeVT995gqHMc37GfeJuqaRmVuw/Rbprfj08p6Txc0UXGxEXtJIwUjlFzUg
+        UzQSm3aj18Zlf5W+yYYQQZg8c2z8Y1BV1dRdtlxbf7WPjsGaGL1v1qbozrdN0Z67JvbLry19Z2gvsRAE
+        lYlj4XcQhP8Aga+2XCaNbrYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="hlRefresh.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        z/it7AniT9kwv801ZPP3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="hlEditProj.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        QmCC
+</value>
+  </data>
+  <data name="hyperLinkEdit4.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        na1eAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="hlCancelProject.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        yt84LMNqAfcAEQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="hyperLinkEdit3.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <metadata name="wAREHOUSEBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>263, 212</value>
+  </metadata>
+  <metadata name="dsWarehouse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 212</value>
+  </metadata>
+  <metadata name="projclassBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1121, 173</value>
+  </metadata>
+  <metadata name="dsClass1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>908, 173</value>
+  </metadata>
+  <metadata name="projcatBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>740, 173</value>
+  </metadata>
+  <metadata name="dsCategory1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>620, 173</value>
+  </metadata>
+  <metadata name="dsWarehouse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 212</value>
+  </metadata>
+  <metadata name="dsClass1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>908, 173</value>
+  </metadata>
+  <metadata name="dsCategory1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>620, 173</value>
+  </metadata>
+  <metadata name="bsProfitSeg.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>516, 329</value>
+  </metadata>
+  <metadata name="dsProfitSeg1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>396, 329</value>
+  </metadata>
+  <metadata name="gLACCOUNTSBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>819, 56</value>
+  </metadata>
+  <metadata name="dsSwapSeg1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>699, 56</value>
+  </metadata>
+  <metadata name="bsCustType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>149, 212</value>
+  </metadata>
+  <metadata name="dsCustType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 290</value>
+  </metadata>
+  <metadata name="cUSTOMERSBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>133, 56</value>
+  </metadata>
+  <metadata name="dsCustomers1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1217, 17</value>
+  </metadata>
+  <metadata name="pROJHEADERBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>890, 17</value>
+  </metadata>
+  <metadata name="dsProjNum1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>572, 17</value>
+  </metadata>
+  <metadata name="dsProfitSeg1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>396, 329</value>
+  </metadata>
+  <metadata name="dsSwapSeg1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>699, 56</value>
+  </metadata>
+  <metadata name="dsCustType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 290</value>
+  </metadata>
+  <metadata name="dsCustomers1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1217, 17</value>
+  </metadata>
+  <metadata name="dsProjNum1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>572, 17</value>
+  </metadata>
+  <metadata name="bsRawLandProj.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 329</value>
+  </metadata>
+  <metadata name="dsRawLandProj1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1213, 290</value>
+  </metadata>
+  <metadata name="bsLandSubType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1074, 251</value>
+  </metadata>
+  <metadata name="dsLandSubType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>933, 290</value>
+  </metadata>
+  <metadata name="table4BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>746, 251</value>
+  </metadata>
+  <metadata name="ds_LandDevelopmentLookups1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>373, 251</value>
+  </metadata>
+  <metadata name="table5BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>910, 251</value>
+  </metadata>
+  <metadata name="bs_LDlues_LandUse.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 173</value>
+  </metadata>
+  <metadata name="bs_LDlues_GeographicArea.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1026, 56</value>
+  </metadata>
+  <metadata name="bs_LDlues_Class.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1228, 134</value>
+  </metadata>
+  <metadata name="bs_LDlues_Category.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1068, 134</value>
+  </metadata>
+  <metadata name="dsRawLandProj1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1213, 290</value>
+  </metadata>
+  <metadata name="dsLandSubType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>933, 290</value>
+  </metadata>
+  <metadata name="ds_LandDevelopmentLookups1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>373, 251</value>
+  </metadata>
+  <metadata name="contactBindingSource9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>618, 290</value>
+  </metadata>
+  <metadata name="dsProjCoordinator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>460, 290</value>
+  </metadata>
+  <metadata name="contactBindingSource5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>283, 290</value>
+  </metadata>
+  <metadata name="dsFieldManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>138, 290</value>
+  </metadata>
+  <metadata name="contactBindingSource8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1205, 212</value>
+  </metadata>
+  <metadata name="dsCustContact1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>585, 212</value>
+  </metadata>
+  <metadata name="contactBindingSource7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1028, 212</value>
+  </metadata>
+  <metadata name="dsEstimator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>463, 212</value>
+  </metadata>
+  <metadata name="contactBindingSource6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>851, 212</value>
+  </metadata>
+  <metadata name="dsContractor1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>722, 212</value>
+  </metadata>
+  <metadata name="contactBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>543, 134</value>
+  </metadata>
+  <metadata name="dsProjManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 95</value>
+  </metadata>
+  <metadata name="contactBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>714, 134</value>
+  </metadata>
+  <metadata name="dsEngineer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>761, 95</value>
+  </metadata>
+  <metadata name="contactBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>891, 134</value>
+  </metadata>
+  <metadata name="dsArchitect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>993, 95</value>
+  </metadata>
+  <metadata name="contactBindingSource3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>266, 173</value>
+  </metadata>
+  <metadata name="dsForman1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1219, 95</value>
+  </metadata>
+  <metadata name="tableBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1211, 251</value>
+  </metadata>
+  <metadata name="dsSalesperson1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>407, 134</value>
+  </metadata>
+  <metadata name="contactBindingSource4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>443, 173</value>
+  </metadata>
+  <metadata name="dsAccountant1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>144, 134</value>
+  </metadata>
+  <metadata name="dsProjCoordinator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>460, 290</value>
+  </metadata>
+  <metadata name="dsFieldManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>138, 290</value>
+  </metadata>
+  <metadata name="dsCustContact1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>585, 212</value>
+  </metadata>
+  <metadata name="dsEstimator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>463, 212</value>
+  </metadata>
+  <metadata name="dsContractor1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>722, 212</value>
+  </metadata>
+  <metadata name="dsProjManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 95</value>
+  </metadata>
+  <metadata name="dsEngineer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>761, 95</value>
+  </metadata>
+  <metadata name="dsArchitect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>993, 95</value>
+  </metadata>
+  <metadata name="dsForman1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1219, 95</value>
+  </metadata>
+  <metadata name="dsSalesperson1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>407, 134</value>
+  </metadata>
+  <metadata name="dsAccountant1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>144, 134</value>
+  </metadata>
+  <metadata name="dsProjNum1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>692, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        p.pri_id, CASE WHEN ISNULL(p.is_co, 'F') = 'F' THEN CAST(p.pri_code AS varchar) ELSE CAST(mp.pri_code AS varchar) + '-' + CAST(p.pri_code AS varchar) END AS pri_code, c.CUSTOMER_CODE, c.NAME, 
+                         p.pri_desc1, p.pri_site1, p.pri_name, p.pri_start_date, p.pri_est_completion_date, p.pri_completion_date, p.pri_type, p.pri_status, p.pri_division, p.prc_code, p.pri_whs, p.pri_billing_id, p.pri_ship_id, p.pri_desc, 
+                         p.prcl_code, p.pri_holdback_pct, p.gst_code, p.sales_tax_id, p.next_po_seq, p.budget_frozen, p.username, p.pri_entry_date, p.USE_LEM_COMPONENTS, p.PRI_SHORT_NAME, p.pri_profit_center, 
+                         p.close_acct_year, p.close_acct_period, p.customer_po, p.fuel_burden_recovery, p.MSP_Proj_ID, p.pri_is_schedule, p.pri_caps_status, p.sls_id, p.CapS_HasTaskError_TF, ISNULL(cn1.KnownAs, 
+                         ISNULL(cn1.FirstName, '') + ' ' + ISNULL(cn1.LastName, '')) AS proj_manager, ISNULL(cn2.KnownAs, ISNULL(cn2.FirstName, '') + ' ' + ISNULL(cn2.LastName, '')) AS engineer, ISNULL(cn3.KnownAs, 
+                         ISNULL(cn3.FirstName, '') + ' ' + ISNULL(cn3.LastName, '')) AS architect, ISNULL(cn4.KnownAs, ISNULL(cn4.FirstName, '') + ' ' + ISNULL(cn4.LastName, '')) AS field_forman, ISNULL(cn5.KnownAs, 
+                         ISNULL(cn5.FirstName, '') + ' ' + ISNULL(cn5.LastName, '')) AS proj_accountant, ISNULL(cn6.KnownAs, ISNULL(cn6.FirstName, '') + ' ' + ISNULL(cn6.LastName, '')) AS estimator, ISNULL(cn7.KnownAs, 
+                         ISNULL(cn7.FirstName, '') + ' ' + ISNULL(cn7.LastName, '')) AS salesperson, ISNULL(cn8.KnownAs, ISNULL(cn8.FirstName, '') + ' ' + ISNULL(cn8.LastName, '')) AS field_manager, rt.REV_DESC AS contract_type, 
+                         CASE WHEN isnull(p.billing_level, '') = 'P' THEN 'Project' ELSE CASE WHEN isnull(p.billing_level, '') = 'L' THEN 'Level 1' ELSE CASE WHEN isnull(p.billing_level, '') 
+                         = 'T' THEN 'Time Ticket' ELSE '' END END END AS Billing_Level, cat.prc_desc, RTRIM(CAST(cl.prcl_desc AS varchar(30))) AS prcl_desc, wh.description, gl.segment_desc, p.is_co, 
+                         mp.pri_code AS master_code, mp.pri_name AS master_name, p.pri_code AS ProjectNumber, p.BaseFolder, p.pri_close_date, p.LandSubType
+FROM            PROJ_HEADER AS p LEFT OUTER JOIN
+                         CUSTOMERS AS c ON c.CUSTOMER_ID = p.customer_id LEFT OUTER JOIN
+                         PROJ_CONTACTS AS pc ON pc.pri_id = p.pri_id INNER JOIN
+                         working_proj_selected AS w ON w.pri_id = p.pri_id LEFT OUTER JOIN
+                         web_strike_test.dbo.Contact AS cn1 ON cn1.ID = pc.proj_manager LEFT OUTER JOIN
+                         web_strike_test.dbo.Contact AS cn2 ON cn2.ID = pc.engineer LEFT OUTER JOIN
+                         web_strike_test.dbo.Contact AS cn3 ON cn3.ID = pc.architect LEFT OUTER JOIN
+                         web_strike_test.dbo.Contact AS cn4 ON cn4.ID = pc.field_forman LEFT OUTER JOIN
+                         web_strike_test.dbo.Contact AS cn5 ON cn5.ID = pc.proj_accountant LEFT OUTER JOIN
+                         web_strike_test.dbo.Contact AS cn6 ON cn6.ID = pc.estimator LEFT OUTER JOIN
+                         web_strike_test.dbo.Contact AS cn7 ON cn7.ID = pc.salesperson LEFT OUTER JOIN
+                         web_strike_test.dbo.Contact AS cn8 ON cn8.ID = pc.field_manager LEFT OUTER JOIN
+                         proj_cat AS cat ON cat.prc_code = p.prc_code LEFT OUTER JOIN
+                         proj_class AS cl ON cl.prcl_code = p.prcl_code LEFT OUTER JOIN
+                         WAREHOUSE AS wh ON wh.WHSE_ID = p.pri_whs LEFT OUTER JOIN
+                         GL_SEGMENT_SETUP AS gl ON gl.SEGMENT_VALUE = p.pri_division LEFT OUTER JOIN
+                         PROJ_HEADER AS mp ON mp.pri_id = p.CO_Pri_ID LEFT OUTER JOIN
+                         REVENUE_TYPES AS rt ON rt.REV_CODE = p.Contract_Type
+WHERE        (w.username = @username)</value>
+  </data>
+  <metadata name="TR_Conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>253, 17</value>
+  </metadata>
+  <metadata name="daProject.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [proj_header] SET [pri_code] = @pri_code, [pri_name] = @pri_name WHERE (([pri_id] = @Original_pri_id) AND ((@IsNull_pri_code = 1 AND [pri_code] IS NULL) OR ([pri_code] = @Original_pri_code)) AND ((@IsNull_pri_name = 1 AND [pri_name] IS NULL) OR ([pri_name] = @Original_pri_name)));
+SELECT pri_id, pri_code, pri_name FROM PROJ_HEADER WHERE (pri_id = @pri_id) ORDER BY pri_code</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [proj_header] WHERE (([pri_id] = @Original_pri_id) AND ((@IsNull_pri_code = 1 AND [pri_code] IS NULL) OR ([pri_code] = @Original_pri_code)) AND ((@IsNull_pri_name = 1 AND [pri_name] IS NULL) OR ([pri_name] = @Original_pri_name)))</value>
+  </data>
+  <metadata name="daProjNum.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>460, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [customers] ([customer_id], [customer_code], [name]) VALUES (@customer_id, @customer_code, @name);
+SELECT CUSTOMER_ID, CUSTOMER_CODE, NAME FROM CUSTOMERS WHERE (CUSTOMER_ID = @CUSTOMER_ID)</value>
+  </data>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [customers] SET [customer_id] = @customer_id, [customer_code] = @customer_code, [name] = @name WHERE (([customer_id] = @Original_customer_id) AND ([customer_code] = @Original_customer_code) AND ((@IsNull_name = 1 AND [name] IS NULL) OR ([name] = @Original_name)));
+SELECT CUSTOMER_ID, CUSTOMER_CODE, NAME FROM CUSTOMERS WHERE (CUSTOMER_ID = @CUSTOMER_ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daCustomers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1094, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daSwapSeg.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>585, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="WEB_Conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daProjManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1224, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daEngineer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>268, 95</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daArchitect.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>879, 95</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daForman.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1112, 95</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daAccountant.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 134</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand10.CommandText" xml:space="preserve">
+    <value>select distinct m.sls_id , isnull(s.firstname ,'') + case when isnull(s.firstname ,'') = '' then '' else ' ' end +isnull(s.lastname,'') [Salesperson]
+from TR_STRIKE_TEST10..mluser m
+join TR_STRIKE_TEST10..salespersons s on s.sls_id=m.sls_id
+where isnull(active,'F') = 'T'
+order by isnull(s.firstname ,'') + case when isnull(s.firstname ,'') = '' then '' else ' ' end +isnull(s.lastname,'')</value>
+  </data>
+  <metadata name="daSalesperson.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>277, 134</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daCategory.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>508, 95</value>
+  </metadata>
+  <metadata name="sqlInsertCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daClass.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>174, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand3.CommandText" xml:space="preserve">
+    <value>INSERT INTO [warehouse] ([whse_id], [warehouse], [description]) VALUES (@whse_id, @warehouse, @description);
+SELECT WHSE_ID, WAREHOUSE, DESCRIPTION FROM WAREHOUSE WHERE (WHSE_ID = @WHSE_ID) ORDER BY DESCRIPTION</value>
+  </data>
+  <metadata name="sqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [warehouse] SET [whse_id] = @whse_id, [warehouse] = @warehouse, [description] = @description WHERE (([whse_id] = @Original_whse_id) AND ([warehouse] = @Original_warehouse) AND ((@IsNull_description = 1 AND [description] IS NULL) OR ([description] = @Original_description)));
+SELECT WHSE_ID, WAREHOUSE, DESCRIPTION FROM WAREHOUSE WHERE (WHSE_ID = @WHSE_ID) ORDER BY DESCRIPTION</value>
+  </data>
+  <metadata name="sqlDeleteCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand9.CommandText" xml:space="preserve">
+    <value>DELETE FROM [warehouse] WHERE (([whse_id] = @Original_whse_id) AND ([warehouse] = @Original_warehouse) AND ((@IsNull_description = 1 AND [description] IS NULL) OR ([description] = @Original_description)))</value>
+  </data>
+  <metadata name="daWarehouse.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>381, 95</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand14.CommandText" xml:space="preserve">
+    <value>select c.id, isnull(c.knownas, isnull(c.firstname,'')+' '+isnull(c.lastname,'')) [Name], s.name [Supplier]
+from contact c
+join relations r on r.itemid=c.id and r.target='supplier' and r.itemtype='contact'
+join TR_STRIKE_TEST10..supplier_master s on s.supplier_id=r.targetid and r.target='supplier' and r.itemtype='contact'
+where c.type='Supplier' and c.id &lt;&gt; -1 and isnull(s.active,'F')='T' and r.companyid=15
+and isnull(IsGenContractor,'F') = 'T'
+order by [Supplier],[Name]</value>
+  </data>
+  <metadata name="daContractor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>331, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand15.CommandText" xml:space="preserve">
+    <value>select c.id, isnull(c.knownas, isnull(c.firstname,'')+' '+isnull(c.lastname,'')) [Name]
+from contact c
+join TR_STRIKE_TEST10..mluser m on m.contactid=c.id
+where type='User' and c.id &lt;&gt; -1 and isnull(estimator,'F') ='T' and isnull(m.inactive,'Y') = 'N'
+order by [Name]</value>
+  </data>
+  <metadata name="daEstimator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand16.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand16.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand16.CommandText" xml:space="preserve">
+    <value>select c.id, isnull(c.knownas, isnull(c.firstname,'')+' '+isnull(c.lastname,'')) [Name], cu.name [Customer]
+from contact c
+join relations r on r.itemid=c.id and r.target='customer' and r.itemtype='contact'
+join TR_STRIKE_TEST10..customers cu on cu.customer_id=r.targetid and r.target='customer' and r.itemtype='contact'
+where c.type='Customer' and c.id &lt;&gt; -1 and isnull(cu.active,'F')='T' and r.companyid=15 and isnull(active,'F')='T' 
+order by [Customer],[Name]</value>
+  </data>
+  <metadata name="daCustContact.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>454, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand17.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand17.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="da_LandDevelopmentLookups.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 251</value>
+  </metadata>
+  <metadata name="sqlSelectCommand18.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand18.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand18.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daProjectSearch.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>622, 95</value>
+  </metadata>
+  <metadata name="sqlSelectCommand19.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand19.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand19.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO [proj_customer_type] ([proj_customer_type_id], [description]) VALUES (@proj_customer_type_id, @description);
+SELECT proj_customer_type_id, description FROM proj_customer_type WHERE (proj_customer_type_id = @proj_customer_type_id) ORDER BY description</value>
+  </data>
+  <metadata name="sqlUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand5.CommandText" xml:space="preserve">
+    <value>UPDATE [proj_customer_type] SET [proj_customer_type_id] = @proj_customer_type_id, [description] = @description WHERE (([proj_customer_type_id] = @Original_proj_customer_type_id) AND ((@IsNull_description = 1 AND [description] IS NULL) OR ([description] = @Original_description)));
+SELECT proj_customer_type_id, description FROM proj_customer_type WHERE (proj_customer_type_id = @proj_customer_type_id) ORDER BY description</value>
+  </data>
+  <metadata name="sqlDeleteCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand8.CommandText" xml:space="preserve">
+    <value>DELETE FROM [proj_customer_type] WHERE (([proj_customer_type_id] = @Original_proj_customer_type_id) AND ((@IsNull_description = 1 AND [description] IS NULL) OR ([description] = @Original_description)))</value>
+  </data>
+  <metadata name="daCustType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1006, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand20.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand20.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand20.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daFieldManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>233, 251</value>
+  </metadata>
+  <metadata name="daProjCoordinator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>594, 251</value>
+  </metadata>
+  <metadata name="sqlCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand21.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand21.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daLandSubType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>795, 290</value>
+  </metadata>
+  <metadata name="daRawLandProj.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1077, 290</value>
+  </metadata>
+  <metadata name="sqlCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM [proj_header] WHERE (([pri_id] = @Original_pri_id) AND ((@IsNull_pri_code = 1 AND [pri_code] IS NULL) OR ([pri_code] = @Original_pri_code)) AND ((@IsNull_pri_name = 1 AND [pri_name] IS NULL) OR ([pri_name] = @Original_pri_name)))</value>
+  </data>
+  <metadata name="sqlCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand6.CommandText" xml:space="preserve">
+    <value>UPDATE [proj_header] SET [pri_code] = @pri_code, [pri_name] = @pri_name WHERE (([pri_id] = @Original_pri_id) AND ((@IsNull_pri_code = 1 AND [pri_code] IS NULL) OR ([pri_code] = @Original_pri_code)) AND ((@IsNull_pri_name = 1 AND [pri_name] IS NULL) OR ([pri_name] = @Original_pri_name)));
+SELECT pri_id, pri_code, pri_name FROM PROJ_HEADER WHERE (pri_id = @pri_id) ORDER BY pri_code</value>
+  </data>
+  <metadata name="daProfitSeg.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>281, 329</value>
+  </metadata>
+  <metadata name="sqlCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>151, 329</value>
+  </metadata>
+  <metadata name="sqlCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+</root>

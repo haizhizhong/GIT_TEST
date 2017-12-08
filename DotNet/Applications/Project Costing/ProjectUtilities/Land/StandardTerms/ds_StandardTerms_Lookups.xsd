@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_StandardTerms_Lookups" targetNamespace="http://tempuri.org/ds_StandardTerms_Lookups.xsd" xmlns:mstns="http://tempuri.org/ds_StandardTerms_Lookups.xsd" xmlns="http://tempuri.org/ds_StandardTerms_Lookups.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_StandardTerms_Lookups" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_StandardTerms_Lookups" msprop:Generator_DataSetName="ds_StandardTerms_Lookups">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Rate_Type" msprop:Generator_UserTableName="LD_Rate_Type" msprop:Generator_RowDeletedName="LD_Rate_TypeRowDeleted" msprop:Generator_RowChangedName="LD_Rate_TypeRowChanged" msprop:Generator_RowClassName="LD_Rate_TypeRow" msprop:Generator_RowChangingName="LD_Rate_TypeRowChanging" msprop:Generator_RowEvArgName="LD_Rate_TypeRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Rate_TypeRowChangeEventHandler" msprop:Generator_TableClassName="LD_Rate_TypeDataTable" msprop:Generator_TableVarName="tableLD_Rate_Type" msprop:Generator_RowDeletingName="LD_Rate_TypeRowDeleting" msprop:Generator_TablePropName="LD_Rate_Type">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LD_Rate_Type_ID" msprop:Generator_UserColumnName="LD_Rate_Type_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Rate_Type_ID" msprop:Generator_ColumnPropNameInRow="LD_Rate_Type_ID" msprop:Generator_ColumnPropNameInTable="LD_Rate_Type_IDColumn" type="xs:int" />
+              <xs:element name="RateType" msprop:Generator_UserColumnName="RateType" msprop:Generator_ColumnVarNameInTable="columnRateType" msprop:Generator_ColumnPropNameInRow="RateType" msprop:Generator_ColumnPropNameInTable="RateTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_Frequency" msprop:Generator_UserTableName="LD_Frequency" msprop:Generator_RowDeletedName="LD_FrequencyRowDeleted" msprop:Generator_RowChangedName="LD_FrequencyRowChanged" msprop:Generator_RowClassName="LD_FrequencyRow" msprop:Generator_RowChangingName="LD_FrequencyRowChanging" msprop:Generator_RowEvArgName="LD_FrequencyRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_FrequencyRowChangeEventHandler" msprop:Generator_TableClassName="LD_FrequencyDataTable" msprop:Generator_TableVarName="tableLD_Frequency" msprop:Generator_RowDeletingName="LD_FrequencyRowDeleting" msprop:Generator_TablePropName="LD_Frequency">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LD_Frequency_ID" msprop:Generator_UserColumnName="LD_Frequency_ID" msprop:Generator_ColumnPropNameInRow="LD_Frequency_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Frequency_ID" msprop:Generator_ColumnPropNameInTable="LD_Frequency_IDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_Lender" msprop:Generator_UserTableName="LD_Lender" msprop:Generator_RowDeletedName="LD_LenderRowDeleted" msprop:Generator_RowChangedName="LD_LenderRowChanged" msprop:Generator_RowClassName="LD_LenderRow" msprop:Generator_RowChangingName="LD_LenderRowChanging" msprop:Generator_RowEvArgName="LD_LenderRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_LenderRowChangeEventHandler" msprop:Generator_TableClassName="LD_LenderDataTable" msprop:Generator_TableVarName="tableLD_Lender" msprop:Generator_RowDeletingName="LD_LenderRowDeleting" msprop:Generator_TablePropName="LD_Lender">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LD_Lender_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="LD_Lender_ID" msprop:Generator_ColumnPropNameInRow="LD_Lender_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Lender_ID" msprop:Generator_ColumnPropNameInTable="LD_Lender_IDColumn" type="xs:int" />
+              <xs:element name="Lender" msprop:Generator_UserColumnName="Lender" msprop:Generator_ColumnPropNameInRow="Lender" msprop:Generator_ColumnVarNameInTable="columnLender" msprop:Generator_ColumnPropNameInTable="LenderColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_Rate_Based_On" msprop:Generator_UserTableName="LD_Rate_Based_On" msprop:Generator_RowDeletedName="LD_Rate_Based_OnRowDeleted" msprop:Generator_RowChangedName="LD_Rate_Based_OnRowChanged" msprop:Generator_RowClassName="LD_Rate_Based_OnRow" msprop:Generator_RowChangingName="LD_Rate_Based_OnRowChanging" msprop:Generator_RowEvArgName="LD_Rate_Based_OnRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Rate_Based_OnRowChangeEventHandler" msprop:Generator_TableClassName="LD_Rate_Based_OnDataTable" msprop:Generator_TableVarName="tableLD_Rate_Based_On" msprop:Generator_RowDeletingName="LD_Rate_Based_OnRowDeleting" msprop:Generator_TablePropName="LD_Rate_Based_On">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LD_Rate_Based_On_ID" msprop:Generator_UserColumnName="LD_Rate_Based_On_ID" msprop:Generator_ColumnPropNameInRow="LD_Rate_Based_On_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Rate_Based_On_ID" msprop:Generator_ColumnPropNameInTable="LD_Rate_Based_On_IDColumn" type="xs:int" />
+              <xs:element name="RateType" msprop:Generator_UserColumnName="RateType" msprop:Generator_ColumnPropNameInRow="RateType" msprop:Generator_ColumnVarNameInTable="columnRateType" msprop:Generator_ColumnPropNameInTable="RateTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_Deposits" msprop:Generator_UserTableName="LD_Deposits" msprop:Generator_RowDeletedName="LD_DepositsRowDeleted" msprop:Generator_RowChangedName="LD_DepositsRowChanged" msprop:Generator_RowClassName="LD_DepositsRow" msprop:Generator_RowChangingName="LD_DepositsRowChanging" msprop:Generator_RowEvArgName="LD_DepositsRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_DepositsRowChangeEventHandler" msprop:Generator_TableClassName="LD_DepositsDataTable" msprop:Generator_TableVarName="tableLD_Deposits" msprop:Generator_RowDeletingName="LD_DepositsRowDeleting" msprop:Generator_TablePropName="LD_Deposits">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Deposit_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Deposit_ID" msprop:Generator_ColumnVarNameInTable="columnDeposit_ID" msprop:Generator_ColumnPropNameInRow="Deposit_ID" msprop:Generator_ColumnPropNameInTable="Deposit_IDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Off_Set_Days" msprop:Generator_UserColumnName="Off_Set_Days" msprop:Generator_ColumnVarNameInTable="columnOff_Set_Days" msprop:Generator_ColumnPropNameInRow="Off_Set_Days" msprop:Generator_ColumnPropNameInTable="Off_Set_DaysColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_TablePropName="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Description" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Value" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Rate_Type" />
+      <xs:field xpath="mstns:LD_Rate_Type_ID" />
+    </xs:unique>
+    <xs:unique name="LD_Frequency_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Frequency" />
+      <xs:field xpath="mstns:LD_Frequency_ID" />
+    </xs:unique>
+    <xs:unique name="LD_Lender_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Lender" />
+      <xs:field xpath="mstns:LD_Lender_ID" />
+    </xs:unique>
+    <xs:unique name="LD_Rate_Based_On_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Rate_Based_On" />
+      <xs:field xpath="mstns:LD_Rate_Based_On_ID" />
+    </xs:unique>
+    <xs:unique name="LD_Deposits_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Deposits" />
+      <xs:field xpath="mstns:Deposit_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

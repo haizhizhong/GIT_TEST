@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsContractType" targetNamespace="http://tempuri.org/dsContractType.xsd" xmlns:mstns="http://tempuri.org/dsContractType.xsd" xmlns="http://tempuri.org/dsContractType.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsContractType" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsContractType" msprop:Generator_DataSetName="dsContractType">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="REVENUE_TYPES" msprop:Generator_UserTableName="REVENUE_TYPES" msprop:Generator_RowDeletedName="REVENUE_TYPESRowDeleted" msprop:Generator_TableClassName="REVENUE_TYPESDataTable" msprop:Generator_RowChangedName="REVENUE_TYPESRowChanged" msprop:Generator_RowClassName="REVENUE_TYPESRow" msprop:Generator_RowChangingName="REVENUE_TYPESRowChanging" msprop:Generator_RowEvArgName="REVENUE_TYPESRowChangeEvent" msprop:Generator_RowEvHandlerName="REVENUE_TYPESRowChangeEventHandler" msprop:Generator_TablePropName="REVENUE_TYPES" msprop:Generator_TableVarName="tableREVENUE_TYPES" msprop:Generator_RowDeletingName="REVENUE_TYPESRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REV_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="REV_ID" msprop:Generator_ColumnPropNameInRow="REV_ID" msprop:Generator_ColumnVarNameInTable="columnREV_ID" msprop:Generator_ColumnPropNameInTable="REV_IDColumn" type="xs:int" />
+              <xs:element name="REV_CODE" msprop:Generator_UserColumnName="REV_CODE" msprop:Generator_ColumnPropNameInRow="REV_CODE" msprop:Generator_ColumnVarNameInTable="columnREV_CODE" msprop:Generator_ColumnPropNameInTable="REV_CODEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REV_DESC" msprop:Generator_UserColumnName="REV_DESC" msprop:Generator_ColumnPropNameInRow="REV_DESC" msprop:Generator_ColumnVarNameInTable="columnREV_DESC" msprop:Generator_ColumnPropNameInTable="REV_DESCColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REV_TYPE" msprop:Generator_UserColumnName="REV_TYPE" msprop:Generator_ColumnPropNameInRow="REV_TYPE" msprop:Generator_ColumnVarNameInTable="columnREV_TYPE" msprop:Generator_ColumnPropNameInTable="REV_TYPEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROJ_FLAG" msprop:Generator_UserColumnName="PROJ_FLAG" msprop:Generator_ColumnPropNameInRow="PROJ_FLAG" msprop:Generator_ColumnVarNameInTable="columnPROJ_FLAG" msprop:Generator_ColumnPropNameInTable="PROJ_FLAGColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SYS_FLAG" msprop:Generator_UserColumnName="SYS_FLAG" msprop:Generator_ColumnPropNameInRow="SYS_FLAG" msprop:Generator_ColumnVarNameInTable="columnSYS_FLAG" msprop:Generator_ColumnPropNameInTable="SYS_FLAGColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:REVENUE_TYPES" />
+      <xs:field xpath="mstns:REV_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

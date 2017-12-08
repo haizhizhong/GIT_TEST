@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRawLandHolding" targetNamespace="http://tempuri.org/dsRawLandHolding.xsd" xmlns:mstns="http://tempuri.org/dsRawLandHolding.xsd" xmlns="http://tempuri.org/dsRawLandHolding.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRawLandHolding" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRawLandHolding" msprop:Generator_DataSetName="dsRawLandHolding">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LD_RawLandHolding" msprop:Generator_UserTableName="PROJ_LD_RawLandHolding" msprop:Generator_RowDeletedName="PROJ_LD_RawLandHoldingRowDeleted" msprop:Generator_RowChangedName="PROJ_LD_RawLandHoldingRowChanged" msprop:Generator_RowClassName="PROJ_LD_RawLandHoldingRow" msprop:Generator_RowChangingName="PROJ_LD_RawLandHoldingRowChanging" msprop:Generator_RowEvArgName="PROJ_LD_RawLandHoldingRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LD_RawLandHoldingRowChangeEventHandler" msprop:Generator_TableClassName="PROJ_LD_RawLandHoldingDataTable" msprop:Generator_TableVarName="tablePROJ_LD_RawLandHolding" msprop:Generator_RowDeletingName="PROJ_LD_RawLandHoldingRowDeleting" msprop:Generator_TablePropName="PROJ_LD_RawLandHolding">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="PRI_ID" msprop:Generator_UserColumnName="PRI_ID" msprop:Generator_ColumnVarNameInTable="columnPRI_ID" msprop:Generator_ColumnPropNameInRow="PRI_ID" msprop:Generator_ColumnPropNameInTable="PRI_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RawLand_PRI_ID" msprop:Generator_UserColumnName="RawLand_PRI_ID" msprop:Generator_ColumnVarNameInTable="columnRawLand_PRI_ID" msprop:Generator_ColumnPropNameInRow="RawLand_PRI_ID" msprop:Generator_ColumnPropNameInTable="RawLand_PRI_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PROJ_LD_AdditionalUseArea_ID" msprop:Generator_UserColumnName="PROJ_LD_AdditionalUseArea_ID" msprop:Generator_ColumnVarNameInTable="columnPROJ_LD_AdditionalUseArea_ID" msprop:Generator_ColumnPropNameInRow="PROJ_LD_AdditionalUseArea_ID" msprop:Generator_ColumnPropNameInTable="PROJ_LD_AdditionalUseArea_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AdditionalUse_Area" msprop:Generator_UserColumnName="AdditionalUse_Area" msprop:Generator_ColumnVarNameInTable="columnAdditionalUse_Area" msprop:Generator_ColumnPropNameInRow="AdditionalUse_Area" msprop:Generator_ColumnPropNameInTable="AdditionalUse_AreaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NetArea" msprop:Generator_UserColumnName="NetArea" msprop:Generator_ColumnVarNameInTable="columnNetArea" msprop:Generator_ColumnPropNameInRow="NetArea" msprop:Generator_ColumnPropNameInTable="NetAreaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalArea" msprop:Generator_UserColumnName="TotalArea" msprop:Generator_ColumnVarNameInTable="columnTotalArea" msprop:Generator_ColumnPropNameInRow="TotalArea" msprop:Generator_ColumnPropNameInTable="TotalAreaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PROJ_LD_RawLandHolding" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

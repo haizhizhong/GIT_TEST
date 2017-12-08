@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLv4" targetNamespace="http://tempuri.org/dsLv4.xsd" xmlns:mstns="http://tempuri.org/dsLv4.xsd" xmlns="http://tempuri.org/dsLv4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLv4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLv4" msprop:Generator_DataSetName="dsLv4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Level4_Codes" msprop:Generator_UserTableName="Level4_Codes" msprop:Generator_RowDeletedName="Level4_CodesRowDeleted" msprop:Generator_TableClassName="Level4_CodesDataTable" msprop:Generator_RowChangedName="Level4_CodesRowChanged" msprop:Generator_RowClassName="Level4_CodesRow" msprop:Generator_RowChangingName="Level4_CodesRowChanging" msprop:Generator_RowEvArgName="Level4_CodesRowChangeEvent" msprop:Generator_RowEvHandlerName="Level4_CodesRowChangeEventHandler" msprop:Generator_TablePropName="Level4_Codes" msprop:Generator_TableVarName="tableLevel4_Codes" msprop:Generator_RowDeletingName="Level4_CodesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lv4ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="lv4ID" msprop:Generator_ColumnPropNameInRow="lv4ID" msprop:Generator_ColumnVarNameInTable="columnlv4ID" msprop:Generator_ColumnPropNameInTable="lv4IDColumn" type="xs:int" />
+              <xs:element name="lv4_code" msprop:Generator_UserColumnName="lv4_code" msprop:Generator_ColumnPropNameInRow="lv4_code" msprop:Generator_ColumnVarNameInTable="columnlv4_code" msprop:Generator_ColumnPropNameInTable="lv4_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv4_desc" msprop:Generator_UserColumnName="lv4_desc" msprop:Generator_ColumnPropNameInRow="lv4_desc" msprop:Generator_ColumnVarNameInTable="columnlv4_desc" msprop:Generator_ColumnPropNameInTable="lv4_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv3id" msprop:Generator_UserColumnName="lv3id" msprop:Generator_ColumnPropNameInRow="lv3id" msprop:Generator_ColumnVarNameInTable="columnlv3id" msprop:Generator_ColumnPropNameInTable="lv3idColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Level4_Codes" />
+      <xs:field xpath="mstns:lv4ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

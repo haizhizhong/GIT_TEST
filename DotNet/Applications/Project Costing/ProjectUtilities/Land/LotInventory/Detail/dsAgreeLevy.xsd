@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAgreeLevy" targetNamespace="http://tempuri.org/dsAgreeLevy.xsd" xmlns:mstns="http://tempuri.org/dsAgreeLevy.xsd" xmlns="http://tempuri.org/dsAgreeLevy.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAgreeLevy" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAgreeLevy" msprop:Generator_DataSetName="dsAgreeLevy">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Proj_AgreementLevy" msprop:Generator_UserTableName="LD_Proj_AgreementLevy" msprop:Generator_RowDeletedName="LD_Proj_AgreementLevyRowDeleted" msprop:Generator_RowChangedName="LD_Proj_AgreementLevyRowChanged" msprop:Generator_RowClassName="LD_Proj_AgreementLevyRow" msprop:Generator_RowChangingName="LD_Proj_AgreementLevyRowChanging" msprop:Generator_RowEvArgName="LD_Proj_AgreementLevyRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Proj_AgreementLevyRowChangeEventHandler" msprop:Generator_TableClassName="LD_Proj_AgreementLevyDataTable" msprop:Generator_TableVarName="tableLD_Proj_AgreementLevy" msprop:Generator_RowDeletingName="LD_Proj_AgreementLevyRowDeleting" msprop:Generator_TablePropName="LD_Proj_AgreementLevy">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PROJ_LOT_AGREEMENT_LEVY_ID" msprop:Generator_UserColumnName="PROJ_LOT_AGREEMENT_LEVY_ID" msprop:Generator_ColumnPropNameInRow="PROJ_LOT_AGREEMENT_LEVY_ID" msprop:Generator_ColumnVarNameInTable="columnPROJ_LOT_AGREEMENT_LEVY_ID" msprop:Generator_ColumnPropNameInTable="PROJ_LOT_AGREEMENT_LEVY_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LD_Levy_ID" msprop:Generator_UserColumnName="LD_Levy_ID" msprop:Generator_ColumnPropNameInRow="LD_Levy_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Levy_ID" msprop:Generator_ColumnPropNameInTable="LD_Levy_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv1id" msprop:Generator_UserColumnName="lv1id" msprop:Generator_ColumnPropNameInRow="lv1id" msprop:Generator_ColumnVarNameInTable="columnlv1id" msprop:Generator_ColumnPropNameInTable="lv1idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv2id" msprop:Generator_UserColumnName="lv2id" msprop:Generator_ColumnPropNameInRow="lv2id" msprop:Generator_ColumnVarNameInTable="columnlv2id" msprop:Generator_ColumnPropNameInTable="lv2idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv3id" msprop:Generator_UserColumnName="lv3id" msprop:Generator_ColumnPropNameInRow="lv3id" msprop:Generator_ColumnVarNameInTable="columnlv3id" msprop:Generator_ColumnPropNameInTable="lv3idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv4id" msprop:Generator_UserColumnName="lv4id" msprop:Generator_ColumnPropNameInRow="lv4id" msprop:Generator_ColumnVarNameInTable="columnlv4id" msprop:Generator_ColumnPropNameInTable="lv4idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Invoiced" msprop:Generator_UserColumnName="Invoiced" msprop:Generator_ColumnPropNameInRow="Invoiced" msprop:Generator_ColumnVarNameInTable="columnInvoiced" msprop:Generator_ColumnPropNameInTable="InvoicedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Paid" msprop:Generator_UserColumnName="Paid" msprop:Generator_ColumnPropNameInRow="Paid" msprop:Generator_ColumnVarNameInTable="columnPaid" msprop:Generator_ColumnPropNameInTable="PaidColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="InvNo" msprop:Generator_UserColumnName="InvNo" msprop:Generator_ColumnPropNameInRow="InvNo" msprop:Generator_ColumnVarNameInTable="columnInvNo" msprop:Generator_ColumnPropNameInTable="InvNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InvDate" msprop:Generator_UserColumnName="InvDate" msprop:Generator_ColumnPropNameInRow="InvDate" msprop:Generator_ColumnVarNameInTable="columnInvDate" msprop:Generator_ColumnPropNameInTable="InvDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PaidAmt" msprop:Generator_UserColumnName="PaidAmt" msprop:Generator_ColumnPropNameInRow="PaidAmt" msprop:Generator_ColumnVarNameInTable="columnPaidAmt" msprop:Generator_ColumnPropNameInTable="PaidAmtColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Period" msprop:Generator_UserColumnName="Period" msprop:Generator_ColumnPropNameInRow="Period" msprop:Generator_ColumnVarNameInTable="columnPeriod" msprop:Generator_ColumnPropNameInTable="PeriodColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YEAR" msprop:Generator_UserColumnName="YEAR" msprop:Generator_ColumnPropNameInRow="YEAR" msprop:Generator_ColumnVarNameInTable="columnYEAR" msprop:Generator_ColumnPropNameInTable="YEARColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="supplier_id" msprop:Generator_UserColumnName="supplier_id" msprop:Generator_ColumnVarNameInTable="columnsupplier_id" msprop:Generator_ColumnPropNameInRow="supplier_id" msprop:Generator_ColumnPropNameInTable="supplier_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Matched" msprop:Generator_UserColumnName="Matched" msprop:Generator_ColumnPropNameInRow="Matched" msprop:Generator_ColumnVarNameInTable="columnMatched" msprop:Generator_ColumnPropNameInTable="MatchedColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

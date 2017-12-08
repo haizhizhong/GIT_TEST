@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsHist" targetNamespace="http://tempuri.org/dsHist.xsd" xmlns:mstns="http://tempuri.org/dsHist.xsd" xmlns="http://tempuri.org/dsHist.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsHist" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsHist" msprop:Generator_DataSetName="dsHist">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_Hist" msprop:Generator_UserTableName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_Hist" msprop:Generator_RowDeletedName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_HistRowDeleted" msprop:Generator_TableClassName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_HistDataTable" msprop:Generator_RowChangedName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_HistRowChanged" msprop:Generator_RowClassName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_HistRow" msprop:Generator_RowChangingName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_HistRowChanging" msprop:Generator_RowEvArgName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_HistRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_HistRowChangeEventHandler" msprop:Generator_TablePropName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_Hist" msprop:Generator_TableVarName="tablePROJ_LOT_AGREEMENT_3rdParty_Purchaser_Hist" msprop:Generator_RowDeletingName="PROJ_LOT_AGREEMENT_3rdParty_Purchaser_HistRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:int" />
+              <xs:element name="agreement_id" msprop:Generator_UserColumnName="agreement_id" msprop:Generator_ColumnPropNameInRow="agreement_id" msprop:Generator_ColumnVarNameInTable="columnagreement_id" msprop:Generator_ColumnPropNameInTable="agreement_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="cancel_date" msprop:Generator_UserColumnName="cancel_date" msprop:Generator_ColumnPropNameInRow="cancel_date" msprop:Generator_ColumnVarNameInTable="columncancel_date" msprop:Generator_ColumnPropNameInTable="cancel_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="canceled_by" msprop:Generator_UserColumnName="canceled_by" msprop:Generator_ColumnPropNameInRow="canceled_by" msprop:Generator_ColumnVarNameInTable="columncanceled_by" msprop:Generator_ColumnPropNameInTable="canceled_byColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PROJ_LOT_AGREEMENT_3rdParty_Purchaser_Hist" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

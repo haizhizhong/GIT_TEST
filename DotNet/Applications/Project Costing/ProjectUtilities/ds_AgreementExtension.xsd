@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_AgreementExtension" targetNamespace="http://tempuri.org/ds_AgreementExtension.xsd" xmlns:mstns="http://tempuri.org/ds_AgreementExtension.xsd" xmlns="http://tempuri.org/ds_AgreementExtension.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_AgreementExtension" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_AgreementExtension" msprop:Generator_DataSetName="ds_AgreementExtension">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Proj_Lot_Agreement_Extension_Hist" msprop:Generator_UserTableName="Proj_Lot_Agreement_Extension_Hist" msprop:Generator_RowDeletedName="Proj_Lot_Agreement_Extension_HistRowDeleted" msprop:Generator_RowChangedName="Proj_Lot_Agreement_Extension_HistRowChanged" msprop:Generator_RowClassName="Proj_Lot_Agreement_Extension_HistRow" msprop:Generator_RowChangingName="Proj_Lot_Agreement_Extension_HistRowChanging" msprop:Generator_RowEvArgName="Proj_Lot_Agreement_Extension_HistRowChangeEvent" msprop:Generator_RowEvHandlerName="Proj_Lot_Agreement_Extension_HistRowChangeEventHandler" msprop:Generator_TableClassName="Proj_Lot_Agreement_Extension_HistDataTable" msprop:Generator_TableVarName="tableProj_Lot_Agreement_Extension_Hist" msprop:Generator_RowDeletingName="Proj_Lot_Agreement_Extension_HistRowDeleting" msprop:Generator_TablePropName="Proj_Lot_Agreement_Extension_Hist">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Agreement_ID" msprop:Generator_UserColumnName="Agreement_ID" msprop:Generator_ColumnVarNameInTable="columnAgreement_ID" msprop:Generator_ColumnPropNameInRow="Agreement_ID" msprop:Generator_ColumnPropNameInTable="Agreement_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PreviousDate" msprop:Generator_UserColumnName="PreviousDate" msprop:Generator_ColumnVarNameInTable="columnPreviousDate" msprop:Generator_ColumnPropNameInRow="PreviousDate" msprop:Generator_ColumnPropNameInTable="PreviousDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NewDate" msprop:Generator_UserColumnName="NewDate" msprop:Generator_ColumnVarNameInTable="columnNewDate" msprop:Generator_ColumnPropNameInRow="NewDate" msprop:Generator_ColumnPropNameInTable="NewDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExtendedBy" msprop:Generator_UserColumnName="ExtendedBy" msprop:Generator_ColumnVarNameInTable="columnExtendedBy" msprop:Generator_ColumnPropNameInRow="ExtendedBy" msprop:Generator_ColumnPropNameInTable="ExtendedByColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DateModified" msprop:Generator_UserColumnName="DateModified" msprop:Generator_ColumnVarNameInTable="columnDateModified" msprop:Generator_ColumnPropNameInRow="DateModified" msprop:Generator_ColumnPropNameInTable="DateModifiedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SendNotification" msprop:Generator_UserColumnName="SendNotification" msprop:Generator_ColumnVarNameInTable="columnSendNotification" msprop:Generator_ColumnPropNameInRow="SendNotification" msprop:Generator_ColumnPropNameInTable="SendNotificationColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Proj_Lot_Agreement_Extension_Hist" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

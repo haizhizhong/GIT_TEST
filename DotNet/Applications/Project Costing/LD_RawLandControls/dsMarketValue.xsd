@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMarketValue" targetNamespace="http://tempuri.org/dsMarketValue.xsd" xmlns:mstns="http://tempuri.org/dsMarketValue.xsd" xmlns="http://tempuri.org/dsMarketValue.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMarketValue" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsMarketValue" msprop:Generator_DataSetName="dsMarketValue">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LD_MarketValue" msprop:Generator_UserTableName="PROJ_LD_MarketValue" msprop:Generator_RowDeletedName="PROJ_LD_MarketValueRowDeleted" msprop:Generator_TableClassName="PROJ_LD_MarketValueDataTable" msprop:Generator_RowChangedName="PROJ_LD_MarketValueRowChanged" msprop:Generator_RowClassName="PROJ_LD_MarketValueRow" msprop:Generator_RowChangingName="PROJ_LD_MarketValueRowChanging" msprop:Generator_RowEvArgName="PROJ_LD_MarketValueRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LD_MarketValueRowChangeEventHandler" msprop:Generator_TablePropName="PROJ_LD_MarketValue" msprop:Generator_TableVarName="tablePROJ_LD_MarketValue" msprop:Generator_RowDeletingName="PROJ_LD_MarketValueRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="PRI_ID" msprop:Generator_UserColumnName="PRI_ID" msprop:Generator_ColumnPropNameInRow="PRI_ID" msprop:Generator_ColumnVarNameInTable="columnPRI_ID" msprop:Generator_ColumnPropNameInTable="PRI_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MarketValue" msprop:Generator_UserColumnName="MarketValue" msprop:Generator_ColumnPropNameInRow="MarketValue" msprop:Generator_ColumnVarNameInTable="columnMarketValue" msprop:Generator_ColumnPropNameInTable="MarketValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AsAtDate" msprop:Generator_UserColumnName="AsAtDate" msprop:Generator_ColumnPropNameInRow="AsAtDate" msprop:Generator_ColumnVarNameInTable="columnAsAtDate" msprop:Generator_ColumnPropNameInTable="AsAtDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LastChangedDate" msprop:Generator_UserColumnName="LastChangedDate" msprop:Generator_ColumnPropNameInRow="LastChangedDate" msprop:Generator_ColumnVarNameInTable="columnLastChangedDate" msprop:Generator_ColumnPropNameInTable="LastChangedDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LastChangedBy" msprop:Generator_UserColumnName="LastChangedBy" msprop:Generator_ColumnPropNameInRow="LastChangedBy" msprop:Generator_ColumnVarNameInTable="columnLastChangedBy" msprop:Generator_ColumnPropNameInTable="LastChangedByColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PROJ_LD_MarketValue" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

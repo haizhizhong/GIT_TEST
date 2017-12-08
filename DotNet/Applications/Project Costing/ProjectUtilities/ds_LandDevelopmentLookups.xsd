@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_LandDevelopmentLookups" targetNamespace="http://tempuri.org/ds_LandDevelopmentLookups.xsd" xmlns:mstns="http://tempuri.org/ds_LandDevelopmentLookups.xsd" xmlns="http://tempuri.org/ds_LandDevelopmentLookups.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_LandDevelopmentLookups" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_LandDevelopmentLookups" msprop:Generator_DataSetName="ds_LandDevelopmentLookups">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_ProjSearch_Lookups" msprop:Generator_UserTableName="LD_ProjSearch_Lookups" msprop:Generator_RowDeletedName="LD_ProjSearch_LookupsRowDeleted" msprop:Generator_RowChangedName="LD_ProjSearch_LookupsRowChanged" msprop:Generator_RowClassName="LD_ProjSearch_LookupsRow" msprop:Generator_RowChangingName="LD_ProjSearch_LookupsRowChanging" msprop:Generator_RowEvArgName="LD_ProjSearch_LookupsRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_ProjSearch_LookupsRowChangeEventHandler" msprop:Generator_TableClassName="LD_ProjSearch_LookupsDataTable" msprop:Generator_TableVarName="tableLD_ProjSearch_Lookups" msprop:Generator_RowDeletingName="LD_ProjSearch_LookupsRowDeleting" msprop:Generator_TablePropName="LD_ProjSearch_Lookups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prc_code" msprop:Generator_UserColumnName="prc_code" msprop:Generator_ColumnVarNameInTable="columnprc_code" msprop:Generator_ColumnPropNameInRow="prc_code" msprop:Generator_ColumnPropNameInTable="prc_codeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="prc_desc" msprop:Generator_UserColumnName="prc_desc" msprop:Generator_ColumnVarNameInTable="columnprc_desc" msprop:Generator_ColumnPropNameInRow="prc_desc" msprop:Generator_ColumnPropNameInTable="prc_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prcl_code" msprop:Generator_UserColumnName="prcl_code" msprop:Generator_ColumnVarNameInTable="columnprcl_code" msprop:Generator_ColumnPropNameInRow="prcl_code" msprop:Generator_ColumnPropNameInTable="prcl_codeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="prcl_desc" msprop:Generator_UserColumnName="prcl_desc" msprop:Generator_ColumnVarNameInTable="columnprcl_desc" msprop:Generator_ColumnPropNameInRow="prcl_desc" msprop:Generator_ColumnPropNameInTable="prcl_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2" msprop:Generator_UserTableName="Table2" msprop:Generator_RowDeletedName="Table2RowDeleted" msprop:Generator_RowChangedName="Table2RowChanged" msprop:Generator_RowClassName="Table2Row" msprop:Generator_RowChangingName="Table2RowChanging" msprop:Generator_RowEvArgName="Table2RowChangeEvent" msprop:Generator_RowEvHandlerName="Table2RowChangeEventHandler" msprop:Generator_TableClassName="Table2DataTable" msprop:Generator_TableVarName="tableTable2" msprop:Generator_RowDeletingName="Table2RowDeleting" msprop:Generator_TablePropName="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Geographic_Area_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Geographic_Area_ID" msprop:Generator_ColumnVarNameInTable="columnGeographic_Area_ID" msprop:Generator_ColumnPropNameInRow="Geographic_Area_ID" msprop:Generator_ColumnPropNameInTable="Geographic_Area_IDColumn" type="xs:int" />
+              <xs:element name="GeographicArea" msprop:Generator_UserColumnName="GeographicArea" msprop:Generator_ColumnVarNameInTable="columnGeographicArea" msprop:Generator_ColumnPropNameInRow="GeographicArea" msprop:Generator_ColumnPropNameInTable="GeographicAreaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3" msprop:Generator_UserTableName="Table3" msprop:Generator_RowDeletedName="Table3RowDeleted" msprop:Generator_RowChangedName="Table3RowChanged" msprop:Generator_RowClassName="Table3Row" msprop:Generator_RowChangingName="Table3RowChanging" msprop:Generator_RowEvArgName="Table3RowChangeEvent" msprop:Generator_RowEvHandlerName="Table3RowChangeEventHandler" msprop:Generator_TableClassName="Table3DataTable" msprop:Generator_TableVarName="tableTable3" msprop:Generator_RowDeletingName="Table3RowDeleting" msprop:Generator_TablePropName="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Municipalities_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Municipalities_ID" msprop:Generator_ColumnVarNameInTable="columnMunicipalities_ID" msprop:Generator_ColumnPropNameInRow="Municipalities_ID" msprop:Generator_ColumnPropNameInTable="Municipalities_IDColumn" type="xs:int" />
+              <xs:element name="Municipality" msprop:Generator_UserColumnName="Municipality" msprop:Generator_ColumnVarNameInTable="columnMunicipality" msprop:Generator_ColumnPropNameInRow="Municipality" msprop:Generator_ColumnPropNameInTable="MunicipalityColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table4" msprop:Generator_UserTableName="Table4" msprop:Generator_RowDeletedName="Table4RowDeleted" msprop:Generator_RowChangedName="Table4RowChanged" msprop:Generator_RowClassName="Table4Row" msprop:Generator_RowChangingName="Table4RowChanging" msprop:Generator_RowEvArgName="Table4RowChangeEvent" msprop:Generator_RowEvHandlerName="Table4RowChangeEventHandler" msprop:Generator_TableClassName="Table4DataTable" msprop:Generator_TableVarName="tableTable4" msprop:Generator_RowDeletingName="Table4RowDeleting" msprop:Generator_TablePropName="Table4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Land_Use_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Land_Use_ID" msprop:Generator_ColumnVarNameInTable="columnLand_Use_ID" msprop:Generator_ColumnPropNameInRow="Land_Use_ID" msprop:Generator_ColumnPropNameInTable="Land_Use_IDColumn" type="xs:int" />
+              <xs:element name="Code" msprop:Generator_UserColumnName="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table5" msprop:Generator_UserTableName="Table5" msprop:Generator_RowDeletedName="Table5RowDeleted" msprop:Generator_TableClassName="Table5DataTable" msprop:Generator_RowChangedName="Table5RowChanged" msprop:Generator_RowClassName="Table5Row" msprop:Generator_RowChangingName="Table5RowChanging" msprop:Generator_RowEvArgName="Table5RowChangeEvent" msprop:Generator_RowEvHandlerName="Table5RowChangeEventHandler" msprop:Generator_TablePropName="Table5" msprop:Generator_TableVarName="tableTable5" msprop:Generator_RowDeletingName="Table5RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Communities_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Communities_ID" msprop:Generator_ColumnPropNameInRow="Communities_ID" msprop:Generator_ColumnVarNameInTable="columnCommunities_ID" msprop:Generator_ColumnPropNameInTable="Communities_IDColumn" type="xs:int" />
+              <xs:element name="Communities" msprop:Generator_UserColumnName="Communities" msprop:Generator_ColumnPropNameInRow="Communities" msprop:Generator_ColumnVarNameInTable="columnCommunities" msprop:Generator_ColumnPropNameInTable="CommunitiesColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_ProjSearch_Lookups" />
+      <xs:field xpath="mstns:prc_code" />
+    </xs:unique>
+    <xs:unique name="Table1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table1" />
+      <xs:field xpath="mstns:prcl_code" />
+    </xs:unique>
+    <xs:unique name="Table2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table2" />
+      <xs:field xpath="mstns:Geographic_Area_ID" />
+    </xs:unique>
+    <xs:unique name="Table3_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table3" />
+      <xs:field xpath="mstns:Municipalities_ID" />
+    </xs:unique>
+    <xs:unique name="Table4_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table4" />
+      <xs:field xpath="mstns:Land_Use_ID" />
+    </xs:unique>
+    <xs:unique name="Table5_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table5" />
+      <xs:field xpath="mstns:Communities_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

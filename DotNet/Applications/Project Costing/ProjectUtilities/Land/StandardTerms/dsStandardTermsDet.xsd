@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsStandardTermsDet" targetNamespace="http://tempuri.org/dsStandardTermsDet.xsd" xmlns:mstns="http://tempuri.org/dsStandardTermsDet.xsd" xmlns="http://tempuri.org/dsStandardTermsDet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsStandardTermsDet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsStandardTermsDet" msprop:Generator_DataSetName="dsStandardTermsDet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Load_StandardTerms_det" msprop:Generator_UserTableName="LD_Load_StandardTerms_det" msprop:Generator_RowDeletedName="LD_Load_StandardTerms_detRowDeleted" msprop:Generator_RowChangedName="LD_Load_StandardTerms_detRowChanged" msprop:Generator_RowClassName="LD_Load_StandardTerms_detRow" msprop:Generator_RowChangingName="LD_Load_StandardTerms_detRowChanging" msprop:Generator_RowEvArgName="LD_Load_StandardTerms_detRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Load_StandardTerms_detRowChangeEventHandler" msprop:Generator_TableClassName="LD_Load_StandardTerms_detDataTable" msprop:Generator_TableVarName="tableLD_Load_StandardTerms_det" msprop:Generator_RowDeletingName="LD_Load_StandardTerms_detRowDeleting" msprop:Generator_TablePropName="LD_Load_StandardTerms_det">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pri_id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="pri_id" msprop:Generator_ColumnPropNameInRow="pri_id" msprop:Generator_ColumnVarNameInTable="columnpri_id" msprop:Generator_ColumnPropNameInTable="pri_idColumn" type="xs:int" />
+              <xs:element name="LD_Purchaser_Type_ID" msprop:Generator_UserColumnName="LD_Purchaser_Type_ID" msprop:Generator_ColumnPropNameInRow="LD_Purchaser_Type_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Purchaser_Type_ID" msprop:Generator_ColumnPropNameInTable="LD_Purchaser_Type_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PurchaserType" msprop:Generator_UserColumnName="PurchaserType" msprop:Generator_ColumnPropNameInRow="PurchaserType" msprop:Generator_ColumnVarNameInTable="columnPurchaserType" msprop:Generator_ColumnPropNameInTable="PurchaserTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LD_Sales_Type_ID" msprop:Generator_UserColumnName="LD_Sales_Type_ID" msprop:Generator_ColumnPropNameInRow="LD_Sales_Type_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Sales_Type_ID" msprop:Generator_ColumnPropNameInTable="LD_Sales_Type_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SalesType" msprop:Generator_UserColumnName="SalesType" msprop:Generator_ColumnPropNameInRow="SalesType" msprop:Generator_ColumnVarNameInTable="columnSalesType" msprop:Generator_ColumnPropNameInTable="SalesTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="isSetup" msprop:Generator_UserColumnName="isSetup" msprop:Generator_ColumnPropNameInRow="isSetup" msprop:Generator_ColumnVarNameInTable="columnisSetup" msprop:Generator_ColumnPropNameInTable="isSetupColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="STANDARD_TERMS_DET_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="STANDARD_TERMS_DET_ID" msprop:Generator_ColumnPropNameInRow="STANDARD_TERMS_DET_ID" msprop:Generator_ColumnVarNameInTable="columnSTANDARD_TERMS_DET_ID" msprop:Generator_ColumnPropNameInTable="STANDARD_TERMS_DET_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DepositsRequired" msprop:Generator_UserColumnName="DepositsRequired" msprop:Generator_ColumnPropNameInRow="DepositsRequired" msprop:Generator_ColumnVarNameInTable="columnDepositsRequired" msprop:Generator_ColumnPropNameInTable="DepositsRequiredColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SalesDepositType" msprop:Generator_UserColumnName="SalesDepositType" msprop:Generator_ColumnPropNameInRow="SalesDepositType" msprop:Generator_ColumnVarNameInTable="columnSalesDepositType" msprop:Generator_ColumnPropNameInTable="SalesDepositTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SalesDepositAmount" msprop:Generator_UserColumnName="SalesDepositAmount" msprop:Generator_ColumnPropNameInRow="SalesDepositAmount" msprop:Generator_ColumnVarNameInTable="columnSalesDepositAmount" msprop:Generator_ColumnPropNameInTable="SalesDepositAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SalesDepositPercent" msprop:Generator_UserColumnName="SalesDepositPercent" msprop:Generator_ColumnPropNameInRow="SalesDepositPercent" msprop:Generator_ColumnVarNameInTable="columnSalesDepositPercent" msprop:Generator_ColumnPropNameInTable="SalesDepositPercentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DamageDepositType" msprop:Generator_UserColumnName="DamageDepositType" msprop:Generator_ColumnPropNameInRow="DamageDepositType" msprop:Generator_ColumnVarNameInTable="columnDamageDepositType" msprop:Generator_ColumnPropNameInTable="DamageDepositTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DamageDepositAmount" msprop:Generator_UserColumnName="DamageDepositAmount" msprop:Generator_ColumnPropNameInRow="DamageDepositAmount" msprop:Generator_ColumnVarNameInTable="columnDamageDepositAmount" msprop:Generator_ColumnPropNameInTable="DamageDepositAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DamageDepositPercent" msprop:Generator_UserColumnName="DamageDepositPercent" msprop:Generator_ColumnPropNameInRow="DamageDepositPercent" msprop:Generator_ColumnVarNameInTable="columnDamageDepositPercent" msprop:Generator_ColumnPropNameInTable="DamageDepositPercentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DownPaymentPercent" msprop:Generator_UserColumnName="DownPaymentPercent" msprop:Generator_ColumnPropNameInRow="DownPaymentPercent" msprop:Generator_ColumnVarNameInTable="columnDownPaymentPercent" msprop:Generator_ColumnPropNameInTable="DownPaymentPercentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRIMESOURCE_LD_LENDER_ID" msprop:Generator_UserColumnName="PRIMESOURCE_LD_LENDER_ID" msprop:Generator_ColumnPropNameInRow="PRIMESOURCE_LD_LENDER_ID" msprop:Generator_ColumnVarNameInTable="columnPRIMESOURCE_LD_LENDER_ID" msprop:Generator_ColumnPropNameInTable="PRIMESOURCE_LD_LENDER_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DiscountType" msprop:Generator_UserColumnName="DiscountType" msprop:Generator_ColumnPropNameInRow="DiscountType" msprop:Generator_ColumnVarNameInTable="columnDiscountType" msprop:Generator_ColumnPropNameInTable="DiscountTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DiscountAmount" msprop:Generator_UserColumnName="DiscountAmount" msprop:Generator_ColumnPropNameInRow="DiscountAmount" msprop:Generator_ColumnVarNameInTable="columnDiscountAmount" msprop:Generator_ColumnPropNameInTable="DiscountAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiscountPercent" msprop:Generator_UserColumnName="DiscountPercent" msprop:Generator_ColumnPropNameInRow="DiscountPercent" msprop:Generator_ColumnVarNameInTable="columnDiscountPercent" msprop:Generator_ColumnPropNameInTable="DiscountPercentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PenaltyType" msprop:Generator_UserColumnName="PenaltyType" msprop:Generator_ColumnPropNameInRow="PenaltyType" msprop:Generator_ColumnVarNameInTable="columnPenaltyType" msprop:Generator_ColumnPropNameInTable="PenaltyTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PenaltyAmount" msprop:Generator_UserColumnName="PenaltyAmount" msprop:Generator_ColumnPropNameInRow="PenaltyAmount" msprop:Generator_ColumnVarNameInTable="columnPenaltyAmount" msprop:Generator_ColumnPropNameInTable="PenaltyAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PenaltyPercent" msprop:Generator_UserColumnName="PenaltyPercent" msprop:Generator_ColumnPropNameInRow="PenaltyPercent" msprop:Generator_ColumnVarNameInTable="columnPenaltyPercent" msprop:Generator_ColumnPropNameInTable="PenaltyPercentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Reg_LD_RateType_ID" msprop:Generator_UserColumnName="Reg_LD_RateType_ID" msprop:Generator_ColumnPropNameInRow="Reg_LD_RateType_ID" msprop:Generator_ColumnVarNameInTable="columnReg_LD_RateType_ID" msprop:Generator_ColumnPropNameInTable="Reg_LD_RateType_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Reg_LD_Rate_Based_On_ID" msprop:Generator_UserColumnName="Reg_LD_Rate_Based_On_ID" msprop:Generator_ColumnPropNameInRow="Reg_LD_Rate_Based_On_ID" msprop:Generator_ColumnVarNameInTable="columnReg_LD_Rate_Based_On_ID" msprop:Generator_ColumnPropNameInTable="Reg_LD_Rate_Based_On_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Reg_LD_Frequency_ID" msprop:Generator_UserColumnName="Reg_LD_Frequency_ID" msprop:Generator_ColumnPropNameInRow="Reg_LD_Frequency_ID" msprop:Generator_ColumnVarNameInTable="columnReg_LD_Frequency_ID" msprop:Generator_ColumnPropNameInTable="Reg_LD_Frequency_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Reg_InterestMin" msprop:Generator_UserColumnName="Reg_InterestMin" msprop:Generator_ColumnPropNameInRow="Reg_InterestMin" msprop:Generator_ColumnVarNameInTable="columnReg_InterestMin" msprop:Generator_ColumnPropNameInTable="Reg_InterestMinColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Reg_InterestSpread" msprop:Generator_UserColumnName="Reg_InterestSpread" msprop:Generator_ColumnPropNameInRow="Reg_InterestSpread" msprop:Generator_ColumnVarNameInTable="columnReg_InterestSpread" msprop:Generator_ColumnPropNameInTable="Reg_InterestSpreadColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Reg_InterestMax" msprop:Generator_UserColumnName="Reg_InterestMax" msprop:Generator_ColumnPropNameInRow="Reg_InterestMax" msprop:Generator_ColumnVarNameInTable="columnReg_InterestMax" msprop:Generator_ColumnPropNameInTable="Reg_InterestMaxColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Arr_LD_RateType_ID" msprop:Generator_UserColumnName="Arr_LD_RateType_ID" msprop:Generator_ColumnPropNameInRow="Arr_LD_RateType_ID" msprop:Generator_ColumnVarNameInTable="columnArr_LD_RateType_ID" msprop:Generator_ColumnPropNameInTable="Arr_LD_RateType_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Arr_LD_Rate_Based_On_ID" msprop:Generator_UserColumnName="Arr_LD_Rate_Based_On_ID" msprop:Generator_ColumnPropNameInRow="Arr_LD_Rate_Based_On_ID" msprop:Generator_ColumnVarNameInTable="columnArr_LD_Rate_Based_On_ID" msprop:Generator_ColumnPropNameInTable="Arr_LD_Rate_Based_On_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Arr_LD_Frequency_ID" msprop:Generator_UserColumnName="Arr_LD_Frequency_ID" msprop:Generator_ColumnPropNameInRow="Arr_LD_Frequency_ID" msprop:Generator_ColumnVarNameInTable="columnArr_LD_Frequency_ID" msprop:Generator_ColumnPropNameInTable="Arr_LD_Frequency_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Arr_InterestMin" msprop:Generator_UserColumnName="Arr_InterestMin" msprop:Generator_ColumnPropNameInRow="Arr_InterestMin" msprop:Generator_ColumnVarNameInTable="columnArr_InterestMin" msprop:Generator_ColumnPropNameInTable="Arr_InterestMinColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Arr_InterestSpread" msprop:Generator_UserColumnName="Arr_InterestSpread" msprop:Generator_ColumnPropNameInRow="Arr_InterestSpread" msprop:Generator_ColumnVarNameInTable="columnArr_InterestSpread" msprop:Generator_ColumnPropNameInTable="Arr_InterestSpreadColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Arr_InterestMax" msprop:Generator_UserColumnName="Arr_InterestMax" msprop:Generator_ColumnPropNameInRow="Arr_InterestMax" msprop:Generator_ColumnVarNameInTable="columnArr_InterestMax" msprop:Generator_ColumnPropNameInTable="Arr_InterestMaxColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MonthOffsetInterst" msprop:Generator_UserColumnName="MonthOffsetInterst" msprop:Generator_ColumnPropNameInRow="MonthOffsetInterst" msprop:Generator_ColumnVarNameInTable="columnMonthOffsetInterst" msprop:Generator_ColumnPropNameInTable="MonthOffsetInterstColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MonthOffsetMaturity" msprop:Generator_UserColumnName="MonthOffsetMaturity" msprop:Generator_ColumnPropNameInRow="MonthOffsetMaturity" msprop:Generator_ColumnVarNameInTable="columnMonthOffsetMaturity" msprop:Generator_ColumnPropNameInTable="MonthOffsetMaturityColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CompoundUponArrears" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CompoundUponArrears" msprop:Generator_ColumnPropNameInRow="CompoundUponArrears" msprop:Generator_ColumnVarNameInTable="columnCompoundUponArrears" msprop:Generator_ColumnPropNameInTable="CompoundUponArrearsColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:LD_Load_StandardTerms_det" />
+      <xs:field xpath="mstns:pri_id" />
+      <xs:field xpath="mstns:LD_Purchaser_Type_ID" />
+      <xs:field xpath="mstns:LD_Sales_Type_ID" />
+      <xs:field xpath="mstns:STANDARD_TERMS_DET_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsShares" targetNamespace="http://tempuri.org/dsShares.xsd" xmlns:mstns="http://tempuri.org/dsShares.xsd" xmlns="http://tempuri.org/dsShares.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsShares" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsShares" msprop:Generator_DataSetName="dsShares">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Shares" msprop:Generator_UserTableName="LD_Shares" msprop:Generator_RowDeletedName="LD_SharesRowDeleted" msprop:Generator_RowChangedName="LD_SharesRowChanged" msprop:Generator_RowClassName="LD_SharesRow" msprop:Generator_RowChangingName="LD_SharesRowChanging" msprop:Generator_RowEvArgName="LD_SharesRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_SharesRowChangeEventHandler" msprop:Generator_TableClassName="LD_SharesDataTable" msprop:Generator_TableVarName="tableLD_Shares" msprop:Generator_RowDeletingName="LD_SharesRowDeleting" msprop:Generator_TablePropName="LD_Shares">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SHARES_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="SHARES_ID" msprop:Generator_ColumnVarNameInTable="columnSHARES_ID" msprop:Generator_ColumnPropNameInRow="SHARES_ID" msprop:Generator_ColumnPropNameInTable="SHARES_IDColumn" type="xs:int" />
+              <xs:element name="PRI_ID" msprop:Generator_UserColumnName="PRI_ID" msprop:Generator_ColumnVarNameInTable="columnPRI_ID" msprop:Generator_ColumnPropNameInRow="PRI_ID" msprop:Generator_ColumnPropNameInTable="PRI_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SHAREOWNERS_ID" msprop:Generator_UserColumnName="SHAREOWNERS_ID" msprop:Generator_ColumnVarNameInTable="columnSHAREOWNERS_ID" msprop:Generator_ColumnPropNameInRow="SHAREOWNERS_ID" msprop:Generator_ColumnPropNameInTable="SHAREOWNERS_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SHARE_PCT" msprop:Generator_UserColumnName="SHARE_PCT" msprop:Generator_ColumnVarNameInTable="columnSHARE_PCT" msprop:Generator_ColumnPropNameInRow="SHARE_PCT" msprop:Generator_ColumnPropNameInTable="SHARE_PCTColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Shares" />
+      <xs:field xpath="mstns:SHARES_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

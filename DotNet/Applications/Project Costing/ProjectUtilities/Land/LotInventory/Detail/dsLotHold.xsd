@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLotHold" targetNamespace="http://tempuri.org/dsLotHold.xsd" xmlns:mstns="http://tempuri.org/dsLotHold.xsd" xmlns="http://tempuri.org/dsLotHold.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLotHold" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLotHold" msprop:Generator_DataSetName="dsLotHold">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LOT_HOLD" msprop:Generator_UserTableName="PROJ_LOT_HOLD" msprop:Generator_RowDeletedName="PROJ_LOT_HOLDRowDeleted" msprop:Generator_RowChangedName="PROJ_LOT_HOLDRowChanged" msprop:Generator_RowClassName="PROJ_LOT_HOLDRow" msprop:Generator_RowChangingName="PROJ_LOT_HOLDRowChanging" msprop:Generator_RowEvArgName="PROJ_LOT_HOLDRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LOT_HOLDRowChangeEventHandler" msprop:Generator_TableClassName="PROJ_LOT_HOLDDataTable" msprop:Generator_TableVarName="tablePROJ_LOT_HOLD" msprop:Generator_RowDeletingName="PROJ_LOT_HOLDRowDeleting" msprop:Generator_TablePropName="PROJ_LOT_HOLD">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="proj_lot_id" msprop:Generator_UserColumnName="proj_lot_id" msprop:Generator_ColumnVarNameInTable="columnproj_lot_id" msprop:Generator_ColumnPropNameInRow="proj_lot_id" msprop:Generator_ColumnPropNameInTable="proj_lot_idColumn" type="xs:int" />
+              <xs:element name="pri_id" msprop:Generator_UserColumnName="pri_id" msprop:Generator_ColumnVarNameInTable="columnpri_id" msprop:Generator_ColumnPropNameInRow="pri_id" msprop:Generator_ColumnPropNameInTable="pri_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="priority" msprop:Generator_UserColumnName="priority" msprop:Generator_ColumnVarNameInTable="columnpriority" msprop:Generator_ColumnPropNameInRow="priority" msprop:Generator_ColumnPropNameInTable="priorityColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="start_date" msprop:Generator_UserColumnName="start_date" msprop:Generator_ColumnVarNameInTable="columnstart_date" msprop:Generator_ColumnPropNameInRow="start_date" msprop:Generator_ColumnPropNameInTable="start_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="end_date" msprop:Generator_UserColumnName="end_date" msprop:Generator_ColumnVarNameInTable="columnend_date" msprop:Generator_ColumnPropNameInRow="end_date" msprop:Generator_ColumnPropNameInTable="end_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="lot_status_id" msprop:Generator_UserColumnName="lot_status_id" msprop:Generator_ColumnVarNameInTable="columnlot_status_id" msprop:Generator_ColumnPropNameInRow="lot_status_id" msprop:Generator_ColumnPropNameInTable="lot_status_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="sub_status_id" msprop:Generator_UserColumnName="sub_status_id" msprop:Generator_ColumnVarNameInTable="columnsub_status_id" msprop:Generator_ColumnPropNameInRow="sub_status_id" msprop:Generator_ColumnPropNameInTable="sub_status_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="purchaser_type_id" msprop:Generator_UserColumnName="purchaser_type_id" msprop:Generator_ColumnVarNameInTable="columnpurchaser_type_id" msprop:Generator_ColumnPropNameInRow="purchaser_type_id" msprop:Generator_ColumnPropNameInTable="purchaser_type_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="purchaser_id" msprop:Generator_UserColumnName="purchaser_id" msprop:Generator_ColumnVarNameInTable="columnpurchaser_id" msprop:Generator_ColumnPropNameInRow="purchaser_id" msprop:Generator_ColumnPropNameInTable="purchaser_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="phone_num" msprop:Generator_UserColumnName="phone_num" msprop:Generator_ColumnVarNameInTable="columnphone_num" msprop:Generator_ColumnPropNameInRow="phone_num" msprop:Generator_ColumnPropNameInTable="phone_numColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="price_quoted" msprop:Generator_UserColumnName="price_quoted" msprop:Generator_ColumnVarNameInTable="columnprice_quoted" msprop:Generator_ColumnPropNameInRow="price_quoted" msprop:Generator_ColumnPropNameInTable="price_quotedColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="trans_date" msprop:Generator_UserColumnName="trans_date" msprop:Generator_ColumnVarNameInTable="columntrans_date" msprop:Generator_ColumnPropNameInRow="trans_date" msprop:Generator_ColumnPropNameInTable="trans_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="username" msprop:Generator_UserColumnName="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="comments" msprop:Generator_UserColumnName="comments" msprop:Generator_ColumnVarNameInTable="columncomments" msprop:Generator_ColumnPropNameInRow="comments" msprop:Generator_ColumnPropNameInTable="commentsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShowExpired" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ShowExpired" msprop:Generator_ColumnPropNameInRow="ShowExpired" msprop:Generator_ColumnVarNameInTable="columnShowExpired" msprop:Generator_ColumnPropNameInTable="ShowExpiredColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="hasComments" msprop:Generator_UserColumnName="hasComments" msprop:Generator_ColumnVarNameInTable="columnhasComments" msprop:Generator_ColumnPropNameInRow="hasComments" msprop:Generator_ColumnPropNameInTable="hasCommentsColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="hold_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="hold_id" msprop:Generator_ColumnPropNameInRow="hold_id" msprop:Generator_ColumnVarNameInTable="columnhold_id" msprop:Generator_ColumnPropNameInTable="hold_idColumn" type="xs:int" />
+              <xs:element name="Confirmed" msprop:Generator_UserColumnName="Confirmed" msprop:Generator_ColumnVarNameInTable="columnConfirmed" msprop:Generator_ColumnPropNameInRow="Confirmed" msprop:Generator_ColumnPropNameInTable="ConfirmedColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PROJ_LOT_HOLD" />
+      <xs:field xpath="mstns:hold_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsProv" targetNamespace="http://tempuri.org/dsProv.xsd" xmlns:mstns="http://tempuri.org/dsProv.xsd" xmlns="http://tempuri.org/dsProv.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsProv" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsProv" msprop:Generator_DataSetName="dsProv">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="state_prov" msprop:Generator_UserTableName="state_prov" msprop:Generator_RowDeletedName="state_provRowDeleted" msprop:Generator_TableClassName="state_provDataTable" msprop:Generator_RowChangedName="state_provRowChanged" msprop:Generator_RowClassName="state_provRow" msprop:Generator_RowChangingName="state_provRowChanging" msprop:Generator_RowEvArgName="state_provRowChangeEvent" msprop:Generator_RowEvHandlerName="state_provRowChangeEventHandler" msprop:Generator_TablePropName="state_prov" msprop:Generator_TableVarName="tablestate_prov" msprop:Generator_RowDeletingName="state_provRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="stp_id" msprop:Generator_UserColumnName="stp_id" msprop:Generator_ColumnPropNameInRow="stp_id" msprop:Generator_ColumnVarNameInTable="columnstp_id" msprop:Generator_ColumnPropNameInTable="stp_idColumn" type="xs:int" />
+              <xs:element name="stp_code" msprop:Generator_UserColumnName="stp_code" msprop:Generator_ColumnPropNameInRow="stp_code" msprop:Generator_ColumnVarNameInTable="columnstp_code" msprop:Generator_ColumnPropNameInTable="stp_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="stp_desc" msprop:Generator_UserColumnName="stp_desc" msprop:Generator_ColumnPropNameInRow="stp_desc" msprop:Generator_ColumnVarNameInTable="columnstp_desc" msprop:Generator_ColumnPropNameInTable="stp_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:state_prov" />
+      <xs:field xpath="mstns:stp_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

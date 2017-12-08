@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BAB7E1BF-ACCB-4081-B24B-AC6243806162}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LD_RawLandControls</RootNamespace>
+    <AssemblyName>LD_RawLandControls</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\DotNetCompileDirectory%28no running%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Pdf.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="GridG, Version=1.0.6031.27479, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\GridG.dll</HintPath>
+    </Reference>
+    <Reference Include="HMConnection, Version=1.0.6038.16389, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\HMConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="LD_RawLandCostUpdate, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="ReflexEditors, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\ReflexEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="ReflexImgSrc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\ReflexImgSrc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TUC_HMDevXManager, Version=1.0.5917.27590, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\TUC_HMDevXManager.dll</HintPath>
+    </Reference>
+    <Reference Include="WS_Popups, Version=1.0.6008.20844, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\WS_Popups.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsAdditionalUseAreas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAdditionalUseAreas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMarketValue.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMarketValue.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjAdditionalUseArea.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjAdditionalUseArea.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjectAllocated.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjectAllocated.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRawLandHolding.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRawLandHolding.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRawLandProject.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRawLandProject.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsStages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStages.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_PreviousLandUse.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_PreviousLandUse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucAdditionalUseAreas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucAdditionalUseAreas.Designer.cs">
+      <DependentUpon>ucAdditionalUseAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucMarketValue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMarketValue.Designer.cs">
+      <DependentUpon>ucMarketValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucPreviousLandUse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPreviousLandUse.Designer.cs">
+      <DependentUpon>ucPreviousLandUse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucProjectAllocated.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucProjectAllocated.Designer.cs">
+      <DependentUpon>ucProjectAllocated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRawLandHolding.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRawLandHolding.Designer.cs">
+      <DependentUpon>ucRawLandHolding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucStages.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucStages.Designer.cs">
+      <DependentUpon>ucStages.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="ucAdditionalUseAreas.resx">
+      <DependentUpon>ucAdditionalUseAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMarketValue.resx">
+      <DependentUpon>ucMarketValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPreviousLandUse.resx">
+      <DependentUpon>ucPreviousLandUse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucProjectAllocated.resx">
+      <DependentUpon>ucProjectAllocated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRawLandHolding.resx">
+      <DependentUpon>ucRawLandHolding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucStages.resx">
+      <DependentUpon>ucStages.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsAdditionalUseAreas.xsc">
+      <DependentUpon>dsAdditionalUseAreas.xsd</DependentUpon>
+    </None>
+    <None Include="dsAdditionalUseAreas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAdditionalUseAreas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAdditionalUseAreas.xss">
+      <DependentUpon>dsAdditionalUseAreas.xsd</DependentUpon>
+    </None>
+    <None Include="dsMarketValue.xsc">
+      <DependentUpon>dsMarketValue.xsd</DependentUpon>
+    </None>
+    <None Include="dsMarketValue.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMarketValue.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsMarketValue.xss">
+      <DependentUpon>dsMarketValue.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjAdditionalUseArea.xsc">
+      <DependentUpon>dsProjAdditionalUseArea.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjAdditionalUseArea.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjAdditionalUseArea.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProjAdditionalUseArea.xss">
+      <DependentUpon>dsProjAdditionalUseArea.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjectAllocated.xsc">
+      <DependentUpon>dsProjectAllocated.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjectAllocated.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjectAllocated.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProjectAllocated.xss">
+      <DependentUpon>dsProjectAllocated.xsd</DependentUpon>
+    </None>
+    <None Include="dsRawLandHolding.xsc">
+      <DependentUpon>dsRawLandHolding.xsd</DependentUpon>
+    </None>
+    <None Include="dsRawLandHolding.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRawLandHolding.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsRawLandHolding.xss">
+      <DependentUpon>dsRawLandHolding.xsd</DependentUpon>
+    </None>
+    <None Include="dsRawLandProject.xsc">
+      <DependentUpon>dsRawLandProject.xsd</DependentUpon>
+    </None>
+    <None Include="dsRawLandProject.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRawLandProject.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsRawLandProject.xss">
+      <DependentUpon>dsRawLandProject.xsd</DependentUpon>
+    </None>
+    <None Include="dsStages.xsc">
+      <DependentUpon>dsStages.xsd</DependentUpon>
+    </None>
+    <None Include="dsStages.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsStages.xss">
+      <DependentUpon>dsStages.xsd</DependentUpon>
+    </None>
+    <None Include="ds_PreviousLandUse.xsc">
+      <DependentUpon>ds_PreviousLandUse.xsd</DependentUpon>
+    </None>
+    <None Include="ds_PreviousLandUse.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_PreviousLandUse.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_PreviousLandUse.xss">
+      <DependentUpon>ds_PreviousLandUse.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsModel" targetNamespace="http://tempuri.org/dsModel.xsd" xmlns:mstns="http://tempuri.org/dsModel.xsd" xmlns="http://tempuri.org/dsModel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsModel" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsModel" msprop:Generator_DataSetName="dsModel">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Builder_Models" msprop:Generator_UserTableName="LD_Builder_Models" msprop:Generator_RowDeletedName="LD_Builder_ModelsRowDeleted" msprop:Generator_TableClassName="LD_Builder_ModelsDataTable" msprop:Generator_RowChangedName="LD_Builder_ModelsRowChanged" msprop:Generator_RowClassName="LD_Builder_ModelsRow" msprop:Generator_RowChangingName="LD_Builder_ModelsRowChanging" msprop:Generator_RowEvArgName="LD_Builder_ModelsRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Builder_ModelsRowChangeEventHandler" msprop:Generator_TablePropName="LD_Builder_Models" msprop:Generator_TableVarName="tableLD_Builder_Models" msprop:Generator_RowDeletingName="LD_Builder_ModelsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="builder_models_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="builder_models_id" msprop:Generator_ColumnPropNameInRow="builder_models_id" msprop:Generator_ColumnVarNameInTable="columnbuilder_models_id" msprop:Generator_ColumnPropNameInTable="builder_models_idColumn" type="xs:int" />
+              <xs:element name="code" msprop:Generator_UserColumnName="code" msprop:Generator_ColumnPropNameInRow="code" msprop:Generator_ColumnVarNameInTable="columncode" msprop:Generator_ColumnPropNameInTable="codeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="description" msprop:Generator_UserColumnName="description" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInTable="descriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Builder_Models" />
+      <xs:field xpath="mstns:builder_models_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

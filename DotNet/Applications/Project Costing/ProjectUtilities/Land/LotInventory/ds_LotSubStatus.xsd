@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_LotSubStatus" targetNamespace="http://tempuri.org/ds_LotSubStatus.xsd" xmlns:mstns="http://tempuri.org/ds_LotSubStatus.xsd" xmlns="http://tempuri.org/ds_LotSubStatus.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_LotSubStatus" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_LotSubStatus" msprop:Generator_DataSetName="ds_LotSubStatus">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Sub_Lot_Status" msprop:Generator_UserTableName="LD_Sub_Lot_Status" msprop:Generator_RowDeletedName="LD_Sub_Lot_StatusRowDeleted" msprop:Generator_TableClassName="LD_Sub_Lot_StatusDataTable" msprop:Generator_RowChangedName="LD_Sub_Lot_StatusRowChanged" msprop:Generator_RowClassName="LD_Sub_Lot_StatusRow" msprop:Generator_RowChangingName="LD_Sub_Lot_StatusRowChanging" msprop:Generator_RowEvArgName="LD_Sub_Lot_StatusRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Sub_Lot_StatusRowChangeEventHandler" msprop:Generator_TablePropName="LD_Sub_Lot_Status" msprop:Generator_TableVarName="tableLD_Sub_Lot_Status" msprop:Generator_RowDeletingName="LD_Sub_Lot_StatusRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sub_Status_ID" msprop:Generator_UserColumnName="Sub_Status_ID" msprop:Generator_ColumnPropNameInRow="Sub_Status_ID" msprop:Generator_ColumnVarNameInTable="columnSub_Status_ID" msprop:Generator_ColumnPropNameInTable="Sub_Status_IDColumn" type="xs:int" />
+              <xs:element name="Sub_Status" msprop:Generator_UserColumnName="Sub_Status" msprop:Generator_ColumnPropNameInRow="Sub_Status" msprop:Generator_ColumnVarNameInTable="columnSub_Status" msprop:Generator_ColumnPropNameInTable="Sub_StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LD_Lot_Status_ID" msprop:Generator_UserColumnName="LD_Lot_Status_ID" msprop:Generator_ColumnPropNameInRow="LD_Lot_Status_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Lot_Status_ID" msprop:Generator_ColumnPropNameInTable="LD_Lot_Status_IDColumn" type="xs:int" />
+              <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Sub_Lot_Status" />
+      <xs:field xpath="mstns:Sub_Status_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

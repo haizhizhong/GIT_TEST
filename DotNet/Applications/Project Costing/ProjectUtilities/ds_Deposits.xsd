@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_Deposits" targetNamespace="http://tempuri.org/ds_Deposits.xsd" xmlns:mstns="http://tempuri.org/ds_Deposits.xsd" xmlns="http://tempuri.org/ds_Deposits.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_Deposits" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_Deposits" msprop:Generator_DataSetName="ds_Deposits">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Standard_Terms_Deposits_Det" msprop:Generator_UserTableName="LD_Standard_Terms_Deposits_Det" msprop:Generator_RowDeletedName="LD_Standard_Terms_Deposits_DetRowDeleted" msprop:Generator_RowChangedName="LD_Standard_Terms_Deposits_DetRowChanged" msprop:Generator_RowClassName="LD_Standard_Terms_Deposits_DetRow" msprop:Generator_RowChangingName="LD_Standard_Terms_Deposits_DetRowChanging" msprop:Generator_RowEvArgName="LD_Standard_Terms_Deposits_DetRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Standard_Terms_Deposits_DetRowChangeEventHandler" msprop:Generator_TableClassName="LD_Standard_Terms_Deposits_DetDataTable" msprop:Generator_TableVarName="tableLD_Standard_Terms_Deposits_Det" msprop:Generator_RowDeletingName="LD_Standard_Terms_Deposits_DetRowDeleting" msprop:Generator_TablePropName="LD_Standard_Terms_Deposits_Det">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="LD_StandardTerms_Det_ID" msprop:Generator_UserColumnName="LD_StandardTerms_Det_ID" msprop:Generator_ColumnVarNameInTable="columnLD_StandardTerms_Det_ID" msprop:Generator_ColumnPropNameInRow="LD_StandardTerms_Det_ID" msprop:Generator_ColumnPropNameInTable="LD_StandardTerms_Det_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LD_Deposits_ID" msprop:Generator_UserColumnName="LD_Deposits_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Deposits_ID" msprop:Generator_ColumnPropNameInRow="LD_Deposits_ID" msprop:Generator_ColumnPropNameInTable="LD_Deposits_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DepositType" msprop:Generator_UserColumnName="DepositType" msprop:Generator_ColumnVarNameInTable="columnDepositType" msprop:Generator_ColumnPropNameInRow="DepositType" msprop:Generator_ColumnPropNameInTable="DepositTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AmountPercent" msprop:Generator_UserColumnName="AmountPercent" msprop:Generator_ColumnVarNameInTable="columnAmountPercent" msprop:Generator_ColumnPropNameInRow="AmountPercent" msprop:Generator_ColumnPropNameInTable="AmountPercentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="off_set_days" msprop:Generator_UserColumnName="off_set_days" msprop:Generator_ColumnVarNameInTable="columnoff_set_days" msprop:Generator_ColumnPropNameInRow="off_set_days" msprop:Generator_ColumnPropNameInTable="off_set_daysColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PresaleSeq" msprop:Generator_UserColumnName="PresaleSeq" msprop:Generator_ColumnPropNameInRow="PresaleSeq" msprop:Generator_ColumnVarNameInTable="columnPresaleSeq" msprop:Generator_ColumnPropNameInTable="PresaleSeqColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Standard_Terms_Deposits_Det" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

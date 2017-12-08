@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bsTaxRolls.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>395, 17</value>
+  </metadata>
+  <metadata name="dsTaxRolls1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>285, 17</value>
+  </metadata>
+  <metadata name="dsHist.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>589, 17</value>
+  </metadata>
+  <metadata name="dsTaxDet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>910, 17</value>
+  </metadata>
+  <metadata name="lDAssesmentBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="dsAssessment.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1141, 17</value>
+  </metadata>
+  <metadata name="aRPERIODSBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>425, 56</value>
+  </metadata>
+  <metadata name="dsARYear.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>322, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT     id, proj_lot_id, pri_id, tax_roll_num, certificate_num, address, assessment, taxes, tax_adj_date, Range, Township, Meridian, Section, Installment1, Installment2, 
+                      Installment3, Acres
+FROM         PROJ_LOT_TAX_ROLL AS r
+WHERE     (proj_lot_id = @PROJ_LOT_ID)
+ORDER BY tax_roll_num</value>
+  </data>
+  <metadata name="sqlTRConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>151, 17</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [PROJ_LOT_TAX_ROLL] ([proj_lot_id], [pri_id], [tax_roll_num], [certificate_num], [address], [assessment], [taxes], [tax_adj_date], [Range], [Township], [Meridian], [Section], [Installment1], [Installment2], [Installment3], [Acres]) VALUES (@proj_lot_id, @pri_id, @tax_roll_num, @certificate_num, @address, @assessment, @taxes, @tax_adj_date, @Range, @Township, @Meridian, @Section, @Installment1, @Installment2, @Installment3, @Acres);
+SELECT id, proj_lot_id, pri_id, tax_roll_num, certificate_num, address, assessment, taxes, tax_adj_date, Range, Township, Meridian, Section, Installment1, Installment2, Installment3, Acres FROM PROJ_LOT_TAX_ROLL AS r WHERE (id = SCOPE_IDENTITY()) ORDER BY tax_roll_num</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [PROJ_LOT_TAX_ROLL] SET [proj_lot_id] = @proj_lot_id, [pri_id] = @pri_id, [tax_roll_num] = @tax_roll_num, [certificate_num] = @certificate_num, [address] = @address, [assessment] = @assessment, [taxes] = @taxes, [tax_adj_date] = @tax_adj_date, [Range] = @Range, [Township] = @Township, [Meridian] = @Meridian, [Section] = @Section, [Installment1] = @Installment1, [Installment2] = @Installment2, [Installment3] = @Installment3, [Acres] = @Acres WHERE (([id] = @Original_id) AND ([proj_lot_id] = @Original_proj_lot_id) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_tax_roll_num = 1 AND [tax_roll_num] IS NULL) OR ([tax_roll_num] = @Original_tax_roll_num)) AND ((@IsNull_certificate_num = 1 AND [certificate_num] IS NULL) OR ([certificate_num] = @Original_certificate_num)) AND ((@IsNull_address = 1 AND [address] IS NULL) OR ([address] = @Original_address)) AND ((@IsNull_assessment = 1 AND [assessment] IS NULL) OR ([assessment] = @Original_assessment)) AND ((@IsNull_taxes = 1 AND [taxes] IS NULL) OR ([taxes] = @Original_taxes)) AND ((@IsNull_tax_adj_date = 1 AND [tax_adj_date] IS NULL) OR ([tax_adj_date] = @Original_tax_adj_date)) AND ((@IsNull_Range = 1 AND [Range] IS NULL) OR ([Range] = @Original_Range)) AND ((@IsNull_Township = 1 AND [Township] IS NULL) OR ([Township] = @Original_Township)) AND ((@IsNull_Meridian = 1 AND [Meridian] IS NULL) OR ([Meridian] = @Original_Meridian)) AND ((@IsNull_Section = 1 AND [Section] IS NULL) OR ([Section] = @Original_Section)) AND ((@IsNull_Installment1 = 1 AND [Installment1] IS NULL) OR ([Installment1] = @Original_Installment1)) AND ((@IsNull_Installment2 = 1 AND [Installment2] IS NULL) OR ([Installment2] = @Original_Installment2)) AND ((@IsNull_Installment3 = 1 AND [Installment3] IS NULL) OR ([Installment3] = @Original_Installment3)) AND ((@IsNull_Acres = 1 AND [Acres] IS NULL) OR ([Acres] = @Original_Acres)));
+SELECT id, proj_lot_id, pri_id, tax_roll_num, certificate_num, address, assessment, taxes, tax_adj_date, Range, Township, Meridian, Section, Installment1, Installment2, Installment3, Acres FROM PROJ_LOT_TAX_ROLL AS r WHERE (id = @id) ORDER BY tax_roll_num</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [PROJ_LOT_TAX_ROLL] WHERE (([id] = @Original_id) AND ([proj_lot_id] = @Original_proj_lot_id) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_tax_roll_num = 1 AND [tax_roll_num] IS NULL) OR ([tax_roll_num] = @Original_tax_roll_num)) AND ((@IsNull_certificate_num = 1 AND [certificate_num] IS NULL) OR ([certificate_num] = @Original_certificate_num)) AND ((@IsNull_address = 1 AND [address] IS NULL) OR ([address] = @Original_address)) AND ((@IsNull_assessment = 1 AND [assessment] IS NULL) OR ([assessment] = @Original_assessment)) AND ((@IsNull_taxes = 1 AND [taxes] IS NULL) OR ([taxes] = @Original_taxes)) AND ((@IsNull_tax_adj_date = 1 AND [tax_adj_date] IS NULL) OR ([tax_adj_date] = @Original_tax_adj_date)) AND ((@IsNull_Range = 1 AND [Range] IS NULL) OR ([Range] = @Original_Range)) AND ((@IsNull_Township = 1 AND [Township] IS NULL) OR ([Township] = @Original_Township)) AND ((@IsNull_Meridian = 1 AND [Meridian] IS NULL) OR ([Meridian] = @Original_Meridian)) AND ((@IsNull_Section = 1 AND [Section] IS NULL) OR ([Section] = @Original_Section)) AND ((@IsNull_Installment1 = 1 AND [Installment1] IS NULL) OR ([Installment1] = @Original_Installment1)) AND ((@IsNull_Installment2 = 1 AND [Installment2] IS NULL) OR ([Installment2] = @Original_Installment2)) AND ((@IsNull_Installment3 = 1 AND [Installment3] IS NULL) OR ([Installment3] = @Original_Installment3)) AND ((@IsNull_Acres = 1 AND [Acres] IS NULL) OR ([Acres] = @Original_Acres)))</value>
+  </data>
+  <metadata name="daTaxRolls.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand2.CommandText" xml:space="preserve">
+    <value>SELECT     p.proj_lot_id, p.pri_id, p.year, p.assessment, p.taxes, p.tax_adj_date, p.assessment_id, p.assessment_desc, p.comment, p.id, p.tax_roll_num, p.tax_roll_id, 
+                      a.Code AS assessment_code, p.Paid
+FROM         PROJ_LOT_TAX_HISTORY AS p LEFT OUTER JOIN
+                      LD_Assesment AS a ON a.Assesment_ID = p.assessment_id
+WHERE     (p.tax_roll_det_id = @id)
+ORDER BY p.tax_adj_date DESC, p.id DESC</value>
+  </data>
+  <metadata name="daHist.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>503, 17</value>
+  </metadata>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>674, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>123</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [PROJ_LOT_TAX_DET] ([tax_roll_id], [year], [assessment], [taxes], [tax_adj_date], [assessment_id], [assessment_desc], [comment], [Paid]) VALUES (@tax_roll_id, @year, @assessment, @taxes, @tax_adj_date, @assessment_id, @assessment_desc, @comment, @Paid);
+SELECT id, tax_roll_id, year, assessment, taxes, tax_adj_date, assessment_id, assessment_desc, comment, Paid FROM PROJ_LOT_TAX_DET WHERE (id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [PROJ_LOT_TAX_DET] SET [tax_roll_id] = @tax_roll_id, [year] = @year, [assessment] = @assessment, [taxes] = @taxes, [tax_adj_date] = @tax_adj_date, [assessment_id] = @assessment_id, [assessment_desc] = @assessment_desc, [comment] = @comment, [Paid] = @Paid WHERE (([id] = @Original_id) AND ((@IsNull_tax_roll_id = 1 AND [tax_roll_id] IS NULL) OR ([tax_roll_id] = @Original_tax_roll_id)) AND ((@IsNull_year = 1 AND [year] IS NULL) OR ([year] = @Original_year)) AND ((@IsNull_assessment = 1 AND [assessment] IS NULL) OR ([assessment] = @Original_assessment)) AND ((@IsNull_taxes = 1 AND [taxes] IS NULL) OR ([taxes] = @Original_taxes)) AND ((@IsNull_tax_adj_date = 1 AND [tax_adj_date] IS NULL) OR ([tax_adj_date] = @Original_tax_adj_date)) AND ((@IsNull_assessment_id = 1 AND [assessment_id] IS NULL) OR ([assessment_id] = @Original_assessment_id)) AND ((@IsNull_assessment_desc = 1 AND [assessment_desc] IS NULL) OR ([assessment_desc] = @Original_assessment_desc)) AND ((@IsNull_comment = 1 AND [comment] IS NULL) OR ([comment] = @Original_comment)) AND ((@IsNull_Paid = 1 AND [Paid] IS NULL) OR ([Paid] = @Original_Paid)));
+SELECT id, tax_roll_id, year, assessment, taxes, tax_adj_date, assessment_id, assessment_desc, comment, Paid FROM PROJ_LOT_TAX_DET WHERE (id = @id)</value>
+  </data>
+  <metadata name="sqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM [PROJ_LOT_TAX_DET] WHERE (([id] = @Original_id) AND ((@IsNull_tax_roll_id = 1 AND [tax_roll_id] IS NULL) OR ([tax_roll_id] = @Original_tax_roll_id)) AND ((@IsNull_year = 1 AND [year] IS NULL) OR ([year] = @Original_year)) AND ((@IsNull_assessment = 1 AND [assessment] IS NULL) OR ([assessment] = @Original_assessment)) AND ((@IsNull_taxes = 1 AND [taxes] IS NULL) OR ([taxes] = @Original_taxes)) AND ((@IsNull_tax_adj_date = 1 AND [tax_adj_date] IS NULL) OR ([tax_adj_date] = @Original_tax_adj_date)) AND ((@IsNull_assessment_id = 1 AND [assessment_id] IS NULL) OR ([assessment_id] = @Original_assessment_id)) AND ((@IsNull_assessment_desc = 1 AND [assessment_desc] IS NULL) OR ([assessment_desc] = @Original_assessment_desc)) AND ((@IsNull_comment = 1 AND [comment] IS NULL) OR ([comment] = @Original_comment)) AND ((@IsNull_Paid = 1 AND [Paid] IS NULL) OR ([Paid] = @Original_Paid)))</value>
+  </data>
+  <metadata name="daTaxDet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>807, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_Assesment] SET [Code] = @Code, [Description] = @Description WHERE (([Assesment_ID] = @Original_Assesment_ID) AND ([Code] = @Original_Code) AND ([Description] = @Original_Description));
+SELECT Assesment_ID, Code, Description FROM LD_Assesment WHERE (Assesment_ID = @Assesment_ID) ORDER BY Code</value>
+  </data>
+  <metadata name="sqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="daAssessment.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1012, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="daARYear.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>218, 56</value>
+  </metadata>
+</root>

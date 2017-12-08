@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCategory1" targetNamespace="http://tempuri.org/dsCategory1.xsd" xmlns:mstns="http://tempuri.org/dsCategory1.xsd" xmlns="http://tempuri.org/dsCategory1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCategory1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCategory1" msprop:Generator_DataSetName="dsCategory1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="proj_cat" msprop:Generator_UserTableName="proj_cat" msprop:Generator_RowDeletedName="proj_catRowDeleted" msprop:Generator_TableClassName="proj_catDataTable" msprop:Generator_RowChangedName="proj_catRowChanged" msprop:Generator_RowClassName="proj_catRow" msprop:Generator_RowChangingName="proj_catRowChanging" msprop:Generator_RowEvArgName="proj_catRowChangeEvent" msprop:Generator_RowEvHandlerName="proj_catRowChangeEventHandler" msprop:Generator_TablePropName="proj_cat" msprop:Generator_TableVarName="tableproj_cat" msprop:Generator_RowDeletingName="proj_catRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prc_code" msdata:ReadOnly="true" msprop:Generator_UserColumnName="prc_code" msprop:Generator_ColumnPropNameInRow="prc_code" msprop:Generator_ColumnVarNameInTable="columnprc_code" msprop:Generator_ColumnPropNameInTable="prc_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="prc_desc" msprop:Generator_UserColumnName="prc_desc" msprop:Generator_ColumnPropNameInRow="prc_desc" msprop:Generator_ColumnVarNameInTable="columnprc_desc" msprop:Generator_ColumnPropNameInTable="prc_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

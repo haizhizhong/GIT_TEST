@@ -1,0 +1,3092 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{247D46F0-26C3-44F1-A829-42E397FE7132}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectUtilities</RootNamespace>
+    <AssemblyName>ProjectUtilities</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\DotNetCompileDirectory%28no running%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ApprovalRequestHistoryViewer, Version=1.0.4253.15732, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\ApprovalRequestHistoryViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="CL_Dialog, Version=1.0.3589.26130, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ComboSearch, Version=1.0.4077.26238, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CommonUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="ContactMiniMgmt, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="CostCodeLookUp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CostCodeLookUp\CostCodeLookUp\bin\Debug\CostCodeLookUp.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DocumentLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GL_Account_Lookup_Rep, Version=1.0.4192.26457, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GridG, Version=1.0.3632.16687, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMConnection, Version=1.0.3588.38013, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="KeyControlAccess, Version=1.0.3589.35544, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\KeyControlAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="LandCC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LD_Agree_WordMerge, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LD_LotPreSale, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LD_ModelRepRules, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LD_Multi_Lot_Entry, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LD_ProjMilestone, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LD_PurchaserMaster, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LD_RawLandControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="PC_RevenueDistribution, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\PC_RevenueDistribution.dll</HintPath>
+    </Reference>
+    <Reference Include="PC_Services, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="PC_StakeholderPicker, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="PPM_GapCtrl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\PPM_GapCtrl.dll</HintPath>
+    </Reference>
+    <Reference Include="PPM_SOW, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ProjectTypes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="SharePointMgr, Version=1.0.3727.14325, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\SharePointMgr.dll</HintPath>
+    </Reference>
+    <Reference Include="Supplier_Lookup_Rep, Version=1.0.5931.27545, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TUC_HMDevXManager, Version=1.0.3589.15831, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="UDF_Conditioner, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="UDF_Manager, Version=1.0.4232.17041, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WordMerge2003, Version=1.0.5122.31247, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WO_CentralizedFSManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DotNetCompileDirectory(no running)\WO_CentralizedFSManager.dll</HintPath>
+    </Reference>
+    <Reference Include="WS_Popups, Version=1.0.3589.16129, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsAdminProjects.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAdminProjects.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAgreeDiscounts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgreeDiscounts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsBeneficiary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBeneficiary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDiscounts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDiscounts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDiscountType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDiscountType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLogging.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLogging.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProfitSeg.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProfitSeg.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSupplier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_Discounts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Discounts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_lueDiscounts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_lueDiscounts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_lueValueType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_lueValueType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Letter Of Credit\frmNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Land\Letter Of Credit\frmNotes.Designer.cs">
+      <DependentUpon>frmNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Letter Of Credit\ucLogging.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\Letter Of Credit\ucLogging.Designer.cs">
+      <DependentUpon>ucLogging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLv1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLv1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLv2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLv2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLv3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLv3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLv4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLv4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLevyType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevyType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsAgreeLevy.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgreeLevy.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCOSummary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCOSummary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCustomerType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCustomerType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCustType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCustType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFieldManager.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFieldManager.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsInternalType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsInternalType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLandSubType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLandSubType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLevy.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevy.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\frmCOSTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\frmCOSTest.Designer.cs">
+      <DependentUpon>frmCOSTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\dsLevyType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevyType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\dsLotClass.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLotClass.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\dsLv2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLv2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\dsLv3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLv3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\dsLv4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLv4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\dsLv1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLv1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjCoordinator.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjCoordinator.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPurReq.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPurReq.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRawLandProj.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRawLandProj.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSuperProject.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSuperProject.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTaxProvince.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTaxProvince.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_AgreementExtension.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_AgreementExtension.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_LD_County.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_LD_County.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_LD_WarrantyType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_LD_WarrantyType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_LotComments.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_LotComments.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgreementExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgreementExt.Designer.cs">
+      <DependentUpon>frmAgreementExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsHoldPurch.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHoldPurch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsHoldHist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHoldHist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsAttach.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAttach.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCompanies.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCompanies.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsHist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSelectedProject.cs">
+      <DependentUpon>dsSelectedProject.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLevel4Codes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevel4Codes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLevel3Codes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevel3Codes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLevel2Codes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevel2Codes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLevel1Codes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevel1Codes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsThirdPartyPurchaserHist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsThirdPartyPurchaserHist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_lue_ShareOwners.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_lue_ShareOwners.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucHoldAttachments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucHoldAttachments.Designer.cs">
+      <DependentUpon>ucHoldAttachments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucHoldHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucHoldHistory.Designer.cs">
+      <DependentUpon>ucHoldHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucHoldPurchasers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucHoldPurchasers.Designer.cs">
+      <DependentUpon>ucHoldPurchasers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucThirdPartyPurchaserHist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucThirdPartyPurchaserHist.Designer.cs">
+      <DependentUpon>ucThirdPartyPurchaserHist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsSearch.cs">
+      <DependentUpon>dsSearch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\ds_LotSubStatus.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_LotSubStatus.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLotHold.cs">
+      <DependentUpon>dsLotHold.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\ds_LotStatus.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_LotStatus.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsAgreeProgramFees.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgreeProgramFees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsAgreeAdditionalFees.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgreeAdditionalFees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAgreeManagementFees.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgreeManagementFees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGeographicArea.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGeographicArea.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsAssumedPurchaser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAssumedPurchaser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSelection.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSelection.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddtionalDatesSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddtionalDatesSelection.Designer.cs">
+      <DependentUpon>frmAddtionalDatesSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ds_AgreeAdditionalDates.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_AgreeAdditionalDates.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\frmAgreementDateSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\frmAgreementDateSelection.Designer.cs">
+      <DependentUpon>frmAgreementDateSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\frmGradeSlip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\frmGradeSlip.Designer.cs">
+      <DependentUpon>frmGradeSlip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsLOCSearch.cs">
+      <DependentUpon>dsLOCSearch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsLotSubClass.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLotSubClass.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsSClassSelect.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSClassSelect.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_AdditionalDates.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_AdditionalDates.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_lueAdditionalDates.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_lueAdditionalDates.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Financing\ds_Financing.cs">
+      <DependentUpon>ds_Financing.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Letter Of Credit\dsLender.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLender.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Letter Of Credit\dsLetterOfCredit.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLetterOfCredit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Letter Of Credit\ucLetterOfCredit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\Letter Of Credit\ucLetterOfCredit.Designer.cs">
+      <DependentUpon>ucLetterOfCredit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsARYear.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsARYear.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsAssessment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAssessment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsTaxDet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTaxDet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_stateProv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_stateProv.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ds_proj_lot_agreement.cs">
+      <DependentUpon>ds_proj_lot_agreement.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsPurchaser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPurchaser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ds3Purchaser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds3Purchaser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ds3Builder.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds3Builder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ds3Elevation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds3Elevation.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ds3Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds3Model.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAccountant.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAccountant.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsFinDeposits.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFinDeposits.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Header\dsLotSummary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLotSummary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_Deposits.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Deposits.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_deposits1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_deposits1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_lueDepositTyeps.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_lueDepositTyeps.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsHist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsStatusHist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStatusHist.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsAllRestrictions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAllRestrictions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsRestrictions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRestrictions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsRestrictionType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRestrictionType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsAckResEas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAckResEas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCOReason.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCOReason.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCOType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCOType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLandUse.cs">
+      <DependentUpon>dsLandUse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProv.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSeg3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSeg3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ds_lueAgreement_SP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_lueAgreement_SP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsAgreementLookups.cs">
+      <DependentUpon>dsAgreementLookups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsPurchaser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPurchaser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsLotSubDet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLotSubDet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsProjComm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjComm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsLotSelect.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLotSelect.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsLOCDet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLOCDet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsLOCSearch.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLOCSearch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsLOCLookups.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLOCLookups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsPairingLots.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPairingLots.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsPairingDet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPairingDet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsProjectLU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjectLU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\dsPairingSearch.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPairingSearch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLookups_Hold.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLookups_Hold.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsLotHold.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLotHold.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsTaxRolls.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTaxRolls.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_LandDevelopmentLookups.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_LandDevelopmentLookups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\dsAgreementLookups.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgreementLookups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsAttributes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAttributes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsArchitect.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsArchitect.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsBidType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBidType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCashFlow.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCashFlow.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCategory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCategory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCategory1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCategory1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsClass.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsClass.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsClass1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsClass1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCommunity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCommunity.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsContractor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsContractor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsContractType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsContractType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCustAddr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCustAddr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCustContact.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCustContact.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCustomers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCustomers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCustomers1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCustomers1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsEngineer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEngineer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsEstimate.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEstimate.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsEstimator.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEstimator.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsForman.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsForman.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ds_proj_lot_agreement.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_proj_lot_agreement.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsModel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsSubStatus.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSubStatus.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsLotStatus.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLotStatus.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsPurchaser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPurchaser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsLotSubClass.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLotSubClass.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsLotClass.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLotClass.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\dsSearch.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSearch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsShares.cs">
+      <DependentUpon>dsShares.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Financing\ds_MinRepaySched.cs">
+      <DependentUpon>ds_MinRepaySched.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Financing\ds_MinRepaySched.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_MinRepaySched.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Financing\ds_Repayment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Repayment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Financing\ds_Lookups_Financing.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Lookups_Financing.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Financing\ds_Financing.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Financing.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucFinancial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucFinancial.Designer.cs">
+      <DependentUpon>ucFinancial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\ucLOC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\Processing\ucLOC.Designer.cs">
+      <DependentUpon>ucLOC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Processing\ucLotPairing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\Processing\ucLotPairing.Designer.cs">
+      <DependentUpon>ucLotPairing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\dsStandardTermsDet.cs">
+      <DependentUpon>dsStandardTermsDet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\ds_StandardTerms_Lookups.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_StandardTerms_Lookups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\dsStandardTermsDet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStandardTermsDet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsStateProv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStateProv.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Leases\dsLeases.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLeases.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Header\dsFrame_Lookups.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFrame_Lookups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGST.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGST.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLandUse.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLandUse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMunicipality.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMunicipality.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjDevInfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjDevInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProject.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProject.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjManager.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjManager.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjNum.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjNum.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPST.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPST.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRegions.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRegions.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSalesperson.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSalesperson.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSelectedProject.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSelectedProject.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsShares.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsShares.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSwapSeg.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSwapSeg.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSwapSeg1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSwapSeg1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsUOM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUOM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsWarehouse.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWarehouse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsWarehouse1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWarehouse1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Financing\ucFinancingDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\Financing\ucFinancingDetail.Designer.cs">
+      <DependentUpon>ucFinancingDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Header\Frame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\Header\Frame.Designer.cs">
+      <DependentUpon>Frame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Leases\ucLeaseDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\Leases\ucLeaseDetail.Designer.cs">
+      <DependentUpon>ucLeaseDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucAgreement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucAgreement.Designer.cs">
+      <DependentUpon>ucAgreement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucHolds.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucHolds.Designer.cs">
+      <DependentUpon>ucHolds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucTaxes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\Detail\ucTaxes.Designer.cs">
+      <DependentUpon>ucTaxes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\ucHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\ucHeader.Designer.cs">
+      <DependentUpon>ucHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\LotInventory\ucSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\LotInventory\ucSearch.Designer.cs">
+      <DependentUpon>ucSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Projections\ucCost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\Projections\ucCost.Designer.cs">
+      <DependentUpon>ucCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\Projections\ucRevenue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\Projections\ucRevenue.Designer.cs">
+      <DependentUpon>ucRevenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Land\StandardTerms\ucStandardTermsDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Land\StandardTerms\ucStandardTermsDetails.Designer.cs">
+      <DependentUpon>ucStandardTermsDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ucHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucHeader.Designer.cs">
+      <DependentUpon>ucHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSearch.Designer.cs">
+      <DependentUpon>ucSearch.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAddtionalDatesSelection.resx">
+      <DependentUpon>frmAddtionalDatesSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgreementExt.resx">
+      <DependentUpon>frmAgreementExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Financing\ucFinancingDetail.resx">
+      <DependentUpon>ucFinancingDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Header\Frame.resx">
+      <DependentUpon>Frame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Leases\ucLeaseDetail.resx">
+      <DependentUpon>ucLeaseDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Letter Of Credit\frmNotes.resx">
+      <DependentUpon>frmNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Letter Of Credit\ucLetterOfCredit.resx">
+      <DependentUpon>ucLetterOfCredit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Letter Of Credit\ucLogging.resx">
+      <DependentUpon>ucLogging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\Detail\frmAgreementDateSelection.resx">
+      <DependentUpon>frmAgreementDateSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\Detail\ucAgreement.resx">
+      <DependentUpon>ucAgreement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\Detail\ucFinancial.resx">
+      <DependentUpon>ucFinancial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\Detail\ucHoldAttachments.resx">
+      <DependentUpon>ucHoldAttachments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\Detail\ucHoldHistory.resx">
+      <DependentUpon>ucHoldHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\Detail\ucHoldPurchasers.resx">
+      <DependentUpon>ucHoldPurchasers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\Detail\ucHolds.resx">
+      <DependentUpon>ucHolds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\Detail\ucTaxes.resx">
+      <DependentUpon>ucTaxes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\Detail\ucThirdPartyPurchaserHist.resx">
+      <DependentUpon>ucThirdPartyPurchaserHist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\frmCOSTest.resx">
+      <DependentUpon>frmCOSTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\frmGradeSlip.resx">
+      <DependentUpon>frmGradeSlip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\ucHeader.resx">
+      <DependentUpon>ucHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\LotInventory\ucSearch.resx">
+      <DependentUpon>ucSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Processing\ucLOC.resx">
+      <DependentUpon>ucLOC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Processing\ucLotPairing.resx">
+      <DependentUpon>ucLotPairing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Projections\ucCost.resx">
+      <DependentUpon>ucCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\Projections\ucRevenue.resx">
+      <DependentUpon>ucRevenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Land\StandardTerms\ucStandardTermsDetails.resx">
+      <DependentUpon>ucStandardTermsDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHeader.resx">
+      <DependentUpon>ucHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSearch.resx">
+      <DependentUpon>ucSearch.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Land\LotInventory\Detail\dsAgreeProgramFees.xsc">
+      <DependentUpon>dsAgreeProgramFees.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreeProgramFees.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgreeProgramFees.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreeProgramFees.xss">
+      <DependentUpon>dsAgreeProgramFees.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreeAdditionalFees.xsc">
+      <DependentUpon>dsAgreeAdditionalFees.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreeAdditionalFees.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgreeAdditionalFees.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreeAdditionalFees.xss">
+      <DependentUpon>dsAgreeAdditionalFees.xsd</DependentUpon>
+    </None>
+    <None Include="dsAgreeManagementFees.xsc">
+      <DependentUpon>dsAgreeManagementFees.xsd</DependentUpon>
+    </None>
+    <None Include="dsAgreeManagementFees.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgreeManagementFees.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAgreeManagementFees.xss">
+      <DependentUpon>dsAgreeManagementFees.xsd</DependentUpon>
+    </None>
+    <None Include="dsGeographicArea.xsc">
+      <DependentUpon>dsGeographicArea.xsd</DependentUpon>
+    </None>
+    <None Include="dsGeographicArea.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGeographicArea.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsGeographicArea.xss">
+      <DependentUpon>dsGeographicArea.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAssumedPurchaser.xsc">
+      <DependentUpon>dsAssumedPurchaser.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAssumedPurchaser.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAssumedPurchaser.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAssumedPurchaser.xss">
+      <DependentUpon>dsAssumedPurchaser.xsd</DependentUpon>
+    </None>
+    <None Include="dsSelection.xsc">
+      <DependentUpon>dsSelection.xsd</DependentUpon>
+    </None>
+    <None Include="dsSelection.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSelection.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSelection.xss">
+      <DependentUpon>dsSelection.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds_AgreeAdditionalDates.xsc">
+      <DependentUpon>ds_AgreeAdditionalDates.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds_AgreeAdditionalDates.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_AgreeAdditionalDates.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds_AgreeAdditionalDates.xss">
+      <DependentUpon>ds_AgreeAdditionalDates.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLotSubClass.xsc">
+      <DependentUpon>dsLotSubClass.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLotSubClass.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLotSubClass.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsLotSubClass.xss">
+      <DependentUpon>dsLotSubClass.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsSClassSelect.xsc">
+      <DependentUpon>dsSClassSelect.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsSClassSelect.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSClassSelect.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsSClassSelect.xss">
+      <DependentUpon>dsSClassSelect.xsd</DependentUpon>
+    </None>
+    <None Include="ds_AdditionalDates.xsc">
+      <DependentUpon>ds_AdditionalDates.xsd</DependentUpon>
+    </None>
+    <None Include="ds_AdditionalDates.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_AdditionalDates.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_AdditionalDates.xss">
+      <DependentUpon>ds_AdditionalDates.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueAdditionalDates.xsc">
+      <DependentUpon>ds_lueAdditionalDates.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueAdditionalDates.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_lueAdditionalDates.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_lueAdditionalDates.xss">
+      <DependentUpon>ds_lueAdditionalDates.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Letter Of Credit\dsLender.xsc">
+      <DependentUpon>dsLender.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Letter Of Credit\dsLender.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLender.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Letter Of Credit\dsLender.xss">
+      <DependentUpon>dsLender.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Letter Of Credit\dsLetterOfCredit.xsc">
+      <DependentUpon>dsLetterOfCredit.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Letter Of Credit\dsLetterOfCredit.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLetterOfCredit.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Letter Of Credit\dsLetterOfCredit.xss">
+      <DependentUpon>dsLetterOfCredit.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsARYear.xsc">
+      <DependentUpon>dsARYear.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsARYear.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsARYear.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsARYear.xss">
+      <DependentUpon>dsARYear.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAssessment.xsc">
+      <DependentUpon>dsAssessment.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAssessment.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAssessment.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAssessment.xss">
+      <DependentUpon>dsAssessment.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsTaxDet.xsc">
+      <DependentUpon>dsTaxDet.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsTaxDet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTaxDet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsTaxDet.xss">
+      <DependentUpon>dsTaxDet.xsd</DependentUpon>
+    </None>
+    <None Include="ds_stateProv.xsc">
+      <DependentUpon>ds_stateProv.xsd</DependentUpon>
+    </None>
+    <None Include="ds_stateProv.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_stateProv.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_stateProv.xss">
+      <DependentUpon>ds_stateProv.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsPurchaser.xsc">
+      <DependentUpon>dsPurchaser.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsPurchaser.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPurchaser.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsPurchaser.xss">
+      <DependentUpon>dsPurchaser.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Purchaser.xsc">
+      <DependentUpon>ds3Purchaser.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Purchaser.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds3Purchaser.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Purchaser.xss">
+      <DependentUpon>ds3Purchaser.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Builder.xsc">
+      <DependentUpon>ds3Builder.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Builder.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds3Builder.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Builder.xss">
+      <DependentUpon>ds3Builder.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Elevation.xsc">
+      <DependentUpon>ds3Elevation.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Elevation.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds3Elevation.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Elevation.xss">
+      <DependentUpon>ds3Elevation.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Model.xsc">
+      <DependentUpon>ds3Model.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Model.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds3Model.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds3Model.xss">
+      <DependentUpon>ds3Model.xsd</DependentUpon>
+    </None>
+    <None Include="dsAccountant.xsc">
+      <DependentUpon>dsAccountant.xsd</DependentUpon>
+    </None>
+    <None Include="dsAccountant.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAccountant.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAccountant.xss">
+      <DependentUpon>dsAccountant.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsFinDeposits.xsc">
+      <DependentUpon>dsFinDeposits.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsFinDeposits.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFinDeposits.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsFinDeposits.xss">
+      <DependentUpon>dsFinDeposits.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Header\dsLotSummary.xsc">
+      <DependentUpon>dsLotSummary.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Header\dsLotSummary.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLotSummary.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Header\dsLotSummary.xss">
+      <DependentUpon>dsLotSummary.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Deposits.xsc">
+      <DependentUpon>ds_Deposits.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Deposits.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Deposits.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_Deposits.xss">
+      <DependentUpon>ds_Deposits.xsd</DependentUpon>
+    </None>
+    <None Include="ds_deposits1.xsc">
+      <DependentUpon>ds_deposits1.xsd</DependentUpon>
+    </None>
+    <None Include="ds_deposits1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_deposits1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_deposits1.xss">
+      <DependentUpon>ds_deposits1.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueDepositTyeps.xsc">
+      <DependentUpon>ds_lueDepositTyeps.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueDepositTyeps.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_lueDepositTyeps.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_lueDepositTyeps.xss">
+      <DependentUpon>ds_lueDepositTyeps.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsHist.xsc">
+      <DependentUpon>dsHist.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsHist.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHist.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsHist.xss">
+      <DependentUpon>dsHist.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsStatusHist.xsc">
+      <DependentUpon>dsStatusHist.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsStatusHist.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStatusHist.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsStatusHist.xss">
+      <DependentUpon>dsStatusHist.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsAllRestrictions.xsc">
+      <DependentUpon>dsAllRestrictions.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsAllRestrictions.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAllRestrictions.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsAllRestrictions.xss">
+      <DependentUpon>dsAllRestrictions.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsRestrictions.xsc">
+      <DependentUpon>dsRestrictions.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsRestrictions.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRestrictions.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsRestrictions.xss">
+      <DependentUpon>dsRestrictions.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsRestrictionType.xsc">
+      <DependentUpon>dsRestrictionType.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsRestrictionType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRestrictionType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsRestrictionType.xss">
+      <DependentUpon>dsRestrictionType.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsAckResEas.xsc">
+      <DependentUpon>dsAckResEas.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsAckResEas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAckResEas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsAckResEas.xss">
+      <DependentUpon>dsAckResEas.xsd</DependentUpon>
+    </None>
+    <None Include="dsCOReason.xsc">
+      <DependentUpon>dsCOReason.xsd</DependentUpon>
+    </None>
+    <None Include="dsCOReason.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCOReason.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCOReason.xss">
+      <DependentUpon>dsCOReason.xsd</DependentUpon>
+    </None>
+    <None Include="dsCOType.xsc">
+      <DependentUpon>dsCOType.xsd</DependentUpon>
+    </None>
+    <None Include="dsCOType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCOType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCOType.xss">
+      <DependentUpon>dsCOType.xsd</DependentUpon>
+    </None>
+    <None Include="dsProv.xsc">
+      <DependentUpon>dsProv.xsd</DependentUpon>
+    </None>
+    <None Include="dsProv.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProv.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProv.xss">
+      <DependentUpon>dsProv.xsd</DependentUpon>
+    </None>
+    <None Include="dsSeg3.xsc">
+      <DependentUpon>dsSeg3.xsd</DependentUpon>
+    </None>
+    <None Include="dsSeg3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSeg3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSeg3.xss">
+      <DependentUpon>dsSeg3.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds_lueAgreement_SP.xsc">
+      <DependentUpon>ds_lueAgreement_SP.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds_lueAgreement_SP.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_lueAgreement_SP.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds_lueAgreement_SP.xss">
+      <DependentUpon>ds_lueAgreement_SP.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsPurchaser.xsc">
+      <DependentUpon>dsPurchaser.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsPurchaser.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPurchaser.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsPurchaser.xss">
+      <DependentUpon>dsPurchaser.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLotSubDet.xsc">
+      <DependentUpon>dsLotSubDet.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLotSubDet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLotSubDet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsLotSubDet.xss">
+      <DependentUpon>dsLotSubDet.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsProjComm.xsc">
+      <DependentUpon>dsProjComm.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsProjComm.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjComm.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsProjComm.xss">
+      <DependentUpon>dsProjComm.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLotSelect.xsc">
+      <DependentUpon>dsLotSelect.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLotSelect.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLotSelect.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsLotSelect.xss">
+      <DependentUpon>dsLotSelect.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLOCDet.xsc">
+      <DependentUpon>dsLOCDet.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLOCDet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLOCDet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsLOCDet.xss">
+      <DependentUpon>dsLOCDet.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLOCSearch.xsc">
+      <DependentUpon>dsLOCSearch.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLOCSearch.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLOCSearch.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsLOCSearch.xss">
+      <DependentUpon>dsLOCSearch.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLOCLookups.xsc">
+      <DependentUpon>dsLOCLookups.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsLOCLookups.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLOCLookups.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsLOCLookups.xss">
+      <DependentUpon>dsLOCLookups.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsPairingLots.xsc">
+      <DependentUpon>dsPairingLots.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsPairingLots.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPairingLots.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsPairingLots.xss">
+      <DependentUpon>dsPairingLots.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsPairingDet.xsc">
+      <DependentUpon>dsPairingDet.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsPairingDet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPairingDet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsPairingDet.xss">
+      <DependentUpon>dsPairingDet.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsProjectLU.xsc">
+      <DependentUpon>dsProjectLU.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsProjectLU.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjectLU.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsProjectLU.xss">
+      <DependentUpon>dsProjectLU.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsPairingSearch.xsc">
+      <DependentUpon>dsPairingSearch.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Processing\dsPairingSearch.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPairingSearch.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Processing\dsPairingSearch.xss">
+      <DependentUpon>dsPairingSearch.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLookups_Hold.xsc">
+      <DependentUpon>dsLookups_Hold.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLookups_Hold.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLookups_Hold.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLookups_Hold.xss">
+      <DependentUpon>dsLookups_Hold.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLotHold.xsc">
+      <DependentUpon>dsLotHold.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLotHold.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLotHold.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLotHold.xss">
+      <DependentUpon>dsLotHold.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsTaxRolls.xsc">
+      <DependentUpon>dsTaxRolls.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsTaxRolls.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTaxRolls.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsTaxRolls.xss">
+      <DependentUpon>dsTaxRolls.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LandDevelopmentLookups.xsc">
+      <DependentUpon>ds_LandDevelopmentLookups.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LandDevelopmentLookups.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_LandDevelopmentLookups.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_LandDevelopmentLookups.xss">
+      <DependentUpon>ds_LandDevelopmentLookups.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreementLookups.xsc">
+      <DependentUpon>dsAgreementLookups.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreementLookups.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgreementLookups.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreementLookups.xss">
+      <DependentUpon>dsAgreementLookups.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsAttributes.xsc">
+      <DependentUpon>dsAttributes.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsAttributes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAttributes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsAttributes.xss">
+      <DependentUpon>dsAttributes.xsd</DependentUpon>
+    </None>
+    <None Include="dsArchitect.xsc">
+      <DependentUpon>dsArchitect.xsd</DependentUpon>
+    </None>
+    <None Include="dsArchitect.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsArchitect.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsArchitect.xss">
+      <DependentUpon>dsArchitect.xsd</DependentUpon>
+    </None>
+    <None Include="dsBidType.xsc">
+      <DependentUpon>dsBidType.xsd</DependentUpon>
+    </None>
+    <None Include="dsBidType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBidType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsBidType.xss">
+      <DependentUpon>dsBidType.xsd</DependentUpon>
+    </None>
+    <None Include="dsCashFlow.xsc">
+      <DependentUpon>dsCashFlow.xsd</DependentUpon>
+    </None>
+    <None Include="dsCashFlow.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCashFlow.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCashFlow.xss">
+      <DependentUpon>dsCashFlow.xsd</DependentUpon>
+    </None>
+    <None Include="dsCategory.xsc">
+      <DependentUpon>dsCategory.xsd</DependentUpon>
+    </None>
+    <None Include="dsCategory.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCategory.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCategory.xss">
+      <DependentUpon>dsCategory.xsd</DependentUpon>
+    </None>
+    <None Include="dsCategory1.xsc">
+      <DependentUpon>dsCategory1.xsd</DependentUpon>
+    </None>
+    <None Include="dsCategory1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCategory1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCategory1.xss">
+      <DependentUpon>dsCategory1.xsd</DependentUpon>
+    </None>
+    <None Include="dsClass.xsc">
+      <DependentUpon>dsClass.xsd</DependentUpon>
+    </None>
+    <None Include="dsClass.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsClass.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsClass.xss">
+      <DependentUpon>dsClass.xsd</DependentUpon>
+    </None>
+    <None Include="dsClass1.xsc">
+      <DependentUpon>dsClass1.xsd</DependentUpon>
+    </None>
+    <None Include="dsClass1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsClass1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsClass1.xss">
+      <DependentUpon>dsClass1.xsd</DependentUpon>
+    </None>
+    <None Include="dsCommunity.xsc">
+      <DependentUpon>dsCommunity.xsd</DependentUpon>
+    </None>
+    <None Include="dsCommunity.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCommunity.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCommunity.xss">
+      <DependentUpon>dsCommunity.xsd</DependentUpon>
+    </None>
+    <None Include="dsContractor.xsc">
+      <DependentUpon>dsContractor.xsd</DependentUpon>
+    </None>
+    <None Include="dsContractor.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsContractor.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsContractor.xss">
+      <DependentUpon>dsContractor.xsd</DependentUpon>
+    </None>
+    <None Include="dsContractType.xsc">
+      <DependentUpon>dsContractType.xsd</DependentUpon>
+    </None>
+    <None Include="dsContractType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsContractType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsContractType.xss">
+      <DependentUpon>dsContractType.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustAddr.xsc">
+      <DependentUpon>dsCustAddr.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustAddr.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCustAddr.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCustAddr.xss">
+      <DependentUpon>dsCustAddr.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustContact.xsc">
+      <DependentUpon>dsCustContact.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustContact.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCustContact.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCustContact.xss">
+      <DependentUpon>dsCustContact.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustomers.xsc">
+      <DependentUpon>dsCustomers.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustomers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCustomers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCustomers.xss">
+      <DependentUpon>dsCustomers.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustomers1.xsc">
+      <DependentUpon>dsCustomers1.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustomers1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCustomers1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCustomers1.xss">
+      <DependentUpon>dsCustomers1.xsd</DependentUpon>
+    </None>
+    <None Include="dsEngineer.xsc">
+      <DependentUpon>dsEngineer.xsd</DependentUpon>
+    </None>
+    <None Include="dsEngineer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEngineer.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsEngineer.xss">
+      <DependentUpon>dsEngineer.xsd</DependentUpon>
+    </None>
+    <None Include="dsEstimate.xsc">
+      <DependentUpon>dsEstimate.xsd</DependentUpon>
+    </None>
+    <None Include="dsEstimate.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEstimate.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsEstimate.xss">
+      <DependentUpon>dsEstimate.xsd</DependentUpon>
+    </None>
+    <None Include="dsEstimator.xsc">
+      <DependentUpon>dsEstimator.xsd</DependentUpon>
+    </None>
+    <None Include="dsEstimator.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEstimator.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsEstimator.xss">
+      <DependentUpon>dsEstimator.xsd</DependentUpon>
+    </None>
+    <None Include="dsForman.xsc">
+      <DependentUpon>dsForman.xsd</DependentUpon>
+    </None>
+    <None Include="dsForman.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsForman.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsForman.xss">
+      <DependentUpon>dsForman.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds_proj_lot_agreement.xsc">
+      <DependentUpon>ds_proj_lot_agreement.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds_proj_lot_agreement.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_proj_lot_agreement.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\ds_proj_lot_agreement.xss">
+      <DependentUpon>ds_proj_lot_agreement.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsModel.xsc">
+      <DependentUpon>dsModel.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsModel.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsModel.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsModel.xss">
+      <DependentUpon>dsModel.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsSubStatus.xsc">
+      <DependentUpon>dsSubStatus.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsSubStatus.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSubStatus.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsSubStatus.xss">
+      <DependentUpon>dsSubStatus.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsLotStatus.xsc">
+      <DependentUpon>dsLotStatus.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsLotStatus.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLotStatus.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsLotStatus.xss">
+      <DependentUpon>dsLotStatus.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsPurchaser.xsc">
+      <DependentUpon>dsPurchaser.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsPurchaser.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPurchaser.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsPurchaser.xss">
+      <DependentUpon>dsPurchaser.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsLotSubClass.xsc">
+      <DependentUpon>dsLotSubClass.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsLotSubClass.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLotSubClass.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsLotSubClass.xss">
+      <DependentUpon>dsLotSubClass.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsLotClass.xsc">
+      <DependentUpon>dsLotClass.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsLotClass.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLotClass.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsLotClass.xss">
+      <DependentUpon>dsLotClass.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsSearch.xsc">
+      <DependentUpon>dsSearch.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\dsSearch.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSearch.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\dsSearch.xss">
+      <DependentUpon>dsSearch.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Financing\ds_MinRepaySched.xsc">
+      <DependentUpon>ds_MinRepaySched.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Financing\ds_MinRepaySched.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_MinRepaySched.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Financing\ds_MinRepaySched.xss">
+      <DependentUpon>ds_MinRepaySched.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Financing\ds_Repayment.xsc">
+      <DependentUpon>ds_Repayment.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Financing\ds_Repayment.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Repayment.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Financing\ds_Repayment.xss">
+      <DependentUpon>ds_Repayment.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Financing\ds_Lookups_Financing.xsc">
+      <DependentUpon>ds_Lookups_Financing.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Financing\ds_Lookups_Financing.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Lookups_Financing.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Financing\ds_Lookups_Financing.xss">
+      <DependentUpon>ds_Lookups_Financing.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Financing\ds_Financing.xsc">
+      <DependentUpon>ds_Financing.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Financing\ds_Financing.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Financing.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Financing\ds_Financing.xss">
+      <DependentUpon>ds_Financing.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\ds_StandardTerms_Lookups.xsc">
+      <DependentUpon>ds_StandardTerms_Lookups.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\ds_StandardTerms_Lookups.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_StandardTerms_Lookups.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\StandardTerms\ds_StandardTerms_Lookups.xss">
+      <DependentUpon>ds_StandardTerms_Lookups.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsStandardTermsDet.xsc">
+      <DependentUpon>dsStandardTermsDet.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsStandardTermsDet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStandardTermsDet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\StandardTerms\dsStandardTermsDet.xss">
+      <DependentUpon>dsStandardTermsDet.xsd</DependentUpon>
+    </None>
+    <None Include="dsStateProv.xsc">
+      <DependentUpon>dsStateProv.xsd</DependentUpon>
+    </None>
+    <None Include="dsStateProv.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStateProv.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsStateProv.xss">
+      <DependentUpon>dsStateProv.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Leases\dsLeases.xsc">
+      <DependentUpon>dsLeases.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Leases\dsLeases.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLeases.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Leases\dsLeases.xss">
+      <DependentUpon>dsLeases.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Header\dsFrame_Lookups.xsc">
+      <DependentUpon>dsFrame_Lookups.xsd</DependentUpon>
+    </None>
+    <None Include="Land\Header\dsFrame_Lookups.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFrame_Lookups.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\Header\dsFrame_Lookups.xss">
+      <DependentUpon>dsFrame_Lookups.xsd</DependentUpon>
+    </None>
+    <None Include="dsGST.xsc">
+      <DependentUpon>dsGST.xsd</DependentUpon>
+    </None>
+    <None Include="dsGST.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGST.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsGST.xss">
+      <DependentUpon>dsGST.xsd</DependentUpon>
+    </None>
+    <None Include="dsLandUse.xsc">
+      <DependentUpon>dsLandUse.xsd</DependentUpon>
+    </None>
+    <None Include="dsLandUse.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLandUse.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsLandUse.xss">
+      <DependentUpon>dsLandUse.xsd</DependentUpon>
+    </None>
+    <None Include="dsMunicipality.xsc">
+      <DependentUpon>dsMunicipality.xsd</DependentUpon>
+    </None>
+    <None Include="dsMunicipality.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMunicipality.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsMunicipality.xss">
+      <DependentUpon>dsMunicipality.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjDevInfo.xsc">
+      <DependentUpon>dsProjDevInfo.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjDevInfo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjDevInfo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProjDevInfo.xss">
+      <DependentUpon>dsProjDevInfo.xsd</DependentUpon>
+    </None>
+    <None Include="dsProject.xsc">
+      <DependentUpon>dsProject.xsd</DependentUpon>
+    </None>
+    <None Include="dsProject.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProject.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProject.xss">
+      <DependentUpon>dsProject.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjManager.xsc">
+      <DependentUpon>dsProjManager.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjManager.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjManager.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProjManager.xss">
+      <DependentUpon>dsProjManager.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjNum.xsc">
+      <DependentUpon>dsProjNum.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjNum.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjNum.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProjNum.xss">
+      <DependentUpon>dsProjNum.xsd</DependentUpon>
+    </None>
+    <None Include="dsPST.xsc">
+      <DependentUpon>dsPST.xsd</DependentUpon>
+    </None>
+    <None Include="dsPST.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPST.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPST.xss">
+      <DependentUpon>dsPST.xsd</DependentUpon>
+    </None>
+    <None Include="dsRegions.xsc">
+      <DependentUpon>dsRegions.xsd</DependentUpon>
+    </None>
+    <None Include="dsRegions.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRegions.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsRegions.xss">
+      <DependentUpon>dsRegions.xsd</DependentUpon>
+    </None>
+    <None Include="dsSalesperson.xsc">
+      <DependentUpon>dsSalesperson.xsd</DependentUpon>
+    </None>
+    <None Include="dsSalesperson.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSalesperson.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSalesperson.xss">
+      <DependentUpon>dsSalesperson.xsd</DependentUpon>
+    </None>
+    <None Include="dsSelectedProject.xsc">
+      <DependentUpon>dsSelectedProject.xsd</DependentUpon>
+    </None>
+    <None Include="dsSelectedProject.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSelectedProject.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSelectedProject.xss">
+      <DependentUpon>dsSelectedProject.xsd</DependentUpon>
+    </None>
+    <None Include="dsShares.xsc">
+      <DependentUpon>dsShares.xsd</DependentUpon>
+    </None>
+    <None Include="dsShares.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsShares.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsShares.xss">
+      <DependentUpon>dsShares.xsd</DependentUpon>
+    </None>
+    <None Include="dsSwapSeg.xsc">
+      <DependentUpon>dsSwapSeg.xsd</DependentUpon>
+    </None>
+    <None Include="dsSwapSeg.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSwapSeg.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSwapSeg.xss">
+      <DependentUpon>dsSwapSeg.xsd</DependentUpon>
+    </None>
+    <None Include="dsSwapSeg1.xsc">
+      <DependentUpon>dsSwapSeg1.xsd</DependentUpon>
+    </None>
+    <None Include="dsSwapSeg1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSwapSeg1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSwapSeg1.xss">
+      <DependentUpon>dsSwapSeg1.xsd</DependentUpon>
+    </None>
+    <None Include="dsUOM.xsc">
+      <DependentUpon>dsUOM.xsd</DependentUpon>
+    </None>
+    <None Include="dsUOM.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUOM.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsUOM.xss">
+      <DependentUpon>dsUOM.xsd</DependentUpon>
+    </None>
+    <None Include="dsWarehouse.xsc">
+      <DependentUpon>dsWarehouse.xsd</DependentUpon>
+    </None>
+    <None Include="dsWarehouse.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWarehouse.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsWarehouse.xss">
+      <DependentUpon>dsWarehouse.xsd</DependentUpon>
+    </None>
+    <None Include="dsWarehouse1.xsc">
+      <DependentUpon>dsWarehouse1.xsd</DependentUpon>
+    </None>
+    <None Include="dsWarehouse1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWarehouse1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsWarehouse1.xss">
+      <DependentUpon>dsWarehouse1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer 24 h g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsAdminProjects.xsc">
+      <DependentUpon>dsAdminProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsAdminProjects.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAdminProjects.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAdminProjects.xss">
+      <DependentUpon>dsAdminProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsAgreeDiscounts.xsc">
+      <DependentUpon>dsAgreeDiscounts.xsd</DependentUpon>
+    </None>
+    <None Include="dsAgreeDiscounts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgreeDiscounts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAgreeDiscounts.xss">
+      <DependentUpon>dsAgreeDiscounts.xsd</DependentUpon>
+    </None>
+    <None Include="dsBeneficiary.xsc">
+      <DependentUpon>dsBeneficiary.xsd</DependentUpon>
+    </None>
+    <None Include="dsBeneficiary.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBeneficiary.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsBeneficiary.xss">
+      <DependentUpon>dsBeneficiary.xsd</DependentUpon>
+    </None>
+    <None Include="dsDiscounts.xsc">
+      <DependentUpon>dsDiscounts.xsd</DependentUpon>
+    </None>
+    <None Include="dsDiscounts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDiscounts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDiscounts.xss">
+      <DependentUpon>dsDiscounts.xsd</DependentUpon>
+    </None>
+    <None Include="dsDiscountType.xsc">
+      <DependentUpon>dsDiscountType.xsd</DependentUpon>
+    </None>
+    <None Include="dsDiscountType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDiscountType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDiscountType.xss">
+      <DependentUpon>dsDiscountType.xsd</DependentUpon>
+    </None>
+    <None Include="dsLogging.xsc">
+      <DependentUpon>dsLogging.xsd</DependentUpon>
+    </None>
+    <None Include="dsLogging.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLogging.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsLogging.xss">
+      <DependentUpon>dsLogging.xsd</DependentUpon>
+    </None>
+    <None Include="dsProfitSeg.xsc">
+      <DependentUpon>dsProfitSeg.xsd</DependentUpon>
+    </None>
+    <None Include="dsProfitSeg.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProfitSeg.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProfitSeg.xss">
+      <DependentUpon>dsProfitSeg.xsd</DependentUpon>
+    </None>
+    <None Include="dsSupplier.xsc">
+      <DependentUpon>dsSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="dsSupplier.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSupplier.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSupplier.xss">
+      <DependentUpon>dsSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Discounts.xsc">
+      <DependentUpon>ds_Discounts.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Discounts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Discounts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_Discounts.xss">
+      <DependentUpon>ds_Discounts.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueDiscounts.xsc">
+      <DependentUpon>ds_lueDiscounts.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueDiscounts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_lueDiscounts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_lueDiscounts.xss">
+      <DependentUpon>ds_lueDiscounts.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueValueType.xsc">
+      <DependentUpon>ds_lueValueType.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueValueType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_lueValueType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_lueValueType.xss">
+      <DependentUpon>ds_lueValueType.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv1.xsc">
+      <DependentUpon>dsLv1.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLv1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv1.xss">
+      <DependentUpon>dsLv1.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv2.xsc">
+      <DependentUpon>dsLv2.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLv2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv2.xss">
+      <DependentUpon>dsLv2.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv3.xsc">
+      <DependentUpon>dsLv3.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLv3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv3.xss">
+      <DependentUpon>dsLv3.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv4.xsc">
+      <DependentUpon>dsLv4.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLv4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLv4.xss">
+      <DependentUpon>dsLv4.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevyType.xsc">
+      <DependentUpon>dsLevyType.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevyType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevyType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevyType.xss">
+      <DependentUpon>dsLevyType.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreeLevy.xsc">
+      <DependentUpon>dsAgreeLevy.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreeLevy.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgreeLevy.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAgreeLevy.xss">
+      <DependentUpon>dsAgreeLevy.xsd</DependentUpon>
+    </None>
+    <None Include="dsCOSummary.xsc">
+      <DependentUpon>dsCOSummary.xsd</DependentUpon>
+    </None>
+    <None Include="dsCOSummary.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCOSummary.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCOSummary.xss">
+      <DependentUpon>dsCOSummary.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustomerType.xsc">
+      <DependentUpon>dsCustomerType.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustomerType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCustomerType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCustomerType.xss">
+      <DependentUpon>dsCustomerType.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustType.xsc">
+      <DependentUpon>dsCustType.xsd</DependentUpon>
+    </None>
+    <None Include="dsCustType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCustType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCustType.xss">
+      <DependentUpon>dsCustType.xsd</DependentUpon>
+    </None>
+    <None Include="dsFieldManager.xsc">
+      <DependentUpon>dsFieldManager.xsd</DependentUpon>
+    </None>
+    <None Include="dsFieldManager.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFieldManager.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsFieldManager.xss">
+      <DependentUpon>dsFieldManager.xsd</DependentUpon>
+    </None>
+    <None Include="dsInternalType.xsc">
+      <DependentUpon>dsInternalType.xsd</DependentUpon>
+    </None>
+    <None Include="dsInternalType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsInternalType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsInternalType.xss">
+      <DependentUpon>dsInternalType.xsd</DependentUpon>
+    </None>
+    <None Include="dsLandSubType.xsc">
+      <DependentUpon>dsLandSubType.xsd</DependentUpon>
+    </None>
+    <None Include="dsLandSubType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLandSubType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsLandSubType.xss">
+      <DependentUpon>dsLandSubType.xsd</DependentUpon>
+    </None>
+    <None Include="dsLevy.xsc">
+      <DependentUpon>dsLevy.xsd</DependentUpon>
+    </None>
+    <None Include="dsLevy.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevy.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsLevy.xss">
+      <DependentUpon>dsLevy.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLevyType.xsc">
+      <DependentUpon>dsLevyType.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLevyType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevyType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\StandardTerms\dsLevyType.xss">
+      <DependentUpon>dsLevyType.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLotClass.xsc">
+      <DependentUpon>dsLotClass.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLotClass.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLotClass.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\StandardTerms\dsLotClass.xss">
+      <DependentUpon>dsLotClass.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLv2.xsc">
+      <DependentUpon>dsLv2.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLv2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLv2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\StandardTerms\dsLv2.xss">
+      <DependentUpon>dsLv2.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLv3.xsc">
+      <DependentUpon>dsLv3.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLv3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLv3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\StandardTerms\dsLv3.xss">
+      <DependentUpon>dsLv3.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLv4.xsc">
+      <DependentUpon>dsLv4.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLv4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLv4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\StandardTerms\dsLv4.xss">
+      <DependentUpon>dsLv4.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLv1.xsc">
+      <DependentUpon>dsLv1.xsd</DependentUpon>
+    </None>
+    <None Include="Land\StandardTerms\dsLv1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLv1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\StandardTerms\dsLv1.xss">
+      <DependentUpon>dsLv1.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjCoordinator.xsc">
+      <DependentUpon>dsProjCoordinator.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjCoordinator.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjCoordinator.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProjCoordinator.xss">
+      <DependentUpon>dsProjCoordinator.xsd</DependentUpon>
+    </None>
+    <None Include="dsPurReq.xsc">
+      <DependentUpon>dsPurReq.xsd</DependentUpon>
+    </None>
+    <None Include="dsPurReq.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPurReq.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPurReq.xss">
+      <DependentUpon>dsPurReq.xsd</DependentUpon>
+    </None>
+    <None Include="dsRawLandProj.xsc">
+      <DependentUpon>dsRawLandProj.xsd</DependentUpon>
+    </None>
+    <None Include="dsRawLandProj.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRawLandProj.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsRawLandProj.xss">
+      <DependentUpon>dsRawLandProj.xsd</DependentUpon>
+    </None>
+    <None Include="dsSuperProject.xsc">
+      <DependentUpon>dsSuperProject.xsd</DependentUpon>
+    </None>
+    <None Include="dsSuperProject.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSuperProject.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSuperProject.xss">
+      <DependentUpon>dsSuperProject.xsd</DependentUpon>
+    </None>
+    <None Include="dsTaxProvince.xsc">
+      <DependentUpon>dsTaxProvince.xsd</DependentUpon>
+    </None>
+    <None Include="dsTaxProvince.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTaxProvince.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsTaxProvince.xss">
+      <DependentUpon>dsTaxProvince.xsd</DependentUpon>
+    </None>
+    <None Include="ds_AgreementExtension.xsc">
+      <DependentUpon>ds_AgreementExtension.xsd</DependentUpon>
+    </None>
+    <None Include="ds_AgreementExtension.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_AgreementExtension.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_AgreementExtension.xss">
+      <DependentUpon>ds_AgreementExtension.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LD_County.xsc">
+      <DependentUpon>ds_LD_County.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LD_County.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_LD_County.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_LD_County.xss">
+      <DependentUpon>ds_LD_County.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LD_WarrantyType.xsc">
+      <DependentUpon>ds_LD_WarrantyType.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LD_WarrantyType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_LD_WarrantyType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_LD_WarrantyType.xss">
+      <DependentUpon>ds_LD_WarrantyType.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LotComments.xsc">
+      <DependentUpon>ds_LotComments.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LotComments.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_LotComments.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_LotComments.xss">
+      <DependentUpon>ds_LotComments.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsHoldPurch.xsc">
+      <DependentUpon>dsHoldPurch.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsHoldPurch.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHoldPurch.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsHoldPurch.xss">
+      <DependentUpon>dsHoldPurch.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsHoldHist.xsc">
+      <DependentUpon>dsHoldHist.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsHoldHist.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHoldHist.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsHoldHist.xss">
+      <DependentUpon>dsHoldHist.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAttach.xsc">
+      <DependentUpon>dsAttach.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAttach.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAttach.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsAttach.xss">
+      <DependentUpon>dsAttach.xsd</DependentUpon>
+    </None>
+    <None Include="dsCompanies.xsc">
+      <DependentUpon>dsCompanies.xsd</DependentUpon>
+    </None>
+    <None Include="dsCompanies.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCompanies.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCompanies.xss">
+      <DependentUpon>dsCompanies.xsd</DependentUpon>
+    </None>
+    <None Include="dsHist.xsc">
+      <DependentUpon>dsHist.xsd</DependentUpon>
+    </None>
+    <None Include="dsHist.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHist.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsHist.xss">
+      <DependentUpon>dsHist.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel4Codes.xsc">
+      <DependentUpon>dsLevel4Codes.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel4Codes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevel4Codes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel4Codes.xss">
+      <DependentUpon>dsLevel4Codes.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel3Codes.xsc">
+      <DependentUpon>dsLevel3Codes.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel3Codes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevel3Codes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel3Codes.xss">
+      <DependentUpon>dsLevel3Codes.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel2Codes.xsc">
+      <DependentUpon>dsLevel2Codes.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel2Codes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevel2Codes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel2Codes.xss">
+      <DependentUpon>dsLevel2Codes.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel1Codes.xsc">
+      <DependentUpon>dsLevel1Codes.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel1Codes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevel1Codes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\Detail\dsLevel1Codes.xss">
+      <DependentUpon>dsLevel1Codes.xsd</DependentUpon>
+    </None>
+    <None Include="dsThirdPartyPurchaserHist.xsc">
+      <DependentUpon>dsThirdPartyPurchaserHist.xsd</DependentUpon>
+    </None>
+    <None Include="dsThirdPartyPurchaserHist.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsThirdPartyPurchaserHist.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsThirdPartyPurchaserHist.xss">
+      <DependentUpon>dsThirdPartyPurchaserHist.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lue_ShareOwners.xsc">
+      <DependentUpon>ds_lue_ShareOwners.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lue_ShareOwners.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_lue_ShareOwners.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_lue_ShareOwners.xss">
+      <DependentUpon>ds_lue_ShareOwners.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\ds_LotSubStatus.xsc">
+      <DependentUpon>ds_LotSubStatus.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\ds_LotSubStatus.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_LotSubStatus.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\ds_LotSubStatus.xss">
+      <DependentUpon>ds_LotSubStatus.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\ds_LotStatus.xsc">
+      <DependentUpon>ds_LotStatus.xsd</DependentUpon>
+    </None>
+    <None Include="Land\LotInventory\ds_LotStatus.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_LotStatus.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Land\LotInventory\ds_LotStatus.xss">
+      <DependentUpon>ds_LotStatus.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Printer 32 h g.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

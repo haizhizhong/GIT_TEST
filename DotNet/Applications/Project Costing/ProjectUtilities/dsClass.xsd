@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsClass" targetNamespace="http://tempuri.org/dsClass.xsd" xmlns:mstns="http://tempuri.org/dsClass.xsd" xmlns="http://tempuri.org/dsClass.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsClass" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsClass" msprop:Generator_DataSetName="dsClass">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="proj_class" msprop:Generator_UserTableName="proj_class" msprop:Generator_RowDeletedName="proj_classRowDeleted" msprop:Generator_TableClassName="proj_classDataTable" msprop:Generator_RowChangedName="proj_classRowChanged" msprop:Generator_RowClassName="proj_classRow" msprop:Generator_RowChangingName="proj_classRowChanging" msprop:Generator_RowEvArgName="proj_classRowChangeEvent" msprop:Generator_RowEvHandlerName="proj_classRowChangeEventHandler" msprop:Generator_TablePropName="proj_class" msprop:Generator_TableVarName="tableproj_class" msprop:Generator_RowDeletingName="proj_classRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prcl_code" msprop:Generator_UserColumnName="prcl_code" msprop:Generator_ColumnPropNameInRow="prcl_code" msprop:Generator_ColumnVarNameInTable="columnprcl_code" msprop:Generator_ColumnPropNameInTable="prcl_codeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="prcl_desc" msprop:Generator_UserColumnName="prcl_desc" msprop:Generator_ColumnPropNameInRow="prcl_desc" msprop:Generator_ColumnVarNameInTable="columnprcl_desc" msprop:Generator_ColumnPropNameInTable="prcl_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLOCDet" targetNamespace="http://tempuri.org/dsLOCDet.xsd" xmlns:mstns="http://tempuri.org/dsLOCDet.xsd" xmlns="http://tempuri.org/dsLOCDet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLOCDet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLOCDet" msprop:Generator_DataSetName="dsLOCDet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_LOC_Det" msprop:Generator_UserTableName="LD_LOC_Det" msprop:Generator_RowDeletedName="LD_LOC_DetRowDeleted" msprop:Generator_RowChangedName="LD_LOC_DetRowChanged" msprop:Generator_RowClassName="LD_LOC_DetRow" msprop:Generator_RowChangingName="LD_LOC_DetRowChanging" msprop:Generator_RowEvArgName="LD_LOC_DetRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_LOC_DetRowChangeEventHandler" msprop:Generator_TableClassName="LD_LOC_DetDataTable" msprop:Generator_TableVarName="tableLD_LOC_Det" msprop:Generator_RowDeletingName="LD_LOC_DetRowDeleting" msprop:Generator_TablePropName="LD_LOC_Det">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:int" />
+              <xs:element name="LOC_ID" msprop:Generator_UserColumnName="LOC_ID" msprop:Generator_ColumnVarNameInTable="columnLOC_ID" msprop:Generator_ColumnPropNameInRow="LOC_ID" msprop:Generator_ColumnPropNameInTable="LOC_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="communities_id" msprop:Generator_UserColumnName="communities_id" msprop:Generator_ColumnVarNameInTable="columncommunities_id" msprop:Generator_ColumnPropNameInRow="communities_id" msprop:Generator_ColumnPropNameInTable="communities_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="pri_id" msprop:Generator_UserColumnName="pri_id" msprop:Generator_ColumnVarNameInTable="columnpri_id" msprop:Generator_ColumnPropNameInRow="pri_id" msprop:Generator_ColumnPropNameInTable="pri_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="all_lots" msprop:Generator_UserColumnName="all_lots" msprop:Generator_ColumnVarNameInTable="columnall_lots" msprop:Generator_ColumnPropNameInRow="all_lots" msprop:Generator_ColumnPropNameInTable="all_lotsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="all_sub_classes" msprop:Generator_UserColumnName="all_sub_classes" msprop:Generator_ColumnPropNameInRow="all_sub_classes" msprop:Generator_ColumnVarNameInTable="columnall_sub_classes" msprop:Generator_ColumnPropNameInTable="all_sub_classesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_LOC_Det" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

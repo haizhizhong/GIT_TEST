@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCOReason" targetNamespace="http://tempuri.org/dsCOReason.xsd" xmlns:mstns="http://tempuri.org/dsCOReason.xsd" xmlns="http://tempuri.org/dsCOReason.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCOReason" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCOReason" msprop:Generator_DataSetName="dsCOReason">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Proj_CO_Reasons" msprop:Generator_UserTableName="Proj_CO_Reasons" msprop:Generator_RowDeletedName="Proj_CO_ReasonsRowDeleted" msprop:Generator_TableClassName="Proj_CO_ReasonsDataTable" msprop:Generator_RowChangedName="Proj_CO_ReasonsRowChanged" msprop:Generator_RowClassName="Proj_CO_ReasonsRow" msprop:Generator_RowChangingName="Proj_CO_ReasonsRowChanging" msprop:Generator_RowEvArgName="Proj_CO_ReasonsRowChangeEvent" msprop:Generator_RowEvHandlerName="Proj_CO_ReasonsRowChangeEventHandler" msprop:Generator_TablePropName="Proj_CO_Reasons" msprop:Generator_TableVarName="tableProj_CO_Reasons" msprop:Generator_RowDeletingName="Proj_CO_ReasonsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Code" msprop:Generator_UserColumnName="Code" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInTable="CodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reason" msprop:Generator_UserColumnName="Reason" msprop:Generator_ColumnPropNameInRow="Reason" msprop:Generator_ColumnVarNameInTable="columnReason" msprop:Generator_ColumnPropNameInTable="ReasonColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CO_Type_ID" msprop:Generator_UserColumnName="CO_Type_ID" msprop:Generator_ColumnPropNameInRow="CO_Type_ID" msprop:Generator_ColumnVarNameInTable="columnCO_Type_ID" msprop:Generator_ColumnPropNameInTable="CO_Type_IDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Proj_CO_Reasons" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

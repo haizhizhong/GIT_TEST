@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_Lookups_Financing" targetNamespace="http://tempuri.org/ds_Lookups_Financing.xsd" xmlns:mstns="http://tempuri.org/ds_Lookups_Financing.xsd" xmlns="http://tempuri.org/ds_Lookups_Financing.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_Lookups_Financing" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_Lookups_Financing" msprop:Generator_DataSetName="ds_Lookups_Financing">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Lender" msprop:Generator_UserTableName="LD_Lender" msprop:Generator_RowDeletedName="LD_LenderRowDeleted" msprop:Generator_RowChangedName="LD_LenderRowChanged" msprop:Generator_RowClassName="LD_LenderRow" msprop:Generator_RowChangingName="LD_LenderRowChanging" msprop:Generator_RowEvArgName="LD_LenderRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_LenderRowChangeEventHandler" msprop:Generator_TableClassName="LD_LenderDataTable" msprop:Generator_TableVarName="tableLD_Lender" msprop:Generator_RowDeletingName="LD_LenderRowDeleting" msprop:Generator_TablePropName="LD_Lender">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LD_Lender_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="LD_Lender_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Lender_ID" msprop:Generator_ColumnPropNameInRow="LD_Lender_ID" msprop:Generator_ColumnPropNameInTable="LD_Lender_IDColumn" type="xs:int" />
+              <xs:element name="Lender" msprop:Generator_UserColumnName="Lender" msprop:Generator_ColumnVarNameInTable="columnLender" msprop:Generator_ColumnPropNameInRow="Lender" msprop:Generator_ColumnPropNameInTable="LenderColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_FinancingType" msprop:Generator_UserTableName="LD_FinancingType" msprop:Generator_RowDeletedName="LD_FinancingTypeRowDeleted" msprop:Generator_TableClassName="LD_FinancingTypeDataTable" msprop:Generator_RowChangedName="LD_FinancingTypeRowChanged" msprop:Generator_RowClassName="LD_FinancingTypeRow" msprop:Generator_RowChangingName="LD_FinancingTypeRowChanging" msprop:Generator_RowEvArgName="LD_FinancingTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_FinancingTypeRowChangeEventHandler" msprop:Generator_TablePropName="LD_FinancingType" msprop:Generator_TableVarName="tableLD_FinancingType" msprop:Generator_RowDeletingName="LD_FinancingTypeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FinancingType_ID" msprop:Generator_UserColumnName="FinancingType_ID" msprop:Generator_ColumnPropNameInRow="FinancingType_ID" msprop:Generator_ColumnVarNameInTable="columnFinancingType_ID" msprop:Generator_ColumnPropNameInTable="FinancingType_IDColumn" type="xs:int" />
+              <xs:element name="FinancingType" msprop:Generator_UserColumnName="FinancingType" msprop:Generator_ColumnPropNameInRow="FinancingType" msprop:Generator_ColumnVarNameInTable="columnFinancingType" msprop:Generator_ColumnPropNameInTable="FinancingTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_LoanType" msprop:Generator_UserTableName="LD_LoanType" msprop:Generator_RowDeletedName="LD_LoanTypeRowDeleted" msprop:Generator_TableClassName="LD_LoanTypeDataTable" msprop:Generator_RowChangedName="LD_LoanTypeRowChanged" msprop:Generator_RowClassName="LD_LoanTypeRow" msprop:Generator_RowChangingName="LD_LoanTypeRowChanging" msprop:Generator_RowEvArgName="LD_LoanTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_LoanTypeRowChangeEventHandler" msprop:Generator_TablePropName="LD_LoanType" msprop:Generator_TableVarName="tableLD_LoanType" msprop:Generator_RowDeletingName="LD_LoanTypeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LoanType_ID" msprop:Generator_UserColumnName="LoanType_ID" msprop:Generator_ColumnPropNameInRow="LoanType_ID" msprop:Generator_ColumnVarNameInTable="columnLoanType_ID" msprop:Generator_ColumnPropNameInTable="LoanType_IDColumn" type="xs:int" />
+              <xs:element name="LoanType" msprop:Generator_UserColumnName="LoanType" msprop:Generator_ColumnPropNameInRow="LoanType" msprop:Generator_ColumnVarNameInTable="columnLoanType" msprop:Generator_ColumnPropNameInTable="LoanTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_Lot_Class" msprop:Generator_UserTableName="LD_Lot_Class" msprop:Generator_RowDeletedName="LD_Lot_ClassRowDeleted" msprop:Generator_TableClassName="LD_Lot_ClassDataTable" msprop:Generator_RowChangedName="LD_Lot_ClassRowChanged" msprop:Generator_RowClassName="LD_Lot_ClassRow" msprop:Generator_RowChangingName="LD_Lot_ClassRowChanging" msprop:Generator_RowEvArgName="LD_Lot_ClassRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Lot_ClassRowChangeEventHandler" msprop:Generator_TablePropName="LD_Lot_Class" msprop:Generator_TableVarName="tableLD_Lot_Class" msprop:Generator_RowDeletingName="LD_Lot_ClassRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lot_Class_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Lot_Class_ID" msprop:Generator_ColumnPropNameInRow="Lot_Class_ID" msprop:Generator_ColumnVarNameInTable="columnLot_Class_ID" msprop:Generator_ColumnPropNameInTable="Lot_Class_IDColumn" type="xs:int" />
+              <xs:element name="Code" msprop:Generator_UserColumnName="Code" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInTable="CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_Lot_Sub_Class" msprop:Generator_UserTableName="LD_Lot_Sub_Class" msprop:Generator_RowDeletedName="LD_Lot_Sub_ClassRowDeleted" msprop:Generator_TableClassName="LD_Lot_Sub_ClassDataTable" msprop:Generator_RowChangedName="LD_Lot_Sub_ClassRowChanged" msprop:Generator_RowClassName="LD_Lot_Sub_ClassRow" msprop:Generator_RowChangingName="LD_Lot_Sub_ClassRowChanging" msprop:Generator_RowEvArgName="LD_Lot_Sub_ClassRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Lot_Sub_ClassRowChangeEventHandler" msprop:Generator_TablePropName="LD_Lot_Sub_Class" msprop:Generator_TableVarName="tableLD_Lot_Sub_Class" msprop:Generator_RowDeletingName="LD_Lot_Sub_ClassRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lot_Sub_Class_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Lot_Sub_Class_ID" msprop:Generator_ColumnPropNameInRow="Lot_Sub_Class_ID" msprop:Generator_ColumnVarNameInTable="columnLot_Sub_Class_ID" msprop:Generator_ColumnPropNameInTable="Lot_Sub_Class_IDColumn" type="xs:int" />
+              <xs:element name="LD_Lot_Class_ID" msprop:Generator_UserColumnName="LD_Lot_Class_ID" msprop:Generator_ColumnPropNameInRow="LD_Lot_Class_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Lot_Class_ID" msprop:Generator_ColumnPropNameInTable="LD_Lot_Class_IDColumn" type="xs:int" />
+              <xs:element name="Code" msprop:Generator_UserColumnName="Code" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInTable="CodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Lender" />
+      <xs:field xpath="mstns:LD_Lender_ID" />
+    </xs:unique>
+    <xs:unique name="LD_FinancingType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_FinancingType" />
+      <xs:field xpath="mstns:FinancingType_ID" />
+    </xs:unique>
+    <xs:unique name="LD_LoanType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_LoanType" />
+      <xs:field xpath="mstns:LoanType_ID" />
+    </xs:unique>
+    <xs:unique name="LD_Lot_Class_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Lot_Class" />
+      <xs:field xpath="mstns:Lot_Class_ID" />
+    </xs:unique>
+    <xs:unique name="LD_Lot_Sub_Class_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Lot_Sub_Class" />
+      <xs:field xpath="mstns:Lot_Sub_Class_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

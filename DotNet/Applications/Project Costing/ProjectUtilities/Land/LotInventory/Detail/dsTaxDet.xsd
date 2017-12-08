@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTaxDet" targetNamespace="http://tempuri.org/dsTaxDet.xsd" xmlns:mstns="http://tempuri.org/dsTaxDet.xsd" xmlns="http://tempuri.org/dsTaxDet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTaxDet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsTaxDet" msprop:Generator_DataSetName="dsTaxDet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LOT_TAX_DET" msprop:Generator_UserTableName="PROJ_LOT_TAX_DET" msprop:Generator_RowDeletedName="PROJ_LOT_TAX_DETRowDeleted" msprop:Generator_RowChangedName="PROJ_LOT_TAX_DETRowChanged" msprop:Generator_RowClassName="PROJ_LOT_TAX_DETRow" msprop:Generator_RowChangingName="PROJ_LOT_TAX_DETRowChanging" msprop:Generator_RowEvArgName="PROJ_LOT_TAX_DETRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LOT_TAX_DETRowChangeEventHandler" msprop:Generator_TableClassName="PROJ_LOT_TAX_DETDataTable" msprop:Generator_TableVarName="tablePROJ_LOT_TAX_DET" msprop:Generator_RowDeletingName="PROJ_LOT_TAX_DETRowDeleting" msprop:Generator_TablePropName="PROJ_LOT_TAX_DET">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:int" />
+              <xs:element name="tax_roll_id" msprop:Generator_UserColumnName="tax_roll_id" msprop:Generator_ColumnVarNameInTable="columntax_roll_id" msprop:Generator_ColumnPropNameInRow="tax_roll_id" msprop:Generator_ColumnPropNameInTable="tax_roll_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="year" msprop:Generator_UserColumnName="year" msprop:Generator_ColumnVarNameInTable="columnyear" msprop:Generator_ColumnPropNameInRow="year" msprop:Generator_ColumnPropNameInTable="yearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="assessment" msprop:Generator_UserColumnName="assessment" msprop:Generator_ColumnVarNameInTable="columnassessment" msprop:Generator_ColumnPropNameInRow="assessment" msprop:Generator_ColumnPropNameInTable="assessmentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="taxes" msprop:Generator_UserColumnName="taxes" msprop:Generator_ColumnVarNameInTable="columntaxes" msprop:Generator_ColumnPropNameInRow="taxes" msprop:Generator_ColumnPropNameInTable="taxesColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tax_adj_date" msprop:Generator_UserColumnName="tax_adj_date" msprop:Generator_ColumnVarNameInTable="columntax_adj_date" msprop:Generator_ColumnPropNameInRow="tax_adj_date" msprop:Generator_ColumnPropNameInTable="tax_adj_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="assessment_id" msprop:Generator_UserColumnName="assessment_id" msprop:Generator_ColumnVarNameInTable="columnassessment_id" msprop:Generator_ColumnPropNameInRow="assessment_id" msprop:Generator_ColumnPropNameInTable="assessment_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="assessment_desc" msprop:Generator_UserColumnName="assessment_desc" msprop:Generator_ColumnVarNameInTable="columnassessment_desc" msprop:Generator_ColumnPropNameInRow="assessment_desc" msprop:Generator_ColumnPropNameInTable="assessment_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="comment" msprop:Generator_UserColumnName="comment" msprop:Generator_ColumnVarNameInTable="columncomment" msprop:Generator_ColumnPropNameInRow="comment" msprop:Generator_ColumnPropNameInTable="commentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Paid" msprop:Generator_UserColumnName="Paid" msprop:Generator_ColumnPropNameInRow="Paid" msprop:Generator_ColumnVarNameInTable="columnPaid" msprop:Generator_ColumnPropNameInTable="PaidColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PROJ_LOT_TAX_DET" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

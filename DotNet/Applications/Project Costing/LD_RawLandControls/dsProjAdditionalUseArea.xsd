@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsProjAdditionalUseArea" targetNamespace="http://tempuri.org/dsProjAdditionalUseArea.xsd" xmlns:mstns="http://tempuri.org/dsProjAdditionalUseArea.xsd" xmlns="http://tempuri.org/dsProjAdditionalUseArea.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsProjAdditionalUseArea" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsProjAdditionalUseArea" msprop:Generator_DataSetName="dsProjAdditionalUseArea">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LD_AdditionalUseArea" msprop:Generator_UserTableName="PROJ_LD_AdditionalUseArea" msprop:Generator_RowDeletedName="PROJ_LD_AdditionalUseAreaRowDeleted" msprop:Generator_TableClassName="PROJ_LD_AdditionalUseAreaDataTable" msprop:Generator_RowChangedName="PROJ_LD_AdditionalUseAreaRowChanged" msprop:Generator_RowClassName="PROJ_LD_AdditionalUseAreaRow" msprop:Generator_RowChangingName="PROJ_LD_AdditionalUseAreaRowChanging" msprop:Generator_RowEvArgName="PROJ_LD_AdditionalUseAreaRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LD_AdditionalUseAreaRowChangeEventHandler" msprop:Generator_TablePropName="PROJ_LD_AdditionalUseArea" msprop:Generator_TableVarName="tablePROJ_LD_AdditionalUseArea" msprop:Generator_RowDeletingName="PROJ_LD_AdditionalUseAreaRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="PRI_ID" msprop:Generator_UserColumnName="PRI_ID" msprop:Generator_ColumnPropNameInRow="PRI_ID" msprop:Generator_ColumnVarNameInTable="columnPRI_ID" msprop:Generator_ColumnPropNameInTable="PRI_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Original" msprop:Generator_UserColumnName="Original" msprop:Generator_ColumnPropNameInRow="Original" msprop:Generator_ColumnVarNameInTable="columnOriginal" msprop:Generator_ColumnPropNameInTable="OriginalColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pri_status" msprop:Generator_UserColumnName="pri_status" msprop:Generator_ColumnPropNameInRow="pri_status" msprop:Generator_ColumnVarNameInTable="columnpri_status" msprop:Generator_ColumnPropNameInTable="pri_statusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PROJ_LD_AdditionalUseArea" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

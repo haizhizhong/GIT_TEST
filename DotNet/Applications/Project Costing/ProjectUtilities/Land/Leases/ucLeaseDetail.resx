@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bs_Leases.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>350, 17</value>
+  </metadata>
+  <metadata name="dsLeases1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>248, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSharepoint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAPcAAMMMBwByCyRf3KsDAf/TG6oAAOvw/SZfJ6sDAwg/yAFpDgo+wgBlBzZn0iTJQFmJ
+        8v9GQQ0YpvlDQH9VS1wKCotmZv2mBN9zAD5x6d17AP/DweAWEv+Ph5ZnN4Ws+Bq5OQQQkjHRRP3FAxyz
+        M5IfH6X/urZIAieOKnVHCjB1+lSG7jt8/wakHTRn1dtgAESaBjzXO//tKoXvmBg+0HHphL3+z/yNiv3D
+        ATHQPzzJVU194A2cFytr7Ei6MP2sCMsEAaP6r2gmJrj+w/uxEvLb2RSxK/1/eTO/SvlwaAOPDI1LS//7
+        +/r28aHE/J1aSGDnd5JtBCmcGy7BKUrNYGCO8QMWyfsyKPc7NpO2+gWpGE7SSpv5sSZc5P/fL+rPxP2d
+        ANv43/z/o6mvb8UeCtcMCuAjHJD1ohg+v+OEAgYWu367LN6kah6FEHur/z3kYACYCv/gsgsengKYDlSF
+        8P/QgD7ZV+6PE9hyW3lLS71MS5VnKik4sA8dnCBi6R+4Nf6IhF2L71Dca7ugNQKmEP9FSSYukgkkuygv
+        oXfsjZNBQV7jdalPTecxLf//fDht8hEdmD5x2AAFkc3/0ylW1aJwAFzZbv//jN52dKAfH6bG/dPd905s
+        2OK1mP6uE//FGetYQPHFRhPJLbrBnP/UG1ABATVw6FkBAe/W1SfKQ3ie8eMKBmuW88Da//upo//dJv/C
+        wf+RkNNtAPzU0kKcQyVT08AAAP6/EeylAP/79TE9nf+Bf/VaUKvQ/wCCEDAwlNQVDYur9bikr/3GByZs
+        KUZYltxaVcTV+BEWhPdmXrE5N9UcE1MGBrXW/yZ/Ktng/Iu4/4v3mDBHtQOJBR9NzL9bA4z4oukkIAD/
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH5BAEAANcALAAAAAAQABAAAAj/AK8JxEWnk501TK4taXXFWjEiAq/B8WSpSyxO12RBeMWBTJ5rBpwF
+        G9WIgAsxYEQR0mDkFyZjDxyd0XMrAxQtboqgYFRmwKI5vJhh4EPNRI8SkgIlQVAg2SkuTbBASgNqiJQt
+        QKa8uSNhw6VNkxoYyhXG1YsPR3aw8QJLGQlNM6pEEBTDFiU5g6R1sIEEQBAPz9qUIibMh5pq0OpE+YMM
+        wLIVrDLpiCPCAowaQir10rULAKkUwFK1OHbjCw4zMnIo+GTlhykeqwAJeITmQghENFAFGKOqFoU+VFQI
+        AOFkQqgnihwESKQET4UEtKYtiCQwi58RLBhEvBZtz6FCvgTOCzrRbNiB7ejTow8IADs=
+</value>
+  </data>
+  <metadata name="stateprovBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>680, 17</value>
+  </metadata>
+  <metadata name="dsStateProv1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>563, 17</value>
+  </metadata>
+  <metadata name="sqlTRConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 17</value>
+  </metadata>
+  <metadata name="daLeases.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_Leases] WHERE (([LEASES_ID] = @Original_LEASES_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_ADDRESS_1 = 1 AND [ADDRESS_1] IS NULL) OR ([ADDRESS_1] = @Original_ADDRESS_1)) AND ((@IsNull_ADDRESS_2 = 1 AND [ADDRESS_2] IS NULL) OR ([ADDRESS_2] = @Original_ADDRESS_2)) AND ((@IsNull_CITY = 1 AND [CITY] IS NULL) OR ([CITY] = @Original_CITY)) AND ((@IsNull_TEL = 1 AND [TEL] IS NULL) OR ([TEL] = @Original_TEL)) AND ((@IsNull_FAX = 1 AND [FAX] IS NULL) OR ([FAX] = @Original_FAX)) AND ((@IsNull_EMAIL = 1 AND [EMAIL] IS NULL) OR ([EMAIL] = @Original_EMAIL)) AND ((@IsNull_PROV = 1 AND [PROV] IS NULL) OR ([PROV] = @Original_PROV)) AND ((@IsNull_POSTAL = 1 AND [POSTAL] IS NULL) OR ([POSTAL] = @Original_POSTAL)) AND ((@IsNull_START_DATE = 1 AND [START_DATE] IS NULL) OR ([START_DATE] = @Original_START_DATE)) AND ((@IsNull_END_DATE = 1 AND [END_DATE] IS NULL) OR ([END_DATE] = @Original_END_DATE)) AND ((@IsNull_EXPIRY_DATE = 1 AND [EXPIRY_DATE] IS NULL) OR ([EXPIRY_DATE] = @Original_EXPIRY_DATE)) AND ((@IsNull_PAYMENT_DATE = 1 AND [PAYMENT_DATE] IS NULL) OR ([PAYMENT_DATE] = @Original_PAYMENT_DATE)) AND ((@IsNull_PAYMENT_AMOUNT = 1 AND [PAYMENT_AMOUNT] IS NULL) OR ([PAYMENT_AMOUNT] = @Original_PAYMENT_AMOUNT)) AND ((@IsNull_CERT_RECEIVED = 1 AND [CERT_RECEIVED] IS NULL) OR ([CERT_RECEIVED] = @Original_CERT_RECEIVED)) AND ((@IsNull_PURPOSE = 1 AND [PURPOSE] IS NULL) OR ([PURPOSE] = @Original_PURPOSE)))</value>
+  </data>
+  <metadata name="sqlInsertCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertCommand.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_Leases] ([PRI_ID], [NAME], [ADDRESS_1], [ADDRESS_2], [CITY], [TEL], [FAX], [EMAIL], [PROV], [POSTAL], [START_DATE], [END_DATE], [EXPIRY_DATE], [PAYMENT_DATE], [PAYMENT_AMOUNT], [CERT_RECEIVED], [PURPOSE], [COMMENT]) VALUES (@PRI_ID, @NAME, @ADDRESS_1, @ADDRESS_2, @CITY, @TEL, @FAX, @EMAIL, @PROV, @POSTAL, @START_DATE, @END_DATE, @EXPIRY_DATE, @PAYMENT_DATE, @PAYMENT_AMOUNT, @CERT_RECEIVED, @PURPOSE, @COMMENT);
+SELECT LEASES_ID, PRI_ID, NAME, ADDRESS_1, ADDRESS_2, CITY, TEL, FAX, EMAIL, PROV, POSTAL, START_DATE, END_DATE, EXPIRY_DATE, PAYMENT_DATE, PAYMENT_AMOUNT, CERT_RECEIVED, PURPOSE, COMMENT FROM LD_Leases WHERE (LEASES_ID = SCOPE_IDENTITY()) ORDER BY NAME</value>
+  </data>
+  <metadata name="sqlSelectCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand.CommandText" xml:space="preserve">
+    <value>SELECT     LEASES_ID, PRI_ID, NAME, ADDRESS_1, ADDRESS_2, CITY, TEL, FAX, EMAIL, PROV, POSTAL, START_DATE, END_DATE, EXPIRY_DATE, PAYMENT_DATE, 
+                      PAYMENT_AMOUNT, CERT_RECEIVED, PURPOSE, COMMENT
+FROM         LD_Leases
+WHERE     (PRI_ID = @PRI_ID)
+ORDER BY NAME</value>
+  </data>
+  <metadata name="sqlUpdateCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_Leases] SET [PRI_ID] = @PRI_ID, [NAME] = @NAME, [ADDRESS_1] = @ADDRESS_1, [ADDRESS_2] = @ADDRESS_2, [CITY] = @CITY, [TEL] = @TEL, [FAX] = @FAX, [EMAIL] = @EMAIL, [PROV] = @PROV, [POSTAL] = @POSTAL, [START_DATE] = @START_DATE, [END_DATE] = @END_DATE, [EXPIRY_DATE] = @EXPIRY_DATE, [PAYMENT_DATE] = @PAYMENT_DATE, [PAYMENT_AMOUNT] = @PAYMENT_AMOUNT, [CERT_RECEIVED] = @CERT_RECEIVED, [PURPOSE] = @PURPOSE, [COMMENT] = @COMMENT WHERE (([LEASES_ID] = @Original_LEASES_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_ADDRESS_1 = 1 AND [ADDRESS_1] IS NULL) OR ([ADDRESS_1] = @Original_ADDRESS_1)) AND ((@IsNull_ADDRESS_2 = 1 AND [ADDRESS_2] IS NULL) OR ([ADDRESS_2] = @Original_ADDRESS_2)) AND ((@IsNull_CITY = 1 AND [CITY] IS NULL) OR ([CITY] = @Original_CITY)) AND ((@IsNull_TEL = 1 AND [TEL] IS NULL) OR ([TEL] = @Original_TEL)) AND ((@IsNull_FAX = 1 AND [FAX] IS NULL) OR ([FAX] = @Original_FAX)) AND ((@IsNull_EMAIL = 1 AND [EMAIL] IS NULL) OR ([EMAIL] = @Original_EMAIL)) AND ((@IsNull_PROV = 1 AND [PROV] IS NULL) OR ([PROV] = @Original_PROV)) AND ((@IsNull_POSTAL = 1 AND [POSTAL] IS NULL) OR ([POSTAL] = @Original_POSTAL)) AND ((@IsNull_START_DATE = 1 AND [START_DATE] IS NULL) OR ([START_DATE] = @Original_START_DATE)) AND ((@IsNull_END_DATE = 1 AND [END_DATE] IS NULL) OR ([END_DATE] = @Original_END_DATE)) AND ((@IsNull_EXPIRY_DATE = 1 AND [EXPIRY_DATE] IS NULL) OR ([EXPIRY_DATE] = @Original_EXPIRY_DATE)) AND ((@IsNull_PAYMENT_DATE = 1 AND [PAYMENT_DATE] IS NULL) OR ([PAYMENT_DATE] = @Original_PAYMENT_DATE)) AND ((@IsNull_PAYMENT_AMOUNT = 1 AND [PAYMENT_AMOUNT] IS NULL) OR ([PAYMENT_AMOUNT] = @Original_PAYMENT_AMOUNT)) AND ((@IsNull_CERT_RECEIVED = 1 AND [CERT_RECEIVED] IS NULL) OR ([CERT_RECEIVED] = @Original_CERT_RECEIVED)) AND ((@IsNull_PURPOSE = 1 AND [PURPOSE] IS NULL) OR ([PURPOSE] = @Original_PURPOSE)));
+SELECT LEASES_ID, PRI_ID, NAME, ADDRESS_1, ADDRESS_2, CITY, TEL, FAX, EMAIL, PROV, POSTAL, START_DATE, END_DATE, EXPIRY_DATE, PAYMENT_DATE, PAYMENT_AMOUNT, CERT_RECEIVED, PURPOSE, COMMENT FROM LD_Leases WHERE (LEASES_ID = @LEASES_ID) ORDER BY NAME</value>
+  </data>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="daStateProv.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>452, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>57</value>
+  </metadata>
+</root>

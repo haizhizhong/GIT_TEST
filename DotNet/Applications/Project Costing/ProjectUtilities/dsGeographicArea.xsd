@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGeographicArea" targetNamespace="http://tempuri.org/dsGeographicArea.xsd" xmlns:mstns="http://tempuri.org/dsGeographicArea.xsd" xmlns="http://tempuri.org/dsGeographicArea.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGeographicArea" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsGeographicArea" msprop:Generator_DataSetName="dsGeographicArea">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Geographic_Area" msprop:Generator_UserTableName="LD_Geographic_Area" msprop:Generator_RowDeletedName="LD_Geographic_AreaRowDeleted" msprop:Generator_TableClassName="LD_Geographic_AreaDataTable" msprop:Generator_RowChangedName="LD_Geographic_AreaRowChanged" msprop:Generator_RowClassName="LD_Geographic_AreaRow" msprop:Generator_RowChangingName="LD_Geographic_AreaRowChanging" msprop:Generator_RowEvArgName="LD_Geographic_AreaRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Geographic_AreaRowChangeEventHandler" msprop:Generator_TablePropName="LD_Geographic_Area" msprop:Generator_TableVarName="tableLD_Geographic_Area" msprop:Generator_RowDeletingName="LD_Geographic_AreaRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Geographic_Area_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Geographic_Area_ID" msprop:Generator_ColumnPropNameInRow="Geographic_Area_ID" msprop:Generator_ColumnVarNameInTable="columnGeographic_Area_ID" msprop:Generator_ColumnPropNameInTable="Geographic_Area_IDColumn" type="xs:int" />
+              <xs:element name="GeographicArea" msprop:Generator_UserColumnName="GeographicArea" msprop:Generator_ColumnPropNameInRow="GeographicArea" msprop:Generator_ColumnVarNameInTable="columnGeographicArea" msprop:Generator_ColumnPropNameInTable="GeographicAreaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Geographic_Area" />
+      <xs:field xpath="mstns:Geographic_Area_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsEstimate" targetNamespace="http://tempuri.org/dsEstimate.xsd" xmlns:mstns="http://tempuri.org/dsEstimate.xsd" xmlns="http://tempuri.org/dsEstimate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsEstimate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsEstimate" msprop:Generator_DataSetName="dsEstimate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EST_Header" msprop:Generator_UserTableName="EST_Header" msprop:Generator_RowDeletedName="EST_HeaderRowDeleted" msprop:Generator_TableClassName="EST_HeaderDataTable" msprop:Generator_RowChangedName="EST_HeaderRowChanged" msprop:Generator_RowClassName="EST_HeaderRow" msprop:Generator_RowChangingName="EST_HeaderRowChanging" msprop:Generator_RowEvArgName="EST_HeaderRowChangeEvent" msprop:Generator_RowEvHandlerName="EST_HeaderRowChangeEventHandler" msprop:Generator_TablePropName="EST_Header" msprop:Generator_TableVarName="tableEST_Header" msprop:Generator_RowDeletingName="EST_HeaderRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="estimate_id" msprop:Generator_UserColumnName="estimate_id" msprop:Generator_ColumnPropNameInRow="estimate_id" msprop:Generator_ColumnVarNameInTable="columnestimate_id" msprop:Generator_ColumnPropNameInTable="estimate_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="revision_num" msprop:Generator_UserColumnName="revision_num" msprop:Generator_ColumnPropNameInRow="revision_num" msprop:Generator_ColumnVarNameInTable="columnrevision_num" msprop:Generator_ColumnPropNameInTable="revision_numColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="estimate_name" msprop:Generator_UserColumnName="estimate_name" msprop:Generator_ColumnPropNameInRow="estimate_name" msprop:Generator_ColumnVarNameInTable="columnestimate_name" msprop:Generator_ColumnPropNameInTable="estimate_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="revision_desc" msprop:Generator_UserColumnName="revision_desc" msprop:Generator_ColumnPropNameInRow="revision_desc" msprop:Generator_ColumnVarNameInTable="columnrevision_desc" msprop:Generator_ColumnPropNameInTable="revision_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

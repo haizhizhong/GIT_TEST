@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dsHoldHist.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>259, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        hold_hist_id, hold_id, proj_lot_id, pri_id, case when priority = 'P' then 'Primary' else 'Secondary' end [priority], 
+	start_date, end_date, s.Lot_Status, sl.Sub_Status, pt.PurchaserType, c.NAME, phone_num, 
+                         price_quoted, trans_date, username, comments, Confirmed
+FROM            PROJ_LOT_HOLD_HIST h
+join LD_Lot_Status s on s.Lot_Status_ID=h.lot_status_id
+join LD_Sub_Lot_Status sl on sl.Sub_Status_ID=h.sub_status_id
+join LD_Purchaser_Type pt on pt.LD_Purchaser_Type_ID=h.purchaser_type_id
+join CUSTOMERS c on c.CUSTOMER_ID=h.purchaser_id
+WHERE        proj_lot_id = @proj_lot_id
+order by hold_id desc</value>
+  </data>
+  <metadata name="TR_Conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>160, 17</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [PROJ_LOT_HOLD_HIST] SET [hold_id] = @hold_id, [proj_lot_id] = @proj_lot_id, [pri_id] = @pri_id, [priority] = @priority, [start_date] = @start_date, [end_date] = @end_date, [lot_status_id] = @lot_status_id, [sub_status_id] = @sub_status_id, [purchaser_type_id] = @purchaser_type_id, [purchaser_id] = @purchaser_id, [phone_num] = @phone_num, [price_quoted] = @price_quoted, [trans_date] = @trans_date, [username] = @username, [comments] = @comments, [Confirmed] = @Confirmed WHERE (([hold_hist_id] = @Original_hold_hist_id) AND ((@IsNull_hold_id = 1 AND [hold_id] IS NULL) OR ([hold_id] = @Original_hold_id)) AND ((@IsNull_proj_lot_id = 1 AND [proj_lot_id] IS NULL) OR ([proj_lot_id] = @Original_proj_lot_id)) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_priority = 1 AND [priority] IS NULL) OR ([priority] = @Original_priority)) AND ((@IsNull_start_date = 1 AND [start_date] IS NULL) OR ([start_date] = @Original_start_date)) AND ((@IsNull_end_date = 1 AND [end_date] IS NULL) OR ([end_date] = @Original_end_date)) AND ((@IsNull_lot_status_id = 1 AND [lot_status_id] IS NULL) OR ([lot_status_id] = @Original_lot_status_id)) AND ((@IsNull_sub_status_id = 1 AND [sub_status_id] IS NULL) OR ([sub_status_id] = @Original_sub_status_id)) AND ((@IsNull_purchaser_type_id = 1 AND [purchaser_type_id] IS NULL) OR ([purchaser_type_id] = @Original_purchaser_type_id)) AND ((@IsNull_purchaser_id = 1 AND [purchaser_id] IS NULL) OR ([purchaser_id] = @Original_purchaser_id)) AND ((@IsNull_phone_num = 1 AND [phone_num] IS NULL) OR ([phone_num] = @Original_phone_num)) AND ((@IsNull_price_quoted = 1 AND [price_quoted] IS NULL) OR ([price_quoted] = @Original_price_quoted)) AND ((@IsNull_trans_date = 1 AND [trans_date] IS NULL) OR ([trans_date] = @Original_trans_date)) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_Confirmed = 1 AND [Confirmed] IS NULL) OR ([Confirmed] = @Original_Confirmed)));
+SELECT hold_hist_id, hold_id, proj_lot_id, pri_id, priority, start_date, end_date, lot_status_id, sub_status_id, purchaser_type_id, purchaser_id, phone_num, price_quoted, trans_date, username, comments, Confirmed FROM PROJ_LOT_HOLD_HIST WHERE (hold_hist_id = @hold_hist_id) ORDER BY hold_id DESC</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [PROJ_LOT_HOLD_HIST] WHERE (([hold_hist_id] = @Original_hold_hist_id) AND ((@IsNull_hold_id = 1 AND [hold_id] IS NULL) OR ([hold_id] = @Original_hold_id)) AND ((@IsNull_proj_lot_id = 1 AND [proj_lot_id] IS NULL) OR ([proj_lot_id] = @Original_proj_lot_id)) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_priority = 1 AND [priority] IS NULL) OR ([priority] = @Original_priority)) AND ((@IsNull_start_date = 1 AND [start_date] IS NULL) OR ([start_date] = @Original_start_date)) AND ((@IsNull_end_date = 1 AND [end_date] IS NULL) OR ([end_date] = @Original_end_date)) AND ((@IsNull_lot_status_id = 1 AND [lot_status_id] IS NULL) OR ([lot_status_id] = @Original_lot_status_id)) AND ((@IsNull_sub_status_id = 1 AND [sub_status_id] IS NULL) OR ([sub_status_id] = @Original_sub_status_id)) AND ((@IsNull_purchaser_type_id = 1 AND [purchaser_type_id] IS NULL) OR ([purchaser_type_id] = @Original_purchaser_type_id)) AND ((@IsNull_purchaser_id = 1 AND [purchaser_id] IS NULL) OR ([purchaser_id] = @Original_purchaser_id)) AND ((@IsNull_phone_num = 1 AND [phone_num] IS NULL) OR ([phone_num] = @Original_phone_num)) AND ((@IsNull_price_quoted = 1 AND [price_quoted] IS NULL) OR ([price_quoted] = @Original_price_quoted)) AND ((@IsNull_trans_date = 1 AND [trans_date] IS NULL) OR ([trans_date] = @Original_trans_date)) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_Confirmed = 1 AND [Confirmed] IS NULL) OR ([Confirmed] = @Original_Confirmed)))</value>
+  </data>
+  <metadata name="daHoldHist.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

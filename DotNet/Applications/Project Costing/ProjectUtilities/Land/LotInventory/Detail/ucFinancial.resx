@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dsFinDeposits.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>412, 17</value>
+  </metadata>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>123</value>
+  </metadata>
+  <metadata name="dsFinInvoices1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>664, 17</value>
+  </metadata>
+  <metadata name="TR_Conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        id, Lot_ID, DepositAmount, TypeDesc, PaidToDate, Outstanding, AmountRefunded, LastPaidDate, Balance
+FROM            working_ld_financialDeposits
+WHERE        (Lot_ID = @lot_id)
+ORDER BY TypeDesc</value>
+  </data>
+  <metadata name="daFinDeposits.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>284, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand.CommandText" xml:space="preserve">
+    <value>DELETE FROM [working_ld_financialDeposits] WHERE (([id] = @Original_id) AND ((@IsNull_Lot_ID = 1 AND [Lot_ID] IS NULL) OR ([Lot_ID] = @Original_Lot_ID)) AND ((@IsNull_DepositAmount = 1 AND [DepositAmount] IS NULL) OR ([DepositAmount] = @Original_DepositAmount)) AND ((@IsNull_TypeDesc = 1 AND [TypeDesc] IS NULL) OR ([TypeDesc] = @Original_TypeDesc)) AND ((@IsNull_PaidToDate = 1 AND [PaidToDate] IS NULL) OR ([PaidToDate] = @Original_PaidToDate)) AND ((@IsNull_Outstanding = 1 AND [Outstanding] IS NULL) OR ([Outstanding] = @Original_Outstanding)) AND ((@IsNull_AmountRefunded = 1 AND [AmountRefunded] IS NULL) OR ([AmountRefunded] = @Original_AmountRefunded)) AND ((@IsNull_LastPaidDate = 1 AND [LastPaidDate] IS NULL) OR ([LastPaidDate] = @Original_LastPaidDate)) AND ((@IsNull_Balance = 1 AND [Balance] IS NULL) OR ([Balance] = @Original_Balance)))</value>
+  </data>
+  <metadata name="sqlInsertCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand.CommandText" xml:space="preserve">
+    <value>INSERT INTO [working_ld_financialDeposits] ([Lot_ID], [DepositAmount], [TypeDesc], [PaidToDate], [Outstanding], [AmountRefunded], [LastPaidDate], [Balance]) VALUES (@Lot_ID, @DepositAmount, @TypeDesc, @PaidToDate, @Outstanding, @AmountRefunded, @LastPaidDate, @Balance);
+SELECT id, Lot_ID, DepositAmount, TypeDesc, PaidToDate, Outstanding, AmountRefunded, LastPaidDate, Balance FROM working_ld_financialDeposits WHERE (id = SCOPE_IDENTITY()) ORDER BY TypeDesc</value>
+  </data>
+  <metadata name="sqlUpdateCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand.CommandText" xml:space="preserve">
+    <value>UPDATE [working_ld_financialDeposits] SET [Lot_ID] = @Lot_ID, [DepositAmount] = @DepositAmount, [TypeDesc] = @TypeDesc, [PaidToDate] = @PaidToDate, [Outstanding] = @Outstanding, [AmountRefunded] = @AmountRefunded, [LastPaidDate] = @LastPaidDate, [Balance] = @Balance WHERE (([id] = @Original_id) AND ((@IsNull_Lot_ID = 1 AND [Lot_ID] IS NULL) OR ([Lot_ID] = @Original_Lot_ID)) AND ((@IsNull_DepositAmount = 1 AND [DepositAmount] IS NULL) OR ([DepositAmount] = @Original_DepositAmount)) AND ((@IsNull_TypeDesc = 1 AND [TypeDesc] IS NULL) OR ([TypeDesc] = @Original_TypeDesc)) AND ((@IsNull_PaidToDate = 1 AND [PaidToDate] IS NULL) OR ([PaidToDate] = @Original_PaidToDate)) AND ((@IsNull_Outstanding = 1 AND [Outstanding] IS NULL) OR ([Outstanding] = @Original_Outstanding)) AND ((@IsNull_AmountRefunded = 1 AND [AmountRefunded] IS NULL) OR ([AmountRefunded] = @Original_AmountRefunded)) AND ((@IsNull_LastPaidDate = 1 AND [LastPaidDate] IS NULL) OR ([LastPaidDate] = @Original_LastPaidDate)) AND ((@IsNull_Balance = 1 AND [Balance] IS NULL) OR ([Balance] = @Original_Balance)));
+SELECT id, Lot_ID, DepositAmount, TypeDesc, PaidToDate, Outstanding, AmountRefunded, LastPaidDate, Balance FROM working_ld_financialDeposits WHERE (id = @id) ORDER BY TypeDesc</value>
+  </data>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand2.CommandText" xml:space="preserve">
+    <value>SELECT        ID, Lot_ID, InvoiceDate, InvoiceNo, InvoiceAmount, GST, PST, TotalInvoiceAmount, TotalCostsRecognized, MarginDollar, MarginPercent, Type, PurchaserName, AgreementNum, BillQuantity, Block, Lot, PlanNum, 
+                         HoldbackAmount, Homebuilder, MISCCharges
+FROM            working_ld_financialInvoices
+WHERE        (Lot_ID = @proj_lot_id)</value>
+  </data>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [working_ld_financialInvoices] ([Lot_ID], [InvoiceDate], [InvoiceNo], [InvoiceAmount], [GST], [PST], [TotalInvoiceAmount], [TotalCostsRecognized], [MarginDollar], [MarginPercent], [Type], [PurchaserName], [AgreementNum], [BillQuantity], [Block], [Lot], [PlanNum], [HoldbackAmount], [Homebuilder], [MISCCharges]) VALUES (@Lot_ID, @InvoiceDate, @InvoiceNo, @InvoiceAmount, @GST, @PST, @TotalInvoiceAmount, @TotalCostsRecognized, @MarginDollar, @MarginPercent, @Type, @PurchaserName, @AgreementNum, @BillQuantity, @Block, @Lot, @PlanNum, @HoldbackAmount, @Homebuilder, @MISCCharges);
+SELECT ID, Lot_ID, InvoiceDate, InvoiceNo, InvoiceAmount, GST, PST, TotalInvoiceAmount, TotalCostsRecognized, MarginDollar, MarginPercent, Type, PurchaserName, AgreementNum, BillQuantity, Block, Lot, PlanNum, HoldbackAmount, Homebuilder, MISCCharges FROM working_ld_financialInvoices WHERE (ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [working_ld_financialInvoices] SET [Lot_ID] = @Lot_ID, [InvoiceDate] = @InvoiceDate, [InvoiceNo] = @InvoiceNo, [InvoiceAmount] = @InvoiceAmount, [GST] = @GST, [PST] = @PST, [TotalInvoiceAmount] = @TotalInvoiceAmount, [TotalCostsRecognized] = @TotalCostsRecognized, [MarginDollar] = @MarginDollar, [MarginPercent] = @MarginPercent, [Type] = @Type, [PurchaserName] = @PurchaserName, [AgreementNum] = @AgreementNum, [BillQuantity] = @BillQuantity, [Block] = @Block, [Lot] = @Lot, [PlanNum] = @PlanNum, [HoldbackAmount] = @HoldbackAmount, [Homebuilder] = @Homebuilder, [MISCCharges] = @MISCCharges WHERE (([ID] = @Original_ID) AND ((@IsNull_Lot_ID = 1 AND [Lot_ID] IS NULL) OR ([Lot_ID] = @Original_Lot_ID)) AND ((@IsNull_InvoiceDate = 1 AND [InvoiceDate] IS NULL) OR ([InvoiceDate] = @Original_InvoiceDate)) AND ((@IsNull_InvoiceNo = 1 AND [InvoiceNo] IS NULL) OR ([InvoiceNo] = @Original_InvoiceNo)) AND ((@IsNull_InvoiceAmount = 1 AND [InvoiceAmount] IS NULL) OR ([InvoiceAmount] = @Original_InvoiceAmount)) AND ((@IsNull_GST = 1 AND [GST] IS NULL) OR ([GST] = @Original_GST)) AND ((@IsNull_PST = 1 AND [PST] IS NULL) OR ([PST] = @Original_PST)) AND ((@IsNull_TotalInvoiceAmount = 1 AND [TotalInvoiceAmount] IS NULL) OR ([TotalInvoiceAmount] = @Original_TotalInvoiceAmount)) AND ((@IsNull_TotalCostsRecognized = 1 AND [TotalCostsRecognized] IS NULL) OR ([TotalCostsRecognized] = @Original_TotalCostsRecognized)) AND ((@IsNull_MarginDollar = 1 AND [MarginDollar] IS NULL) OR ([MarginDollar] = @Original_MarginDollar)) AND ((@IsNull_MarginPercent = 1 AND [MarginPercent] IS NULL) OR ([MarginPercent] = @Original_MarginPercent)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_PurchaserName = 1 AND [PurchaserName] IS NULL) OR ([PurchaserName] = @Original_PurchaserName)) AND ((@IsNull_AgreementNum = 1 AND [AgreementNum] IS NULL) OR ([AgreementNum] = @Original_AgreementNum)) AND ((@IsNull_BillQuantity = 1 AND [BillQuantity] IS NULL) OR ([BillQuantity] = @Original_BillQuantity)) AND ((@IsNull_Block = 1 AND [Block] IS NULL) OR ([Block] = @Original_Block)) AND ((@IsNull_Lot = 1 AND [Lot] IS NULL) OR ([Lot] = @Original_Lot)) AND ((@IsNull_PlanNum = 1 AND [PlanNum] IS NULL) OR ([PlanNum] = @Original_PlanNum)) AND ((@IsNull_HoldbackAmount = 1 AND [HoldbackAmount] IS NULL) OR ([HoldbackAmount] = @Original_HoldbackAmount)) AND ((@IsNull_Homebuilder = 1 AND [Homebuilder] IS NULL) OR ([Homebuilder] = @Original_Homebuilder)) AND ((@IsNull_MISCCharges = 1 AND [MISCCharges] IS NULL) OR ([MISCCharges] = @Original_MISCCharges)));
+SELECT ID, Lot_ID, InvoiceDate, InvoiceNo, InvoiceAmount, GST, PST, TotalInvoiceAmount, TotalCostsRecognized, MarginDollar, MarginPercent, Type, PurchaserName, AgreementNum, BillQuantity, Block, Lot, PlanNum, HoldbackAmount, Homebuilder, MISCCharges FROM working_ld_financialInvoices WHERE (ID = @ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [working_ld_financialInvoices] WHERE (([ID] = @Original_ID) AND ((@IsNull_Lot_ID = 1 AND [Lot_ID] IS NULL) OR ([Lot_ID] = @Original_Lot_ID)) AND ((@IsNull_InvoiceDate = 1 AND [InvoiceDate] IS NULL) OR ([InvoiceDate] = @Original_InvoiceDate)) AND ((@IsNull_InvoiceNo = 1 AND [InvoiceNo] IS NULL) OR ([InvoiceNo] = @Original_InvoiceNo)) AND ((@IsNull_InvoiceAmount = 1 AND [InvoiceAmount] IS NULL) OR ([InvoiceAmount] = @Original_InvoiceAmount)) AND ((@IsNull_GST = 1 AND [GST] IS NULL) OR ([GST] = @Original_GST)) AND ((@IsNull_PST = 1 AND [PST] IS NULL) OR ([PST] = @Original_PST)) AND ((@IsNull_TotalInvoiceAmount = 1 AND [TotalInvoiceAmount] IS NULL) OR ([TotalInvoiceAmount] = @Original_TotalInvoiceAmount)) AND ((@IsNull_TotalCostsRecognized = 1 AND [TotalCostsRecognized] IS NULL) OR ([TotalCostsRecognized] = @Original_TotalCostsRecognized)) AND ((@IsNull_MarginDollar = 1 AND [MarginDollar] IS NULL) OR ([MarginDollar] = @Original_MarginDollar)) AND ((@IsNull_MarginPercent = 1 AND [MarginPercent] IS NULL) OR ([MarginPercent] = @Original_MarginPercent)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_PurchaserName = 1 AND [PurchaserName] IS NULL) OR ([PurchaserName] = @Original_PurchaserName)) AND ((@IsNull_AgreementNum = 1 AND [AgreementNum] IS NULL) OR ([AgreementNum] = @Original_AgreementNum)) AND ((@IsNull_BillQuantity = 1 AND [BillQuantity] IS NULL) OR ([BillQuantity] = @Original_BillQuantity)) AND ((@IsNull_Block = 1 AND [Block] IS NULL) OR ([Block] = @Original_Block)) AND ((@IsNull_Lot = 1 AND [Lot] IS NULL) OR ([Lot] = @Original_Lot)) AND ((@IsNull_PlanNum = 1 AND [PlanNum] IS NULL) OR ([PlanNum] = @Original_PlanNum)) AND ((@IsNull_HoldbackAmount = 1 AND [HoldbackAmount] IS NULL) OR ([HoldbackAmount] = @Original_HoldbackAmount)) AND ((@IsNull_Homebuilder = 1 AND [Homebuilder] IS NULL) OR ([Homebuilder] = @Original_Homebuilder)) AND ((@IsNull_MISCCharges = 1 AND [MISCCharges] IS NULL) OR ([MISCCharges] = @Original_MISCCharges)))</value>
+  </data>
+  <metadata name="daFinInvoices.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>539, 17</value>
+  </metadata>
+</root>

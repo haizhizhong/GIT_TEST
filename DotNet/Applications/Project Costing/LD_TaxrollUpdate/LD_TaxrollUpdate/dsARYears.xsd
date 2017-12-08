@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsARYears" targetNamespace="http://tempuri.org/dsARYears.xsd" xmlns:mstns="http://tempuri.org/dsARYears.xsd" xmlns="http://tempuri.org/dsARYears.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsARYears" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsARYears" msprop:Generator_DataSetName="dsARYears">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LOT_TAX_DET" msprop:Generator_UserTableName="PROJ_LOT_TAX_DET" msprop:Generator_RowDeletedName="PROJ_LOT_TAX_DETRowDeleted" msprop:Generator_TableClassName="PROJ_LOT_TAX_DETDataTable" msprop:Generator_RowChangedName="PROJ_LOT_TAX_DETRowChanged" msprop:Generator_RowClassName="PROJ_LOT_TAX_DETRow" msprop:Generator_RowChangingName="PROJ_LOT_TAX_DETRowChanging" msprop:Generator_RowEvArgName="PROJ_LOT_TAX_DETRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LOT_TAX_DETRowChangeEventHandler" msprop:Generator_TablePropName="PROJ_LOT_TAX_DET" msprop:Generator_TableVarName="tablePROJ_LOT_TAX_DET" msprop:Generator_RowDeletingName="PROJ_LOT_TAX_DETRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="year" msprop:Generator_UserColumnName="year" msprop:Generator_ColumnPropNameInRow="year" msprop:Generator_ColumnVarNameInTable="columnyear" msprop:Generator_ColumnPropNameInTable="yearColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

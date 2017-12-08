@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsARYear" targetNamespace="http://tempuri.org/dsARYear.xsd" xmlns:mstns="http://tempuri.org/dsARYear.xsd" xmlns="http://tempuri.org/dsARYear.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsARYear" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsARYear" msprop:Generator_DataSetName="dsARYear">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AR_PERIODS" msprop:Generator_UserTableName="AR_PERIODS" msprop:Generator_RowDeletedName="AR_PERIODSRowDeleted" msprop:Generator_TableClassName="AR_PERIODSDataTable" msprop:Generator_RowChangedName="AR_PERIODSRowChanged" msprop:Generator_RowClassName="AR_PERIODSRow" msprop:Generator_RowChangingName="AR_PERIODSRowChanging" msprop:Generator_RowEvArgName="AR_PERIODSRowChangeEvent" msprop:Generator_RowEvHandlerName="AR_PERIODSRowChangeEventHandler" msprop:Generator_TablePropName="AR_PERIODS" msprop:Generator_TableVarName="tableAR_PERIODS" msprop:Generator_RowDeletingName="AR_PERIODSRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ar_year" msprop:Generator_UserColumnName="ar_year" msprop:Generator_ColumnPropNameInRow="ar_year" msprop:Generator_ColumnVarNameInTable="columnar_year" msprop:Generator_ColumnPropNameInTable="ar_yearColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

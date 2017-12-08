@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRestrictionType" targetNamespace="http://tempuri.org/dsRestrictionType.xsd" xmlns:mstns="http://tempuri.org/dsRestrictionType.xsd" xmlns="http://tempuri.org/dsRestrictionType.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRestrictionType" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRestrictionType" msprop:Generator_DataSetName="dsRestrictionType">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_RestrictionType" msprop:Generator_UserTableName="LD_RestrictionType" msprop:Generator_RowDeletedName="LD_RestrictionTypeRowDeleted" msprop:Generator_TableClassName="LD_RestrictionTypeDataTable" msprop:Generator_RowChangedName="LD_RestrictionTypeRowChanged" msprop:Generator_RowClassName="LD_RestrictionTypeRow" msprop:Generator_RowChangingName="LD_RestrictionTypeRowChanging" msprop:Generator_RowEvArgName="LD_RestrictionTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_RestrictionTypeRowChangeEventHandler" msprop:Generator_TablePropName="LD_RestrictionType" msprop:Generator_TableVarName="tableLD_RestrictionType" msprop:Generator_RowDeletingName="LD_RestrictionTypeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RestrictionType_ID" msprop:Generator_UserColumnName="RestrictionType_ID" msprop:Generator_ColumnPropNameInRow="RestrictionType_ID" msprop:Generator_ColumnVarNameInTable="columnRestrictionType_ID" msprop:Generator_ColumnPropNameInTable="RestrictionType_IDColumn" type="xs:int" />
+              <xs:element name="RestrictionType" msprop:Generator_UserColumnName="RestrictionType" msprop:Generator_ColumnPropNameInRow="RestrictionType" msprop:Generator_ColumnVarNameInTable="columnRestrictionType" msprop:Generator_ColumnPropNameInTable="RestrictionTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_RestrictionType" />
+      <xs:field xpath="mstns:RestrictionType_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

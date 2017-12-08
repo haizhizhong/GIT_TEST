@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_proj_lot_agreement" targetNamespace="http://tempuri.org/ds_proj_lot_agreement.xsd" xmlns:mstns="http://tempuri.org/ds_proj_lot_agreement.xsd" xmlns="http://tempuri.org/ds_proj_lot_agreement.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_proj_lot_agreement" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_proj_lot_agreement" msprop:Generator_DataSetName="ds_proj_lot_agreement">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LOT_AGREEMENT" msprop:Generator_UserTableName="PROJ_LOT_AGREEMENT" msprop:Generator_RowDeletedName="PROJ_LOT_AGREEMENTRowDeleted" msprop:Generator_RowChangedName="PROJ_LOT_AGREEMENTRowChanged" msprop:Generator_RowClassName="PROJ_LOT_AGREEMENTRow" msprop:Generator_RowChangingName="PROJ_LOT_AGREEMENTRowChanging" msprop:Generator_RowEvArgName="PROJ_LOT_AGREEMENTRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LOT_AGREEMENTRowChangeEventHandler" msprop:Generator_TableClassName="PROJ_LOT_AGREEMENTDataTable" msprop:Generator_TableVarName="tablePROJ_LOT_AGREEMENT" msprop:Generator_RowDeletingName="PROJ_LOT_AGREEMENTRowDeleting" msprop:Generator_TablePropName="PROJ_LOT_AGREEMENT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="proj_lot_id" msprop:Generator_UserColumnName="proj_lot_id" msprop:Generator_ColumnPropNameInRow="proj_lot_id" msprop:Generator_ColumnVarNameInTable="columnproj_lot_id" msprop:Generator_ColumnPropNameInTable="proj_lot_idColumn" type="xs:int" />
+              <xs:element name="pri_id" msprop:Generator_UserColumnName="pri_id" msprop:Generator_ColumnPropNameInRow="pri_id" msprop:Generator_ColumnVarNameInTable="columnpri_id" msprop:Generator_ColumnPropNameInTable="pri_idColumn" type="xs:int" />
+              <xs:element name="agreement_num" msprop:Generator_UserColumnName="agreement_num" msprop:Generator_ColumnPropNameInRow="agreement_num" msprop:Generator_ColumnVarNameInTable="columnagreement_num" msprop:Generator_ColumnPropNameInTable="agreement_numColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="pre_sale" msprop:Generator_UserColumnName="pre_sale" msprop:Generator_ColumnPropNameInRow="pre_sale" msprop:Generator_ColumnVarNameInTable="columnpre_sale" msprop:Generator_ColumnPropNameInTable="pre_saleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="sales_type_id" msprop:Generator_UserColumnName="sales_type_id" msprop:Generator_ColumnPropNameInRow="sales_type_id" msprop:Generator_ColumnVarNameInTable="columnsales_type_id" msprop:Generator_ColumnPropNameInTable="sales_type_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="gst" msprop:Generator_UserColumnName="gst" msprop:Generator_ColumnPropNameInRow="gst" msprop:Generator_ColumnVarNameInTable="columngst" msprop:Generator_ColumnPropNameInTable="gstColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="pst" msprop:Generator_UserColumnName="pst" msprop:Generator_ColumnPropNameInRow="pst" msprop:Generator_ColumnVarNameInTable="columnpst" msprop:Generator_ColumnPropNameInTable="pstColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="sell_price" msprop:Generator_UserColumnName="sell_price" msprop:Generator_ColumnPropNameInRow="sell_price" msprop:Generator_ColumnVarNameInTable="columnsell_price" msprop:Generator_ColumnPropNameInTable="sell_priceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="sales_deposit" msprop:Generator_UserColumnName="sales_deposit" msprop:Generator_ColumnPropNameInRow="sales_deposit" msprop:Generator_ColumnVarNameInTable="columnsales_deposit" msprop:Generator_ColumnPropNameInTable="sales_depositColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="down_payment" msprop:Generator_UserColumnName="down_payment" msprop:Generator_ColumnPropNameInRow="down_payment" msprop:Generator_ColumnVarNameInTable="columndown_payment" msprop:Generator_ColumnPropNameInTable="down_paymentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="damage_deposit" msprop:Generator_UserColumnName="damage_deposit" msprop:Generator_ColumnPropNameInRow="damage_deposit" msprop:Generator_ColumnVarNameInTable="columndamage_deposit" msprop:Generator_ColumnPropNameInTable="damage_depositColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="discount_pct" msprop:Generator_UserColumnName="discount_pct" msprop:Generator_ColumnPropNameInRow="discount_pct" msprop:Generator_ColumnVarNameInTable="columndiscount_pct" msprop:Generator_ColumnPropNameInTable="discount_pctColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="discount_amt" msprop:Generator_UserColumnName="discount_amt" msprop:Generator_ColumnPropNameInRow="discount_amt" msprop:Generator_ColumnVarNameInTable="columndiscount_amt" msprop:Generator_ColumnPropNameInTable="discount_amtColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="penalty_pct" msprop:Generator_UserColumnName="penalty_pct" msprop:Generator_ColumnPropNameInRow="penalty_pct" msprop:Generator_ColumnVarNameInTable="columnpenalty_pct" msprop:Generator_ColumnPropNameInTable="penalty_pctColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="penalty_amt" msprop:Generator_UserColumnName="penalty_amt" msprop:Generator_ColumnPropNameInRow="penalty_amt" msprop:Generator_ColumnVarNameInTable="columnpenalty_amt" msprop:Generator_ColumnPropNameInTable="penalty_amtColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="purchaser_type_id" msprop:Generator_UserColumnName="purchaser_type_id" msprop:Generator_ColumnPropNameInRow="purchaser_type_id" msprop:Generator_ColumnVarNameInTable="columnpurchaser_type_id" msprop:Generator_ColumnPropNameInTable="purchaser_type_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="purchaser_id" msprop:Generator_UserColumnName="purchaser_id" msprop:Generator_ColumnPropNameInRow="purchaser_id" msprop:Generator_ColumnVarNameInTable="columnpurchaser_id" msprop:Generator_ColumnPropNameInTable="purchaser_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="purchaser_id2" msprop:Generator_UserColumnName="purchaser_id2" msprop:Generator_ColumnPropNameInRow="purchaser_id2" msprop:Generator_ColumnVarNameInTable="columnpurchaser_id2" msprop:Generator_ColumnPropNameInTable="purchaser_id2Column" type="xs:int" minOccurs="0" />
+              <xs:element name="purchaser_id3" msprop:Generator_UserColumnName="purchaser_id3" msprop:Generator_ColumnPropNameInRow="purchaser_id3" msprop:Generator_ColumnVarNameInTable="columnpurchaser_id3" msprop:Generator_ColumnPropNameInTable="purchaser_id3Column" type="xs:int" minOccurs="0" />
+              <xs:element name="agreement_date" msprop:Generator_UserColumnName="agreement_date" msprop:Generator_ColumnPropNameInRow="agreement_date" msprop:Generator_ColumnVarNameInTable="columnagreement_date" msprop:Generator_ColumnPropNameInTable="agreement_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="closing_date" msprop:Generator_UserColumnName="closing_date" msprop:Generator_ColumnPropNameInRow="closing_date" msprop:Generator_ColumnVarNameInTable="columnclosing_date" msprop:Generator_ColumnPropNameInTable="closing_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="sale_date" msprop:Generator_UserColumnName="sale_date" msprop:Generator_ColumnPropNameInRow="sale_date" msprop:Generator_ColumnVarNameInTable="columnsale_date" msprop:Generator_ColumnPropNameInTable="sale_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="interest_adjustment_date" msprop:Generator_UserColumnName="interest_adjustment_date" msprop:Generator_ColumnPropNameInRow="interest_adjustment_date" msprop:Generator_ColumnVarNameInTable="columninterest_adjustment_date" msprop:Generator_ColumnPropNameInTable="interest_adjustment_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="arrears_interest_date" msprop:Generator_UserColumnName="arrears_interest_date" msprop:Generator_ColumnPropNameInRow="arrears_interest_date" msprop:Generator_ColumnVarNameInTable="columnarrears_interest_date" msprop:Generator_ColumnPropNameInTable="arrears_interest_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="payout_date" msprop:Generator_UserColumnName="payout_date" msprop:Generator_ColumnPropNameInRow="payout_date" msprop:Generator_ColumnVarNameInTable="columnpayout_date" msprop:Generator_ColumnPropNameInTable="payout_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="original_arrears_date" msprop:Generator_UserColumnName="original_arrears_date" msprop:Generator_ColumnPropNameInRow="original_arrears_date" msprop:Generator_ColumnVarNameInTable="columnoriginal_arrears_date" msprop:Generator_ColumnPropNameInTable="original_arrears_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="r_rate_type_id" msprop:Generator_UserColumnName="r_rate_type_id" msprop:Generator_ColumnPropNameInRow="r_rate_type_id" msprop:Generator_ColumnVarNameInTable="columnr_rate_type_id" msprop:Generator_ColumnPropNameInTable="r_rate_type_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="r_rate_based_on_id" msprop:Generator_UserColumnName="r_rate_based_on_id" msprop:Generator_ColumnPropNameInRow="r_rate_based_on_id" msprop:Generator_ColumnVarNameInTable="columnr_rate_based_on_id" msprop:Generator_ColumnPropNameInTable="r_rate_based_on_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="r_frequency_id" msprop:Generator_UserColumnName="r_frequency_id" msprop:Generator_ColumnPropNameInRow="r_frequency_id" msprop:Generator_ColumnVarNameInTable="columnr_frequency_id" msprop:Generator_ColumnPropNameInTable="r_frequency_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="r_min_interest" msprop:Generator_UserColumnName="r_min_interest" msprop:Generator_ColumnPropNameInRow="r_min_interest" msprop:Generator_ColumnVarNameInTable="columnr_min_interest" msprop:Generator_ColumnPropNameInTable="r_min_interestColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="r_interest_rate" msprop:Generator_UserColumnName="r_interest_rate" msprop:Generator_ColumnPropNameInRow="r_interest_rate" msprop:Generator_ColumnVarNameInTable="columnr_interest_rate" msprop:Generator_ColumnPropNameInTable="r_interest_rateColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="r_max_interest" msprop:Generator_UserColumnName="r_max_interest" msprop:Generator_ColumnPropNameInRow="r_max_interest" msprop:Generator_ColumnVarNameInTable="columnr_max_interest" msprop:Generator_ColumnPropNameInTable="r_max_interestColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="a_rate_type_id" msprop:Generator_UserColumnName="a_rate_type_id" msprop:Generator_ColumnPropNameInRow="a_rate_type_id" msprop:Generator_ColumnVarNameInTable="columna_rate_type_id" msprop:Generator_ColumnPropNameInTable="a_rate_type_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="a_rate_based_on_id" msprop:Generator_UserColumnName="a_rate_based_on_id" msprop:Generator_ColumnPropNameInRow="a_rate_based_on_id" msprop:Generator_ColumnVarNameInTable="columna_rate_based_on_id" msprop:Generator_ColumnPropNameInTable="a_rate_based_on_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="a_frequency_id" msprop:Generator_UserColumnName="a_frequency_id" msprop:Generator_ColumnPropNameInRow="a_frequency_id" msprop:Generator_ColumnVarNameInTable="columna_frequency_id" msprop:Generator_ColumnPropNameInTable="a_frequency_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="a_min_interest" msprop:Generator_UserColumnName="a_min_interest" msprop:Generator_ColumnPropNameInRow="a_min_interest" msprop:Generator_ColumnVarNameInTable="columna_min_interest" msprop:Generator_ColumnPropNameInTable="a_min_interestColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="a_interest_rate" msprop:Generator_UserColumnName="a_interest_rate" msprop:Generator_ColumnPropNameInRow="a_interest_rate" msprop:Generator_ColumnVarNameInTable="columna_interest_rate" msprop:Generator_ColumnPropNameInTable="a_interest_rateColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="a_max_interest" msprop:Generator_UserColumnName="a_max_interest" msprop:Generator_ColumnPropNameInRow="a_max_interest" msprop:Generator_ColumnVarNameInTable="columna_max_interest" msprop:Generator_ColumnPropNameInTable="a_max_interestColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="builders_id" msprop:Generator_UserColumnName="builders_id" msprop:Generator_ColumnPropNameInRow="builders_id" msprop:Generator_ColumnVarNameInTable="columnbuilders_id" msprop:Generator_ColumnPropNameInTable="builders_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="wcb" msprop:Generator_UserColumnName="wcb" msprop:Generator_ColumnPropNameInRow="wcb" msprop:Generator_ColumnVarNameInTable="columnwcb" msprop:Generator_ColumnPropNameInTable="wcbColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="wcb_provider" msprop:Generator_UserColumnName="wcb_provider" msprop:Generator_ColumnPropNameInRow="wcb_provider" msprop:Generator_ColumnVarNameInTable="columnwcb_provider" msprop:Generator_ColumnPropNameInTable="wcb_providerColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hoa_applicable" msprop:Generator_UserColumnName="hoa_applicable" msprop:Generator_ColumnPropNameInRow="hoa_applicable" msprop:Generator_ColumnVarNameInTable="columnhoa_applicable" msprop:Generator_ColumnPropNameInTable="hoa_applicableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="hoa_received" msprop:Generator_UserColumnName="hoa_received" msprop:Generator_ColumnPropNameInRow="hoa_received" msprop:Generator_ColumnVarNameInTable="columnhoa_received" msprop:Generator_ColumnPropNameInTable="hoa_receivedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="hoa_amount" msprop:Generator_UserColumnName="hoa_amount" msprop:Generator_ColumnPropNameInRow="hoa_amount" msprop:Generator_ColumnVarNameInTable="columnhoa_amount" msprop:Generator_ColumnPropNameInTable="hoa_amountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="hoa_date" msprop:Generator_UserColumnName="hoa_date" msprop:Generator_ColumnPropNameInRow="hoa_date" msprop:Generator_ColumnVarNameInTable="columnhoa_date" msprop:Generator_ColumnPropNameInTable="hoa_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="hoa_comment" msprop:Generator_UserColumnName="hoa_comment" msprop:Generator_ColumnPropNameInRow="hoa_comment" msprop:Generator_ColumnVarNameInTable="columnhoa_comment" msprop:Generator_ColumnPropNameInTable="hoa_commentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="agreement_status_id" msprop:Generator_UserColumnName="agreement_status_id" msprop:Generator_ColumnVarNameInTable="columnagreement_status_id" msprop:Generator_ColumnPropNameInRow="agreement_status_id" msprop:Generator_ColumnPropNameInTable="agreement_status_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="agreement_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="agreement_id" msprop:Generator_ColumnPropNameInRow="agreement_id" msprop:Generator_ColumnVarNameInTable="columnagreement_id" msprop:Generator_ColumnPropNameInTable="agreement_idColumn" type="xs:int" />
+              <xs:element name="builder_models_id" msprop:Generator_UserColumnName="builder_models_id" msprop:Generator_ColumnVarNameInTable="columnbuilder_models_id" msprop:Generator_ColumnPropNameInRow="builder_models_id" msprop:Generator_ColumnPropNameInTable="builder_models_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="model_desc" msprop:Generator_UserColumnName="model_desc" msprop:Generator_ColumnVarNameInTable="columnmodel_desc" msprop:Generator_ColumnPropNameInRow="model_desc" msprop:Generator_ColumnPropNameInTable="model_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="elevation" msprop:Generator_UserColumnName="elevation" msprop:Generator_ColumnVarNameInTable="columnelevation" msprop:Generator_ColumnPropNameInRow="elevation" msprop:Generator_ColumnPropNameInTable="elevationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="homebuilder_id" msprop:Generator_UserColumnName="homebuilder_id" msprop:Generator_ColumnVarNameInTable="columnhomebuilder_id" msprop:Generator_ColumnPropNameInRow="homebuilder_id" msprop:Generator_ColumnPropNameInTable="homebuilder_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="thrird_party_purchaser_id" msprop:Generator_UserColumnName="thrird_party_purchaser_id" msprop:Generator_ColumnVarNameInTable="columnthrird_party_purchaser_id" msprop:Generator_ColumnPropNameInRow="thrird_party_purchaser_id" msprop:Generator_ColumnPropNameInTable="thrird_party_purchaser_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LoadedFromSetup" msprop:Generator_UserColumnName="LoadedFromSetup" msprop:Generator_ColumnVarNameInTable="columnLoadedFromSetup" msprop:Generator_ColumnPropNameInRow="LoadedFromSetup" msprop:Generator_ColumnPropNameInTable="LoadedFromSetupColumn" type="xs:boolean" />
+              <xs:element name="thrird_party_purchaser2_id" msprop:Generator_UserColumnName="thrird_party_purchaser2_id" msprop:Generator_ColumnPropNameInRow="thrird_party_purchaser2_id" msprop:Generator_ColumnVarNameInTable="columnthrird_party_purchaser2_id" msprop:Generator_ColumnPropNameInTable="thrird_party_purchaser2_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="thrird_party_purchaser3_id" msprop:Generator_UserColumnName="thrird_party_purchaser3_id" msprop:Generator_ColumnPropNameInRow="thrird_party_purchaser3_id" msprop:Generator_ColumnVarNameInTable="columnthrird_party_purchaser3_id" msprop:Generator_ColumnPropNameInTable="thrird_party_purchaser3_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="estimated_release_date" msprop:Generator_UserColumnName="estimated_release_date" msprop:Generator_ColumnPropNameInRow="estimated_release_date" msprop:Generator_ColumnVarNameInTable="columnestimated_release_date" msprop:Generator_ColumnPropNameInTable="estimated_release_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="actual_release_date" msprop:Generator_UserColumnName="actual_release_date" msprop:Generator_ColumnPropNameInRow="actual_release_date" msprop:Generator_ColumnVarNameInTable="columnactual_release_date" msprop:Generator_ColumnPropNameInTable="actual_release_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SpecHome" msprop:Generator_UserColumnName="SpecHome" msprop:Generator_ColumnVarNameInTable="columnSpecHome" msprop:Generator_ColumnPropNameInRow="SpecHome" msprop:Generator_ColumnPropNameInTable="SpecHomeColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CompoundUponArrears" msprop:Generator_UserColumnName="CompoundUponArrears" msprop:Generator_ColumnPropNameInRow="CompoundUponArrears" msprop:Generator_ColumnVarNameInTable="columnCompoundUponArrears" msprop:Generator_ColumnPropNameInTable="CompoundUponArrearsColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="LD_Lender_ID" msprop:Generator_UserColumnName="LD_Lender_ID" msprop:Generator_ColumnPropNameInRow="LD_Lender_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Lender_ID" msprop:Generator_ColumnPropNameInTable="LD_Lender_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ShowHome" msprop:Generator_UserColumnName="ShowHome" msprop:Generator_ColumnVarNameInTable="columnShowHome" msprop:Generator_ColumnPropNameInRow="ShowHome" msprop:Generator_ColumnPropNameInTable="ShowHomeColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="thrird_party_purchaser4_id" msprop:Generator_UserColumnName="thrird_party_purchaser4_id" msprop:Generator_ColumnPropNameInRow="thrird_party_purchaser4_id" msprop:Generator_ColumnVarNameInTable="columnthrird_party_purchaser4_id" msprop:Generator_ColumnPropNameInTable="thrird_party_purchaser4_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="thrird_party_purchaser5_id" msprop:Generator_UserColumnName="thrird_party_purchaser5_id" msprop:Generator_ColumnPropNameInRow="thrird_party_purchaser5_id" msprop:Generator_ColumnVarNameInTable="columnthrird_party_purchaser5_id" msprop:Generator_ColumnPropNameInTable="thrird_party_purchaser5_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="thrird_party_purchaser6_id" msprop:Generator_UserColumnName="thrird_party_purchaser6_id" msprop:Generator_ColumnPropNameInRow="thrird_party_purchaser6_id" msprop:Generator_ColumnVarNameInTable="columnthrird_party_purchaser6_id" msprop:Generator_ColumnPropNameInTable="thrird_party_purchaser6_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AssumedPurchaser_ID" msprop:Generator_UserColumnName="AssumedPurchaser_ID" msprop:Generator_ColumnVarNameInTable="columnAssumedPurchaser_ID" msprop:Generator_ColumnPropNameInRow="AssumedPurchaser_ID" msprop:Generator_ColumnPropNameInTable="AssumedPurchaser_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Third_Party_Purchase" msprop:Generator_UserColumnName="Third_Party_Purchase" msprop:Generator_ColumnVarNameInTable="columnThird_Party_Purchase" msprop:Generator_ColumnPropNameInRow="Third_Party_Purchase" msprop:Generator_ColumnPropNameInTable="Third_Party_PurchaseColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Third_Party_Purchase_Date" msprop:Generator_UserColumnName="Third_Party_Purchase_Date" msprop:Generator_ColumnVarNameInTable="columnThird_Party_Purchase_Date" msprop:Generator_ColumnPropNameInRow="Third_Party_Purchase_Date" msprop:Generator_ColumnPropNameInTable="Third_Party_Purchase_DateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SpecHomeStartDate" msprop:Generator_UserColumnName="SpecHomeStartDate" msprop:Generator_ColumnVarNameInTable="columnSpecHomeStartDate" msprop:Generator_ColumnPropNameInRow="SpecHomeStartDate" msprop:Generator_ColumnPropNameInTable="SpecHomeStartDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ShowHomeStartDate" msprop:Generator_UserColumnName="ShowHomeStartDate" msprop:Generator_ColumnVarNameInTable="columnShowHomeStartDate" msprop:Generator_ColumnPropNameInRow="ShowHomeStartDate" msprop:Generator_ColumnPropNameInTable="ShowHomeStartDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AssumedDate" msprop:Generator_UserColumnName="AssumedDate" msprop:Generator_ColumnPropNameInRow="AssumedDate" msprop:Generator_ColumnVarNameInTable="columnAssumedDate" msprop:Generator_ColumnPropNameInTable="AssumedDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Downpayment_Notice_Sent" msprop:Generator_UserColumnName="Downpayment_Notice_Sent" msprop:Generator_ColumnVarNameInTable="columnDownpayment_Notice_Sent" msprop:Generator_ColumnPropNameInRow="Downpayment_Notice_Sent" msprop:Generator_ColumnPropNameInTable="Downpayment_Notice_SentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RESERVED" msprop:Generator_UserColumnName="RESERVED" msprop:Generator_ColumnPropNameInRow="RESERVED" msprop:Generator_ColumnVarNameInTable="columnRESERVED" msprop:Generator_ColumnPropNameInTable="RESERVEDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShowHomeCloseDate" msprop:Generator_UserColumnName="ShowHomeCloseDate" msprop:Generator_ColumnVarNameInTable="columnShowHomeCloseDate" msprop:Generator_ColumnPropNameInRow="ShowHomeCloseDate" msprop:Generator_ColumnPropNameInTable="ShowHomeCloseDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ld_standard_terms_det_ID" msprop:Generator_UserColumnName="ld_standard_terms_det_ID" msprop:Generator_ColumnPropNameInRow="ld_standard_terms_det_ID" msprop:Generator_ColumnVarNameInTable="columnld_standard_terms_det_ID" msprop:Generator_ColumnPropNameInTable="ld_standard_terms_det_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="file_number" msprop:Generator_UserColumnName="file_number" msprop:Generator_ColumnVarNameInTable="columnfile_number" msprop:Generator_ColumnPropNameInRow="file_number" msprop:Generator_ColumnPropNameInTable="file_numberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProbationLot" msprop:Generator_UserColumnName="ProbationLot" msprop:Generator_ColumnPropNameInRow="ProbationLot" msprop:Generator_ColumnVarNameInTable="columnProbationLot" msprop:Generator_ColumnPropNameInTable="ProbationLotColumn" type="xs:boolean" />
+              <xs:element name="LD_WarrantyType_ID" msprop:Generator_UserColumnName="LD_WarrantyType_ID" msprop:Generator_ColumnPropNameInRow="LD_WarrantyType_ID" msprop:Generator_ColumnVarNameInTable="columnLD_WarrantyType_ID" msprop:Generator_ColumnPropNameInTable="LD_WarrantyType_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TransferRequested" msprop:Generator_UserColumnName="TransferRequested" msprop:Generator_ColumnPropNameInRow="TransferRequested" msprop:Generator_ColumnVarNameInTable="columnTransferRequested" msprop:Generator_ColumnPropNameInTable="TransferRequestedColumn" type="xs:boolean" />
+              <xs:element name="TransferRequestedDate" msprop:Generator_UserColumnName="TransferRequestedDate" msprop:Generator_ColumnPropNameInRow="TransferRequestedDate" msprop:Generator_ColumnVarNameInTable="columnTransferRequestedDate" msprop:Generator_ColumnPropNameInTable="TransferRequestedDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TransferConfirmed" msprop:Generator_UserColumnName="TransferConfirmed" msprop:Generator_ColumnPropNameInRow="TransferConfirmed" msprop:Generator_ColumnVarNameInTable="columnTransferConfirmed" msprop:Generator_ColumnPropNameInTable="TransferConfirmedColumn" type="xs:boolean" />
+              <xs:element name="TransferConfirmedDate" msprop:Generator_UserColumnName="TransferConfirmedDate" msprop:Generator_ColumnPropNameInRow="TransferConfirmedDate" msprop:Generator_ColumnVarNameInTable="columnTransferConfirmedDate" msprop:Generator_ColumnPropNameInTable="TransferConfirmedDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CollectionReminderSent" msprop:Generator_UserColumnName="CollectionReminderSent" msprop:Generator_ColumnPropNameInRow="CollectionReminderSent" msprop:Generator_ColumnVarNameInTable="columnCollectionReminderSent" msprop:Generator_ColumnPropNameInTable="CollectionReminderSentColumn" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PROJ_LOT_AGREEMENTKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PROJ_LOT_AGREEMENT" />
+      <xs:field xpath="mstns:agreement_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

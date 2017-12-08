@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bsAdditionalUseAreas.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>513, 13</value>
+  </metadata>
+  <metadata name="dsAdditionalUseAreas1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>336, 13</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        a.ID, a.PRI_ID, a.Description, a.Original, 
+isnull((select sum(h.AdditionalUse_Area) from PROJ_LD_RawLandHolding h
+join PROJ_HEADER ph on ph.pri_id = h.PRI_ID where h.PROJ_LD_AdditionalUseArea_ID = a.ID and ph.pri_status != 'X' ),0)[ProjectAllocated],
+isnull((select sum(h.AdditionalUse_Area) from EST_LD_RawLandHolding h join est_header eh on eh.ID = h.EST_ID where h.PROJ_LD_AdditionalUseArea_ID = a.ID and eh.Est_Status not in('C','X') ),0)[EstimateAllocated],  
+isnull(a.Original,0) - isnull((select sum(h.AdditionalUse_Area) from PROJ_LD_RawLandHolding h where h.PROJ_LD_AdditionalUseArea_ID = a.ID),0) [AreaRemaining],Comment
+FROM            PROJ_LD_AdditionalUseArea a
+WHERE        (PRI_ID = @PRI_ID)</value>
+  </data>
+  <metadata name="sqlTRConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>21, 13</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [PROJ_LD_AdditionalUseArea] ([PRI_ID], [Description], [Original], [Comment]) VALUES (@PRI_ID, @Description, @Original, @Comment);
+SELECT ID, PRI_ID, Description, Original, ISNULL((SELECT SUM(h.AdditionalUse_Area) AS Expr1 FROM PROJ_LD_RawLandHolding AS h INNER JOIN PROJ_HEADER AS ph ON ph.pri_id = h.PRI_ID WHERE (h.PROJ_LD_AdditionalUseArea_ID = a.ID) AND (ph.pri_status &lt;&gt; 'X')), 0) AS ProjectAllocated, ISNULL((SELECT SUM(h.AdditionalUse_Area) AS Expr1 FROM EST_LD_RawLandHolding AS h INNER JOIN EST_Header AS eh ON eh.ID = h.EST_ID WHERE (h.PROJ_LD_AdditionalUseArea_ID = a.ID) AND (eh.Est_Status NOT IN ('C', 'X'))), 0) AS EstimateAllocated, ISNULL(Original, 0) - ISNULL((SELECT SUM(AdditionalUse_Area) AS Expr1 FROM PROJ_LD_RawLandHolding AS h WHERE (PROJ_LD_AdditionalUseArea_ID = a.ID)), 0) AS AreaRemaining, Comment FROM PROJ_LD_AdditionalUseArea AS a WHERE (ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [PROJ_LD_AdditionalUseArea] SET [PRI_ID] = @PRI_ID, [Description] = @Description, [Original] = @Original, [Comment] = @Comment WHERE (([ID] = @Original_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_Original = 1 AND [Original] IS NULL) OR ([Original] = @Original_Original)));
+SELECT ID, PRI_ID, Description, Original, ISNULL((SELECT SUM(h.AdditionalUse_Area) AS Expr1 FROM PROJ_LD_RawLandHolding AS h INNER JOIN PROJ_HEADER AS ph ON ph.pri_id = h.PRI_ID WHERE (h.PROJ_LD_AdditionalUseArea_ID = a.ID) AND (ph.pri_status &lt;&gt; 'X')), 0) AS ProjectAllocated, ISNULL((SELECT SUM(h.AdditionalUse_Area) AS Expr1 FROM EST_LD_RawLandHolding AS h INNER JOIN EST_Header AS eh ON eh.ID = h.EST_ID WHERE (h.PROJ_LD_AdditionalUseArea_ID = a.ID) AND (eh.Est_Status NOT IN ('C', 'X'))), 0) AS EstimateAllocated, ISNULL(Original, 0) - ISNULL((SELECT SUM(AdditionalUse_Area) AS Expr1 FROM PROJ_LD_RawLandHolding AS h WHERE (PROJ_LD_AdditionalUseArea_ID = a.ID)), 0) AS AreaRemaining, Comment FROM PROJ_LD_AdditionalUseArea AS a WHERE (ID = @ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [PROJ_LD_AdditionalUseArea] WHERE (([ID] = @Original_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_Original = 1 AND [Original] IS NULL) OR ([Original] = @Original_Original)))</value>
+  </data>
+  <metadata name="daAdditionalUseAreas.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>164, 13</value>
+  </metadata>
+</root>

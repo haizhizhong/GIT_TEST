@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAgreeProgramFees" targetNamespace="http://tempuri.org/dsAgreeProgramFees.xsd" xmlns:mstns="http://tempuri.org/dsAgreeProgramFees.xsd" xmlns="http://tempuri.org/dsAgreeProgramFees.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAgreeProgramFees" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAgreeProgramFees" msprop:Generator_DataSetName="dsAgreeProgramFees">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Proj_Agreement_ProgramFees" msprop:Generator_UserTableName="LD_Proj_Agreement_ProgramFees" msprop:Generator_RowDeletedName="LD_Proj_Agreement_ProgramFeesRowDeleted" msprop:Generator_RowChangedName="LD_Proj_Agreement_ProgramFeesRowChanged" msprop:Generator_RowClassName="LD_Proj_Agreement_ProgramFeesRow" msprop:Generator_RowChangingName="LD_Proj_Agreement_ProgramFeesRowChanging" msprop:Generator_RowEvArgName="LD_Proj_Agreement_ProgramFeesRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Proj_Agreement_ProgramFeesRowChangeEventHandler" msprop:Generator_TableClassName="LD_Proj_Agreement_ProgramFeesDataTable" msprop:Generator_TableVarName="tableLD_Proj_Agreement_ProgramFees" msprop:Generator_RowDeletingName="LD_Proj_Agreement_ProgramFeesRowDeleting" msprop:Generator_TablePropName="LD_Proj_Agreement_ProgramFees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InternalPortion" msprop:Generator_UserColumnName="InternalPortion" msprop:Generator_ColumnPropNameInRow="InternalPortion" msprop:Generator_ColumnVarNameInTable="columnInternalPortion" msprop:Generator_ColumnPropNameInTable="InternalPortionColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PurchaserPortion" msprop:Generator_UserColumnName="PurchaserPortion" msprop:Generator_ColumnPropNameInRow="PurchaserPortion" msprop:Generator_ColumnVarNameInTable="columnPurchaserPortion" msprop:Generator_ColumnPropNameInTable="PurchaserPortionColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RetailsAmount1" msprop:Generator_UserColumnName="RetailsAmount1" msprop:Generator_ColumnPropNameInRow="RetailsAmount1" msprop:Generator_ColumnVarNameInTable="columnRetailsAmount1" msprop:Generator_ColumnPropNameInTable="RetailsAmount1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RetailsAmount2" msprop:Generator_UserColumnName="RetailsAmount2" msprop:Generator_ColumnPropNameInRow="RetailsAmount2" msprop:Generator_ColumnVarNameInTable="columnRetailsAmount2" msprop:Generator_ColumnPropNameInTable="RetailsAmount2Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GST" msprop:Generator_UserColumnName="GST" msprop:Generator_ColumnPropNameInRow="GST" msprop:Generator_ColumnVarNameInTable="columnGST" msprop:Generator_ColumnPropNameInTable="GSTColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PST" msprop:Generator_UserColumnName="PST" msprop:Generator_ColumnPropNameInRow="PST" msprop:Generator_ColumnVarNameInTable="columnPST" msprop:Generator_ColumnPropNameInTable="PSTColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="NAME" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GLAccount" msprop:Generator_UserColumnName="GLAccount" msprop:Generator_ColumnPropNameInRow="GLAccount" msprop:Generator_ColumnVarNameInTable="columnGLAccount" msprop:Generator_ColumnPropNameInTable="GLAccountColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Level1" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Level1" msprop:Generator_ColumnPropNameInRow="Level1" msprop:Generator_ColumnVarNameInTable="columnLevel1" msprop:Generator_ColumnPropNameInTable="Level1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Level2" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Level2" msprop:Generator_ColumnPropNameInRow="Level2" msprop:Generator_ColumnVarNameInTable="columnLevel2" msprop:Generator_ColumnPropNameInTable="Level2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Level3" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Level3" msprop:Generator_ColumnPropNameInRow="Level3" msprop:Generator_ColumnVarNameInTable="columnLevel3" msprop:Generator_ColumnPropNameInTable="Level3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="33" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Level4" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Level4" msprop:Generator_ColumnPropNameInRow="Level4" msprop:Generator_ColumnVarNameInTable="columnLevel4" msprop:Generator_ColumnPropNameInTable="Level4Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="33" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Charged" msprop:Generator_UserColumnName="Charged" msprop:Generator_ColumnPropNameInRow="Charged" msprop:Generator_ColumnVarNameInTable="columnCharged" msprop:Generator_ColumnPropNameInTable="ChargedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ChargedDate" msprop:Generator_UserColumnName="ChargedDate" msprop:Generator_ColumnPropNameInRow="ChargedDate" msprop:Generator_ColumnVarNameInTable="columnChargedDate" msprop:Generator_ColumnPropNameInTable="ChargedDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ChargedAmount" msprop:Generator_UserColumnName="ChargedAmount" msprop:Generator_ColumnPropNameInRow="ChargedAmount" msprop:Generator_ColumnVarNameInTable="columnChargedAmount" msprop:Generator_ColumnPropNameInTable="ChargedAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PaidDate" msprop:Generator_UserColumnName="PaidDate" msprop:Generator_ColumnPropNameInRow="PaidDate" msprop:Generator_ColumnVarNameInTable="columnPaidDate" msprop:Generator_ColumnPropNameInTable="PaidDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PaidAmount" msprop:Generator_UserColumnName="PaidAmount" msprop:Generator_ColumnPropNameInRow="PaidAmount" msprop:Generator_ColumnVarNameInTable="columnPaidAmount" msprop:Generator_ColumnPropNameInTable="PaidAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalAmount" msprop:Generator_UserColumnName="TotalAmount" msprop:Generator_ColumnVarNameInTable="columnTotalAmount" msprop:Generator_ColumnPropNameInRow="TotalAmount" msprop:Generator_ColumnPropNameInTable="TotalAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POCertificate" msprop:Generator_UserColumnName="POCertificate" msprop:Generator_ColumnPropNameInRow="POCertificate" msprop:Generator_ColumnVarNameInTable="columnPOCertificate" msprop:Generator_ColumnPropNameInTable="POCertificateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IS_Cancelled" msprop:Generator_UserColumnName="IS_Cancelled" msprop:Generator_ColumnPropNameInRow="IS_Cancelled" msprop:Generator_ColumnVarNameInTable="columnIS_Cancelled" msprop:Generator_ColumnPropNameInTable="IS_CancelledColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

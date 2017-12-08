@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bsRawLandHolding.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1121, 17</value>
+  </metadata>
+  <metadata name="dsRawLandHolding1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>311, 17</value>
+  </metadata>
+  <metadata name="bs_ProjHeader_Code.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>789, 17</value>
+  </metadata>
+  <metadata name="bs_ProjHeader_Name.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>953, 17</value>
+  </metadata>
+  <metadata name="bsProjAdditionalUseArea_All.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>211, 56</value>
+  </metadata>
+  <metadata name="dsRawLandHolding1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>311, 17</value>
+  </metadata>
+  <metadata name="bs_ProjHeader_Code.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>789, 17</value>
+  </metadata>
+  <metadata name="dsRawLandProject1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>632, 17</value>
+  </metadata>
+  <metadata name="dsRawLandProject1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>632, 17</value>
+  </metadata>
+  <metadata name="bs_ProjHeader_Name.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>953, 17</value>
+  </metadata>
+  <metadata name="bsProjAdditionalUseArea_All.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>211, 56</value>
+  </metadata>
+  <metadata name="dsProjAdditionalUseArea1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="dsProjAdditionalUseArea1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        ID, PRI_ID, RawLand_PRI_ID, PROJ_LD_AdditionalUseArea_ID, AdditionalUse_Area, ISNULL(TotalArea, 0) - ISNULL(AdditionalUse_Area, 0) AS NetArea, TotalArea, Comment
+FROM            PROJ_LD_RawLandHolding
+WHERE        (PRI_ID = @PRI_ID)</value>
+  </data>
+  <metadata name="sqlTRConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [PROJ_LD_RawLandHolding] ([PRI_ID], [RawLand_PRI_ID], [PROJ_LD_AdditionalUseArea_ID], [AdditionalUse_Area], [TotalArea], [Comment]) VALUES (@PRI_ID, @RawLand_PRI_ID, @PROJ_LD_AdditionalUseArea_ID, @AdditionalUse_Area, @TotalArea, @Comment);
+SELECT ID, PRI_ID, RawLand_PRI_ID, PROJ_LD_AdditionalUseArea_ID, AdditionalUse_Area, ISNULL(TotalArea, 0) - ISNULL(AdditionalUse_Area, 0) AS NetArea, TotalArea, Comment FROM PROJ_LD_RawLandHolding WHERE (ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [PROJ_LD_RawLandHolding] SET [PRI_ID] = @PRI_ID, [RawLand_PRI_ID] = @RawLand_PRI_ID, [PROJ_LD_AdditionalUseArea_ID] = @PROJ_LD_AdditionalUseArea_ID, [AdditionalUse_Area] = @AdditionalUse_Area, [TotalArea] = @TotalArea, [Comment] = @Comment WHERE (([ID] = @Original_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_RawLand_PRI_ID = 1 AND [RawLand_PRI_ID] IS NULL) OR ([RawLand_PRI_ID] = @Original_RawLand_PRI_ID)) AND ((@IsNull_PROJ_LD_AdditionalUseArea_ID = 1 AND [PROJ_LD_AdditionalUseArea_ID] IS NULL) OR ([PROJ_LD_AdditionalUseArea_ID] = @Original_PROJ_LD_AdditionalUseArea_ID)) AND ((@IsNull_AdditionalUse_Area = 1 AND [AdditionalUse_Area] IS NULL) OR ([AdditionalUse_Area] = @Original_AdditionalUse_Area)) AND ((@IsNull_TotalArea = 1 AND [TotalArea] IS NULL) OR ([TotalArea] = @Original_TotalArea)));
+SELECT ID, PRI_ID, RawLand_PRI_ID, PROJ_LD_AdditionalUseArea_ID, AdditionalUse_Area, ISNULL(TotalArea, 0) - ISNULL(AdditionalUse_Area, 0) AS NetArea, TotalArea, Comment FROM PROJ_LD_RawLandHolding WHERE (ID = @ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [PROJ_LD_RawLandHolding] WHERE (([ID] = @Original_ID) AND ((@IsNull_PRI_ID = 1 AND [PRI_ID] IS NULL) OR ([PRI_ID] = @Original_PRI_ID)) AND ((@IsNull_RawLand_PRI_ID = 1 AND [RawLand_PRI_ID] IS NULL) OR ([RawLand_PRI_ID] = @Original_RawLand_PRI_ID)) AND ((@IsNull_PROJ_LD_AdditionalUseArea_ID = 1 AND [PROJ_LD_AdditionalUseArea_ID] IS NULL) OR ([PROJ_LD_AdditionalUseArea_ID] = @Original_PROJ_LD_AdditionalUseArea_ID)) AND ((@IsNull_AdditionalUse_Area = 1 AND [AdditionalUse_Area] IS NULL) OR ([AdditionalUse_Area] = @Original_AdditionalUse_Area)) AND ((@IsNull_TotalArea = 1 AND [TotalArea] IS NULL) OR ([TotalArea] = @Original_TotalArea)))</value>
+  </data>
+  <metadata name="daRawLandHolding.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 17</value>
+  </metadata>
+  <metadata name="daRawLandProject.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>480, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [PROJ_HEADER] WHERE (([pri_id] = @Original_pri_id) AND ((@IsNull_pri_code = 1 AND [pri_code] IS NULL) OR ([pri_code] = @Original_pri_code)) AND ((@IsNull_pri_name = 1 AND [pri_name] IS NULL) OR ([pri_name] = @Original_pri_name)) AND ((@IsNull_pri_status = 1 AND [pri_status] IS NULL) OR ([pri_status] = @Original_pri_status)))</value>
+  </data>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [PROJ_HEADER] ([pri_code], [pri_name], [pri_status]) VALUES (@pri_code, @pri_name, @pri_status);
+SELECT pri_id, pri_code, pri_name, pri_status FROM PROJ_HEADER WHERE (pri_id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1066, 13</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [PROJ_HEADER] SET [pri_code] = @pri_code, [pri_name] = @pri_name, [pri_status] = @pri_status WHERE (([pri_id] = @Original_pri_id) AND ((@IsNull_pri_code = 1 AND [pri_code] IS NULL) OR ([pri_code] = @Original_pri_code)) AND ((@IsNull_pri_name = 1 AND [pri_name] IS NULL) OR ([pri_name] = @Original_pri_name)) AND ((@IsNull_pri_status = 1 AND [pri_status] IS NULL) OR ([pri_status] = @Original_pri_status)));
+SELECT pri_id, pri_code, pri_name, pri_status FROM PROJ_HEADER WHERE (pri_id = @pri_id)</value>
+  </data>
+  <metadata name="daProjAdditionalUseArea.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1278, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand3.CommandText" xml:space="preserve">
+    <value>SELECT        a.ID, a.PRI_ID, a.Description, a.Original, a.Comment, ph.pri_status
+FROM            PROJ_LD_AdditionalUseArea AS a INNER JOIN
+                         PROJ_HEADER AS ph ON ph.pri_id = a.PRI_ID
+ORDER BY a.Description</value>
+  </data>
+  <metadata name="bsProjAdditionalUseArea.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>417, 56</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="hleTransferCosts.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>156</value>
+  </metadata>
+</root>

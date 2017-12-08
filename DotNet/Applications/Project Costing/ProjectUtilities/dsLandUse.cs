@@ -1,0 +1,7 @@
+﻿namespace ProjectUtilities
+{
+}
+
+namespace ProjectUtilities
+{
+}

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAgreeAdditionalFees" targetNamespace="http://tempuri.org/dsAgreeAdditionalFees.xsd" xmlns:mstns="http://tempuri.org/dsAgreeAdditionalFees.xsd" xmlns="http://tempuri.org/dsAgreeAdditionalFees.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAgreeAdditionalFees" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAgreeAdditionalFees" msprop:Generator_DataSetName="dsAgreeAdditionalFees">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Proj_Agreement_AdditionalFees" msprop:Generator_UserTableName="LD_Proj_Agreement_AdditionalFees" msprop:Generator_RowDeletedName="LD_Proj_Agreement_AdditionalFeesRowDeleted" msprop:Generator_TableClassName="LD_Proj_Agreement_AdditionalFeesDataTable" msprop:Generator_RowChangedName="LD_Proj_Agreement_AdditionalFeesRowChanged" msprop:Generator_RowClassName="LD_Proj_Agreement_AdditionalFeesRow" msprop:Generator_RowChangingName="LD_Proj_Agreement_AdditionalFeesRowChanging" msprop:Generator_RowEvArgName="LD_Proj_Agreement_AdditionalFeesRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Proj_Agreement_AdditionalFeesRowChangeEventHandler" msprop:Generator_TablePropName="LD_Proj_Agreement_AdditionalFees" msprop:Generator_TableVarName="tableLD_Proj_Agreement_AdditionalFees" msprop:Generator_RowDeletingName="LD_Proj_Agreement_AdditionalFeesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeeDescription" msprop:Generator_UserColumnName="FeeDescription" msprop:Generator_ColumnPropNameInRow="FeeDescription" msprop:Generator_ColumnVarNameInTable="columnFeeDescription" msprop:Generator_ColumnPropNameInTable="FeeDescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Lv1ID" msprop:Generator_UserColumnName="Lv1ID" msprop:Generator_ColumnPropNameInRow="Lv1ID" msprop:Generator_ColumnVarNameInTable="columnLv1ID" msprop:Generator_ColumnPropNameInTable="Lv1IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Lv2ID" msprop:Generator_UserColumnName="Lv2ID" msprop:Generator_ColumnPropNameInRow="Lv2ID" msprop:Generator_ColumnVarNameInTable="columnLv2ID" msprop:Generator_ColumnPropNameInTable="Lv2IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Lv3ID" msprop:Generator_UserColumnName="Lv3ID" msprop:Generator_ColumnPropNameInRow="Lv3ID" msprop:Generator_ColumnVarNameInTable="columnLv3ID" msprop:Generator_ColumnPropNameInTable="Lv3IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Lv4ID" msprop:Generator_UserColumnName="Lv4ID" msprop:Generator_ColumnPropNameInRow="Lv4ID" msprop:Generator_ColumnVarNameInTable="columnLv4ID" msprop:Generator_ColumnPropNameInTable="Lv4IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GST" msprop:Generator_UserColumnName="GST" msprop:Generator_ColumnPropNameInRow="GST" msprop:Generator_ColumnVarNameInTable="columnGST" msprop:Generator_ColumnPropNameInTable="GSTColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TotalAmount" msprop:Generator_UserColumnName="TotalAmount" msprop:Generator_ColumnPropNameInRow="TotalAmount" msprop:Generator_ColumnVarNameInTable="columnTotalAmount" msprop:Generator_ColumnPropNameInTable="TotalAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Charged" msprop:Generator_UserColumnName="Charged" msprop:Generator_ColumnPropNameInRow="Charged" msprop:Generator_ColumnVarNameInTable="columnCharged" msprop:Generator_ColumnPropNameInTable="ChargedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ChargedDate" msprop:Generator_UserColumnName="ChargedDate" msprop:Generator_ColumnPropNameInRow="ChargedDate" msprop:Generator_ColumnVarNameInTable="columnChargedDate" msprop:Generator_ColumnPropNameInTable="ChargedDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ChargedAmount" msprop:Generator_UserColumnName="ChargedAmount" msprop:Generator_ColumnPropNameInRow="ChargedAmount" msprop:Generator_ColumnVarNameInTable="columnChargedAmount" msprop:Generator_ColumnPropNameInTable="ChargedAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PST" msprop:Generator_UserColumnName="PST" msprop:Generator_ColumnPropNameInRow="PST" msprop:Generator_ColumnVarNameInTable="columnPST" msprop:Generator_ColumnPropNameInTable="PSTColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_Repayment" targetNamespace="http://tempuri.org/ds_Repayment.xsd" xmlns:mstns="http://tempuri.org/ds_Repayment.xsd" xmlns="http://tempuri.org/ds_Repayment.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_Repayment" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_Repayment" msprop:Generator_DataSetName="ds_Repayment">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Repayment" msprop:Generator_UserTableName="LD_Repayment" msprop:Generator_RowDeletedName="LD_RepaymentRowDeleted" msprop:Generator_TableClassName="LD_RepaymentDataTable" msprop:Generator_RowChangedName="LD_RepaymentRowChanged" msprop:Generator_RowClassName="LD_RepaymentRow" msprop:Generator_RowChangingName="LD_RepaymentRowChanging" msprop:Generator_RowEvArgName="LD_RepaymentRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_RepaymentRowChangeEventHandler" msprop:Generator_TablePropName="LD_Repayment" msprop:Generator_TableVarName="tableLD_Repayment" msprop:Generator_RowDeletingName="LD_RepaymentRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REPAYMENT_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="REPAYMENT_ID" msprop:Generator_ColumnPropNameInRow="REPAYMENT_ID" msprop:Generator_ColumnVarNameInTable="columnREPAYMENT_ID" msprop:Generator_ColumnPropNameInTable="REPAYMENT_IDColumn" type="xs:int" />
+              <xs:element name="PRI_ID" msprop:Generator_UserColumnName="PRI_ID" msprop:Generator_ColumnPropNameInRow="PRI_ID" msprop:Generator_ColumnVarNameInTable="columnPRI_ID" msprop:Generator_ColumnPropNameInTable="PRI_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FINANCING_ID" msprop:Generator_UserColumnName="FINANCING_ID" msprop:Generator_ColumnPropNameInRow="FINANCING_ID" msprop:Generator_ColumnVarNameInTable="columnFINANCING_ID" msprop:Generator_ColumnPropNameInTable="FINANCING_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LOT_CLASS_ID" msprop:Generator_UserColumnName="LOT_CLASS_ID" msprop:Generator_ColumnPropNameInRow="LOT_CLASS_ID" msprop:Generator_ColumnVarNameInTable="columnLOT_CLASS_ID" msprop:Generator_ColumnPropNameInTable="LOT_CLASS_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LOT_SUB_CLASS_ID" msprop:Generator_UserColumnName="LOT_SUB_CLASS_ID" msprop:Generator_ColumnPropNameInRow="LOT_SUB_CLASS_ID" msprop:Generator_ColumnVarNameInTable="columnLOT_SUB_CLASS_ID" msprop:Generator_ColumnPropNameInTable="LOT_SUB_CLASS_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_UserColumnName="AMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PERCENTAGE" msprop:Generator_UserColumnName="PERCENTAGE" msprop:Generator_ColumnPropNameInRow="PERCENTAGE" msprop:Generator_ColumnVarNameInTable="columnPERCENTAGE" msprop:Generator_ColumnPropNameInTable="PERCENTAGEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="USE_AMOUNT" msprop:Generator_UserColumnName="USE_AMOUNT" msprop:Generator_ColumnPropNameInRow="USE_AMOUNT" msprop:Generator_ColumnVarNameInTable="columnUSE_AMOUNT" msprop:Generator_ColumnPropNameInTable="USE_AMOUNTColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Repayment" />
+      <xs:field xpath="mstns:REPAYMENT_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

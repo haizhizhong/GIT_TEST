@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLetterOfCredit" targetNamespace="http://tempuri.org/dsLetterOfCredit.xsd" xmlns:mstns="http://tempuri.org/dsLetterOfCredit.xsd" xmlns="http://tempuri.org/dsLetterOfCredit.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLetterOfCredit" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLetterOfCredit" msprop:Generator_DataSetName="dsLetterOfCredit">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_PROJ_LetterOfCredit" msprop:Generator_UserTableName="LD_PROJ_LetterOfCredit" msprop:Generator_RowDeletedName="LD_PROJ_LetterOfCreditRowDeleted" msprop:Generator_RowChangedName="LD_PROJ_LetterOfCreditRowChanged" msprop:Generator_RowClassName="LD_PROJ_LetterOfCreditRow" msprop:Generator_RowChangingName="LD_PROJ_LetterOfCreditRowChanging" msprop:Generator_RowEvArgName="LD_PROJ_LetterOfCreditRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_PROJ_LetterOfCreditRowChangeEventHandler" msprop:Generator_TableClassName="LD_PROJ_LetterOfCreditDataTable" msprop:Generator_TableVarName="tableLD_PROJ_LetterOfCredit" msprop:Generator_RowDeletingName="LD_PROJ_LetterOfCreditRowDeleting" msprop:Generator_TablePropName="LD_PROJ_LetterOfCredit">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LetterOfCredit_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="LetterOfCredit_ID" msprop:Generator_ColumnPropNameInRow="LetterOfCredit_ID" msprop:Generator_ColumnVarNameInTable="columnLetterOfCredit_ID" msprop:Generator_ColumnPropNameInTable="LetterOfCredit_IDColumn" type="xs:int" />
+              <xs:element name="pri_id" msprop:Generator_UserColumnName="pri_id" msprop:Generator_ColumnPropNameInRow="pri_id" msprop:Generator_ColumnVarNameInTable="columnpri_id" msprop:Generator_ColumnPropNameInTable="pri_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReferenceNum" msprop:Generator_UserColumnName="ReferenceNum" msprop:Generator_ColumnPropNameInRow="ReferenceNum" msprop:Generator_ColumnVarNameInTable="columnReferenceNum" msprop:Generator_ColumnPropNameInTable="ReferenceNumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LOC_Type" msprop:Generator_UserColumnName="LOC_Type" msprop:Generator_ColumnPropNameInRow="LOC_Type" msprop:Generator_ColumnVarNameInTable="columnLOC_Type" msprop:Generator_ColumnPropNameInTable="LOC_TypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LOC_Description" msprop:Generator_UserColumnName="LOC_Description" msprop:Generator_ColumnPropNameInRow="LOC_Description" msprop:Generator_ColumnVarNameInTable="columnLOC_Description" msprop:Generator_ColumnPropNameInTable="LOC_DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Lender_ID" msprop:Generator_UserColumnName="Lender_ID" msprop:Generator_ColumnPropNameInRow="Lender_ID" msprop:Generator_ColumnVarNameInTable="columnLender_ID" msprop:Generator_ColumnPropNameInTable="Lender_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StartDate" msprop:Generator_UserColumnName="StartDate" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ExpiryDate" msprop:Generator_UserColumnName="ExpiryDate" msprop:Generator_ColumnPropNameInRow="ExpiryDate" msprop:Generator_ColumnVarNameInTable="columnExpiryDate" msprop:Generator_ColumnPropNameInTable="ExpiryDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_UserColumnName="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInTable="NotesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EstimatedReleaseDate" msprop:Generator_UserColumnName="EstimatedReleaseDate" msprop:Generator_ColumnVarNameInTable="columnEstimatedReleaseDate" msprop:Generator_ColumnPropNameInRow="EstimatedReleaseDate" msprop:Generator_ColumnPropNameInTable="EstimatedReleaseDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ActualReleaseDate" msprop:Generator_UserColumnName="ActualReleaseDate" msprop:Generator_ColumnVarNameInTable="columnActualReleaseDate" msprop:Generator_ColumnPropNameInRow="ActualReleaseDate" msprop:Generator_ColumnPropNameInTable="ActualReleaseDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Beneficiary_id" msprop:Generator_UserColumnName="Beneficiary_id" msprop:Generator_ColumnPropNameInRow="Beneficiary_id" msprop:Generator_ColumnVarNameInTable="columnBeneficiary_id" msprop:Generator_ColumnPropNameInTable="Beneficiary_idColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_PROJ_LetterOfCredit" />
+      <xs:field xpath="mstns:LetterOfCredit_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

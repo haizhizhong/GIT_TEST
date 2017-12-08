@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLookups_Hold" targetNamespace="http://tempuri.org/dsLookups_Hold.xsd" xmlns:mstns="http://tempuri.org/dsLookups_Hold.xsd" xmlns="http://tempuri.org/dsLookups_Hold.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLookups_Hold" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLookups_Hold" msprop:Generator_DataSetName="dsLookups_Hold">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Lot_Status" msprop:Generator_UserTableName="LD_Lot_Status" msprop:Generator_RowDeletedName="LD_Lot_StatusRowDeleted" msprop:Generator_RowChangedName="LD_Lot_StatusRowChanged" msprop:Generator_RowClassName="LD_Lot_StatusRow" msprop:Generator_RowChangingName="LD_Lot_StatusRowChanging" msprop:Generator_RowEvArgName="LD_Lot_StatusRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Lot_StatusRowChangeEventHandler" msprop:Generator_TableClassName="LD_Lot_StatusDataTable" msprop:Generator_TableVarName="tableLD_Lot_Status" msprop:Generator_RowDeletingName="LD_Lot_StatusRowDeleting" msprop:Generator_TablePropName="LD_Lot_Status">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lot_Status_ID" msprop:Generator_UserColumnName="Lot_Status_ID" msprop:Generator_ColumnVarNameInTable="columnLot_Status_ID" msprop:Generator_ColumnPropNameInRow="Lot_Status_ID" msprop:Generator_ColumnPropNameInTable="Lot_Status_IDColumn" type="xs:int" />
+              <xs:element name="Lot_Status" msprop:Generator_UserColumnName="Lot_Status" msprop:Generator_ColumnVarNameInTable="columnLot_Status" msprop:Generator_ColumnPropNameInRow="Lot_Status" msprop:Generator_ColumnPropNameInTable="Lot_StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_Purchaser_Type" msprop:Generator_UserTableName="LD_Purchaser_Type" msprop:Generator_RowDeletedName="LD_Purchaser_TypeRowDeleted" msprop:Generator_RowChangedName="LD_Purchaser_TypeRowChanged" msprop:Generator_RowClassName="LD_Purchaser_TypeRow" msprop:Generator_RowChangingName="LD_Purchaser_TypeRowChanging" msprop:Generator_RowEvArgName="LD_Purchaser_TypeRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Purchaser_TypeRowChangeEventHandler" msprop:Generator_TableClassName="LD_Purchaser_TypeDataTable" msprop:Generator_TableVarName="tableLD_Purchaser_Type" msprop:Generator_RowDeletingName="LD_Purchaser_TypeRowDeleting" msprop:Generator_TablePropName="LD_Purchaser_Type">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LD_Purchaser_Type_ID" msprop:Generator_UserColumnName="LD_Purchaser_Type_ID" msprop:Generator_ColumnPropNameInRow="LD_Purchaser_Type_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Purchaser_Type_ID" msprop:Generator_ColumnPropNameInTable="LD_Purchaser_Type_IDColumn" type="xs:int" />
+              <xs:element name="PurchaserType" msprop:Generator_UserColumnName="PurchaserType" msprop:Generator_ColumnPropNameInRow="PurchaserType" msprop:Generator_ColumnVarNameInTable="columnPurchaserType" msprop:Generator_ColumnPropNameInTable="PurchaserTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_Purchasers" msprop:Generator_UserTableName="LD_Purchasers" msprop:Generator_RowDeletedName="LD_PurchasersRowDeleted" msprop:Generator_RowChangedName="LD_PurchasersRowChanged" msprop:Generator_RowClassName="LD_PurchasersRow" msprop:Generator_RowChangingName="LD_PurchasersRowChanging" msprop:Generator_RowEvArgName="LD_PurchasersRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_PurchasersRowChangeEventHandler" msprop:Generator_TableClassName="LD_PurchasersDataTable" msprop:Generator_TableVarName="tableLD_Purchasers" msprop:Generator_RowDeletingName="LD_PurchasersRowDeleting" msprop:Generator_TablePropName="LD_Purchasers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Purchasers_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Purchasers_ID" msprop:Generator_ColumnPropNameInRow="Purchasers_ID" msprop:Generator_ColumnVarNameInTable="columnPurchasers_ID" msprop:Generator_ColumnPropNameInTable="Purchasers_IDColumn" type="xs:int" />
+              <xs:element name="Purchaser_Type_ID" msprop:Generator_UserColumnName="Purchaser_Type_ID" msprop:Generator_ColumnPropNameInRow="Purchaser_Type_ID" msprop:Generator_ColumnVarNameInTable="columnPurchaser_Type_ID" msprop:Generator_ColumnPropNameInTable="Purchaser_Type_IDColumn" type="xs:int" />
+              <xs:element name="Purchaser" msprop:Generator_UserColumnName="Purchaser" msprop:Generator_ColumnPropNameInRow="Purchaser" msprop:Generator_ColumnVarNameInTable="columnPurchaser" msprop:Generator_ColumnPropNameInTable="PurchaserColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_Sub_Lot_Status" msprop:Generator_UserTableName="LD_Sub_Lot_Status" msprop:Generator_RowDeletedName="LD_Sub_Lot_StatusRowDeleted" msprop:Generator_RowChangedName="LD_Sub_Lot_StatusRowChanged" msprop:Generator_RowClassName="LD_Sub_Lot_StatusRow" msprop:Generator_RowChangingName="LD_Sub_Lot_StatusRowChanging" msprop:Generator_RowEvArgName="LD_Sub_Lot_StatusRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Sub_Lot_StatusRowChangeEventHandler" msprop:Generator_TableClassName="LD_Sub_Lot_StatusDataTable" msprop:Generator_TableVarName="tableLD_Sub_Lot_Status" msprop:Generator_RowDeletingName="LD_Sub_Lot_StatusRowDeleting" msprop:Generator_TablePropName="LD_Sub_Lot_Status">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sub_Status_ID" msprop:Generator_UserColumnName="Sub_Status_ID" msprop:Generator_ColumnPropNameInRow="Sub_Status_ID" msprop:Generator_ColumnVarNameInTable="columnSub_Status_ID" msprop:Generator_ColumnPropNameInTable="Sub_Status_IDColumn" type="xs:int" />
+              <xs:element name="LD_Lot_Status_ID" msprop:Generator_UserColumnName="LD_Lot_Status_ID" msprop:Generator_ColumnPropNameInRow="LD_Lot_Status_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Lot_Status_ID" msprop:Generator_ColumnPropNameInTable="LD_Lot_Status_IDColumn" type="xs:int" />
+              <xs:element name="Sub_Status" msprop:Generator_UserColumnName="Sub_Status" msprop:Generator_ColumnPropNameInRow="Sub_Status" msprop:Generator_ColumnVarNameInTable="columnSub_Status" msprop:Generator_ColumnPropNameInTable="Sub_StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CUSTOMERS" msprop:Generator_UserTableName="CUSTOMERS" msprop:Generator_RowDeletedName="CUSTOMERSRowDeleted" msprop:Generator_RowChangedName="CUSTOMERSRowChanged" msprop:Generator_RowClassName="CUSTOMERSRow" msprop:Generator_RowChangingName="CUSTOMERSRowChanging" msprop:Generator_RowEvArgName="CUSTOMERSRowChangeEvent" msprop:Generator_RowEvHandlerName="CUSTOMERSRowChangeEventHandler" msprop:Generator_TableClassName="CUSTOMERSDataTable" msprop:Generator_TableVarName="tableCUSTOMERS" msprop:Generator_RowDeletingName="CUSTOMERSRowDeleting" msprop:Generator_TablePropName="CUSTOMERS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CUSTOMER_ID" msprop:Generator_UserColumnName="CUSTOMER_ID" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_ID" msprop:Generator_ColumnPropNameInRow="CUSTOMER_ID" msprop:Generator_ColumnPropNameInTable="CUSTOMER_IDColumn" type="xs:int" />
+              <xs:element name="CUSTOMER_CODE" msprop:Generator_UserColumnName="CUSTOMER_CODE" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_CODE" msprop:Generator_ColumnPropNameInRow="CUSTOMER_CODE" msprop:Generator_ColumnPropNameInTable="CUSTOMER_CODEColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAME" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PURCHASER_TYPE_ID" msprop:Generator_UserColumnName="PURCHASER_TYPE_ID" msprop:Generator_ColumnVarNameInTable="columnPURCHASER_TYPE_ID" msprop:Generator_ColumnPropNameInRow="PURCHASER_TYPE_ID" msprop:Generator_ColumnPropNameInTable="PURCHASER_TYPE_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ACTIVE" msprop:Generator_UserColumnName="ACTIVE" msprop:Generator_ColumnPropNameInRow="ACTIVE" msprop:Generator_ColumnVarNameInTable="columnACTIVE" msprop:Generator_ColumnPropNameInTable="ACTIVEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Lot_Status" />
+      <xs:field xpath="mstns:Lot_Status_ID" />
+    </xs:unique>
+    <xs:unique name="LD_Purchaser_Type_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Purchaser_Type" />
+      <xs:field xpath="mstns:LD_Purchaser_Type_ID" />
+    </xs:unique>
+    <xs:unique name="LD_Purchasers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Purchasers" />
+      <xs:field xpath="mstns:Purchasers_ID" />
+    </xs:unique>
+    <xs:unique name="LD_Sub_Lot_Status_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Sub_Lot_Status" />
+      <xs:field xpath="mstns:Sub_Status_ID" />
+    </xs:unique>
+    <xs:unique name="CUSTOMERS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CUSTOMERS" />
+      <xs:field xpath="mstns:CUSTOMER_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

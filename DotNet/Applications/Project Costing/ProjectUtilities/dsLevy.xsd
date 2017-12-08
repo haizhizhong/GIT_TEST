@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLevy" targetNamespace="http://tempuri.org/dsLevy.xsd" xmlns:mstns="http://tempuri.org/dsLevy.xsd" xmlns="http://tempuri.org/dsLevy.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLevy" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLevy" msprop:Generator_DataSetName="dsLevy">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Standard_Terms_Levy_Det" msprop:Generator_UserTableName="LD_Standard_Terms_Levy_Det" msprop:Generator_RowDeletedName="LD_Standard_Terms_Levy_DetRowDeleted" msprop:Generator_RowChangedName="LD_Standard_Terms_Levy_DetRowChanged" msprop:Generator_RowClassName="LD_Standard_Terms_Levy_DetRow" msprop:Generator_RowChangingName="LD_Standard_Terms_Levy_DetRowChanging" msprop:Generator_RowEvArgName="LD_Standard_Terms_Levy_DetRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_Standard_Terms_Levy_DetRowChangeEventHandler" msprop:Generator_TableClassName="LD_Standard_Terms_Levy_DetDataTable" msprop:Generator_TableVarName="tableLD_Standard_Terms_Levy_Det" msprop:Generator_RowDeletingName="LD_Standard_Terms_Levy_DetRowDeleting" msprop:Generator_TablePropName="LD_Standard_Terms_Levy_Det">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="LD_StandardTerms_Det_ID" msprop:Generator_UserColumnName="LD_StandardTerms_Det_ID" msprop:Generator_ColumnVarNameInTable="columnLD_StandardTerms_Det_ID" msprop:Generator_ColumnPropNameInRow="LD_StandardTerms_Det_ID" msprop:Generator_ColumnPropNameInTable="LD_StandardTerms_Det_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LD_Levy_ID" msprop:Generator_UserColumnName="LD_Levy_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Levy_ID" msprop:Generator_ColumnPropNameInRow="LD_Levy_ID" msprop:Generator_ColumnPropNameInTable="LD_Levy_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lot_class_id" msprop:Generator_UserColumnName="lot_class_id" msprop:Generator_ColumnVarNameInTable="columnlot_class_id" msprop:Generator_ColumnPropNameInRow="lot_class_id" msprop:Generator_ColumnPropNameInTable="lot_class_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv1id" msprop:Generator_UserColumnName="lv1id" msprop:Generator_ColumnVarNameInTable="columnlv1id" msprop:Generator_ColumnPropNameInRow="lv1id" msprop:Generator_ColumnPropNameInTable="lv1idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv2id" msprop:Generator_UserColumnName="lv2id" msprop:Generator_ColumnVarNameInTable="columnlv2id" msprop:Generator_ColumnPropNameInRow="lv2id" msprop:Generator_ColumnPropNameInTable="lv2idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv3id" msprop:Generator_UserColumnName="lv3id" msprop:Generator_ColumnVarNameInTable="columnlv3id" msprop:Generator_ColumnPropNameInRow="lv3id" msprop:Generator_ColumnPropNameInTable="lv3idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv4id" msprop:Generator_UserColumnName="lv4id" msprop:Generator_ColumnVarNameInTable="columnlv4id" msprop:Generator_ColumnPropNameInRow="lv4id" msprop:Generator_ColumnPropNameInTable="lv4idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Supplier_ID" msprop:Generator_UserColumnName="Supplier_ID" msprop:Generator_ColumnPropNameInRow="Supplier_ID" msprop:Generator_ColumnVarNameInTable="columnSupplier_ID" msprop:Generator_ColumnPropNameInTable="Supplier_IDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Standard_Terms_Levy_Det" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAttach" targetNamespace="http://tempuri.org/dsAttach.xsd" xmlns:mstns="http://tempuri.org/dsAttach.xsd" xmlns="http://tempuri.org/dsAttach.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAttach" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAttach" msprop:Generator_DataSetName="dsAttach">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WS_ChatAttachment" msprop:Generator_UserTableName="WS_ChatAttachment" msprop:Generator_RowDeletedName="WS_ChatAttachmentRowDeleted" msprop:Generator_TableClassName="WS_ChatAttachmentDataTable" msprop:Generator_RowChangedName="WS_ChatAttachmentRowChanged" msprop:Generator_RowClassName="WS_ChatAttachmentRow" msprop:Generator_RowChangingName="WS_ChatAttachmentRowChanging" msprop:Generator_RowEvArgName="WS_ChatAttachmentRowChangeEvent" msprop:Generator_RowEvHandlerName="WS_ChatAttachmentRowChangeEventHandler" msprop:Generator_TablePropName="WS_ChatAttachment" msprop:Generator_TableVarName="tableWS_ChatAttachment" msprop:Generator_RowDeletingName="WS_ChatAttachmentRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CAtch_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="CAtch_ID" msprop:Generator_ColumnPropNameInRow="CAtch_ID" msprop:Generator_ColumnVarNameInTable="columnCAtch_ID" msprop:Generator_ColumnPropNameInTable="CAtch_IDColumn" type="xs:int" />
+              <xs:element name="CAtch_FileName" msprop:Generator_UserColumnName="CAtch_FileName" msprop:Generator_ColumnPropNameInRow="CAtch_FileName" msprop:Generator_ColumnVarNameInTable="columnCAtch_FileName" msprop:Generator_ColumnPropNameInTable="CAtch_FileNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CAtch_Type" msprop:Generator_UserColumnName="CAtch_Type" msprop:Generator_ColumnPropNameInRow="CAtch_Type" msprop:Generator_ColumnVarNameInTable="columnCAtch_Type" msprop:Generator_ColumnPropNameInTable="CAtch_TypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CAtch_Length" msprop:Generator_UserColumnName="CAtch_Length" msprop:Generator_ColumnPropNameInRow="CAtch_Length" msprop:Generator_ColumnVarNameInTable="columnCAtch_Length" msprop:Generator_ColumnPropNameInTable="CAtch_LengthColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CAtch_UploadDtTm" msprop:Generator_UserColumnName="CAtch_UploadDtTm" msprop:Generator_ColumnPropNameInRow="CAtch_UploadDtTm" msprop:Generator_ColumnVarNameInTable="columnCAtch_UploadDtTm" msprop:Generator_ColumnPropNameInTable="CAtch_UploadDtTmColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Contact" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Contact" msprop:Generator_ColumnPropNameInRow="Contact" msprop:Generator_ColumnVarNameInTable="columnContact" msprop:Generator_ColumnPropNameInTable="ContactColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:WS_ChatAttachment" />
+      <xs:field xpath="mstns:CAtch_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

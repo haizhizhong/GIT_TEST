@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsUOM" targetNamespace="http://tempuri.org/dsUOM.xsd" xmlns:mstns="http://tempuri.org/dsUOM.xsd" xmlns="http://tempuri.org/dsUOM.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsUOM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsUOM" msprop:Generator_DataSetName="dsUOM">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="UNITS_OF_MEASURE" msprop:Generator_UserTableName="UNITS_OF_MEASURE" msprop:Generator_RowDeletedName="UNITS_OF_MEASURERowDeleted" msprop:Generator_TableClassName="UNITS_OF_MEASUREDataTable" msprop:Generator_RowChangedName="UNITS_OF_MEASURERowChanged" msprop:Generator_RowClassName="UNITS_OF_MEASURERow" msprop:Generator_RowChangingName="UNITS_OF_MEASURERowChanging" msprop:Generator_RowEvArgName="UNITS_OF_MEASURERowChangeEvent" msprop:Generator_RowEvHandlerName="UNITS_OF_MEASURERowChangeEventHandler" msprop:Generator_TablePropName="UNITS_OF_MEASURE" msprop:Generator_TableVarName="tableUNITS_OF_MEASURE" msprop:Generator_RowDeletingName="UNITS_OF_MEASURERowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UNIT_OF_MEASURE_CODE" msprop:Generator_UserColumnName="UNIT_OF_MEASURE_CODE" msprop:Generator_ColumnPropNameInRow="UNIT_OF_MEASURE_CODE" msprop:Generator_ColumnVarNameInTable="columnUNIT_OF_MEASURE_CODE" msprop:Generator_ColumnPropNameInTable="UNIT_OF_MEASURE_CODEColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:UNITS_OF_MEASURE" />
+      <xs:field xpath="mstns:UNIT_OF_MEASURE_CODE" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

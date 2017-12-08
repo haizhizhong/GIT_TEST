@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsProjectAllocated" targetNamespace="http://tempuri.org/dsProjectAllocated.xsd" xmlns:mstns="http://tempuri.org/dsProjectAllocated.xsd" xmlns="http://tempuri.org/dsProjectAllocated.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsProjectAllocated" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsProjectAllocated" msprop:Generator_DataSetName="dsProjectAllocated">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_ProjectAllocated_RLH" msprop:Generator_UserTableName="LD_ProjectAllocated_RLH" msprop:Generator_RowDeletedName="LD_ProjectAllocated_RLHRowDeleted" msprop:Generator_RowChangedName="LD_ProjectAllocated_RLHRowChanged" msprop:Generator_RowClassName="LD_ProjectAllocated_RLHRow" msprop:Generator_RowChangingName="LD_ProjectAllocated_RLHRowChanging" msprop:Generator_RowEvArgName="LD_ProjectAllocated_RLHRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_ProjectAllocated_RLHRowChangeEventHandler" msprop:Generator_TableClassName="LD_ProjectAllocated_RLHDataTable" msprop:Generator_TableVarName="tableLD_ProjectAllocated_RLH" msprop:Generator_RowDeletingName="LD_ProjectAllocated_RLHRowDeleting" msprop:Generator_TablePropName="LD_ProjectAllocated_RLH">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pri_code" msprop:Generator_UserColumnName="pri_code" msprop:Generator_ColumnVarNameInTable="columnpri_code" msprop:Generator_ColumnPropNameInRow="pri_code" msprop:Generator_ColumnPropNameInTable="pri_codeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="pri_name" msprop:Generator_UserColumnName="pri_name" msprop:Generator_ColumnVarNameInTable="columnpri_name" msprop:Generator_ColumnPropNameInRow="pri_name" msprop:Generator_ColumnPropNameInTable="pri_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pri_status" msprop:Generator_UserColumnName="pri_status" msprop:Generator_ColumnVarNameInTable="columnpri_status" msprop:Generator_ColumnPropNameInRow="pri_status" msprop:Generator_ColumnPropNameInTable="pri_statusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="profit_code" msprop:Generator_UserColumnName="profit_code" msprop:Generator_ColumnVarNameInTable="columnprofit_code" msprop:Generator_ColumnPropNameInRow="profit_code" msprop:Generator_ColumnPropNameInTable="profit_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="profit_desc" msprop:Generator_UserColumnName="profit_desc" msprop:Generator_ColumnVarNameInTable="columnprofit_desc" msprop:Generator_ColumnPropNameInRow="profit_desc" msprop:Generator_ColumnPropNameInTable="profit_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="division_code" msprop:Generator_UserColumnName="division_code" msprop:Generator_ColumnVarNameInTable="columndivision_code" msprop:Generator_ColumnPropNameInRow="division_code" msprop:Generator_ColumnPropNameInTable="division_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="division_desc" msprop:Generator_UserColumnName="division_desc" msprop:Generator_ColumnVarNameInTable="columndivision_desc" msprop:Generator_ColumnPropNameInRow="division_desc" msprop:Generator_ColumnPropNameInTable="division_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="project_area" msprop:Generator_UserColumnName="project_area" msprop:Generator_ColumnVarNameInTable="columnproject_area" msprop:Generator_ColumnPropNameInRow="project_area" msprop:Generator_ColumnPropNameInTable="project_areaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="add_use_area" msprop:Generator_UserColumnName="add_use_area" msprop:Generator_ColumnVarNameInTable="columnadd_use_area" msprop:Generator_ColumnPropNameInRow="add_use_area" msprop:Generator_ColumnPropNameInTable="add_use_areaColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="total_area" msprop:Generator_UserColumnName="total_area" msprop:Generator_ColumnVarNameInTable="columntotal_area" msprop:Generator_ColumnPropNameInRow="total_area" msprop:Generator_ColumnPropNameInTable="total_areaColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

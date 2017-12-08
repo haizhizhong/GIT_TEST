@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPairingLots" targetNamespace="http://tempuri.org/dsPairingLots.xsd" xmlns:mstns="http://tempuri.org/dsPairingLots.xsd" xmlns="http://tempuri.org/dsPairingLots.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPairingLots" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsPairingLots" msprop:Generator_DataSetName="dsPairingLots">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PC_LotPairDetFill" msprop:Generator_UserTableName="PC_LotPairDetFill" msprop:Generator_RowDeletedName="PC_LotPairDetFillRowDeleted" msprop:Generator_RowChangedName="PC_LotPairDetFillRowChanged" msprop:Generator_RowClassName="PC_LotPairDetFillRow" msprop:Generator_RowChangingName="PC_LotPairDetFillRowChanging" msprop:Generator_RowEvArgName="PC_LotPairDetFillRowChangeEvent" msprop:Generator_RowEvHandlerName="PC_LotPairDetFillRowChangeEventHandler" msprop:Generator_TableClassName="PC_LotPairDetFillDataTable" msprop:Generator_TableVarName="tablePC_LotPairDetFill" msprop:Generator_RowDeletingName="PC_LotPairDetFillRowDeleting" msprop:Generator_TablePropName="PC_LotPairDetFill">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Paired" msprop:Generator_UserColumnName="Paired" msprop:Generator_ColumnPropNameInRow="Paired" msprop:Generator_ColumnVarNameInTable="columnPaired" msprop:Generator_ColumnPropNameInTable="PairedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="proj_lot_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="proj_lot_id" msprop:Generator_ColumnPropNameInRow="proj_lot_id" msprop:Generator_ColumnVarNameInTable="columnproj_lot_id" msprop:Generator_ColumnPropNameInTable="proj_lot_idColumn" type="xs:int" />
+              <xs:element name="lot_num" msprop:Generator_UserColumnName="lot_num" msprop:Generator_ColumnPropNameInRow="lot_num" msprop:Generator_ColumnVarNameInTable="columnlot_num" msprop:Generator_ColumnPropNameInTable="lot_numColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="block_num" msprop:Generator_UserColumnName="block_num" msprop:Generator_ColumnPropNameInRow="block_num" msprop:Generator_ColumnVarNameInTable="columnblock_num" msprop:Generator_ColumnPropNameInTable="block_numColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="plan_num" msprop:Generator_UserColumnName="plan_num" msprop:Generator_ColumnPropNameInRow="plan_num" msprop:Generator_ColumnVarNameInTable="columnplan_num" msprop:Generator_ColumnPropNameInTable="plan_numColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Class" msprop:Generator_UserColumnName="Class" msprop:Generator_ColumnPropNameInRow="Class" msprop:Generator_ColumnVarNameInTable="columnClass" msprop:Generator_ColumnPropNameInTable="ClassColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sub_Class" msprop:Generator_UserColumnName="Sub_Class" msprop:Generator_ColumnPropNameInRow="Sub_Class" msprop:Generator_ColumnVarNameInTable="columnSub_Class" msprop:Generator_ColumnPropNameInTable="Sub_ClassColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PC_LotPairDetFill" />
+      <xs:field xpath="mstns:proj_lot_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
