@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_MasterAgreement" targetNamespace="http://tempuri.org/ds_MasterAgreement.xsd" xmlns:mstns="http://tempuri.org/ds_MasterAgreement.xsd" xmlns="http://tempuri.org/ds_MasterAgreement.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_MasterAgreement" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_MasterAgreement" msprop:Generator_DataSetName="ds_MasterAgreement">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LOT_MASTER_AGREEMENT" msprop:Generator_UserTableName="PROJ_LOT_MASTER_AGREEMENT" msprop:Generator_RowDeletedName="PROJ_LOT_MASTER_AGREEMENTRowDeleted" msprop:Generator_RowChangedName="PROJ_LOT_MASTER_AGREEMENTRowChanged" msprop:Generator_RowClassName="PROJ_LOT_MASTER_AGREEMENTRow" msprop:Generator_RowChangingName="PROJ_LOT_MASTER_AGREEMENTRowChanging" msprop:Generator_RowEvArgName="PROJ_LOT_MASTER_AGREEMENTRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LOT_MASTER_AGREEMENTRowChangeEventHandler" msprop:Generator_TableClassName="PROJ_LOT_MASTER_AGREEMENTDataTable" msprop:Generator_TableVarName="tablePROJ_LOT_MASTER_AGREEMENT" msprop:Generator_RowDeletingName="PROJ_LOT_MASTER_AGREEMENTRowDeleting" msprop:Generator_TablePropName="PROJ_LOT_MASTER_AGREEMENT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="MASTER_AGREEMENT_NUM" msprop:Generator_UserColumnName="MASTER_AGREEMENT_NUM" msprop:Generator_ColumnVarNameInTable="columnMASTER_AGREEMENT_NUM" msprop:Generator_ColumnPropNameInRow="MASTER_AGREEMENT_NUM" msprop:Generator_ColumnPropNameInTable="MASTER_AGREEMENT_NUMColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MASTER_DATE" msprop:Generator_UserColumnName="MASTER_DATE" msprop:Generator_ColumnVarNameInTable="columnMASTER_DATE" msprop:Generator_ColumnPropNameInRow="MASTER_DATE" msprop:Generator_ColumnPropNameInTable="MASTER_DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Project" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Project" msprop:Generator_ColumnPropNameInRow="Project" msprop:Generator_ColumnVarNameInTable="columnProject" msprop:Generator_ColumnPropNameInTable="ProjectColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="81" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PROJ_LOT_MASTER_AGREEMENT" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

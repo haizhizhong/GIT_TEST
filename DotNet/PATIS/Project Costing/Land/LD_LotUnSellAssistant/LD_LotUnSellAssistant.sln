@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD_LotUnSellAssistant", "LD_LotUnSellAssistant\LD_LotUnSellAssistant.csproj", "{1E677E37-70A0-4837-9F62-98CF6120C6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{6D0C975B-9E8C-4370-826C-4E17D24B84F1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E677E37-70A0-4837-9F62-98CF6120C6DA} = {1E677E37-70A0-4837-9F62-98CF6120C6DA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E677E37-70A0-4837-9F62-98CF6120C6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E677E37-70A0-4837-9F62-98CF6120C6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E677E37-70A0-4837-9F62-98CF6120C6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E677E37-70A0-4837-9F62-98CF6120C6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0C975B-9E8C-4370-826C-4E17D24B84F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0C975B-9E8C-4370-826C-4E17D24B84F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0C975B-9E8C-4370-826C-4E17D24B84F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0C975B-9E8C-4370-826C-4E17D24B84F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

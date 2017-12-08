@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLevyDetail" targetNamespace="http://tempuri.org/dsLevyDetail.xsd" xmlns:mstns="http://tempuri.org/dsLevyDetail.xsd" xmlns="http://tempuri.org/dsLevyDetail.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLevyDetail" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLevyDetail" msprop:Generator_DataSetName="dsLevyDetail">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Level1_Codes" msprop:Generator_UserTableName="Level1_Codes" msprop:Generator_RowDeletedName="Level1_CodesRowDeleted" msprop:Generator_TableClassName="Level1_CodesDataTable" msprop:Generator_RowChangedName="Level1_CodesRowChanged" msprop:Generator_RowClassName="Level1_CodesRow" msprop:Generator_RowChangingName="Level1_CodesRowChanging" msprop:Generator_RowEvArgName="Level1_CodesRowChangeEvent" msprop:Generator_RowEvHandlerName="Level1_CodesRowChangeEventHandler" msprop:Generator_TablePropName="Level1_Codes" msprop:Generator_TableVarName="tableLevel1_Codes" msprop:Generator_RowDeletingName="Level1_CodesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Levy" msprop:Generator_UserColumnName="Levy" msprop:Generator_ColumnPropNameInRow="Levy" msprop:Generator_ColumnVarNameInTable="columnLevy" msprop:Generator_ColumnPropNameInTable="LevyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LevyType" msprop:Generator_UserColumnName="LevyType" msprop:Generator_ColumnPropNameInRow="LevyType" msprop:Generator_ColumnVarNameInTable="columnLevyType" msprop:Generator_ColumnPropNameInTable="LevyTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv1_code" msprop:Generator_UserColumnName="lv1_code" msprop:Generator_ColumnPropNameInRow="lv1_code" msprop:Generator_ColumnVarNameInTable="columnlv1_code" msprop:Generator_ColumnPropNameInTable="lv1_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv2_code" msprop:Generator_UserColumnName="lv2_code" msprop:Generator_ColumnPropNameInRow="lv2_code" msprop:Generator_ColumnVarNameInTable="columnlv2_code" msprop:Generator_ColumnPropNameInTable="lv2_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv3_code" msprop:Generator_UserColumnName="lv3_code" msprop:Generator_ColumnPropNameInRow="lv3_code" msprop:Generator_ColumnVarNameInTable="columnlv3_code" msprop:Generator_ColumnPropNameInTable="lv3_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv4_code" msprop:Generator_UserColumnName="lv4_code" msprop:Generator_ColumnPropNameInRow="lv4_code" msprop:Generator_ColumnVarNameInTable="columnlv4_code" msprop:Generator_ColumnPropNameInTable="lv4_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Supplier" msprop:Generator_UserColumnName="Supplier" msprop:Generator_ColumnPropNameInRow="Supplier" msprop:Generator_ColumnVarNameInTable="columnSupplier" msprop:Generator_ColumnPropNameInTable="SupplierColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

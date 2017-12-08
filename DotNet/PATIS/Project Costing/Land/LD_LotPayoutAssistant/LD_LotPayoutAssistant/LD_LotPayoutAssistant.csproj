@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC486A41-9E99-405C-A9C9-76BE3D0CAA44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LD_LotPayoutAssistant</RootNamespace>
+    <AssemblyName>LD_LotPayoutAssistant</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\DotNetCompileDirectory%28no running%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccountYearPeriod, Version=1.0.3870.27770, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FADO, Version=1.0.3605.22780, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GL_Account_Lookup, Version=1.0.3772.28409, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GL_Account_Lookup_Rep, Version=1.0.3772.28461, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GridG, Version=1.0.3632.16687, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMConnection, Version=1.0.3786.19988, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMProcessAssistantLib, Version=1.0.3868.15938, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMReportPrinter, Version=1.0.4119.29249, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="KeyControlAccess, Version=1.0.6122.27003, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LD_Agree_WordMerge, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LD_LotSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Subledger_Preview, Version=1.0.4185.22953, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TUC_HMDevXManager, Version=1.0.4001.22673, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WS_Popups, Version=1.0.3589.16129, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsLevel1Codes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevel1Codes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLevel2Codes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevel2Codes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLevel3Codes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevel3Codes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLevel4Codes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLevel4Codes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dslueProgramFees.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dslueProgramFees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProgramFees.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProgramFees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSolicitor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSolicitor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_AdditionalFees.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_AdditionalFees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_CashToClose.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_CashToClose.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_Interest.cs">
+      <DependentUpon>ds_Interest.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_Interest.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Interest.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_lueAdditionalFees.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_lueAdditionalFees.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_selectedLots.cs">
+      <DependentUpon>ds_selectedLots.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_selectedLots.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_selectedLots.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReports.Designer.cs">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmReports.resx">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPati.resx">
+      <DependentUpon>ucPati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucReview.resx">
+      <DependentUpon>ucReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSummary.resx">
+      <DependentUpon>ucSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="dsLevel1Codes.xsc">
+      <DependentUpon>dsLevel1Codes.xsd</DependentUpon>
+    </None>
+    <None Include="dsLevel1Codes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevel1Codes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsLevel1Codes.xss">
+      <DependentUpon>dsLevel1Codes.xsd</DependentUpon>
+    </None>
+    <None Include="dsLevel2Codes.xsc">
+      <DependentUpon>dsLevel2Codes.xsd</DependentUpon>
+    </None>
+    <None Include="dsLevel2Codes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevel2Codes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsLevel2Codes.xss">
+      <DependentUpon>dsLevel2Codes.xsd</DependentUpon>
+    </None>
+    <None Include="dsLevel3Codes.xsc">
+      <DependentUpon>dsLevel3Codes.xsd</DependentUpon>
+    </None>
+    <None Include="dsLevel3Codes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevel3Codes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsLevel3Codes.xss">
+      <DependentUpon>dsLevel3Codes.xsd</DependentUpon>
+    </None>
+    <None Include="dsLevel4Codes.xsc">
+      <DependentUpon>dsLevel4Codes.xsd</DependentUpon>
+    </None>
+    <None Include="dsLevel4Codes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLevel4Codes.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsLevel4Codes.xss">
+      <DependentUpon>dsLevel4Codes.xsd</DependentUpon>
+    </None>
+    <None Include="dslueProgramFees.xsc">
+      <DependentUpon>dslueProgramFees.xsd</DependentUpon>
+    </None>
+    <None Include="dslueProgramFees.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dslueProgramFees.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dslueProgramFees.xss">
+      <DependentUpon>dslueProgramFees.xsd</DependentUpon>
+    </None>
+    <None Include="dsProgramFees.xsc">
+      <DependentUpon>dsProgramFees.xsd</DependentUpon>
+    </None>
+    <None Include="dsProgramFees.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProgramFees.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProgramFees.xss">
+      <DependentUpon>dsProgramFees.xsd</DependentUpon>
+    </None>
+    <None Include="dsSolicitor.xsc">
+      <DependentUpon>dsSolicitor.xsd</DependentUpon>
+    </None>
+    <None Include="dsSolicitor.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSolicitor.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSolicitor.xss">
+      <DependentUpon>dsSolicitor.xsd</DependentUpon>
+    </None>
+    <None Include="ds_AdditionalFees.xsc">
+      <DependentUpon>ds_AdditionalFees.xsd</DependentUpon>
+    </None>
+    <None Include="ds_AdditionalFees.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_AdditionalFees.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_AdditionalFees.xss">
+      <DependentUpon>ds_AdditionalFees.xsd</DependentUpon>
+    </None>
+    <None Include="ds_CashToClose.xsc">
+      <DependentUpon>ds_CashToClose.xsd</DependentUpon>
+    </None>
+    <None Include="ds_CashToClose.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_CashToClose.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_CashToClose.xss">
+      <DependentUpon>ds_CashToClose.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Interest.xsc">
+      <DependentUpon>ds_Interest.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Interest.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Interest.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_Interest.xss">
+      <DependentUpon>ds_Interest.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueAdditionalFees.xsc">
+      <DependentUpon>ds_lueAdditionalFees.xsd</DependentUpon>
+    </None>
+    <None Include="ds_lueAdditionalFees.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_lueAdditionalFees.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_lueAdditionalFees.xss">
+      <DependentUpon>ds_lueAdditionalFees.xsd</DependentUpon>
+    </None>
+    <None Include="ds_selectedLots.xsc">
+      <DependentUpon>ds_selectedLots.xsd</DependentUpon>
+    </None>
+    <None Include="ds_selectedLots.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_selectedLots.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_selectedLots.xss">
+      <DependentUpon>ds_selectedLots.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ucPati.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPati.Designer.cs">
+      <DependentUpon>ucPati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucReview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucReview.Designer.cs">
+      <DependentUpon>ucReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSummary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSummary.Designer.cs">
+      <DependentUpon>ucSummary.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

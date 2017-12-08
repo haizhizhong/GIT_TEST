@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bs_working_ld_costs_to_transfer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>610, 17</value>
+  </metadata>
+  <metadata name="ds_working_ld_costs_to_transfer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>379, 17</value>
+  </metadata>
+  <metadata name="bs_lv1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="ds_ALL_Levels1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1254, 17</value>
+  </metadata>
+  <metadata name="bs_lv2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>102, 56</value>
+  </metadata>
+  <metadata name="bs_Lv3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>187, 56</value>
+  </metadata>
+  <metadata name="bs_lv4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>275, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>
+SELECT        ID, username, Raw_Pri_ID, Raw_lvl1ID, Raw_lvl2ID, Raw_lvl3ID, Raw_lvl4ID, Raw_LEMOS, Budget, Actual, TransferedToDate, NewTransferAmount, Dev_Pri_ID, Dev_lvl1ID, Dev_lvl2ID, Dev_lvl3ID, Dev_lvl4ID, 
+                         Dev_LEMOS, Dev_Matched,Budget - Actual[BudgetRemaining], LevelsValid
+FROM            working_ld_costs_to_transfer
+WHERE        (username = @username)</value>
+  </data>
+  <metadata name="sqlTRConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [working_ld_costs_to_transfer] ([username], [Raw_Pri_ID], [Raw_lvl1ID], [Raw_lvl2ID], [Raw_lvl3ID], [Raw_lvl4ID], [Raw_LEMOS], [Budget], [Actual], [TransferedToDate], [NewTransferAmount], [Dev_Pri_ID], [Dev_lvl1ID], [Dev_lvl2ID], [Dev_lvl3ID], [Dev_lvl4ID], [Dev_LEMOS], [Dev_Matched], [LevelsValid]) VALUES (@username, @Raw_Pri_ID, @Raw_lvl1ID, @Raw_lvl2ID, @Raw_lvl3ID, @Raw_lvl4ID, @Raw_LEMOS, @Budget, @Actual, @TransferedToDate, @NewTransferAmount, @Dev_Pri_ID, @Dev_lvl1ID, @Dev_lvl2ID, @Dev_lvl3ID, @Dev_lvl4ID, @Dev_LEMOS, @Dev_Matched, @LevelsValid);
+SELECT ID, username, Raw_Pri_ID, Raw_lvl1ID, Raw_lvl2ID, Raw_lvl3ID, Raw_lvl4ID, Raw_LEMOS, Budget, Actual, TransferedToDate, NewTransferAmount, Dev_Pri_ID, Dev_lvl1ID, Dev_lvl2ID, Dev_lvl3ID, Dev_lvl4ID, Dev_LEMOS, Dev_Matched, Budget - Actual AS BudgetRemaining, LevelsValid FROM working_ld_costs_to_transfer WHERE (ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [working_ld_costs_to_transfer] SET [username] = @username, [Raw_Pri_ID] = @Raw_Pri_ID, [Raw_lvl1ID] = @Raw_lvl1ID, [Raw_lvl2ID] = @Raw_lvl2ID, [Raw_lvl3ID] = @Raw_lvl3ID, [Raw_lvl4ID] = @Raw_lvl4ID, [Raw_LEMOS] = @Raw_LEMOS, [Budget] = @Budget, [Actual] = @Actual, [TransferedToDate] = @TransferedToDate, [NewTransferAmount] = @NewTransferAmount, [Dev_Pri_ID] = @Dev_Pri_ID, [Dev_lvl1ID] = @Dev_lvl1ID, [Dev_lvl2ID] = @Dev_lvl2ID, [Dev_lvl3ID] = @Dev_lvl3ID, [Dev_lvl4ID] = @Dev_lvl4ID, [Dev_LEMOS] = @Dev_LEMOS, [Dev_Matched] = @Dev_Matched, [LevelsValid] = @LevelsValid WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_Raw_Pri_ID = 1 AND [Raw_Pri_ID] IS NULL) OR ([Raw_Pri_ID] = @Original_Raw_Pri_ID)) AND ((@IsNull_Raw_lvl1ID = 1 AND [Raw_lvl1ID] IS NULL) OR ([Raw_lvl1ID] = @Original_Raw_lvl1ID)) AND ((@IsNull_Raw_lvl2ID = 1 AND [Raw_lvl2ID] IS NULL) OR ([Raw_lvl2ID] = @Original_Raw_lvl2ID)) AND ((@IsNull_Raw_lvl3ID = 1 AND [Raw_lvl3ID] IS NULL) OR ([Raw_lvl3ID] = @Original_Raw_lvl3ID)) AND ((@IsNull_Raw_lvl4ID = 1 AND [Raw_lvl4ID] IS NULL) OR ([Raw_lvl4ID] = @Original_Raw_lvl4ID)) AND ((@IsNull_Raw_LEMOS = 1 AND [Raw_LEMOS] IS NULL) OR ([Raw_LEMOS] = @Original_Raw_LEMOS)) AND ((@IsNull_Budget = 1 AND [Budget] IS NULL) OR ([Budget] = @Original_Budget)) AND ((@IsNull_Actual = 1 AND [Actual] IS NULL) OR ([Actual] = @Original_Actual)) AND ((@IsNull_TransferedToDate = 1 AND [TransferedToDate] IS NULL) OR ([TransferedToDate] = @Original_TransferedToDate)) AND ((@IsNull_NewTransferAmount = 1 AND [NewTransferAmount] IS NULL) OR ([NewTransferAmount] = @Original_NewTransferAmount)) AND ((@IsNull_Dev_Pri_ID = 1 AND [Dev_Pri_ID] IS NULL) OR ([Dev_Pri_ID] = @Original_Dev_Pri_ID)) AND ((@IsNull_Dev_lvl1ID = 1 AND [Dev_lvl1ID] IS NULL) OR ([Dev_lvl1ID] = @Original_Dev_lvl1ID)) AND ((@IsNull_Dev_lvl2ID = 1 AND [Dev_lvl2ID] IS NULL) OR ([Dev_lvl2ID] = @Original_Dev_lvl2ID)) AND ((@IsNull_Dev_lvl3ID = 1 AND [Dev_lvl3ID] IS NULL) OR ([Dev_lvl3ID] = @Original_Dev_lvl3ID)) AND ((@IsNull_Dev_lvl4ID = 1 AND [Dev_lvl4ID] IS NULL) OR ([Dev_lvl4ID] = @Original_Dev_lvl4ID)) AND ((@IsNull_Dev_LEMOS = 1 AND [Dev_LEMOS] IS NULL) OR ([Dev_LEMOS] = @Original_Dev_LEMOS)) AND ((@IsNull_Dev_Matched = 1 AND [Dev_Matched] IS NULL) OR ([Dev_Matched] = @Original_Dev_Matched)) AND ((@IsNull_LevelsValid = 1 AND [LevelsValid] IS NULL) OR ([LevelsValid] = @Original_LevelsValid)));
+SELECT ID, username, Raw_Pri_ID, Raw_lvl1ID, Raw_lvl2ID, Raw_lvl3ID, Raw_lvl4ID, Raw_LEMOS, Budget, Actual, TransferedToDate, NewTransferAmount, Dev_Pri_ID, Dev_lvl1ID, Dev_lvl2ID, Dev_lvl3ID, Dev_lvl4ID, Dev_LEMOS, Dev_Matched, Budget - Actual AS BudgetRemaining, LevelsValid FROM working_ld_costs_to_transfer WHERE (ID = @ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [working_ld_costs_to_transfer] WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_Raw_Pri_ID = 1 AND [Raw_Pri_ID] IS NULL) OR ([Raw_Pri_ID] = @Original_Raw_Pri_ID)) AND ((@IsNull_Raw_lvl1ID = 1 AND [Raw_lvl1ID] IS NULL) OR ([Raw_lvl1ID] = @Original_Raw_lvl1ID)) AND ((@IsNull_Raw_lvl2ID = 1 AND [Raw_lvl2ID] IS NULL) OR ([Raw_lvl2ID] = @Original_Raw_lvl2ID)) AND ((@IsNull_Raw_lvl3ID = 1 AND [Raw_lvl3ID] IS NULL) OR ([Raw_lvl3ID] = @Original_Raw_lvl3ID)) AND ((@IsNull_Raw_lvl4ID = 1 AND [Raw_lvl4ID] IS NULL) OR ([Raw_lvl4ID] = @Original_Raw_lvl4ID)) AND ((@IsNull_Raw_LEMOS = 1 AND [Raw_LEMOS] IS NULL) OR ([Raw_LEMOS] = @Original_Raw_LEMOS)) AND ((@IsNull_Budget = 1 AND [Budget] IS NULL) OR ([Budget] = @Original_Budget)) AND ((@IsNull_Actual = 1 AND [Actual] IS NULL) OR ([Actual] = @Original_Actual)) AND ((@IsNull_TransferedToDate = 1 AND [TransferedToDate] IS NULL) OR ([TransferedToDate] = @Original_TransferedToDate)) AND ((@IsNull_NewTransferAmount = 1 AND [NewTransferAmount] IS NULL) OR ([NewTransferAmount] = @Original_NewTransferAmount)) AND ((@IsNull_Dev_Pri_ID = 1 AND [Dev_Pri_ID] IS NULL) OR ([Dev_Pri_ID] = @Original_Dev_Pri_ID)) AND ((@IsNull_Dev_lvl1ID = 1 AND [Dev_lvl1ID] IS NULL) OR ([Dev_lvl1ID] = @Original_Dev_lvl1ID)) AND ((@IsNull_Dev_lvl2ID = 1 AND [Dev_lvl2ID] IS NULL) OR ([Dev_lvl2ID] = @Original_Dev_lvl2ID)) AND ((@IsNull_Dev_lvl3ID = 1 AND [Dev_lvl3ID] IS NULL) OR ([Dev_lvl3ID] = @Original_Dev_lvl3ID)) AND ((@IsNull_Dev_lvl4ID = 1 AND [Dev_lvl4ID] IS NULL) OR ([Dev_lvl4ID] = @Original_Dev_lvl4ID)) AND ((@IsNull_Dev_LEMOS = 1 AND [Dev_LEMOS] IS NULL) OR ([Dev_LEMOS] = @Original_Dev_LEMOS)) AND ((@IsNull_Dev_Matched = 1 AND [Dev_Matched] IS NULL) OR ([Dev_Matched] = @Original_Dev_Matched)) AND ((@IsNull_LevelsValid = 1 AND [LevelsValid] IS NULL) OR ([LevelsValid] = @Original_LevelsValid)))</value>
+  </data>
+  <metadata name="da_working_ld_costs_to_transfer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand2.CommandText" xml:space="preserve">
+    <value>select c.lv1ID,c.lv1_code,c.lv1_desc,c.active,cast(case when exists(select top 1 b.pri_id from costing_budget b where b.lv1ID = c.lv1ID and b.PRI_ID = @pri_id) then 1 else 0 end as bit)[InBudget],@pri_id[DevPri_ID]  
+from Level1_Codes c where c.ProjType = 'L'
+</value>
+  </data>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [Level1_Codes] ([lv1_code], [lv1_desc], [active]) VALUES (@lv1_code, @lv1_desc, @active);
+SELECT lv1ID, lv1_code, lv1_desc, active, CAST(CASE WHEN EXISTS (SELECT TOP 1 b.pri_id FROM costing_budget b WHERE b.lv1ID = c.lv1ID AND b.PRI_ID = @pri_id) THEN 1 ELSE 0 END AS bit) AS InBudget, @pri_id AS DevPri_ID FROM Level1_Codes AS c WHERE (lv1ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [Level1_Codes] SET [lv1_code] = @lv1_code, [lv1_desc] = @lv1_desc, [active] = @active WHERE (([lv1ID] = @Original_lv1ID) AND ((@IsNull_lv1_code = 1 AND [lv1_code] IS NULL) OR ([lv1_code] = @Original_lv1_code)) AND ((@IsNull_lv1_desc = 1 AND [lv1_desc] IS NULL) OR ([lv1_desc] = @Original_lv1_desc)) AND ((@IsNull_active = 1 AND [active] IS NULL) OR ([active] = @Original_active)));
+SELECT lv1ID, lv1_code, lv1_desc, active, CAST(CASE WHEN EXISTS (SELECT TOP 1 b.pri_id FROM costing_budget b WHERE b.lv1ID = c.lv1ID AND b.PRI_ID = @pri_id) THEN 1 ELSE 0 END AS bit) AS InBudget, @pri_id AS DevPri_ID FROM Level1_Codes AS c WHERE (lv1ID = @lv1ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [Level1_Codes] WHERE (([lv1ID] = @Original_lv1ID) AND ((@IsNull_lv1_code = 1 AND [lv1_code] IS NULL) OR ([lv1_code] = @Original_lv1_code)) AND ((@IsNull_lv1_desc = 1 AND [lv1_desc] IS NULL) OR ([lv1_desc] = @Original_lv1_desc)) AND ((@IsNull_active = 1 AND [active] IS NULL) OR ([active] = @Original_active)))</value>
+  </data>
+  <metadata name="da_Level1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>834, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand3.CommandText" xml:space="preserve">
+    <value>select c.lv2ID,c.lv2_code,c.lv2_desc,c.lv1ID,c.active,cast(case when exists(select top 1 b.pri_id from costing_budget b where b.lv2ID = c.lv2ID and b.PRI_ID = @pri_id) then 1 else 0 end as bit)[InBudget]  ,@pri_id[DevPri_ID] 
+from Level2_Codes c </value>
+  </data>
+  <metadata name="sqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand3.CommandText" xml:space="preserve">
+    <value>INSERT INTO [Level2_Codes] ([lv2_code], [lv2_desc], [lv1ID], [active]) VALUES (@lv2_code, @lv2_desc, @lv1ID, @active);
+SELECT lv2ID, lv2_code, lv2_desc, lv1ID, active, CAST(CASE WHEN EXISTS (SELECT TOP 1 b.pri_id FROM costing_budget b WHERE b.lv2ID = c.lv2ID AND b.PRI_ID = @pri_id) THEN 1 ELSE 0 END AS bit) AS InBudget, @pri_id AS DevPri_ID FROM Level2_Codes AS c WHERE (lv2ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [Level2_Codes] SET [lv2_code] = @lv2_code, [lv2_desc] = @lv2_desc, [lv1ID] = @lv1ID, [active] = @active WHERE (([lv2ID] = @Original_lv2ID) AND ((@IsNull_lv2_code = 1 AND [lv2_code] IS NULL) OR ([lv2_code] = @Original_lv2_code)) AND ((@IsNull_lv2_desc = 1 AND [lv2_desc] IS NULL) OR ([lv2_desc] = @Original_lv2_desc)) AND ((@IsNull_lv1ID = 1 AND [lv1ID] IS NULL) OR ([lv1ID] = @Original_lv1ID)) AND ((@IsNull_active = 1 AND [active] IS NULL) OR ([active] = @Original_active)));
+SELECT lv2ID, lv2_code, lv2_desc, lv1ID, active, CAST(CASE WHEN EXISTS (SELECT TOP 1 b.pri_id FROM costing_budget b WHERE b.lv2ID = c.lv2ID AND b.PRI_ID = @pri_id) THEN 1 ELSE 0 END AS bit) AS InBudget, @pri_id AS DevPri_ID FROM Level2_Codes AS c WHERE (lv2ID = @lv2ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM [Level2_Codes] WHERE (([lv2ID] = @Original_lv2ID) AND ((@IsNull_lv2_code = 1 AND [lv2_code] IS NULL) OR ([lv2_code] = @Original_lv2_code)) AND ((@IsNull_lv2_desc = 1 AND [lv2_desc] IS NULL) OR ([lv2_desc] = @Original_lv2_desc)) AND ((@IsNull_lv1ID = 1 AND [lv1ID] IS NULL) OR ([lv1ID] = @Original_lv1ID)) AND ((@IsNull_active = 1 AND [active] IS NULL) OR ([active] = @Original_active)))</value>
+  </data>
+  <metadata name="da_Level2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>939, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand4.CommandText" xml:space="preserve">
+    <value>select c.lv3ID,c.lv3_code,c.lv3_desc,c.lv2ID,c.active,cast(case when exists(select top 1 b.pri_id from costing_budget b where b.lv3ID = c.lv3ID and b.PRI_ID = @pri_id) then 1 else 0 end as bit)[InBudget]  ,@pri_id[DevPri_ID] 
+from Level3_Codes c </value>
+  </data>
+  <metadata name="sqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO [Level3_Codes] ([lv3_code], [lv3_desc], [lv2ID], [active]) VALUES (@lv3_code, @lv3_desc, @lv2ID, @active);
+SELECT lv3ID, lv3_code, lv3_desc, lv2ID, active, CAST(CASE WHEN EXISTS (SELECT TOP 1 b.pri_id FROM costing_budget b WHERE b.lv3ID = c.lv3ID AND b.PRI_ID = @pri_id) THEN 1 ELSE 0 END AS bit) AS InBudget, @pri_id AS DevPri_ID FROM Level3_Codes AS c WHERE (lv3ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE [Level3_Codes] SET [lv3_code] = @lv3_code, [lv3_desc] = @lv3_desc, [lv2ID] = @lv2ID, [active] = @active WHERE (([lv3ID] = @Original_lv3ID) AND ((@IsNull_lv3_code = 1 AND [lv3_code] IS NULL) OR ([lv3_code] = @Original_lv3_code)) AND ((@IsNull_lv3_desc = 1 AND [lv3_desc] IS NULL) OR ([lv3_desc] = @Original_lv3_desc)) AND ((@IsNull_lv2ID = 1 AND [lv2ID] IS NULL) OR ([lv2ID] = @Original_lv2ID)) AND ((@IsNull_active = 1 AND [active] IS NULL) OR ([active] = @Original_active)));
+SELECT lv3ID, lv3_code, lv3_desc, lv2ID, active, CAST(CASE WHEN EXISTS (SELECT TOP 1 b.pri_id FROM costing_budget b WHERE b.lv3ID = c.lv3ID AND b.PRI_ID = @pri_id) THEN 1 ELSE 0 END AS bit) AS InBudget, @pri_id AS DevPri_ID FROM Level3_Codes AS c WHERE (lv3ID = @lv3ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM [Level3_Codes] WHERE (([lv3ID] = @Original_lv3ID) AND ((@IsNull_lv3_code = 1 AND [lv3_code] IS NULL) OR ([lv3_code] = @Original_lv3_code)) AND ((@IsNull_lv3_desc = 1 AND [lv3_desc] IS NULL) OR ([lv3_desc] = @Original_lv3_desc)) AND ((@IsNull_lv2ID = 1 AND [lv2ID] IS NULL) OR ([lv2ID] = @Original_lv2ID)) AND ((@IsNull_active = 1 AND [active] IS NULL) OR ([active] = @Original_active)))</value>
+  </data>
+  <metadata name="da_Level3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1044, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand5.CommandText" xml:space="preserve">
+    <value>select c.lv4ID,c.lv4_code,c.lv4_desc,c.lv3ID,c.active,cast(case when exists(select top 1 b.pri_id from costing_budget b where b.lv4ID = c.lv4ID and b.PRI_ID = @pri_id) then 4 else 0 end as bit)[InBudget]  ,@pri_id[DevPri_ID] 
+from Level4_Codes c </value>
+  </data>
+  <metadata name="sqlInsertCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand5.CommandText" xml:space="preserve">
+    <value>INSERT INTO [Level4_Codes] ([lv4_code], [lv4_desc], [lv3ID], [active]) VALUES (@lv4_code, @lv4_desc, @lv3ID, @active);
+SELECT lv4ID, lv4_code, lv4_desc, lv3ID, active, CAST(CASE WHEN EXISTS (SELECT TOP 1 b.pri_id FROM costing_budget b WHERE b.lv4ID = c.lv4ID AND b.PRI_ID = @pri_id) THEN 4 ELSE 0 END AS bit) AS InBudget, @pri_id AS DevPri_ID FROM Level4_Codes AS c WHERE (lv4ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand5.CommandText" xml:space="preserve">
+    <value>UPDATE [Level4_Codes] SET [lv4_code] = @lv4_code, [lv4_desc] = @lv4_desc, [lv3ID] = @lv3ID, [active] = @active WHERE (([lv4ID] = @Original_lv4ID) AND ((@IsNull_lv4_code = 1 AND [lv4_code] IS NULL) OR ([lv4_code] = @Original_lv4_code)) AND ((@IsNull_lv4_desc = 1 AND [lv4_desc] IS NULL) OR ([lv4_desc] = @Original_lv4_desc)) AND ((@IsNull_lv3ID = 1 AND [lv3ID] IS NULL) OR ([lv3ID] = @Original_lv3ID)) AND ((@IsNull_active = 1 AND [active] IS NULL) OR ([active] = @Original_active)));
+SELECT lv4ID, lv4_code, lv4_desc, lv3ID, active, CAST(CASE WHEN EXISTS (SELECT TOP 1 b.pri_id FROM costing_budget b WHERE b.lv4ID = c.lv4ID AND b.PRI_ID = @pri_id) THEN 4 ELSE 0 END AS bit) AS InBudget, @pri_id AS DevPri_ID FROM Level4_Codes AS c WHERE (lv4ID = @lv4ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand5.CommandText" xml:space="preserve">
+    <value>DELETE FROM [Level4_Codes] WHERE (([lv4ID] = @Original_lv4ID) AND ((@IsNull_lv4_code = 1 AND [lv4_code] IS NULL) OR ([lv4_code] = @Original_lv4_code)) AND ((@IsNull_lv4_desc = 1 AND [lv4_desc] IS NULL) OR ([lv4_desc] = @Original_lv4_desc)) AND ((@IsNull_lv3ID = 1 AND [lv3ID] IS NULL) OR ([lv3ID] = @Original_lv3ID)) AND ((@IsNull_active = 1 AND [active] IS NULL) OR ([active] = @Original_active)))</value>
+  </data>
+  <metadata name="da_Level4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1149, 17</value>
+  </metadata>
+  <metadata name="bs_lv1_Filtered.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>360, 56</value>
+  </metadata>
+  <metadata name="bs_lv2_Filtered.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>497, 56</value>
+  </metadata>
+  <metadata name="bs_lv3_Filtered.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>634, 56</value>
+  </metadata>
+  <metadata name="bs_lv4_Filtered.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>771, 56</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>112</value>
+  </metadata>
+</root>

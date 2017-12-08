@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_lueCostingLevels" targetNamespace="http://tempuri.org/ds_lueCostingLevels.xsd" xmlns:mstns="http://tempuri.org/ds_lueCostingLevels.xsd" xmlns="http://tempuri.org/ds_lueCostingLevels.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_lueCostingLevels" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_lueCostingLevels" msprop:Generator_DataSetName="ds_lueCostingLevels">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CostingCodeLookups" msprop:Generator_UserTableName="CostingCodeLookups" msprop:Generator_RowDeletedName="CostingCodeLookupsRowDeleted" msprop:Generator_RowChangedName="CostingCodeLookupsRowChanged" msprop:Generator_RowClassName="CostingCodeLookupsRow" msprop:Generator_RowChangingName="CostingCodeLookupsRowChanging" msprop:Generator_RowEvArgName="CostingCodeLookupsRowChangeEvent" msprop:Generator_RowEvHandlerName="CostingCodeLookupsRowChangeEventHandler" msprop:Generator_TableClassName="CostingCodeLookupsDataTable" msprop:Generator_TableVarName="tableCostingCodeLookups" msprop:Generator_RowDeletingName="CostingCodeLookupsRowDeleting" msprop:Generator_TablePropName="CostingCodeLookups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lv1ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="lv1ID" msprop:Generator_ColumnVarNameInTable="columnlv1ID" msprop:Generator_ColumnPropNameInRow="lv1ID" msprop:Generator_ColumnPropNameInTable="lv1IDColumn" type="xs:int" />
+              <xs:element name="lv1_code" msprop:Generator_UserColumnName="lv1_code" msprop:Generator_ColumnVarNameInTable="columnlv1_code" msprop:Generator_ColumnPropNameInRow="lv1_code" msprop:Generator_ColumnPropNameInTable="lv1_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv1_desc" msprop:Generator_UserColumnName="lv1_desc" msprop:Generator_ColumnVarNameInTable="columnlv1_desc" msprop:Generator_ColumnPropNameInRow="lv1_desc" msprop:Generator_ColumnPropNameInTable="lv1_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lv2ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="lv2ID" msprop:Generator_ColumnVarNameInTable="columnlv2ID" msprop:Generator_ColumnPropNameInRow="lv2ID" msprop:Generator_ColumnPropNameInTable="lv2IDColumn" type="xs:int" />
+              <xs:element name="lv2_code" msprop:Generator_UserColumnName="lv2_code" msprop:Generator_ColumnVarNameInTable="columnlv2_code" msprop:Generator_ColumnPropNameInRow="lv2_code" msprop:Generator_ColumnPropNameInTable="lv2_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv2_desc" msprop:Generator_UserColumnName="lv2_desc" msprop:Generator_ColumnVarNameInTable="columnlv2_desc" msprop:Generator_ColumnPropNameInRow="lv2_desc" msprop:Generator_ColumnPropNameInTable="lv2_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv1ID" msprop:Generator_UserColumnName="lv1ID" msprop:Generator_ColumnVarNameInTable="columnlv1ID" msprop:Generator_ColumnPropNameInRow="lv1ID" msprop:Generator_ColumnPropNameInTable="lv1IDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2" msprop:Generator_UserTableName="Table2" msprop:Generator_RowDeletedName="Table2RowDeleted" msprop:Generator_RowChangedName="Table2RowChanged" msprop:Generator_RowClassName="Table2Row" msprop:Generator_RowChangingName="Table2RowChanging" msprop:Generator_RowEvArgName="Table2RowChangeEvent" msprop:Generator_RowEvHandlerName="Table2RowChangeEventHandler" msprop:Generator_TableClassName="Table2DataTable" msprop:Generator_TableVarName="tableTable2" msprop:Generator_RowDeletingName="Table2RowDeleting" msprop:Generator_TablePropName="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lv3ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="lv3ID" msprop:Generator_ColumnVarNameInTable="columnlv3ID" msprop:Generator_ColumnPropNameInRow="lv3ID" msprop:Generator_ColumnPropNameInTable="lv3IDColumn" type="xs:int" />
+              <xs:element name="lv3_code" msprop:Generator_UserColumnName="lv3_code" msprop:Generator_ColumnVarNameInTable="columnlv3_code" msprop:Generator_ColumnPropNameInRow="lv3_code" msprop:Generator_ColumnPropNameInTable="lv3_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv3_desc" msprop:Generator_UserColumnName="lv3_desc" msprop:Generator_ColumnVarNameInTable="columnlv3_desc" msprop:Generator_ColumnPropNameInRow="lv3_desc" msprop:Generator_ColumnPropNameInTable="lv3_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv2ID" msprop:Generator_UserColumnName="lv2ID" msprop:Generator_ColumnVarNameInTable="columnlv2ID" msprop:Generator_ColumnPropNameInRow="lv2ID" msprop:Generator_ColumnPropNameInTable="lv2IDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3" msprop:Generator_UserTableName="Table3" msprop:Generator_RowDeletedName="Table3RowDeleted" msprop:Generator_RowChangedName="Table3RowChanged" msprop:Generator_RowClassName="Table3Row" msprop:Generator_RowChangingName="Table3RowChanging" msprop:Generator_RowEvArgName="Table3RowChangeEvent" msprop:Generator_RowEvHandlerName="Table3RowChangeEventHandler" msprop:Generator_TableClassName="Table3DataTable" msprop:Generator_TableVarName="tableTable3" msprop:Generator_RowDeletingName="Table3RowDeleting" msprop:Generator_TablePropName="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lv4ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="lv4ID" msprop:Generator_ColumnVarNameInTable="columnlv4ID" msprop:Generator_ColumnPropNameInRow="lv4ID" msprop:Generator_ColumnPropNameInTable="lv4IDColumn" type="xs:int" />
+              <xs:element name="lv4_code" msprop:Generator_UserColumnName="lv4_code" msprop:Generator_ColumnVarNameInTable="columnlv4_code" msprop:Generator_ColumnPropNameInRow="lv4_code" msprop:Generator_ColumnPropNameInTable="lv4_codeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv4_desc" msprop:Generator_UserColumnName="lv4_desc" msprop:Generator_ColumnVarNameInTable="columnlv4_desc" msprop:Generator_ColumnPropNameInRow="lv4_desc" msprop:Generator_ColumnPropNameInTable="lv4_descColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lv3ID" msprop:Generator_UserColumnName="lv3ID" msprop:Generator_ColumnVarNameInTable="columnlv3ID" msprop:Generator_ColumnPropNameInRow="lv3ID" msprop:Generator_ColumnPropNameInTable="lv3IDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CostingCodeLookups" />
+      <xs:field xpath="mstns:lv1ID" />
+    </xs:unique>
+    <xs:unique name="Table1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table1" />
+      <xs:field xpath="mstns:lv2ID" />
+    </xs:unique>
+    <xs:unique name="Table2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table2" />
+      <xs:field xpath="mstns:lv3ID" />
+    </xs:unique>
+    <xs:unique name="Table3_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table3" />
+      <xs:field xpath="mstns:lv4ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dsDateHdr1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>350, 17</value>
+  </metadata>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>118</value>
+  </metadata>
+  <metadata name="dsDateDet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="bsOffsetDate.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>365, 54</value>
+  </metadata>
+  <metadata name="dsOffsetDate1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>243, 54</value>
+  </metadata>
+  <metadata name="bsDateType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>693, 17</value>
+  </metadata>
+  <metadata name="dsDateType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>803, 17</value>
+  </metadata>
+  <metadata name="sqlConnTR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT     Head_ID, username, agreement_id, agreement_num, MasterAgreementNum, plan_num, block_num, lot_num, Agreement_Date, Closing_Date, Sale_Date, 
+                      Interest_Adjustment_Date, Arrears_Interest_Date, Expected_Payout_Date, Original_Arrears_Date, Estimated_Release_Date, Actual_Release_Date, 
+                      Customer_Hold_Check_Receipt_Date, Agreement_Receipt_Date, Lot_Payout_Generation_Date, Transfer_Date, Possession_Date, Construction_Start_Date, 
+                      Construction_Start_Date_Extension, Construction_End_Date, Construction_End_Date_Extension, Architectural_Inspection_Fee_Due_Date, Initial_Inspection_Date, 
+                      Inspection_Request_Date, Final_Inspection_Date, Approval_Date, pri_id, pri_code, pri_name, Communities_ID, Communities, Payout_Date
+FROM         Working_Agreement_Date_Hdr
+WHERE     (username = @username)
+ORDER BY Communities, pri_name, agreement_num</value>
+  </data>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [Working_Agreement_Date_Hdr] ([username], [agreement_id], [agreement_num], [MasterAgreementNum], [plan_num], [block_num], [lot_num], [Agreement_Date], [Closing_Date], [Sale_Date], [Interest_Adjustment_Date], [Arrears_Interest_Date], [Expected_Payout_Date], [Original_Arrears_Date], [Estimated_Release_Date], [Actual_Release_Date], [Customer_Hold_Check_Receipt_Date], [Agreement_Receipt_Date], [Lot_Payout_Generation_Date], [Transfer_Date], [Possession_Date], [Construction_Start_Date], [Construction_Start_Date_Extension], [Construction_End_Date], [Construction_End_Date_Extension], [Architectural_Inspection_Fee_Due_Date], [Initial_Inspection_Date], [Inspection_Request_Date], [Final_Inspection_Date], [Approval_Date], [pri_id], [pri_code], [pri_name], [Communities_ID], [Communities], [Payout_Date]) VALUES (@username, @agreement_id, @agreement_num, @MasterAgreementNum, @plan_num, @block_num, @lot_num, @Agreement_Date, @Closing_Date, @Sale_Date, @Interest_Adjustment_Date, @Arrears_Interest_Date, @Expected_Payout_Date, @p1, @Estimated_Release_Date, @Actual_Release_Date, @Customer_Hold_Check_Receipt_Date, @Agreement_Receipt_Date, @Lot_Payout_Generation_Date, @Transfer_Date, @Possession_Date, @Construction_Start_Date, @Construction_Start_Date_Extension, @Construction_End_Date, @Construction_End_Date_Extension, @Architectural_Inspection_Fee_Due_Date, @Initial_Inspection_Date, @Inspection_Request_Date, @Final_Inspection_Date, @Approval_Date, @pri_id, @pri_code, @pri_name, @Communities_ID, @Communities, @Payout_Date);
+SELECT Head_ID, username, agreement_id, agreement_num, MasterAgreementNum, plan_num, block_num, lot_num, Agreement_Date, Closing_Date, Sale_Date, Interest_Adjustment_Date, Arrears_Interest_Date, Expected_Payout_Date, Original_Arrears_Date, Estimated_Release_Date, Actual_Release_Date, Customer_Hold_Check_Receipt_Date, Agreement_Receipt_Date, Lot_Payout_Generation_Date, Transfer_Date, Possession_Date, Construction_Start_Date, Construction_Start_Date_Extension, Construction_End_Date, Construction_End_Date_Extension, Architectural_Inspection_Fee_Due_Date, Initial_Inspection_Date, Inspection_Request_Date, Final_Inspection_Date, Approval_Date, pri_id, pri_code, pri_name, Communities_ID, Communities, Payout_Date FROM Working_Agreement_Date_Hdr WHERE (Head_ID = SCOPE_IDENTITY()) ORDER BY Communities, pri_name, agreement_num</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [Working_Agreement_Date_Hdr] SET [username] = @username, [agreement_id] = @agreement_id, [agreement_num] = @agreement_num, [MasterAgreementNum] = @MasterAgreementNum, [plan_num] = @plan_num, [block_num] = @block_num, [lot_num] = @lot_num, [Agreement_Date] = @Agreement_Date, [Closing_Date] = @Closing_Date, [Sale_Date] = @Sale_Date, [Interest_Adjustment_Date] = @Interest_Adjustment_Date, [Arrears_Interest_Date] = @Arrears_Interest_Date, [Expected_Payout_Date] = @Expected_Payout_Date, [Original_Arrears_Date] = @p1, [Estimated_Release_Date] = @Estimated_Release_Date, [Actual_Release_Date] = @Actual_Release_Date, [Customer_Hold_Check_Receipt_Date] = @Customer_Hold_Check_Receipt_Date, [Agreement_Receipt_Date] = @Agreement_Receipt_Date, [Lot_Payout_Generation_Date] = @Lot_Payout_Generation_Date, [Transfer_Date] = @Transfer_Date, [Possession_Date] = @Possession_Date, [Construction_Start_Date] = @Construction_Start_Date, [Construction_Start_Date_Extension] = @Construction_Start_Date_Extension, [Construction_End_Date] = @Construction_End_Date, [Construction_End_Date_Extension] = @Construction_End_Date_Extension, [Architectural_Inspection_Fee_Due_Date] = @Architectural_Inspection_Fee_Due_Date, [Initial_Inspection_Date] = @Initial_Inspection_Date, [Inspection_Request_Date] = @Inspection_Request_Date, [Final_Inspection_Date] = @Final_Inspection_Date, [Approval_Date] = @Approval_Date, [pri_id] = @pri_id, [pri_code] = @pri_code, [pri_name] = @pri_name, [Communities_ID] = @Communities_ID, [Communities] = @Communities, [Payout_Date] = @Payout_Date WHERE (([Head_ID] = @Original_Head_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_agreement_num = 1 AND [agreement_num] IS NULL) OR ([agreement_num] = @Original_agreement_num)) AND ((@IsNull_MasterAgreementNum = 1 AND [MasterAgreementNum] IS NULL) OR ([MasterAgreementNum] = @Original_MasterAgreementNum)) AND ((@IsNull_plan_num = 1 AND [plan_num] IS NULL) OR ([plan_num] = @Original_plan_num)) AND ((@IsNull_block_num = 1 AND [block_num] IS NULL) OR ([block_num] = @Original_block_num)) AND ((@IsNull_lot_num = 1 AND [lot_num] IS NULL) OR ([lot_num] = @Original_lot_num)) AND ((@IsNull_Agreement_Date = 1 AND [Agreement_Date] IS NULL) OR ([Agreement_Date] = @Original_Agreement_Date)) AND ((@IsNull_Closing_Date = 1 AND [Closing_Date] IS NULL) OR ([Closing_Date] = @Original_Closing_Date)) AND ((@IsNull_Sale_Date = 1 AND [Sale_Date] IS NULL) OR ([Sale_Date] = @Original_Sale_Date)) AND ((@IsNull_Interest_Adjustment_Date = 1 AND [Interest_Adjustment_Date] IS NULL) OR ([Interest_Adjustment_Date] = @Original_Interest_Adjustment_Date)) AND ((@IsNull_Arrears_Interest_Date = 1 AND [Arrears_Interest_Date] IS NULL) OR ([Arrears_Interest_Date] = @Original_Arrears_Interest_Date)) AND ((@IsNull_Expected_Payout_Date = 1 AND [Expected_Payout_Date] IS NULL) OR ([Expected_Payout_Date] = @Original_Expected_Payout_Date)) AND ((@p3 = 1 AND [Original_Arrears_Date] IS NULL) OR ([Original_Arrears_Date] = @p2)) AND ((@IsNull_Estimated_Release_Date = 1 AND [Estimated_Release_Date] IS NULL) OR ([Estimated_Release_Date] = @Original_Estimated_Release_Date)) AND ((@IsNull_Actual_Release_Date = 1 AND [Actual_Release_Date] IS NULL) OR ([Actual_Release_Date] = @Original_Actual_Release_Date)) AND ((@IsNull_Customer_Hold_Check_Receipt_Date = 1 AND [Customer_Hold_Check_Receipt_Date] IS NULL) OR ([Customer_Hold_Check_Receipt_Date] = @Original_Customer_Hold_Check_Receipt_Date)) AND ((@IsNull_Agreement_Receipt_Date = 1 AND [Agreement_Receipt_Date] IS NULL) OR ([Agreement_Receipt_Date] = @Original_Agreement_Receipt_Date)) AND ((@IsNull_Lot_Payout_Generation_Date = 1 AND [Lot_Payout_Generation_Date] IS NULL) OR ([Lot_Payout_Generation_Date] = @Original_Lot_Payout_Generation_Date)) AND ((@IsNull_Transfer_Date = 1 AND [Transfer_Date] IS NULL) OR ([Transfer_Date] = @Original_Transfer_Date)) AND ((@IsNull_Possession_Date = 1 AND [Possession_Date] IS NULL) OR ([Possession_Date] = @Original_Possession_Date)) AND ((@IsNull_Construction_Start_Date = 1 AND [Construction_Start_Date] IS NULL) OR ([Construction_Start_Date] = @Original_Construction_Start_Date)) AND ((@IsNull_Construction_Start_Date_Extension = 1 AND [Construction_Start_Date_Extension] IS NULL) OR ([Construction_Start_Date_Extension] = @Original_Construction_Start_Date_Extension)) AND ((@IsNull_Construction_End_Date = 1 AND [Construction_End_Date] IS NULL) OR ([Construction_End_Date] = @Original_Construction_End_Date)) AND ((@IsNull_Construction_End_Date_Extension = 1 AND [Construction_End_Date_Extension] IS NULL) OR ([Construction_End_Date_Extension] = @Original_Construction_End_Date_Extension)) AND ((@IsNull_Architectural_Inspection_Fee_Due_Date = 1 AND [Architectural_Inspection_Fee_Due_Date] IS NULL) OR ([Architectural_Inspection_Fee_Due_Date] = @Original_Architectural_Inspection_Fee_Due_Date)) AND ((@IsNull_Initial_Inspection_Date = 1 AND [Initial_Inspection_Date] IS NULL) OR ([Initial_Inspection_Date] = @Original_Initial_Inspection_Date)) AND ((@IsNull_Inspection_Request_Date = 1 AND [Inspection_Request_Date] IS NULL) OR ([Inspection_Request_Date] = @Original_Inspection_Request_Date)) AND ((@IsNull_Final_Inspection_Date = 1 AND [Final_Inspection_Date] IS NULL) OR ([Final_Inspection_Date] = @Original_Final_Inspection_Date)) AND ((@IsNull_Approval_Date = 1 AND [Approval_Date] IS NULL) OR ([Approval_Date] = @Original_Approval_Date)) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_pri_code = 1 AND [pri_code] IS NULL) OR ([pri_code] = @Original_pri_code)) AND ((@IsNull_pri_name = 1 AND [pri_name] IS NULL) OR ([pri_name] = @Original_pri_name)) AND ((@IsNull_Communities_ID = 1 AND [Communities_ID] IS NULL) OR ([Communities_ID] = @Original_Communities_ID)) AND ((@IsNull_Communities = 1 AND [Communities] IS NULL) OR ([Communities] = @Original_Communities)) AND ((@IsNull_Payout_Date = 1 AND [Payout_Date] IS NULL) OR ([Payout_Date] = @Original_Payout_Date)));
+SELECT Head_ID, username, agreement_id, agreement_num, MasterAgreementNum, plan_num, block_num, lot_num, Agreement_Date, Closing_Date, Sale_Date, Interest_Adjustment_Date, Arrears_Interest_Date, Expected_Payout_Date, Original_Arrears_Date, Estimated_Release_Date, Actual_Release_Date, Customer_Hold_Check_Receipt_Date, Agreement_Receipt_Date, Lot_Payout_Generation_Date, Transfer_Date, Possession_Date, Construction_Start_Date, Construction_Start_Date_Extension, Construction_End_Date, Construction_End_Date_Extension, Architectural_Inspection_Fee_Due_Date, Initial_Inspection_Date, Inspection_Request_Date, Final_Inspection_Date, Approval_Date, pri_id, pri_code, pri_name, Communities_ID, Communities, Payout_Date FROM Working_Agreement_Date_Hdr WHERE (Head_ID = @Head_ID) ORDER BY Communities, pri_name, agreement_num</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [Working_Agreement_Date_Hdr] WHERE (([Head_ID] = @Original_Head_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_agreement_num = 1 AND [agreement_num] IS NULL) OR ([agreement_num] = @Original_agreement_num)) AND ((@IsNull_MasterAgreementNum = 1 AND [MasterAgreementNum] IS NULL) OR ([MasterAgreementNum] = @Original_MasterAgreementNum)) AND ((@IsNull_plan_num = 1 AND [plan_num] IS NULL) OR ([plan_num] = @Original_plan_num)) AND ((@IsNull_block_num = 1 AND [block_num] IS NULL) OR ([block_num] = @Original_block_num)) AND ((@IsNull_lot_num = 1 AND [lot_num] IS NULL) OR ([lot_num] = @Original_lot_num)) AND ((@IsNull_Agreement_Date = 1 AND [Agreement_Date] IS NULL) OR ([Agreement_Date] = @Original_Agreement_Date)) AND ((@IsNull_Closing_Date = 1 AND [Closing_Date] IS NULL) OR ([Closing_Date] = @Original_Closing_Date)) AND ((@IsNull_Sale_Date = 1 AND [Sale_Date] IS NULL) OR ([Sale_Date] = @Original_Sale_Date)) AND ((@IsNull_Interest_Adjustment_Date = 1 AND [Interest_Adjustment_Date] IS NULL) OR ([Interest_Adjustment_Date] = @Original_Interest_Adjustment_Date)) AND ((@IsNull_Arrears_Interest_Date = 1 AND [Arrears_Interest_Date] IS NULL) OR ([Arrears_Interest_Date] = @Original_Arrears_Interest_Date)) AND ((@IsNull_Expected_Payout_Date = 1 AND [Expected_Payout_Date] IS NULL) OR ([Expected_Payout_Date] = @Original_Expected_Payout_Date)) AND ((@p3 = 1 AND [Original_Arrears_Date] IS NULL) OR ([Original_Arrears_Date] = @p2)) AND ((@IsNull_Estimated_Release_Date = 1 AND [Estimated_Release_Date] IS NULL) OR ([Estimated_Release_Date] = @Original_Estimated_Release_Date)) AND ((@IsNull_Actual_Release_Date = 1 AND [Actual_Release_Date] IS NULL) OR ([Actual_Release_Date] = @Original_Actual_Release_Date)) AND ((@IsNull_Customer_Hold_Check_Receipt_Date = 1 AND [Customer_Hold_Check_Receipt_Date] IS NULL) OR ([Customer_Hold_Check_Receipt_Date] = @Original_Customer_Hold_Check_Receipt_Date)) AND ((@IsNull_Agreement_Receipt_Date = 1 AND [Agreement_Receipt_Date] IS NULL) OR ([Agreement_Receipt_Date] = @Original_Agreement_Receipt_Date)) AND ((@IsNull_Lot_Payout_Generation_Date = 1 AND [Lot_Payout_Generation_Date] IS NULL) OR ([Lot_Payout_Generation_Date] = @Original_Lot_Payout_Generation_Date)) AND ((@IsNull_Transfer_Date = 1 AND [Transfer_Date] IS NULL) OR ([Transfer_Date] = @Original_Transfer_Date)) AND ((@IsNull_Possession_Date = 1 AND [Possession_Date] IS NULL) OR ([Possession_Date] = @Original_Possession_Date)) AND ((@IsNull_Construction_Start_Date = 1 AND [Construction_Start_Date] IS NULL) OR ([Construction_Start_Date] = @Original_Construction_Start_Date)) AND ((@IsNull_Construction_Start_Date_Extension = 1 AND [Construction_Start_Date_Extension] IS NULL) OR ([Construction_Start_Date_Extension] = @Original_Construction_Start_Date_Extension)) AND ((@IsNull_Construction_End_Date = 1 AND [Construction_End_Date] IS NULL) OR ([Construction_End_Date] = @Original_Construction_End_Date)) AND ((@IsNull_Construction_End_Date_Extension = 1 AND [Construction_End_Date_Extension] IS NULL) OR ([Construction_End_Date_Extension] = @Original_Construction_End_Date_Extension)) AND ((@IsNull_Architectural_Inspection_Fee_Due_Date = 1 AND [Architectural_Inspection_Fee_Due_Date] IS NULL) OR ([Architectural_Inspection_Fee_Due_Date] = @Original_Architectural_Inspection_Fee_Due_Date)) AND ((@IsNull_Initial_Inspection_Date = 1 AND [Initial_Inspection_Date] IS NULL) OR ([Initial_Inspection_Date] = @Original_Initial_Inspection_Date)) AND ((@IsNull_Inspection_Request_Date = 1 AND [Inspection_Request_Date] IS NULL) OR ([Inspection_Request_Date] = @Original_Inspection_Request_Date)) AND ((@IsNull_Final_Inspection_Date = 1 AND [Final_Inspection_Date] IS NULL) OR ([Final_Inspection_Date] = @Original_Final_Inspection_Date)) AND ((@IsNull_Approval_Date = 1 AND [Approval_Date] IS NULL) OR ([Approval_Date] = @Original_Approval_Date)) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_pri_code = 1 AND [pri_code] IS NULL) OR ([pri_code] = @Original_pri_code)) AND ((@IsNull_pri_name = 1 AND [pri_name] IS NULL) OR ([pri_name] = @Original_pri_name)) AND ((@IsNull_Communities_ID = 1 AND [Communities_ID] IS NULL) OR ([Communities_ID] = @Original_Communities_ID)) AND ((@IsNull_Communities = 1 AND [Communities] IS NULL) OR ([Communities] = @Original_Communities)) AND ((@IsNull_Payout_Date = 1 AND [Payout_Date] IS NULL) OR ([Payout_Date] = @Original_Payout_Date)))</value>
+  </data>
+  <metadata name="daDateHdr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>245, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_AdditionalDates] ([ID], [Description], [OffSetDays], [AdditinalDates_ID], [KeyDate]) VALUES (@ID, @Description, @OffSetDays, @AdditinalDates_ID, @KeyDate);
+SELECT ID, Description, OffSetDays, AdditinalDates_ID, KeyDate FROM LD_AdditionalDates WHERE (ID = @ID) ORDER BY Description</value>
+  </data>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_AdditionalDates] SET [ID] = @ID, [Description] = @Description, [OffSetDays] = @OffSetDays, [AdditinalDates_ID] = @AdditinalDates_ID, [KeyDate] = @KeyDate WHERE (([ID] = @Original_ID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_OffSetDays = 1 AND [OffSetDays] IS NULL) OR ([OffSetDays] = @Original_OffSetDays)) AND ((@IsNull_AdditinalDates_ID = 1 AND [AdditinalDates_ID] IS NULL) OR ([AdditinalDates_ID] = @Original_AdditinalDates_ID)) AND ((@IsNull_KeyDate = 1 AND [KeyDate] IS NULL) OR ([KeyDate] = @Original_KeyDate)));
+SELECT ID, Description, OffSetDays, AdditinalDates_ID, KeyDate FROM LD_AdditionalDates WHERE (ID = @ID) ORDER BY Description</value>
+  </data>
+  <metadata name="sqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_AdditionalDates] WHERE (([ID] = @Original_ID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_OffSetDays = 1 AND [OffSetDays] IS NULL) OR ([OffSetDays] = @Original_OffSetDays)) AND ((@IsNull_AdditinalDates_ID = 1 AND [AdditinalDates_ID] IS NULL) OR ([AdditinalDates_ID] = @Original_AdditinalDates_ID)) AND ((@IsNull_KeyDate = 1 AND [KeyDate] IS NULL) OR ([KeyDate] = @Original_KeyDate)))</value>
+  </data>
+  <metadata name="daDateType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>460, 17</value>
+  </metadata>
+  <metadata name="sqlConnTR2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>920, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand3.CommandText" xml:space="preserve">
+    <value>SELECT  a.Description, a1.Description[Offset Date], Det_ID, Head_ID, username, agreement_id, d.LD_Proj_AdditionalDates_ID, New_Date, Old_Date, d.AdditionalDates_ID, d.OffsetDays, d.OffsetDate_ID, a.KeyDate
+FROM         Working_Agreement_Date_Det d
+join LD_AdditionalDates a on d.AdditionalDates_ID = a.ID
+left outer join LD_AdditionalDates a1 on d.OffsetDate_ID = a1.ID
+WHERE     (username = @username) AND (Head_ID = @headID)
+order by a.Description</value>
+  </data>
+  <metadata name="daDateDet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1030, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertCommand3.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_AdditionalDates] ([ID], [Description], [OffSetDays], [AdditinalDates_ID], [KeyDate]) VALUES (@ID, @Description, @OffSetDays, @AdditinalDates_ID, @KeyDate);
+SELECT ID, Description, OffSetDays, AdditinalDates_ID, KeyDate FROM LD_AdditionalDates WHERE (ID = @ID) ORDER BY Description</value>
+  </data>
+  <metadata name="sqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_AdditionalDates] SET [ID] = @ID, [Description] = @Description, [OffSetDays] = @OffSetDays, [AdditinalDates_ID] = @AdditinalDates_ID, [KeyDate] = @KeyDate WHERE (([ID] = @Original_ID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_OffSetDays = 1 AND [OffSetDays] IS NULL) OR ([OffSetDays] = @Original_OffSetDays)) AND ((@IsNull_AdditinalDates_ID = 1 AND [AdditinalDates_ID] IS NULL) OR ([AdditinalDates_ID] = @Original_AdditinalDates_ID)) AND ((@IsNull_KeyDate = 1 AND [KeyDate] IS NULL) OR ([KeyDate] = @Original_KeyDate)));
+SELECT ID, Description, OffSetDays, AdditinalDates_ID, KeyDate FROM LD_AdditionalDates WHERE (ID = @ID) ORDER BY Description</value>
+  </data>
+  <metadata name="sqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_AdditionalDates] WHERE (([ID] = @Original_ID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_OffSetDays = 1 AND [OffSetDays] IS NULL) OR ([OffSetDays] = @Original_OffSetDays)) AND ((@IsNull_AdditinalDates_ID = 1 AND [AdditinalDates_ID] IS NULL) OR ([AdditinalDates_ID] = @Original_AdditinalDates_ID)) AND ((@IsNull_KeyDate = 1 AND [KeyDate] IS NULL) OR ([KeyDate] = @Original_KeyDate)))</value>
+  </data>
+  <metadata name="daOffsetDate.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>126, 54</value>
+  </metadata>
+</root>

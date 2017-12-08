@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_SpecHomeUpdate", "Test_SpecHomeUpdate.csproj", "{5307F831-50BE-4357-8A4B-2C099336B8F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{79B0374C-4698-4813-B3A7-A323D9FB6264} = {79B0374C-4698-4813-B3A7-A323D9FB6264}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD_SpecHomeOwnerUpdate", "..\LD_SpecHomeOwnerUpdate\LD_SpecHomeOwnerUpdate.csproj", "{79B0374C-4698-4813-B3A7-A323D9FB6264}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5307F831-50BE-4357-8A4B-2C099336B8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5307F831-50BE-4357-8A4B-2C099336B8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5307F831-50BE-4357-8A4B-2C099336B8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5307F831-50BE-4357-8A4B-2C099336B8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B0374C-4698-4813-B3A7-A323D9FB6264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B0374C-4698-4813-B3A7-A323D9FB6264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B0374C-4698-4813-B3A7-A323D9FB6264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B0374C-4698-4813-B3A7-A323D9FB6264}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

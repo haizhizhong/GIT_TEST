@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsProgramFees" targetNamespace="http://tempuri.org/dsProgramFees.xsd" xmlns:mstns="http://tempuri.org/dsProgramFees.xsd" xmlns="http://tempuri.org/dsProgramFees.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsProgramFees" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsProgramFees" msprop:Generator_DataSetName="dsProgramFees">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="working_ld_lpa_ProgramFees" msprop:Generator_UserTableName="working_ld_lpa_ProgramFees" msprop:Generator_RowDeletedName="working_ld_lpa_ProgramFeesRowDeleted" msprop:Generator_TableClassName="working_ld_lpa_ProgramFeesDataTable" msprop:Generator_RowChangedName="working_ld_lpa_ProgramFeesRowChanged" msprop:Generator_RowClassName="working_ld_lpa_ProgramFeesRow" msprop:Generator_RowChangingName="working_ld_lpa_ProgramFeesRowChanging" msprop:Generator_RowEvArgName="working_ld_lpa_ProgramFeesRowChangeEvent" msprop:Generator_RowEvHandlerName="working_ld_lpa_ProgramFeesRowChangeEventHandler" msprop:Generator_TablePropName="working_ld_lpa_ProgramFees" msprop:Generator_TableVarName="tableworking_ld_lpa_ProgramFees" msprop:Generator_RowDeletingName="working_ld_lpa_ProgramFeesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Username" msprop:Generator_UserColumnName="Username" msprop:Generator_ColumnPropNameInRow="Username" msprop:Generator_ColumnVarNameInTable="columnUsername" msprop:Generator_ColumnPropNameInTable="UsernameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="working_ld_LotSearch_ID" msprop:Generator_UserColumnName="working_ld_LotSearch_ID" msprop:Generator_ColumnPropNameInRow="working_ld_LotSearch_ID" msprop:Generator_ColumnVarNameInTable="columnworking_ld_LotSearch_ID" msprop:Generator_ColumnPropNameInTable="working_ld_LotSearch_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LD_ProgramFee_ID" msprop:Generator_UserColumnName="LD_ProgramFee_ID" msprop:Generator_ColumnPropNameInRow="LD_ProgramFee_ID" msprop:Generator_ColumnVarNameInTable="columnLD_ProgramFee_ID" msprop:Generator_ColumnPropNameInTable="LD_ProgramFee_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LD_Agreement_ProgramFee_ID" msprop:Generator_UserColumnName="LD_Agreement_ProgramFee_ID" msprop:Generator_ColumnPropNameInRow="LD_Agreement_ProgramFee_ID" msprop:Generator_ColumnVarNameInTable="columnLD_Agreement_ProgramFee_ID" msprop:Generator_ColumnPropNameInTable="LD_Agreement_ProgramFee_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="lv1ID" msprop:Generator_UserColumnName="lv1ID" msprop:Generator_ColumnPropNameInRow="lv1ID" msprop:Generator_ColumnVarNameInTable="columnlv1ID" msprop:Generator_ColumnPropNameInTable="lv1IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv2ID" msprop:Generator_UserColumnName="lv2ID" msprop:Generator_ColumnPropNameInRow="lv2ID" msprop:Generator_ColumnVarNameInTable="columnlv2ID" msprop:Generator_ColumnPropNameInTable="lv2IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv3ID" msprop:Generator_UserColumnName="lv3ID" msprop:Generator_ColumnPropNameInRow="lv3ID" msprop:Generator_ColumnVarNameInTable="columnlv3ID" msprop:Generator_ColumnPropNameInTable="lv3IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lv4ID" msprop:Generator_UserColumnName="lv4ID" msprop:Generator_ColumnPropNameInRow="lv4ID" msprop:Generator_ColumnVarNameInTable="columnlv4ID" msprop:Generator_ColumnPropNameInTable="lv4IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GL_Account" msprop:Generator_UserColumnName="GL_Account" msprop:Generator_ColumnPropNameInRow="GL_Account" msprop:Generator_ColumnVarNameInTable="columnGL_Account" msprop:Generator_ColumnPropNameInTable="GL_AccountColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GST" msprop:Generator_UserColumnName="GST" msprop:Generator_ColumnPropNameInRow="GST" msprop:Generator_ColumnVarNameInTable="columnGST" msprop:Generator_ColumnPropNameInTable="GSTColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PST" msprop:Generator_UserColumnName="PST" msprop:Generator_ColumnPropNameInRow="PST" msprop:Generator_ColumnVarNameInTable="columnPST" msprop:Generator_ColumnPropNameInTable="PSTColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:working_ld_lpa_ProgramFees" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

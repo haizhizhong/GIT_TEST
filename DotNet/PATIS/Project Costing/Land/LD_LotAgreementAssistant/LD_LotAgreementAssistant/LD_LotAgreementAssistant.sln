@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD_LotAgreementAssistant", "LD_LotAgreementAssistant.csproj", "{A1FA1A2D-4589-43B2-AA49-4A914F5ABB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{DE4294C9-AB67-4D3F-83D1-4F2AFDF89DED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A1FA1A2D-4589-43B2-AA49-4A914F5ABB1D} = {A1FA1A2D-4589-43B2-AA49-4A914F5ABB1D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1FA1A2D-4589-43B2-AA49-4A914F5ABB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FA1A2D-4589-43B2-AA49-4A914F5ABB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FA1A2D-4589-43B2-AA49-4A914F5ABB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FA1A2D-4589-43B2-AA49-4A914F5ABB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4294C9-AB67-4D3F-83D1-4F2AFDF89DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4294C9-AB67-4D3F-83D1-4F2AFDF89DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4294C9-AB67-4D3F-83D1-4F2AFDF89DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4294C9-AB67-4D3F-83D1-4F2AFDF89DED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

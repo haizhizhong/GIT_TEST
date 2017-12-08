@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSolicitor" targetNamespace="http://tempuri.org/dsSolicitor.xsd" xmlns:mstns="http://tempuri.org/dsSolicitor.xsd" xmlns="http://tempuri.org/dsSolicitor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSolicitor" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsSolicitor" msprop:Generator_DataSetName="dsSolicitor">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Solicitor" msprop:Generator_UserTableName="LD_Solicitor" msprop:Generator_RowDeletedName="LD_SolicitorRowDeleted" msprop:Generator_TableClassName="LD_SolicitorDataTable" msprop:Generator_RowChangedName="LD_SolicitorRowChanged" msprop:Generator_RowClassName="LD_SolicitorRow" msprop:Generator_RowChangingName="LD_SolicitorRowChanging" msprop:Generator_RowEvArgName="LD_SolicitorRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_SolicitorRowChangeEventHandler" msprop:Generator_TablePropName="LD_Solicitor" msprop:Generator_TableVarName="tableLD_Solicitor" msprop:Generator_RowDeletingName="LD_SolicitorRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Solicitor_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Solicitor_ID" msprop:Generator_ColumnPropNameInRow="Solicitor_ID" msprop:Generator_ColumnVarNameInTable="columnSolicitor_ID" msprop:Generator_ColumnPropNameInTable="Solicitor_IDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInTable="TitleColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInTable="CityColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Addr" msprop:Generator_UserColumnName="Addr" msprop:Generator_ColumnPropNameInRow="Addr" msprop:Generator_ColumnVarNameInTable="columnAddr" msprop:Generator_ColumnPropNameInTable="AddrColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Solicitor" />
+      <xs:field xpath="mstns:Solicitor_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

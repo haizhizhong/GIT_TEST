@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="sqlTRConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="sqlWEBConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>160, 17</value>
+  </metadata>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>314, 17</value>
+  </metadata>
+  <metadata name="dsProjects1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>677, 17</value>
+  </metadata>
+  <metadata name="dsContinuityProjects1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>290, 48</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="simpleButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAMdEVYdFRpdGxlAFByaW50O8g2MuoAAAK/SURBVDhPfZPZT1NREMbLFtlEcEl89cU/QCE+GVAk
+        8gBKIhACcQESFEwQigopRYKsxZQ9GCQBIyS+GYkEJGKRGgJSCviGEhFau1AKdAdK28+Za9CUB0/yy9xz
+        7sw3Z+bOFQH4C62A9lfqic7BBXQOzgt0EO0DaoGWvi+T5BPsF+O3EYmCSABenw9erw8exuPDPuHe90Le
+        r2KnI34xfhuRKETeNysEmS072Nh2ETswbTux6/ZA9mKGncIOxQgrgAgiwmW9M0I246aTcMBA1mB2wrWz
+        j/ruKY6IIYKJQEJYgY09yqSOwa9zeeIuFFW+xO6eB/oNO3QmB2GD1mSH3bmHfPFzZBU0Uinq+arW0WSK
+        5aSikLaBxXUjZcksaEAeOTlcbmiNNqwZrdAYrFgjtmy7yClqQUqOBHqTE029KhPFhrJAqLx/gcoBUrIl
+        yC5sgdWxh1W9BT91FqzotgW4HzfyGpB4vUTwre2e5XIiWCC8oWcObrcX6XeqkJj2kJyIa0wZLjOpYlxK
+        ESOBSM0qE3ylrUI/olggsrpzmrK68V6hRnL6A1xIzEVcQi5i42/jfPwtnLt4E7HElZQijIzPwkr9eNQ0
+        yQLRLBBV8UwJw5YTPww2rAjY6dpkdXbh7OBcsHSupy9T/HScBY6zQHRpvQLfdVYsLpsRlyz5LwvLG1jS
+        WFEoHWOBEywQc//JB8x9M0Mxr0Vt1xQstj3Ujf1CzagW0mEtHg+tYpMGi9+Nq1ahWtpAfvkIC5xkgcjM
+        e/1TOcWvkXG3H9XtSmEKq4Y1kLzToPztGsRvVmHacqG6TYmkjDpczZIhIU06TbFCE3kY+OEUcUYq/4R1
+        cl6nOhmeD6OZJpJspXyCs54lThPHiODD/0JYac2wsqL5IyqaFQRZ2QEKlNQMfSafCL8Yv82f20QS3F2u
+        j+GbMfx8lAj6FwPRb5NeblZb3v46AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="simpleButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAMdEVYdFRpdGxlAFByaW50O8g2MuoAAAK/SURBVDhPfZPZT1NREMbLFtlEcEl89cU/QCE+GVAk
+        8gBKIhACcQESFEwQigopRYKsxZQ9GCQBIyS+GYkEJGKRGgJSCviGEhFau1AKdAdK28+Za9CUB0/yy9xz
+        7sw3Z+bOFQH4C62A9lfqic7BBXQOzgt0EO0DaoGWvi+T5BPsF+O3EYmCSABenw9erw8exuPDPuHe90Le
+        r2KnI34xfhuRKETeNysEmS072Nh2ETswbTux6/ZA9mKGncIOxQgrgAgiwmW9M0I246aTcMBA1mB2wrWz
+        j/ruKY6IIYKJQEJYgY09yqSOwa9zeeIuFFW+xO6eB/oNO3QmB2GD1mSH3bmHfPFzZBU0Uinq+arW0WSK
+        5aSikLaBxXUjZcksaEAeOTlcbmiNNqwZrdAYrFgjtmy7yClqQUqOBHqTE029KhPFhrJAqLx/gcoBUrIl
+        yC5sgdWxh1W9BT91FqzotgW4HzfyGpB4vUTwre2e5XIiWCC8oWcObrcX6XeqkJj2kJyIa0wZLjOpYlxK
+        ESOBSM0qE3ylrUI/olggsrpzmrK68V6hRnL6A1xIzEVcQi5i42/jfPwtnLt4E7HElZQijIzPwkr9eNQ0
+        yQLRLBBV8UwJw5YTPww2rAjY6dpkdXbh7OBcsHSupy9T/HScBY6zQHRpvQLfdVYsLpsRlyz5LwvLG1jS
+        WFEoHWOBEywQc//JB8x9M0Mxr0Vt1xQstj3Ujf1CzagW0mEtHg+tYpMGi9+Nq1ahWtpAfvkIC5xkgcjM
+        e/1TOcWvkXG3H9XtSmEKq4Y1kLzToPztGsRvVmHacqG6TYmkjDpczZIhIU06TbFCE3kY+OEUcUYq/4R1
+        cl6nOhmeD6OZJpJspXyCs54lThPHiODD/0JYac2wsqL5IyqaFQRZ2QEKlNQMfSafCL8Yv82f20QS3F2u
+        j+GbMfx8lAj6FwPRb5NeblZb3v46AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="daProjects.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>569, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_CashcallDisbursementDetail] WHERE (([id] = @Original_id) AND ((@IsNull_BatchID = 1 AND [BatchID] IS NULL) OR ([BatchID] = @Original_BatchID)) AND ((@IsNull_Project = 1 AND [Project] IS NULL) OR ([Project] = @Original_Project)) AND ((@IsNull_Required = 1 AND [Required] IS NULL) OR ([Required] = @Original_Required)) AND ((@IsNull_Date = 1 AND [Date] IS NULL) OR ([Date] = @Original_Date)) AND ((@IsNull_Site = 1 AND [Site] IS NULL) OR ([Site] = @Original_Site)) AND ((@IsNull_Address = 1 AND [Address] IS NULL) OR ([Address] = @Original_Address)) AND ((@IsNull_City = 1 AND [City] IS NULL) OR ([City] = @Original_City)) AND ((@p3 = 1 AND [Prov/State] IS NULL) OR ([Prov/State] = @p2)) AND ((@IsNull_Proportinate = 1 AND [Proportinate] IS NULL) OR ([Proportinate] = @Original_Proportinate)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Investor = 1 AND [Investor] IS NULL) OR ([Investor] = @Original_Investor)) AND ([Call Date] = @Original_Call_Date) AND ((@IsNull_Company = 1 AND [Company] IS NULL) OR ([Company] = @Original_Company)) AND ((@IsNull_Amount = 1 AND [Amount] IS NULL) OR ([Amount] = @Original_Amount)) AND ((@IsNull_CompanyID = 1 AND [CompanyID] IS NULL) OR ([CompanyID] = @Original_CompanyID)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)) AND ([pri_id] = @Original_pri_id) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ([Type] = @Original_Type) AND ([so_trn_id] = @Original_so_trn_id) AND ([ap_inv_header_id] = @Original_ap_inv_header_id))</value>
+  </data>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_CashcallDisbursementDetail] ([BatchID], [Project], [Required], [Date], [Site], [Address], [City], [Prov/State], [Proportinate], [Responsibility], [Distribution], [Investor], [Call Date], [Company], [Amount], [CompanyID], [GL_Subcode], [pri_id], [Supplier_ID], [username], [Type], [so_trn_id], [ap_inv_header_id]) VALUES (@BatchID, @Project, @Required, @Date, @Site, @Address, @City, @p1, @Proportinate, @Responsibility, @Distribution, @Investor, @Call_Date, @Company, @Amount, @CompanyID, @GL_Subcode, @pri_id, @Supplier_ID, @username, @Type, @so_trn_id, @ap_inv_header_id);
+SELECT id, BatchID, Project, Required, Date, Site, Address, City, [Prov/State], Proportinate, Responsibility, Distribution, Investor, [Call Date], Company, Amount, CompanyID, GL_Subcode, pri_id, Supplier_ID, username, Type, so_trn_id, ap_inv_header_id FROM LD_CashcallDisbursementDetail WHERE (id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand3.CommandText" xml:space="preserve">
+    <value>SELECT        id, BatchID, Project, Required, Date, Site, Address, City, [Prov/State], Proportinate, Responsibility, Distribution, Investor, [Call Date], Company, 
+                         Amount, CompanyID, GL_Subcode, pri_id, Supplier_ID, username, Type, so_trn_id, ap_inv_header_id
+FROM            LD_CashcallDisbursementDetail
+WHERE        (BatchID = @BatchID)
+and Amount &gt; 0
+and Type = @Type</value>
+  </data>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_CashcallDisbursementDetail] SET [BatchID] = @BatchID, [Project] = @Project, [Required] = @Required, [Date] = @Date, [Site] = @Site, [Address] = @Address, [City] = @City, [Prov/State] = @p1, [Proportinate] = @Proportinate, [Responsibility] = @Responsibility, [Distribution] = @Distribution, [Investor] = @Investor, [Call Date] = @Call_Date, [Company] = @Company, [Amount] = @Amount, [CompanyID] = @CompanyID, [GL_Subcode] = @GL_Subcode, [pri_id] = @pri_id, [Supplier_ID] = @Supplier_ID, [username] = @username, [Type] = @Type, [so_trn_id] = @so_trn_id, [ap_inv_header_id] = @ap_inv_header_id WHERE (([id] = @Original_id) AND ((@IsNull_BatchID = 1 AND [BatchID] IS NULL) OR ([BatchID] = @Original_BatchID)) AND ((@IsNull_Project = 1 AND [Project] IS NULL) OR ([Project] = @Original_Project)) AND ((@IsNull_Required = 1 AND [Required] IS NULL) OR ([Required] = @Original_Required)) AND ((@IsNull_Date = 1 AND [Date] IS NULL) OR ([Date] = @Original_Date)) AND ((@IsNull_Site = 1 AND [Site] IS NULL) OR ([Site] = @Original_Site)) AND ((@IsNull_Address = 1 AND [Address] IS NULL) OR ([Address] = @Original_Address)) AND ((@IsNull_City = 1 AND [City] IS NULL) OR ([City] = @Original_City)) AND ((@p3 = 1 AND [Prov/State] IS NULL) OR ([Prov/State] = @p2)) AND ((@IsNull_Proportinate = 1 AND [Proportinate] IS NULL) OR ([Proportinate] = @Original_Proportinate)) AND ((@IsNull_Responsibility = 1 AND [Responsibility] IS NULL) OR ([Responsibility] = @Original_Responsibility)) AND ((@IsNull_Distribution = 1 AND [Distribution] IS NULL) OR ([Distribution] = @Original_Distribution)) AND ((@IsNull_Investor = 1 AND [Investor] IS NULL) OR ([Investor] = @Original_Investor)) AND ([Call Date] = @Original_Call_Date) AND ((@IsNull_Company = 1 AND [Company] IS NULL) OR ([Company] = @Original_Company)) AND ((@IsNull_Amount = 1 AND [Amount] IS NULL) OR ([Amount] = @Original_Amount)) AND ((@IsNull_CompanyID = 1 AND [CompanyID] IS NULL) OR ([CompanyID] = @Original_CompanyID)) AND ((@IsNull_GL_Subcode = 1 AND [GL_Subcode] IS NULL) OR ([GL_Subcode] = @Original_GL_Subcode)) AND ([pri_id] = @Original_pri_id) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ([Type] = @Original_Type) AND ([so_trn_id] = @Original_so_trn_id) AND ([ap_inv_header_id] = @Original_ap_inv_header_id));
+SELECT id, BatchID, Project, Required, Date, Site, Address, City, [Prov/State], Proportinate, Responsibility, Distribution, Investor, [Call Date], Company, Amount, CompanyID, GL_Subcode, pri_id, Supplier_ID, username, Type, so_trn_id, ap_inv_header_id FROM LD_CashcallDisbursementDetail WHERE (id = @id)</value>
+  </data>
+  <metadata name="daContinuityProjects.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>446, 46</value>
+  </metadata>
+  <metadata name="sqlCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_ContinuityScheduleDetail] WHERE (([id] = @Original_id) AND ((@IsNull_Project = 1 AND [Project] IS NULL) OR ([Project] = @Original_Project)) AND ((@IsNull_Investor = 1 AND [Investor] IS NULL) OR ([Investor] = @Original_Investor)) AND ((@IsNull_OriginalInvestment = 1 AND [OriginalInvestment] IS NULL) OR ([OriginalInvestment] = @Original_OriginalInvestment)) AND ((@IsNull_DrawAccount = 1 AND [DrawAccount] IS NULL) OR ([DrawAccount] = @Original_DrawAccount)) AND ((@IsNull_RepayAccount = 1 AND [RepayAccount] IS NULL) OR ([RepayAccount] = @Original_RepayAccount)) AND ((@IsNull_SubCode = 1 AND [SubCode] IS NULL) OR ([SubCode] = @Original_SubCode)) AND ((@IsNull_TransactionDate = 1 AND [TransactionDate] IS NULL) OR ([TransactionDate] = @Original_TransactionDate)) AND ((@IsNull_TransactionYear = 1 AND [TransactionYear] IS NULL) OR ([TransactionYear] = @Original_TransactionYear)) AND ((@IsNull_TransactionPeriod = 1 AND [TransactionPeriod] IS NULL) OR ([TransactionPeriod] = @Original_TransactionPeriod)) AND ((@IsNull_YearPeriod = 1 AND [YearPeriod] IS NULL) OR ([YearPeriod] = @Original_YearPeriod)) AND ((@IsNull_Amount = 1 AND [Amount] IS NULL) OR ([Amount] = @Original_Amount)) AND ((@IsNull_GLType = 1 AND [GLType] IS NULL) OR ([GLType] = @Original_GLType)) AND ((@IsNull_GLNumber = 1 AND [GLNumber] IS NULL) OR ([GLNumber] = @Original_GLNumber)) AND ((@IsNull_GeneratedBy = 1 AND [GeneratedBy] IS NULL) OR ([GeneratedBy] = @Original_GeneratedBy)) AND ((@IsNull_BatchID = 1 AND [BatchID] IS NULL) OR ([BatchID] = @Original_BatchID)) AND ((@IsNull_Pri_ID = 1 AND [Pri_ID] IS NULL) OR ([Pri_ID] = @Original_Pri_ID)) AND ((@IsNull_OriginalBatchID = 1 AND [OriginalBatchID] IS NULL) OR ([OriginalBatchID] = @Original_OriginalBatchID)))</value>
+  </data>
+  <metadata name="sqlCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_ContinuityScheduleDetail] ([Project], [Investor], [OriginalInvestment], [DrawAccount], [RepayAccount], [SubCode], [TransactionDate], [TransactionYear], [TransactionPeriod], [YearPeriod], [Amount], [GLType], [GLNumber], [GeneratedBy], [BatchID], [Pri_ID], [OriginalBatchID]) VALUES (@Project, @Investor, @OriginalInvestment, @DrawAccount, @RepayAccount, @SubCode, @TransactionDate, @TransactionYear, @TransactionPeriod, @YearPeriod, @Amount, @GLType, @GLNumber, @GeneratedBy, @BatchID, @Pri_ID, @OriginalBatchID);
+SELECT id, Project, Investor, OriginalInvestment, DistributionPercentage / 100 AS DistributionPercentage, DrawAccount, RepayAccount, SubCode, TransactionDate, TransactionYear, TransactionPeriod, YearPeriod, Amount, GLType, GLNumber, GeneratedBy, BatchID, Pri_ID, OriginalBatchID FROM LD_ContinuityScheduleDetail WHERE (id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand3.CommandText" xml:space="preserve">
+    <value>SELECT        id, Project, Investor, OriginalInvestment, DistributionPercentage / 100 AS DistributionPercentage, DrawAccount, RepayAccount, SubCode, TransactionDate, 
+                         TransactionYear, TransactionPeriod, YearPeriod, Amount, GLType, GLNumber, GeneratedBy, BatchID, Pri_ID, OriginalBatchID
+FROM            LD_ContinuityScheduleDetail
+WHERE        (GeneratedBy = @username) AND (BatchID = @BatchID)</value>
+  </data>
+  <metadata name="sqlCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_ContinuityScheduleDetail] SET [Project] = @Project, [Investor] = @Investor, [OriginalInvestment] = @OriginalInvestment, [DrawAccount] = @DrawAccount, [RepayAccount] = @RepayAccount, [SubCode] = @SubCode, [TransactionDate] = @TransactionDate, [TransactionYear] = @TransactionYear, [TransactionPeriod] = @TransactionPeriod, [YearPeriod] = @YearPeriod, [Amount] = @Amount, [GLType] = @GLType, [GLNumber] = @GLNumber, [GeneratedBy] = @GeneratedBy, [BatchID] = @BatchID, [Pri_ID] = @Pri_ID, [OriginalBatchID] = @OriginalBatchID WHERE (([id] = @Original_id) AND ((@IsNull_Project = 1 AND [Project] IS NULL) OR ([Project] = @Original_Project)) AND ((@IsNull_Investor = 1 AND [Investor] IS NULL) OR ([Investor] = @Original_Investor)) AND ((@IsNull_OriginalInvestment = 1 AND [OriginalInvestment] IS NULL) OR ([OriginalInvestment] = @Original_OriginalInvestment)) AND ((@IsNull_DrawAccount = 1 AND [DrawAccount] IS NULL) OR ([DrawAccount] = @Original_DrawAccount)) AND ((@IsNull_RepayAccount = 1 AND [RepayAccount] IS NULL) OR ([RepayAccount] = @Original_RepayAccount)) AND ((@IsNull_SubCode = 1 AND [SubCode] IS NULL) OR ([SubCode] = @Original_SubCode)) AND ((@IsNull_TransactionDate = 1 AND [TransactionDate] IS NULL) OR ([TransactionDate] = @Original_TransactionDate)) AND ((@IsNull_TransactionYear = 1 AND [TransactionYear] IS NULL) OR ([TransactionYear] = @Original_TransactionYear)) AND ((@IsNull_TransactionPeriod = 1 AND [TransactionPeriod] IS NULL) OR ([TransactionPeriod] = @Original_TransactionPeriod)) AND ((@IsNull_YearPeriod = 1 AND [YearPeriod] IS NULL) OR ([YearPeriod] = @Original_YearPeriod)) AND ((@IsNull_Amount = 1 AND [Amount] IS NULL) OR ([Amount] = @Original_Amount)) AND ((@IsNull_GLType = 1 AND [GLType] IS NULL) OR ([GLType] = @Original_GLType)) AND ((@IsNull_GLNumber = 1 AND [GLNumber] IS NULL) OR ([GLNumber] = @Original_GLNumber)) AND ((@IsNull_GeneratedBy = 1 AND [GeneratedBy] IS NULL) OR ([GeneratedBy] = @Original_GeneratedBy)) AND ((@IsNull_BatchID = 1 AND [BatchID] IS NULL) OR ([BatchID] = @Original_BatchID)) AND ((@IsNull_Pri_ID = 1 AND [Pri_ID] IS NULL) OR ([Pri_ID] = @Original_Pri_ID)) AND ((@IsNull_OriginalBatchID = 1 AND [OriginalBatchID] IS NULL) OR ([OriginalBatchID] = @Original_OriginalBatchID)));
+SELECT id, Project, Investor, OriginalInvestment, DistributionPercentage / 100 AS DistributionPercentage, DrawAccount, RepayAccount, SubCode, TransactionDate, TransactionYear, TransactionPeriod, YearPeriod, Amount, GLType, GLNumber, GeneratedBy, BatchID, Pri_ID, OriginalBatchID FROM LD_ContinuityScheduleDetail WHERE (id = @id)</value>
+  </data>
+</root>

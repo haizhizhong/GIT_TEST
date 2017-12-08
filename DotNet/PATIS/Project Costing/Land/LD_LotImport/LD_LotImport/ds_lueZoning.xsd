@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_lueZoning" targetNamespace="http://tempuri.org/ds_lueZoning.xsd" xmlns:mstns="http://tempuri.org/ds_lueZoning.xsd" xmlns="http://tempuri.org/ds_lueZoning.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_lueZoning" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_lueZoning" msprop:Generator_DataSetName="ds_lueZoning">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Zoning" msprop:Generator_UserTableName="LD_Zoning" msprop:Generator_RowDeletedName="LD_ZoningRowDeleted" msprop:Generator_TableClassName="LD_ZoningDataTable" msprop:Generator_RowChangedName="LD_ZoningRowChanged" msprop:Generator_RowClassName="LD_ZoningRow" msprop:Generator_RowChangingName="LD_ZoningRowChanging" msprop:Generator_RowEvArgName="LD_ZoningRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_ZoningRowChangeEventHandler" msprop:Generator_TablePropName="LD_Zoning" msprop:Generator_TableVarName="tableLD_Zoning" msprop:Generator_RowDeletingName="LD_ZoningRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Zoning_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Zoning_ID" msprop:Generator_ColumnPropNameInRow="Zoning_ID" msprop:Generator_ColumnVarNameInTable="columnZoning_ID" msprop:Generator_ColumnPropNameInTable="Zoning_IDColumn" type="xs:int" />
+              <xs:element name="Zone" msprop:Generator_UserColumnName="Zone" msprop:Generator_ColumnPropNameInRow="Zone" msprop:Generator_ColumnVarNameInTable="columnZone" msprop:Generator_ColumnPropNameInTable="ZoneColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_Zoning" />
+      <xs:field xpath="mstns:Zoning_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

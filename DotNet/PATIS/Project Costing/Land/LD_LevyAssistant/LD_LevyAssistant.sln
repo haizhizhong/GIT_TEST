@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD_LevyAssistant", "LD_LevyAssistant.csproj", "{F3E8A6E7-E0F7-4251-A6B8-E072F15CED8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{2030A5C6-BB24-4D5E-94D5-90D2B0791FD3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F3E8A6E7-E0F7-4251-A6B8-E072F15CED8F} = {F3E8A6E7-E0F7-4251-A6B8-E072F15CED8F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3E8A6E7-E0F7-4251-A6B8-E072F15CED8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E8A6E7-E0F7-4251-A6B8-E072F15CED8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E8A6E7-E0F7-4251-A6B8-E072F15CED8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E8A6E7-E0F7-4251-A6B8-E072F15CED8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2030A5C6-BB24-4D5E-94D5-90D2B0791FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2030A5C6-BB24-4D5E-94D5-90D2B0791FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2030A5C6-BB24-4D5E-94D5-90D2B0791FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2030A5C6-BB24-4D5E-94D5-90D2B0791FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

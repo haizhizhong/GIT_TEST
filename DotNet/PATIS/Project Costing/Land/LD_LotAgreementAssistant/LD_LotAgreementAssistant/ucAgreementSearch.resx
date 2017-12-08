@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dockManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ds_AgreementSearch1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>427, 17</value>
+  </metadata>
+  <metadata name="bs_project.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>629, 54</value>
+  </metadata>
+  <metadata name="ds_SearchLookups1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>735, 17</value>
+  </metadata>
+  <metadata name="bs_Communities.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>476, 54</value>
+  </metadata>
+  <metadata name="bs_purchaser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>782, 54</value>
+  </metadata>
+  <metadata name="table3BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>323, 54</value>
+  </metadata>
+  <metadata name="table1BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>170, 54</value>
+  </metadata>
+  <metadata name="table2BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="bs_AgreementType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>885, 17</value>
+  </metadata>
+  <metadata name="sqlTRConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>135, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT     ID, username, agreement_id, proj_lot_id, pri_id, agreement_type, agreement_num, purchaser_code, purchaser, agreement_status_id, agreement_status, lot_num, 
+                      block_num, plan_num, pre_sale, sell_price, gst, gst_value, pst, pst_value, total_sell_price, masteragreement_id, Communities_ID
+FROM         working_ld_laa_AgreementSearch
+WHERE     (username = @username)
+ORDER BY agreement_num</value>
+  </data>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [working_ld_laa_AgreementSearch] ([username], [agreement_id], [proj_lot_id], [pri_id], [agreement_type], [agreement_num], [purchaser_code], [purchaser], [agreement_status_id], [agreement_status], [lot_num], [block_num], [plan_num], [pre_sale], [sell_price], [gst], [gst_value], [pst], [pst_value], [total_sell_price], [masteragreement_id], [Communities_ID]) VALUES (@username, @agreement_id, @proj_lot_id, @pri_id, @agreement_type, @agreement_num, @purchaser_code, @purchaser, @agreement_status_id, @agreement_status, @lot_num, @block_num, @plan_num, @pre_sale, @sell_price, @gst, @gst_value, @pst, @pst_value, @total_sell_price, @masteragreement_id, @Communities_ID);
+SELECT ID, username, agreement_id, proj_lot_id, pri_id, agreement_type, agreement_num, purchaser_code, purchaser, agreement_status_id, agreement_status, lot_num, block_num, plan_num, pre_sale, sell_price, gst, gst_value, pst, pst_value, total_sell_price, masteragreement_id, Communities_ID FROM working_ld_laa_AgreementSearch WHERE (ID = SCOPE_IDENTITY()) ORDER BY agreement_num</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [working_ld_laa_AgreementSearch] SET [username] = @username, [agreement_id] = @agreement_id, [proj_lot_id] = @proj_lot_id, [pri_id] = @pri_id, [agreement_type] = @agreement_type, [agreement_num] = @agreement_num, [purchaser_code] = @purchaser_code, [purchaser] = @purchaser, [agreement_status_id] = @agreement_status_id, [agreement_status] = @agreement_status, [lot_num] = @lot_num, [block_num] = @block_num, [plan_num] = @plan_num, [pre_sale] = @pre_sale, [sell_price] = @sell_price, [gst] = @gst, [gst_value] = @gst_value, [pst] = @pst, [pst_value] = @pst_value, [total_sell_price] = @total_sell_price, [masteragreement_id] = @masteragreement_id, [Communities_ID] = @Communities_ID WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_proj_lot_id = 1 AND [proj_lot_id] IS NULL) OR ([proj_lot_id] = @Original_proj_lot_id)) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_agreement_type = 1 AND [agreement_type] IS NULL) OR ([agreement_type] = @Original_agreement_type)) AND ((@IsNull_agreement_num = 1 AND [agreement_num] IS NULL) OR ([agreement_num] = @Original_agreement_num)) AND ((@IsNull_purchaser_code = 1 AND [purchaser_code] IS NULL) OR ([purchaser_code] = @Original_purchaser_code)) AND ((@IsNull_purchaser = 1 AND [purchaser] IS NULL) OR ([purchaser] = @Original_purchaser)) AND ((@IsNull_agreement_status_id = 1 AND [agreement_status_id] IS NULL) OR ([agreement_status_id] = @Original_agreement_status_id)) AND ((@IsNull_agreement_status = 1 AND [agreement_status] IS NULL) OR ([agreement_status] = @Original_agreement_status)) AND ((@IsNull_lot_num = 1 AND [lot_num] IS NULL) OR ([lot_num] = @Original_lot_num)) AND ((@IsNull_block_num = 1 AND [block_num] IS NULL) OR ([block_num] = @Original_block_num)) AND ((@IsNull_plan_num = 1 AND [plan_num] IS NULL) OR ([plan_num] = @Original_plan_num)) AND ((@IsNull_pre_sale = 1 AND [pre_sale] IS NULL) OR ([pre_sale] = @Original_pre_sale)) AND ((@IsNull_sell_price = 1 AND [sell_price] IS NULL) OR ([sell_price] = @Original_sell_price)) AND ((@IsNull_gst = 1 AND [gst] IS NULL) OR ([gst] = @Original_gst)) AND ((@IsNull_gst_value = 1 AND [gst_value] IS NULL) OR ([gst_value] = @Original_gst_value)) AND ((@IsNull_pst = 1 AND [pst] IS NULL) OR ([pst] = @Original_pst)) AND ((@IsNull_pst_value = 1 AND [pst_value] IS NULL) OR ([pst_value] = @Original_pst_value)) AND ((@IsNull_total_sell_price = 1 AND [total_sell_price] IS NULL) OR ([total_sell_price] = @Original_total_sell_price)) AND ((@IsNull_masteragreement_id = 1 AND [masteragreement_id] IS NULL) OR ([masteragreement_id] = @Original_masteragreement_id)) AND ((@IsNull_Communities_ID = 1 AND [Communities_ID] IS NULL) OR ([Communities_ID] = @Original_Communities_ID)));
+SELECT ID, username, agreement_id, proj_lot_id, pri_id, agreement_type, agreement_num, purchaser_code, purchaser, agreement_status_id, agreement_status, lot_num, block_num, plan_num, pre_sale, sell_price, gst, gst_value, pst, pst_value, total_sell_price, masteragreement_id, Communities_ID FROM working_ld_laa_AgreementSearch WHERE (ID = @ID) ORDER BY agreement_num</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [working_ld_laa_AgreementSearch] WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_proj_lot_id = 1 AND [proj_lot_id] IS NULL) OR ([proj_lot_id] = @Original_proj_lot_id)) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_agreement_type = 1 AND [agreement_type] IS NULL) OR ([agreement_type] = @Original_agreement_type)) AND ((@IsNull_agreement_num = 1 AND [agreement_num] IS NULL) OR ([agreement_num] = @Original_agreement_num)) AND ((@IsNull_purchaser_code = 1 AND [purchaser_code] IS NULL) OR ([purchaser_code] = @Original_purchaser_code)) AND ((@IsNull_purchaser = 1 AND [purchaser] IS NULL) OR ([purchaser] = @Original_purchaser)) AND ((@IsNull_agreement_status_id = 1 AND [agreement_status_id] IS NULL) OR ([agreement_status_id] = @Original_agreement_status_id)) AND ((@IsNull_agreement_status = 1 AND [agreement_status] IS NULL) OR ([agreement_status] = @Original_agreement_status)) AND ((@IsNull_lot_num = 1 AND [lot_num] IS NULL) OR ([lot_num] = @Original_lot_num)) AND ((@IsNull_block_num = 1 AND [block_num] IS NULL) OR ([block_num] = @Original_block_num)) AND ((@IsNull_plan_num = 1 AND [plan_num] IS NULL) OR ([plan_num] = @Original_plan_num)) AND ((@IsNull_pre_sale = 1 AND [pre_sale] IS NULL) OR ([pre_sale] = @Original_pre_sale)) AND ((@IsNull_sell_price = 1 AND [sell_price] IS NULL) OR ([sell_price] = @Original_sell_price)) AND ((@IsNull_gst = 1 AND [gst] IS NULL) OR ([gst] = @Original_gst)) AND ((@IsNull_gst_value = 1 AND [gst_value] IS NULL) OR ([gst_value] = @Original_gst_value)) AND ((@IsNull_pst = 1 AND [pst] IS NULL) OR ([pst] = @Original_pst)) AND ((@IsNull_pst_value = 1 AND [pst_value] IS NULL) OR ([pst_value] = @Original_pst_value)) AND ((@IsNull_total_sell_price = 1 AND [total_sell_price] IS NULL) OR ([total_sell_price] = @Original_total_sell_price)) AND ((@IsNull_masteragreement_id = 1 AND [masteragreement_id] IS NULL) OR ([masteragreement_id] = @Original_masteragreement_id)) AND ((@IsNull_Communities_ID = 1 AND [Communities_ID] IS NULL) OR ([Communities_ID] = @Original_Communities_ID)))</value>
+  </data>
+  <metadata name="da_AgreementSearch.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>269, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="da_SearchLookups.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>590, 17</value>
+  </metadata>
+</root>

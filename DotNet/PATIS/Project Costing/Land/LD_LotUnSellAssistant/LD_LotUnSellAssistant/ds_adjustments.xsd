@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_adjustments" targetNamespace="http://tempuri.org/ds_adjustments.xsd" xmlns:mstns="http://tempuri.org/ds_adjustments.xsd" xmlns="http://tempuri.org/ds_adjustments.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_adjustments" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_adjustments" msprop:Generator_DataSetName="ds_adjustments">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AR_ADJUSTMENTS" msprop:Generator_UserTableName="AR_ADJUSTMENTS" msprop:Generator_RowDeletedName="AR_ADJUSTMENTSRowDeleted" msprop:Generator_RowChangedName="AR_ADJUSTMENTSRowChanged" msprop:Generator_RowClassName="AR_ADJUSTMENTSRow" msprop:Generator_RowChangingName="AR_ADJUSTMENTSRowChanging" msprop:Generator_RowEvArgName="AR_ADJUSTMENTSRowChangeEvent" msprop:Generator_RowEvHandlerName="AR_ADJUSTMENTSRowChangeEventHandler" msprop:Generator_TableClassName="AR_ADJUSTMENTSDataTable" msprop:Generator_TableVarName="tableAR_ADJUSTMENTS" msprop:Generator_RowDeletingName="AR_ADJUSTMENTSRowDeleting" msprop:Generator_TablePropName="AR_ADJUSTMENTS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Code" msprop:Generator_UserColumnName="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnPropNameInTable="CodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CostRecoverable" msprop:Generator_UserColumnName="CostRecoverable" msprop:Generator_ColumnVarNameInTable="columnCostRecoverable" msprop:Generator_ColumnPropNameInRow="CostRecoverable" msprop:Generator_ColumnPropNameInTable="CostRecoverableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AMOUNT" msprop:Generator_UserColumnName="AMOUNT" msprop:Generator_ColumnVarNameInTable="columnAMOUNT" msprop:Generator_ColumnPropNameInRow="AMOUNT" msprop:Generator_ColumnPropNameInTable="AMOUNTColumn" type="xs:decimal" />
+              <xs:element name="GST_AMOUNT" msprop:Generator_UserColumnName="GST_AMOUNT" msprop:Generator_ColumnVarNameInTable="columnGST_AMOUNT" msprop:Generator_ColumnPropNameInRow="GST_AMOUNT" msprop:Generator_ColumnPropNameInTable="GST_AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PST_AMOUNT" msprop:Generator_UserColumnName="PST_AMOUNT" msprop:Generator_ColumnVarNameInTable="columnPST_AMOUNT" msprop:Generator_ColumnPropNameInRow="PST_AMOUNT" msprop:Generator_ColumnPropNameInTable="PST_AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ADJ_AMOUNT" msprop:Generator_UserColumnName="ADJ_AMOUNT" msprop:Generator_ColumnVarNameInTable="columnADJ_AMOUNT" msprop:Generator_ColumnPropNameInRow="ADJ_AMOUNT" msprop:Generator_ColumnPropNameInTable="ADJ_AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GL_ACCOUNT_NUMBER" msprop:Generator_UserColumnName="GL_ACCOUNT_NUMBER" msprop:Generator_ColumnVarNameInTable="columnGL_ACCOUNT_NUMBER" msprop:Generator_ColumnPropNameInRow="GL_ACCOUNT_NUMBER" msprop:Generator_ColumnPropNameInTable="GL_ACCOUNT_NUMBERColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INVOICENO" msprop:Generator_UserColumnName="INVOICENO" msprop:Generator_ColumnVarNameInTable="columnINVOICENO" msprop:Generator_ColumnPropNameInRow="INVOICENO" msprop:Generator_ColumnPropNameInTable="INVOICENOColumn" type="xs:int" />
+              <xs:element name="Level1" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Level1" msprop:Generator_ColumnVarNameInTable="columnLevel1" msprop:Generator_ColumnPropNameInRow="Level1" msprop:Generator_ColumnPropNameInTable="Level1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Level2" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Level2" msprop:Generator_ColumnVarNameInTable="columnLevel2" msprop:Generator_ColumnPropNameInRow="Level2" msprop:Generator_ColumnPropNameInTable="Level2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Level3" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Level3" msprop:Generator_ColumnVarNameInTable="columnLevel3" msprop:Generator_ColumnPropNameInRow="Level3" msprop:Generator_ColumnPropNameInTable="Level3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="33" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Level4" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Level4" msprop:Generator_ColumnVarNameInTable="columnLevel4" msprop:Generator_ColumnPropNameInRow="Level4" msprop:Generator_ColumnPropNameInTable="Level4Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="33" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LemComponent" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LemComponent" msprop:Generator_ColumnVarNameInTable="columnLemComponent" msprop:Generator_ColumnPropNameInRow="LemComponent" msprop:Generator_ColumnPropNameInTable="LemComponentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExtendedDescription" msprop:Generator_UserColumnName="ExtendedDescription" msprop:Generator_ColumnPropNameInRow="ExtendedDescription" msprop:Generator_ColumnVarNameInTable="columnExtendedDescription" msprop:Generator_ColumnPropNameInTable="ExtendedDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

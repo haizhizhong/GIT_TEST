@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDownPaymentDue", "TestDownPaymentDue.csproj", "{0AF68248-599B-4C20-B4D4-2BC456496DFD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D8BB4AEA-97F8-4C45-91ED-0C641579074E} = {D8BB4AEA-97F8-4C45-91ED-0C641579074E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD_DownPaymentDue", "..\LD_DownPaymentDue.csproj", "{D8BB4AEA-97F8-4C45-91ED-0C641579074E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDocuments", "..\..\..\..\..\..\Applications\ReflexWebServices\Land Dev\WebDocuments\WebDocuments.csproj", "{D644DF4D-092C-4997-A245-DFAA53EA4A66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AF68248-599B-4C20-B4D4-2BC456496DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF68248-599B-4C20-B4D4-2BC456496DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF68248-599B-4C20-B4D4-2BC456496DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF68248-599B-4C20-B4D4-2BC456496DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8BB4AEA-97F8-4C45-91ED-0C641579074E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BB4AEA-97F8-4C45-91ED-0C641579074E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BB4AEA-97F8-4C45-91ED-0C641579074E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BB4AEA-97F8-4C45-91ED-0C641579074E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D644DF4D-092C-4997-A245-DFAA53EA4A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D644DF4D-092C-4997-A245-DFAA53EA4A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D644DF4D-092C-4997-A245-DFAA53EA4A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D644DF4D-092C-4997-A245-DFAA53EA4A66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

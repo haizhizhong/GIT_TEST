@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDateManagement", "TestDateManagement.csproj", "{ABD3F6CE-BBDD-486E-BFCA-7610E0F0B76A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6E7F59A0-5F1F-46B6-8D4C-E52B2B86C32C} = {6E7F59A0-5F1F-46B6-8D4C-E52B2B86C32C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LD_DateManagement", "..\LD_DateManagement.csproj", "{6E7F59A0-5F1F-46B6-8D4C-E52B2B86C32C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABD3F6CE-BBDD-486E-BFCA-7610E0F0B76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD3F6CE-BBDD-486E-BFCA-7610E0F0B76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD3F6CE-BBDD-486E-BFCA-7610E0F0B76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD3F6CE-BBDD-486E-BFCA-7610E0F0B76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7F59A0-5F1F-46B6-8D4C-E52B2B86C32C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7F59A0-5F1F-46B6-8D4C-E52B2B86C32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7F59A0-5F1F-46B6-8D4C-E52B2B86C32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7F59A0-5F1F-46B6-8D4C-E52B2B86C32C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

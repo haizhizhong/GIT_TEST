@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_payments" targetNamespace="http://tempuri.org/ds_payments.xsd" xmlns:mstns="http://tempuri.org/ds_payments.xsd" xmlns="http://tempuri.org/ds_payments.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_payments" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_payments" msprop:Generator_DataSetName="ds_payments">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AR_PAYMENT_HEADERS" msprop:Generator_UserTableName="AR_PAYMENT_HEADERS" msprop:Generator_RowDeletedName="AR_PAYMENT_HEADERSRowDeleted" msprop:Generator_RowChangedName="AR_PAYMENT_HEADERSRowChanged" msprop:Generator_RowClassName="AR_PAYMENT_HEADERSRow" msprop:Generator_RowChangingName="AR_PAYMENT_HEADERSRowChanging" msprop:Generator_RowEvArgName="AR_PAYMENT_HEADERSRowChangeEvent" msprop:Generator_RowEvHandlerName="AR_PAYMENT_HEADERSRowChangeEventHandler" msprop:Generator_TableClassName="AR_PAYMENT_HEADERSDataTable" msprop:Generator_TableVarName="tableAR_PAYMENT_HEADERS" msprop:Generator_RowDeletingName="AR_PAYMENT_HEADERSRowDeleting" msprop:Generator_TablePropName="AR_PAYMENT_HEADERS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PaymentDate" msprop:Generator_UserColumnName="PaymentDate" msprop:Generator_ColumnPropNameInRow="PaymentDate" msprop:Generator_ColumnVarNameInTable="columnPaymentDate" msprop:Generator_ColumnPropNameInTable="PaymentDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CHECK_NUMBER" msprop:Generator_UserColumnName="CHECK_NUMBER" msprop:Generator_ColumnPropNameInRow="CHECK_NUMBER" msprop:Generator_ColumnVarNameInTable="columnCHECK_NUMBER" msprop:Generator_ColumnPropNameInTable="CHECK_NUMBERColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CheckAmount" msprop:Generator_UserColumnName="CheckAmount" msprop:Generator_ColumnPropNameInRow="CheckAmount" msprop:Generator_ColumnVarNameInTable="columnCheckAmount" msprop:Generator_ColumnPropNameInTable="CheckAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="COMMENT" msprop:Generator_UserColumnName="COMMENT" msprop:Generator_ColumnPropNameInRow="COMMENT" msprop:Generator_ColumnVarNameInTable="columnCOMMENT" msprop:Generator_ColumnPropNameInTable="COMMENTColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Updated" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Updated" msprop:Generator_ColumnVarNameInTable="columnUpdated" msprop:Generator_ColumnPropNameInRow="Updated" msprop:Generator_ColumnPropNameInTable="UpdatedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DEPOSIT_NO" msprop:Generator_UserColumnName="DEPOSIT_NO" msprop:Generator_ColumnPropNameInRow="DEPOSIT_NO" msprop:Generator_ColumnVarNameInTable="columnDEPOSIT_NO" msprop:Generator_ColumnPropNameInTable="DEPOSIT_NOColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

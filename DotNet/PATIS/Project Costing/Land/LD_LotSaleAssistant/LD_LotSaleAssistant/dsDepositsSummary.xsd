@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDepositsSummary" targetNamespace="http://tempuri.org/dsDepositsSummary.xsd" xmlns:mstns="http://tempuri.org/dsDepositsSummary.xsd" xmlns="http://tempuri.org/dsDepositsSummary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDepositsSummary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsDepositsSummary" msprop:Generator_DataSetName="dsDepositsSummary">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_LOT_AGREEMENT_DEPOSITS" msprop:Generator_UserTableName="PROJ_LOT_AGREEMENT_DEPOSITS" msprop:Generator_RowDeletedName="PROJ_LOT_AGREEMENT_DEPOSITSRowDeleted" msprop:Generator_RowChangedName="PROJ_LOT_AGREEMENT_DEPOSITSRowChanged" msprop:Generator_RowClassName="PROJ_LOT_AGREEMENT_DEPOSITSRow" msprop:Generator_RowChangingName="PROJ_LOT_AGREEMENT_DEPOSITSRowChanging" msprop:Generator_RowEvArgName="PROJ_LOT_AGREEMENT_DEPOSITSRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_LOT_AGREEMENT_DEPOSITSRowChangeEventHandler" msprop:Generator_TableClassName="PROJ_LOT_AGREEMENT_DEPOSITSDataTable" msprop:Generator_TableVarName="tablePROJ_LOT_AGREEMENT_DEPOSITS" msprop:Generator_RowDeletingName="PROJ_LOT_AGREEMENT_DEPOSITSRowDeleting" msprop:Generator_TablePropName="PROJ_LOT_AGREEMENT_DEPOSITS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="agreement_id" msprop:Generator_UserColumnName="agreement_id" msprop:Generator_ColumnVarNameInTable="columnagreement_id" msprop:Generator_ColumnPropNameInRow="agreement_id" msprop:Generator_ColumnPropNameInTable="agreement_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="deposit_amt" msprop:Generator_UserColumnName="deposit_amt" msprop:Generator_ColumnVarNameInTable="columndeposit_amt" msprop:Generator_ColumnPropNameInRow="deposit_amt" msprop:Generator_ColumnPropNameInTable="deposit_amtColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="off_set_days" msprop:Generator_UserColumnName="off_set_days" msprop:Generator_ColumnVarNameInTable="columnoff_set_days" msprop:Generator_ColumnPropNameInRow="off_set_days" msprop:Generator_ColumnPropNameInTable="off_set_daysColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PresaleSeq" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PresaleSeq" msprop:Generator_ColumnPropNameInRow="PresaleSeq" msprop:Generator_ColumnVarNameInTable="columnPresaleSeq" msprop:Generator_ColumnPropNameInTable="PresaleSeqColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

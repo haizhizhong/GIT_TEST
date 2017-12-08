@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_SearchLookups" targetNamespace="http://tempuri.org/ds_SearchLookups.xsd" xmlns:mstns="http://tempuri.org/ds_SearchLookups.xsd" xmlns="http://tempuri.org/ds_SearchLookups.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_SearchLookups" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_SearchLookups" msprop:Generator_DataSetName="ds_SearchLookups">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1" msprop:Generator_UserTableName="Table1" msprop:Generator_RowDeletedName="Table1RowDeleted" msprop:Generator_RowChangedName="Table1RowChanged" msprop:Generator_RowClassName="Table1Row" msprop:Generator_RowChangingName="Table1RowChanging" msprop:Generator_RowEvArgName="Table1RowChangeEvent" msprop:Generator_RowEvHandlerName="Table1RowChangeEventHandler" msprop:Generator_TableClassName="Table1DataTable" msprop:Generator_TableVarName="tableTable1" msprop:Generator_RowDeletingName="Table1RowDeleting" msprop:Generator_TablePropName="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Agreement_Num" msprop:Generator_UserColumnName="Agreement_Num" msprop:Generator_ColumnPropNameInRow="Agreement_Num" msprop:Generator_ColumnVarNameInTable="columnAgreement_Num" msprop:Generator_ColumnPropNameInTable="Agreement_NumColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="agreement_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="agreement_id" msprop:Generator_ColumnPropNameInRow="agreement_id" msprop:Generator_ColumnVarNameInTable="columnagreement_id" msprop:Generator_ColumnPropNameInTable="agreement_idColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2" msprop:Generator_UserTableName="Table2" msprop:Generator_RowDeletedName="Table2RowDeleted" msprop:Generator_RowChangedName="Table2RowChanged" msprop:Generator_RowClassName="Table2Row" msprop:Generator_RowChangingName="Table2RowChanging" msprop:Generator_RowEvArgName="Table2RowChangeEvent" msprop:Generator_RowEvHandlerName="Table2RowChangeEventHandler" msprop:Generator_TableClassName="Table2DataTable" msprop:Generator_TableVarName="tableTable2" msprop:Generator_RowDeletingName="Table2RowDeleting" msprop:Generator_TablePropName="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MASTER_AGREEMENT_NUM" msprop:Generator_UserColumnName="MASTER_AGREEMENT_NUM" msprop:Generator_ColumnPropNameInRow="MASTER_AGREEMENT_NUM" msprop:Generator_ColumnVarNameInTable="columnMASTER_AGREEMENT_NUM" msprop:Generator_ColumnPropNameInTable="MASTER_AGREEMENT_NUMColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3" msprop:Generator_UserTableName="Table3" msprop:Generator_RowDeletedName="Table3RowDeleted" msprop:Generator_RowChangedName="Table3RowChanged" msprop:Generator_RowClassName="Table3Row" msprop:Generator_RowChangingName="Table3RowChanging" msprop:Generator_RowEvArgName="Table3RowChangeEvent" msprop:Generator_RowEvHandlerName="Table3RowChangeEventHandler" msprop:Generator_TableClassName="Table3DataTable" msprop:Generator_TableVarName="tableTable3" msprop:Generator_RowDeletingName="Table3RowDeleting" msprop:Generator_TablePropName="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Agreement_Status_ID" msprop:Generator_UserColumnName="Agreement_Status_ID" msprop:Generator_ColumnPropNameInRow="Agreement_Status_ID" msprop:Generator_ColumnVarNameInTable="columnAgreement_Status_ID" msprop:Generator_ColumnPropNameInTable="Agreement_Status_IDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LD_laa_AgreementSearchLookups" msprop:Generator_UserTableName="LD_laa_AgreementSearchLookups" msprop:Generator_RowDeletedName="LD_laa_AgreementSearchLookupsRowDeleted" msprop:Generator_RowChangedName="LD_laa_AgreementSearchLookupsRowChanged" msprop:Generator_RowClassName="LD_laa_AgreementSearchLookupsRow" msprop:Generator_RowChangingName="LD_laa_AgreementSearchLookupsRowChanging" msprop:Generator_RowEvArgName="LD_laa_AgreementSearchLookupsRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_laa_AgreementSearchLookupsRowChangeEventHandler" msprop:Generator_TableClassName="LD_laa_AgreementSearchLookupsDataTable" msprop:Generator_TableVarName="tableLD_laa_AgreementSearchLookups" msprop:Generator_RowDeletingName="LD_laa_AgreementSearchLookupsRowDeleting" msprop:Generator_TablePropName="LD_laa_AgreementSearchLookups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Description" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Value" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table4" msprop:Generator_UserTableName="Table4" msprop:Generator_RowDeletedName="Table4RowDeleted" msprop:Generator_RowChangedName="Table4RowChanged" msprop:Generator_RowClassName="Table4Row" msprop:Generator_RowChangingName="Table4RowChanging" msprop:Generator_RowEvArgName="Table4RowChangeEvent" msprop:Generator_RowEvHandlerName="Table4RowChangeEventHandler" msprop:Generator_TableClassName="Table4DataTable" msprop:Generator_TableVarName="tableTable4" msprop:Generator_RowDeletingName="Table4RowDeleting" msprop:Generator_TablePropName="Table4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Communities_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Communities_ID" msprop:Generator_ColumnVarNameInTable="columnCommunities_ID" msprop:Generator_ColumnPropNameInRow="Communities_ID" msprop:Generator_ColumnPropNameInTable="Communities_IDColumn" type="xs:int" />
+              <xs:element name="Communities" msprop:Generator_UserColumnName="Communities" msprop:Generator_ColumnVarNameInTable="columnCommunities" msprop:Generator_ColumnPropNameInRow="Communities" msprop:Generator_ColumnPropNameInTable="CommunitiesColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table5" msprop:Generator_UserTableName="Table5" msprop:Generator_RowDeletedName="Table5RowDeleted" msprop:Generator_RowChangedName="Table5RowChanged" msprop:Generator_RowClassName="Table5Row" msprop:Generator_RowChangingName="Table5RowChanging" msprop:Generator_RowEvArgName="Table5RowChangeEvent" msprop:Generator_RowEvHandlerName="Table5RowChangeEventHandler" msprop:Generator_TableClassName="Table5DataTable" msprop:Generator_TableVarName="tableTable5" msprop:Generator_RowDeletingName="Table5RowDeleting" msprop:Generator_TablePropName="Table5">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pri_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="pri_id" msprop:Generator_ColumnVarNameInTable="columnpri_id" msprop:Generator_ColumnPropNameInRow="pri_id" msprop:Generator_ColumnPropNameInTable="pri_idColumn" type="xs:int" />
+              <xs:element name="pri_code" msprop:Generator_UserColumnName="pri_code" msprop:Generator_ColumnVarNameInTable="columnpri_code" msprop:Generator_ColumnPropNameInRow="pri_code" msprop:Generator_ColumnPropNameInTable="pri_codeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="pri_name" msprop:Generator_UserColumnName="pri_name" msprop:Generator_ColumnVarNameInTable="columnpri_name" msprop:Generator_ColumnPropNameInRow="pri_name" msprop:Generator_ColumnPropNameInTable="pri_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table6" msprop:Generator_UserTableName="Table6" msprop:Generator_RowDeletedName="Table6RowDeleted" msprop:Generator_RowChangedName="Table6RowChanged" msprop:Generator_RowClassName="Table6Row" msprop:Generator_RowChangingName="Table6RowChanging" msprop:Generator_RowEvArgName="Table6RowChangeEvent" msprop:Generator_RowEvHandlerName="Table6RowChangeEventHandler" msprop:Generator_TableClassName="Table6DataTable" msprop:Generator_TableVarName="tableTable6" msprop:Generator_RowDeletingName="Table6RowDeleting" msprop:Generator_TablePropName="Table6">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CUSTOMER_ID" msprop:Generator_UserColumnName="CUSTOMER_ID" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_ID" msprop:Generator_ColumnPropNameInRow="CUSTOMER_ID" msprop:Generator_ColumnPropNameInTable="CUSTOMER_IDColumn" type="xs:int" />
+              <xs:element name="CUSTOMER_CODE" msprop:Generator_UserColumnName="CUSTOMER_CODE" msprop:Generator_ColumnVarNameInTable="columnCUSTOMER_CODE" msprop:Generator_ColumnPropNameInRow="CUSTOMER_CODE" msprop:Generator_ColumnPropNameInTable="CUSTOMER_CODEColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAME" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table1" />
+      <xs:field xpath="mstns:agreement_id" />
+    </xs:unique>
+    <xs:unique name="Table2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table2" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Table3_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table3" />
+      <xs:field xpath="mstns:Agreement_Status_ID" />
+    </xs:unique>
+    <xs:unique name="Table4_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table4" />
+      <xs:field xpath="mstns:Communities_ID" />
+    </xs:unique>
+    <xs:unique name="Table5_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table5" />
+      <xs:field xpath="mstns:pri_id" />
+    </xs:unique>
+    <xs:unique name="Table6_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table6" />
+      <xs:field xpath="mstns:CUSTOMER_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

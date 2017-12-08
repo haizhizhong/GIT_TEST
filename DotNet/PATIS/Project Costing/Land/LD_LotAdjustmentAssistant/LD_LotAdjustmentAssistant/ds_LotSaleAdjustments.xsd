@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_LotSaleAdjustments" targetNamespace="http://tempuri.org/ds_LotSaleAdjustments.xsd" xmlns:mstns="http://tempuri.org/ds_LotSaleAdjustments.xsd" xmlns="http://tempuri.org/ds_LotSaleAdjustments.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_LotSaleAdjustments" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_LotSaleAdjustments" msprop:Generator_DataSetName="ds_LotSaleAdjustments">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_LotSaleAdjustments" msprop:Generator_UserTableName="LD_LotSaleAdjustments" msprop:Generator_RowDeletedName="LD_LotSaleAdjustmentsRowDeleted" msprop:Generator_TableClassName="LD_LotSaleAdjustmentsDataTable" msprop:Generator_RowChangedName="LD_LotSaleAdjustmentsRowChanged" msprop:Generator_RowClassName="LD_LotSaleAdjustmentsRow" msprop:Generator_RowChangingName="LD_LotSaleAdjustmentsRowChanging" msprop:Generator_RowEvArgName="LD_LotSaleAdjustmentsRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_LotSaleAdjustmentsRowChangeEventHandler" msprop:Generator_TablePropName="LD_LotSaleAdjustments" msprop:Generator_TableVarName="tableLD_LotSaleAdjustments" msprop:Generator_RowDeletingName="LD_LotSaleAdjustmentsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LotSaleAdjustments_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="LotSaleAdjustments_ID" msprop:Generator_ColumnPropNameInRow="LotSaleAdjustments_ID" msprop:Generator_ColumnVarNameInTable="columnLotSaleAdjustments_ID" msprop:Generator_ColumnPropNameInTable="LotSaleAdjustments_IDColumn" type="xs:int" />
+              <xs:element name="Code" msprop:Generator_UserColumnName="Code" msprop:Generator_ColumnPropNameInRow="Code" msprop:Generator_ColumnVarNameInTable="columnCode" msprop:Generator_ColumnPropNameInTable="CodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CostRecoverable" msprop:Generator_UserColumnName="CostRecoverable" msprop:Generator_ColumnPropNameInRow="CostRecoverable" msprop:Generator_ColumnVarNameInTable="columnCostRecoverable" msprop:Generator_ColumnPropNameInTable="CostRecoverableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ExpenseAccount" msprop:Generator_UserColumnName="ExpenseAccount" msprop:Generator_ColumnPropNameInRow="ExpenseAccount" msprop:Generator_ColumnVarNameInTable="columnExpenseAccount" msprop:Generator_ColumnPropNameInTable="ExpenseAccountColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Tax1" msprop:Generator_UserColumnName="Tax1" msprop:Generator_ColumnPropNameInRow="Tax1" msprop:Generator_ColumnVarNameInTable="columnTax1" msprop:Generator_ColumnPropNameInTable="Tax1Column" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Tax2" msprop:Generator_UserColumnName="Tax2" msprop:Generator_ColumnPropNameInRow="Tax2" msprop:Generator_ColumnVarNameInTable="columnTax2" msprop:Generator_ColumnPropNameInTable="Tax2Column" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ExtendedDescription" msprop:Generator_UserColumnName="ExtendedDescription" msprop:Generator_ColumnPropNameInRow="ExtendedDescription" msprop:Generator_ColumnVarNameInTable="columnExtendedDescription" msprop:Generator_ColumnPropNameInTable="ExtendedDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LV_1_ID" msprop:Generator_UserColumnName="LV_1_ID" msprop:Generator_ColumnPropNameInRow="LV_1_ID" msprop:Generator_ColumnVarNameInTable="columnLV_1_ID" msprop:Generator_ColumnPropNameInTable="LV_1_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LV_2_ID" msprop:Generator_UserColumnName="LV_2_ID" msprop:Generator_ColumnPropNameInRow="LV_2_ID" msprop:Generator_ColumnVarNameInTable="columnLV_2_ID" msprop:Generator_ColumnPropNameInTable="LV_2_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LV_3_ID" msprop:Generator_UserColumnName="LV_3_ID" msprop:Generator_ColumnPropNameInRow="LV_3_ID" msprop:Generator_ColumnVarNameInTable="columnLV_3_ID" msprop:Generator_ColumnPropNameInTable="LV_3_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LV_4_ID" msprop:Generator_UserColumnName="LV_4_ID" msprop:Generator_ColumnPropNameInRow="LV_4_ID" msprop:Generator_ColumnVarNameInTable="columnLV_4_ID" msprop:Generator_ColumnPropNameInTable="LV_4_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LEM_COMP" msprop:Generator_UserColumnName="LEM_COMP" msprop:Generator_ColumnPropNameInRow="LEM_COMP" msprop:Generator_ColumnVarNameInTable="columnLEM_COMP" msprop:Generator_ColumnPropNameInTable="LEM_COMPColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_LotSaleAdjustments" />
+      <xs:field xpath="mstns:LotSaleAdjustments_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

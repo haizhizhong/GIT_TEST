@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A0B56E20-F95A-43CB-82D2-375E874F98D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LD_CashCall</RootNamespace>
+    <AssemblyName>LD_CashCall</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\DotNetCompileDirectory%28no running%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccountYearPeriod, Version=1.0.5862.28533, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\DotNet\DotNetCompileDirectory(no running)\AccountYearPeriod.dll</HintPath>
+    </Reference>
+    <Reference Include="ApprovalRequestHistoryViewer, Version=1.0.5767.22798, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CashFlow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="FADO, Version=1.0.6108.19362, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMBaseReporting, Version=1.0.6039.22717, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMConnection, Version=1.0.6038.16389, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\HMConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="HMProcessAssistantLib, Version=1.0.5934.16269, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\dotnetsrc\DEVGRP\Reflex101\DotNet\DotNetCompileDirectory(no running)\HMProcessAssistantLib.dll</HintPath>
+    </Reference>
+    <Reference Include="HMReportPrinter, Version=1.0.5637.15104, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Subledger_Preview, Version=1.0.6092.33003, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TUC_HMDevXManager, Version=1.0.6095.26224, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\TUC_HMDevXManager.dll</HintPath>
+    </Reference>
+    <Reference Include="WordMerge2003, Version=1.0.6101.19738, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WS_Popups, Version=1.0.6008.20844, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\WS_Popups.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsBatches.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBatches.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsContinuityProjects.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsContinuityProjects.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsContinuitySchedules.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsContinuitySchedules.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCSProjects.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCSProjects.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProjects.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProjects.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSelection.cs">
+      <DependentUpon>dsSelection.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSelection.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSelection.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSummary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSummary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucCashCallPati.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucCashCallPati.Designer.cs">
+      <DependentUpon>ucCashCallPati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucContinuity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucContinuity.Designer.cs">
+      <DependentUpon>ucContinuity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucProjectSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucProjectSelection.Designer.cs">
+      <DependentUpon>ucProjectSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSummaryCashCall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSummaryCashCall.Designer.cs">
+      <DependentUpon>ucSummaryCashCall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSummaryDistribution.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSummaryDistribution.Designer.cs">
+      <DependentUpon>ucSummaryDistribution.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="ucCashCallPati.resx">
+      <DependentUpon>ucCashCallPati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucContinuity.resx">
+      <DependentUpon>ucContinuity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucProjectSelection.resx">
+      <DependentUpon>ucProjectSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSummaryCashCall.resx">
+      <DependentUpon>ucSummaryCashCall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSummaryDistribution.resx">
+      <DependentUpon>ucSummaryDistribution.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsBatches.xsc">
+      <DependentUpon>dsBatches.xsd</DependentUpon>
+    </None>
+    <None Include="dsBatches.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBatches.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsBatches.xss">
+      <DependentUpon>dsBatches.xsd</DependentUpon>
+    </None>
+    <None Include="dsContinuityProjects.xsc">
+      <DependentUpon>dsContinuityProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsContinuityProjects.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsContinuityProjects.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsContinuityProjects.xss">
+      <DependentUpon>dsContinuityProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsContinuitySchedules.xsc">
+      <DependentUpon>dsContinuitySchedules.xsd</DependentUpon>
+    </None>
+    <None Include="dsContinuitySchedules.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsContinuitySchedules.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsContinuitySchedules.xss">
+      <DependentUpon>dsContinuitySchedules.xsd</DependentUpon>
+    </None>
+    <None Include="dsCSProjects.xsc">
+      <DependentUpon>dsCSProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsCSProjects.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCSProjects.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCSProjects.xss">
+      <DependentUpon>dsCSProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjects.xsc">
+      <DependentUpon>dsProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsProjects.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProjects.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsProjects.xss">
+      <DependentUpon>dsProjects.xsd</DependentUpon>
+    </None>
+    <None Include="dsSelection.xsc">
+      <DependentUpon>dsSelection.xsd</DependentUpon>
+    </None>
+    <None Include="dsSelection.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSelection.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSelection.xss">
+      <DependentUpon>dsSelection.xsd</DependentUpon>
+    </None>
+    <None Include="dsSummary.xsc">
+      <DependentUpon>dsSummary.xsd</DependentUpon>
+    </None>
+    <None Include="dsSummary.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSummary.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSummary.xss">
+      <DependentUpon>dsSummary.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

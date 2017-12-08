@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_deposits" targetNamespace="http://tempuri.org/ds_deposits.xsd" xmlns:mstns="http://tempuri.org/ds_deposits.xsd" xmlns="http://tempuri.org/ds_deposits.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_deposits" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_deposits" msprop:Generator_DataSetName="ds_deposits">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AR_DEPOSIT" msprop:Generator_UserTableName="AR_DEPOSIT" msprop:Generator_RowDeletedName="AR_DEPOSITRowDeleted" msprop:Generator_TableClassName="AR_DEPOSITDataTable" msprop:Generator_RowChangedName="AR_DEPOSITRowChanged" msprop:Generator_RowClassName="AR_DEPOSITRow" msprop:Generator_RowChangingName="AR_DEPOSITRowChanging" msprop:Generator_RowEvArgName="AR_DEPOSITRowChangeEvent" msprop:Generator_RowEvHandlerName="AR_DEPOSITRowChangeEventHandler" msprop:Generator_TablePropName="AR_DEPOSIT" msprop:Generator_TableVarName="tableAR_DEPOSIT" msprop:Generator_RowDeletingName="AR_DEPOSITRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DepositType" msprop:Generator_UserColumnName="DepositType" msprop:Generator_ColumnPropNameInRow="DepositType" msprop:Generator_ColumnVarNameInTable="columnDepositType" msprop:Generator_ColumnPropNameInTable="DepositTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DepositDate" msprop:Generator_UserColumnName="DepositDate" msprop:Generator_ColumnPropNameInRow="DepositDate" msprop:Generator_ColumnVarNameInTable="columnDepositDate" msprop:Generator_ColumnPropNameInTable="DepositDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DepositAmount" msprop:Generator_UserColumnName="DepositAmount" msprop:Generator_ColumnPropNameInRow="DepositAmount" msprop:Generator_ColumnVarNameInTable="columnDepositAmount" msprop:Generator_ColumnPropNameInTable="DepositAmountColumn" type="xs:decimal" />
+              <xs:element name="BALANCE" msprop:Generator_UserColumnName="BALANCE" msprop:Generator_ColumnPropNameInRow="BALANCE" msprop:Generator_ColumnVarNameInTable="columnBALANCE" msprop:Generator_ColumnPropNameInTable="BALANCEColumn" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

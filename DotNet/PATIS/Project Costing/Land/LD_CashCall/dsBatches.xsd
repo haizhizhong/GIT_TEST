@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBatches" targetNamespace="http://tempuri.org/dsBatches.xsd" xmlns:mstns="http://tempuri.org/dsBatches.xsd" xmlns="http://tempuri.org/dsBatches.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBatches" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsBatches" msprop:Generator_DataSetName="dsBatches">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_CashcallDisbursementHeader" msprop:Generator_UserTableName="LD_CashcallDisbursementHeader" msprop:Generator_RowDeletedName="LD_CashcallDisbursementHeaderRowDeleted" msprop:Generator_TableClassName="LD_CashcallDisbursementHeaderDataTable" msprop:Generator_RowChangedName="LD_CashcallDisbursementHeaderRowChanged" msprop:Generator_RowClassName="LD_CashcallDisbursementHeaderRow" msprop:Generator_RowChangingName="LD_CashcallDisbursementHeaderRowChanging" msprop:Generator_RowEvArgName="LD_CashcallDisbursementHeaderRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_CashcallDisbursementHeaderRowChangeEventHandler" msprop:Generator_TablePropName="LD_CashcallDisbursementHeader" msprop:Generator_TableVarName="tableLD_CashcallDisbursementHeader" msprop:Generator_RowDeletingName="LD_CashcallDisbursementHeaderRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Batch" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Batch" msprop:Generator_ColumnPropNameInRow="Batch" msprop:Generator_ColumnVarNameInTable="columnBatch" msprop:Generator_ColumnPropNameInTable="BatchColumn" type="xs:int" />
+              <xs:element name="Created" msprop:Generator_UserColumnName="Created" msprop:Generator_ColumnPropNameInRow="Created" msprop:Generator_ColumnVarNameInTable="columnCreated" msprop:Generator_ColumnPropNameInTable="CreatedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Created_x0020_By" msprop:Generator_UserColumnName="Created By" msprop:Generator_ColumnPropNameInRow="Created_By" msprop:Generator_ColumnVarNameInTable="columnCreated_By" msprop:Generator_ColumnPropNameInTable="Created_ByColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="As_x0020_At_x0020_Date" msprop:Generator_UserColumnName="As At Date" msprop:Generator_ColumnPropNameInRow="As_At_Date" msprop:Generator_ColumnVarNameInTable="columnAs_At_Date" msprop:Generator_ColumnPropNameInTable="As_At_DateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_CashcallDisbursementHeader" />
+      <xs:field xpath="mstns:Batch" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

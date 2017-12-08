@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bs_proj_lot_agreement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="ds_agreement1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1033, 56</value>
+  </metadata>
+  <metadata name="cUSTOMERSBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 251</value>
+  </metadata>
+  <metadata name="dsAssumedPurchaser1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>838, 212</value>
+  </metadata>
+  <metadata name="bs_purchasers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>146, 56</value>
+  </metadata>
+  <metadata name="ds_purchaser1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="bs_luePurchaserType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>859, 17</value>
+  </metadata>
+  <metadata name="ds_lookups1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>406, 17</value>
+  </metadata>
+  <metadata name="bs_lueSalesType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>765, 56</value>
+  </metadata>
+  <metadata name="table4BindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>755, 173</value>
+  </metadata>
+  <metadata name="bs_lueAgreementStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>525, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnRefresh.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAADcElEQVRIS6WVW0hUQRjHZ85RN1NZ12q9
+        a5Z53c27mZaal2zVXXe9VWoYlKIZEvgShFkUZQ8VPhjhU9AFeoh8ESGLKAopw4wMTSq6Szczd201ta9v
+        jsdF9Kyr+YePM+fMzO8/883lEAAQYkFpSADRkniSSyqxHIPPMLFmvnKIHAORIteqwXayhuppI1/AfbYr
+        5oxOFTKjb4Piu3OFbNShhDdh3QhfxF1HmFrsYYHbNOAMtB4Bo6FNHmPlfQlwHHLmRc1gCsRf8Z/i8qkZ
+        B9EqzBLBng3ycesGxcQRG7dhp0mfo/JJ14OOI077HEbYU9XsObarO1aA10/sgMPmTKgzpUP112QIPK8U
+        oP6n3caK+qOtzCCJ8Hwhvcsq0eQj5rwec50p5jwT34/xhdx7l6oVpj398VBnTIPan6lQ/SMZKr4kgbZL
+        DWXv4sDQGyFtwOnpCYSMEx2pmZ6OFelIFaZwNKMjBKq/bYWKwUQo/5QApQjf+ToGtD1qaQO+mGvBkW4W
+        MQsLdxSukTmnUwXlHzZB6ds4KEZ4/stI0HSH215km8K1YhBVi9dkCYO/iob8/gjQvlCDpidsmQYi3KPe
+        xbwb4UUINzB4rxp2IDzjScgyDES4O4O/iYWigSjQIzwX4VkIT0d46qMNyzDAjouN/zKYabuUkPxoKxYj
+        S1tLQWKaVmMRkjSwLFzfRiFyn6sg62koRN30AZdDskkBjpegyFhQNg1m4OldweB5Sv5nKXAmSQN2YObu
+        6YDmVRNLhTNJGhTgUdfhacx+Fg6Z3SGw7XEQhFx2B5pHhrHeT+y7sHQkGOOspEEepiYHU7MdU5OGqUnu
+        DITEB+vA+5x8Ak2GsM0WESOtbJKC99QQGlySNJh9IlPwRCY9XA/x99ZCzB0/8LuoAJpPR2ke7UCQwTIj
+        LfHGdx0O4DZjIHyAnXhJAw2mxqfRVVhQvybFVML9AIi96w+Rt3xA1e4FwTeV4HbSCez38r+ogZgEYB4x
+        cyXUhOC/WO7F8GC+kga+ZxTTuwWnSg20176MN/peUIAa4aFtHhDUqoR1N1aD/3UFeF9zBWWLM6w84sBM
+        fhM9uSrcVaIkDcQRCSMQhKlgRuxH5LDfbmhlrf24Y609yA7YGfkSOoz/jz9UT9qxXaTYwyJpg9nw2WJb
+        NJcUYlRagi3orBHP1TQXyD/JbRf5jcmewwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="bs_luePrimeSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>705, 17</value>
+  </metadata>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>303</value>
+  </metadata>
+  <metadata name="dsLevies.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>793, 251</value>
+  </metadata>
+  <metadata name="bsLevyType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>253, 329</value>
+  </metadata>
+  <metadata name="dsLevyType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 329</value>
+  </metadata>
+  <metadata name="bsLv1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>450, 290</value>
+  </metadata>
+  <metadata name="dsLv11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>973, 251</value>
+  </metadata>
+  <metadata name="bsLv2Filtered.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>628, 290</value>
+  </metadata>
+  <metadata name="dsLv21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 290</value>
+  </metadata>
+  <metadata name="bsLv3Filtered.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>847, 290</value>
+  </metadata>
+  <metadata name="dsLv31.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 290</value>
+  </metadata>
+  <metadata name="bsLv4Filtered.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1066, 290</value>
+  </metadata>
+  <metadata name="dsLv41.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>361, 290</value>
+  </metadata>
+  <metadata name="bsSupplier.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>716, 329</value>
+  </metadata>
+  <metadata name="dsSupplier1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>600, 329</value>
+  </metadata>
+  <metadata name="bsLv2All.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>532, 290</value>
+  </metadata>
+  <metadata name="bsLv3All.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>751, 290</value>
+  </metadata>
+  <metadata name="bsLv4All.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>970, 290</value>
+  </metadata>
+  <metadata name="bs_lueCompundFrequency.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>569, 56</value>
+  </metadata>
+  <metadata name="bs_lueRateBasedOn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>410, 56</value>
+  </metadata>
+  <metadata name="bs_lueRateType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>274, 56</value>
+  </metadata>
+  <metadata name="ds_deposits1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>466, 95</value>
+  </metadata>
+  <metadata name="lDDepositsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>904, 95</value>
+  </metadata>
+  <metadata name="ds_lueDepositType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>743, 95</value>
+  </metadata>
+  <metadata name="bs_WarrantyType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>163, 134</value>
+  </metadata>
+  <metadata name="ds_WarrantyType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>513, 251</value>
+  </metadata>
+  <metadata name="bs_lueHomeBuilder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 95</value>
+  </metadata>
+  <metadata name="bs3Purchaser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>538, 134</value>
+  </metadata>
+  <metadata name="ds3Purchaser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 173</value>
+  </metadata>
+  <metadata name="bs3Builder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>367, 173</value>
+  </metadata>
+  <metadata name="ds3Builder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1015, 134</value>
+  </metadata>
+  <metadata name="bs3Elevation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>418, 134</value>
+  </metadata>
+  <metadata name="ds3Elevation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 173</value>
+  </metadata>
+  <metadata name="bs3Model.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>649, 173</value>
+  </metadata>
+  <metadata name="ds3Model.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>261, 173</value>
+  </metadata>
+  <metadata name="ds_AdditionalDates1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 212</value>
+  </metadata>
+  <metadata name="bs_lueAdditionalDates.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>476, 173</value>
+  </metadata>
+  <metadata name="ds_lueAdditionalDates1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>354, 212</value>
+  </metadata>
+  <metadata name="ds_Discounts1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>825, 329</value>
+  </metadata>
+  <metadata name="bsLD_Discounts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>533, 212</value>
+  </metadata>
+  <metadata name="ds_lueDiscountType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>954, 329</value>
+  </metadata>
+  <metadata name="bslueValueType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>215, 251</value>
+  </metadata>
+  <metadata name="ds_lueValueType1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>160, 368</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlTRConnection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 17</value>
+  </metadata>
+  <metadata name="da_lookups.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>293, 17</value>
+  </metadata>
+  <metadata name="daPurchaser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1024, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [CUSTOMERS] WHERE (([CUSTOMER_ID] = @Original_CUSTOMER_ID) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_BILL_ADDRESS_1 = 1 AND [BILL_ADDRESS_1] IS NULL) OR ([BILL_ADDRESS_1] = @Original_BILL_ADDRESS_1)))</value>
+  </data>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [CUSTOMERS] SET [CUSTOMER_ID] = @CUSTOMER_ID, [NAME] = @NAME, [BILL_ADDRESS_1] = @BILL_ADDRESS_1 WHERE (([CUSTOMER_ID] = @Original_CUSTOMER_ID) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_BILL_ADDRESS_1 = 1 AND [BILL_ADDRESS_1] IS NULL) OR ([BILL_ADDRESS_1] = @Original_BILL_ADDRESS_1)));
+SELECT CUSTOMER_ID, NAME, BILL_ADDRESS_1 FROM CUSTOMERS WHERE (CUSTOMER_ID = @CUSTOMER_ID) ORDER BY NAME, BILL_ADDRESS_1</value>
+  </data>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand2.CommandText" xml:space="preserve">
+    <value>SELECT     id, username, agreement_id, proj_lot_id, pri_id, agreement_num, pre_sale, sales_type_id, gst, pst, sell_price, sales_deposit, down_payment, damage_deposit, 
+                      discount_pct, discount_amt, penalty_pct, penalty_amt, purchaser_type_id, purchaser_id, purchaser_id2, purchaser_id3, agreement_date, closing_date, sale_date, 
+                      interest_adjustment_date, arrears_interest_date, payout_date, original_arrears_date, r_rate_type_id, r_rate_based_on_id, r_frequency_id, r_min_interest, 
+                      r_interest_rate, r_max_interest, a_rate_type_id, a_rate_based_on_id, a_frequency_id, a_min_interest, a_interest_rate, a_max_interest, builders_id, wcb, 
+                      wcb_provider, hoa_applicable, hoa_received, hoa_amount, hoa_date, hoa_comment, agreement_status_id, GST_PCT, PST_PCT, TotalSellPrice, builder_models_id, 
+                      model_desc, elevation, homebuilder_id, thrird_party_purchaser_id, LoadedFromSetup, thrird_party_purchaser2_id, thrird_party_purchaser3_id, 
+                      estimated_release_date, actual_release_date, SpecHome, CompoundUponArrears, LD_Lender_ID, ShowHome, thrird_party_purchaser4_id, 
+                      thrird_party_purchaser5_id, thrird_party_purchaser6_id, AssumedPurchaser_ID, Third_Party_Purchase, Third_Party_Purchase_Date, SpecHomeStartDate, 
+                      ShowHomeStartDate, AssumedDate, UseCurrentPrice, ld_standard_terms_det_ID, file_number, ProbationLot, LD_WarrantyType_ID, TransferRequested, 
+                      TransferRequestedDate, TransferConfirmed, TransferConfirmedDate, CollectionReminderSent
+FROM         working_ld_laa_proj_lot_agreement
+WHERE     (username = @username) AND (agreement_id = @agreement_id) AND (isPrimary = 1)</value>
+  </data>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [working_ld_laa_proj_lot_agreement] ([username], [agreement_id], [proj_lot_id], [pri_id], [agreement_num], [pre_sale], [sales_type_id], [gst], [pst], [sell_price], [sales_deposit], [down_payment], [damage_deposit], [discount_pct], [discount_amt], [penalty_pct], [penalty_amt], [purchaser_type_id], [purchaser_id], [purchaser_id2], [purchaser_id3], [agreement_date], [closing_date], [sale_date], [interest_adjustment_date], [arrears_interest_date], [payout_date], [original_arrears_date], [r_rate_type_id], [r_rate_based_on_id], [r_frequency_id], [r_min_interest], [r_interest_rate], [r_max_interest], [a_rate_type_id], [a_rate_based_on_id], [a_frequency_id], [a_min_interest], [a_interest_rate], [a_max_interest], [builders_id], [wcb], [wcb_provider], [hoa_applicable], [hoa_received], [hoa_amount], [hoa_date], [hoa_comment], [agreement_status_id], [GST_PCT], [PST_PCT], [TotalSellPrice], [builder_models_id], [model_desc], [elevation], [homebuilder_id], [thrird_party_purchaser_id], [LoadedFromSetup], [thrird_party_purchaser2_id], [thrird_party_purchaser3_id], [estimated_release_date], [actual_release_date], [SpecHome], [CompoundUponArrears], [LD_Lender_ID], [ShowHome], [thrird_party_purchaser4_id], [thrird_party_purchaser5_id], [thrird_party_purchaser6_id], [AssumedPurchaser_ID], [Third_Party_Purchase], [Third_Party_Purchase_Date], [SpecHomeStartDate], [ShowHomeStartDate], [AssumedDate], [UseCurrentPrice], [ld_standard_terms_det_ID], [file_number], [ProbationLot], [LD_WarrantyType_ID], [TransferRequested], [TransferRequestedDate], [TransferConfirmed], [TransferConfirmedDate], [CollectionReminderSent]) VALUES (@username, @agreement_id, @proj_lot_id, @pri_id, @agreement_num, @pre_sale, @sales_type_id, @gst, @pst, @sell_price, @sales_deposit, @down_payment, @damage_deposit, @discount_pct, @discount_amt, @penalty_pct, @penalty_amt, @purchaser_type_id, @purchaser_id, @purchaser_id2, @purchaser_id3, @agreement_date, @closing_date, @sale_date, @interest_adjustment_date, @arrears_interest_date, @payout_date, @p1, @r_rate_type_id, @r_rate_based_on_id, @r_frequency_id, @r_min_interest, @r_interest_rate, @r_max_interest, @a_rate_type_id, @a_rate_based_on_id, @a_frequency_id, @a_min_interest, @a_interest_rate, @a_max_interest, @builders_id, @wcb, @wcb_provider, @hoa_applicable, @hoa_received, @hoa_amount, @hoa_date, @hoa_comment, @agreement_status_id, @GST_PCT, @PST_PCT, @TotalSellPrice, @builder_models_id, @model_desc, @elevation, @homebuilder_id, @thrird_party_purchaser_id, @LoadedFromSetup, @thrird_party_purchaser2_id, @thrird_party_purchaser3_id, @estimated_release_date, @actual_release_date, @SpecHome, @CompoundUponArrears, @LD_Lender_ID, @ShowHome, @thrird_party_purchaser4_id, @thrird_party_purchaser5_id, @thrird_party_purchaser6_id, @AssumedPurchaser_ID, @Third_Party_Purchase, @Third_Party_Purchase_Date, @SpecHomeStartDate, @ShowHomeStartDate, @AssumedDate, @UseCurrentPrice, @ld_standard_terms_det_ID, @file_number, @ProbationLot, @LD_WarrantyType_ID, @TransferRequested, @TransferRequestedDate, @TransferConfirmed, @TransferConfirmedDate, @CollectionReminderSent);
+SELECT id, username, agreement_id, proj_lot_id, pri_id, agreement_num, pre_sale, sales_type_id, gst, pst, sell_price, sales_deposit, down_payment, damage_deposit, discount_pct, discount_amt, penalty_pct, penalty_amt, purchaser_type_id, purchaser_id, purchaser_id2, purchaser_id3, agreement_date, closing_date, sale_date, interest_adjustment_date, arrears_interest_date, payout_date, original_arrears_date, r_rate_type_id, r_rate_based_on_id, r_frequency_id, r_min_interest, r_interest_rate, r_max_interest, a_rate_type_id, a_rate_based_on_id, a_frequency_id, a_min_interest, a_interest_rate, a_max_interest, builders_id, wcb, wcb_provider, hoa_applicable, hoa_received, hoa_amount, hoa_date, hoa_comment, agreement_status_id, GST_PCT, PST_PCT, TotalSellPrice, builder_models_id, model_desc, elevation, homebuilder_id, thrird_party_purchaser_id, LoadedFromSetup, thrird_party_purchaser2_id, thrird_party_purchaser3_id, estimated_release_date, actual_release_date, SpecHome, CompoundUponArrears, LD_Lender_ID, ShowHome, thrird_party_purchaser4_id, thrird_party_purchaser5_id, thrird_party_purchaser6_id, AssumedPurchaser_ID, Third_Party_Purchase, Third_Party_Purchase_Date, SpecHomeStartDate, ShowHomeStartDate, AssumedDate, UseCurrentPrice, ld_standard_terms_det_ID, file_number, ProbationLot, LD_WarrantyType_ID, TransferRequested, TransferRequestedDate, TransferConfirmed, TransferConfirmedDate, CollectionReminderSent FROM working_ld_laa_proj_lot_agreement WHERE (id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [working_ld_laa_proj_lot_agreement] SET [username] = @username, [agreement_id] = @agreement_id, [proj_lot_id] = @proj_lot_id, [pri_id] = @pri_id, [agreement_num] = @agreement_num, [pre_sale] = @pre_sale, [sales_type_id] = @sales_type_id, [gst] = @gst, [pst] = @pst, [sell_price] = @sell_price, [sales_deposit] = @sales_deposit, [down_payment] = @down_payment, [damage_deposit] = @damage_deposit, [discount_pct] = @discount_pct, [discount_amt] = @discount_amt, [penalty_pct] = @penalty_pct, [penalty_amt] = @penalty_amt, [purchaser_type_id] = @purchaser_type_id, [purchaser_id] = @purchaser_id, [purchaser_id2] = @purchaser_id2, [purchaser_id3] = @purchaser_id3, [agreement_date] = @agreement_date, [closing_date] = @closing_date, [sale_date] = @sale_date, [interest_adjustment_date] = @interest_adjustment_date, [arrears_interest_date] = @arrears_interest_date, [payout_date] = @payout_date, [original_arrears_date] = @p1, [r_rate_type_id] = @r_rate_type_id, [r_rate_based_on_id] = @r_rate_based_on_id, [r_frequency_id] = @r_frequency_id, [r_min_interest] = @r_min_interest, [r_interest_rate] = @r_interest_rate, [r_max_interest] = @r_max_interest, [a_rate_type_id] = @a_rate_type_id, [a_rate_based_on_id] = @a_rate_based_on_id, [a_frequency_id] = @a_frequency_id, [a_min_interest] = @a_min_interest, [a_interest_rate] = @a_interest_rate, [a_max_interest] = @a_max_interest, [builders_id] = @builders_id, [wcb] = @wcb, [wcb_provider] = @wcb_provider, [hoa_applicable] = @hoa_applicable, [hoa_received] = @hoa_received, [hoa_amount] = @hoa_amount, [hoa_date] = @hoa_date, [hoa_comment] = @hoa_comment, [agreement_status_id] = @agreement_status_id, [GST_PCT] = @GST_PCT, [PST_PCT] = @PST_PCT, [TotalSellPrice] = @TotalSellPrice, [builder_models_id] = @builder_models_id, [model_desc] = @model_desc, [elevation] = @elevation, [homebuilder_id] = @homebuilder_id, [thrird_party_purchaser_id] = @thrird_party_purchaser_id, [LoadedFromSetup] = @LoadedFromSetup, [thrird_party_purchaser2_id] = @thrird_party_purchaser2_id, [thrird_party_purchaser3_id] = @thrird_party_purchaser3_id, [estimated_release_date] = @estimated_release_date, [actual_release_date] = @actual_release_date, [SpecHome] = @SpecHome, [CompoundUponArrears] = @CompoundUponArrears, [LD_Lender_ID] = @LD_Lender_ID, [ShowHome] = @ShowHome, [thrird_party_purchaser4_id] = @thrird_party_purchaser4_id, [thrird_party_purchaser5_id] = @thrird_party_purchaser5_id, [thrird_party_purchaser6_id] = @thrird_party_purchaser6_id, [AssumedPurchaser_ID] = @AssumedPurchaser_ID, [Third_Party_Purchase] = @Third_Party_Purchase, [Third_Party_Purchase_Date] = @Third_Party_Purchase_Date, [SpecHomeStartDate] = @SpecHomeStartDate, [ShowHomeStartDate] = @ShowHomeStartDate, [AssumedDate] = @AssumedDate, [UseCurrentPrice] = @UseCurrentPrice, [ld_standard_terms_det_ID] = @ld_standard_terms_det_ID, [file_number] = @file_number, [ProbationLot] = @ProbationLot, [LD_WarrantyType_ID] = @LD_WarrantyType_ID, [TransferRequested] = @TransferRequested, [TransferRequestedDate] = @TransferRequestedDate, [TransferConfirmed] = @TransferConfirmed, [TransferConfirmedDate] = @TransferConfirmedDate, [CollectionReminderSent] = @CollectionReminderSent WHERE (([id] = @Original_id) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ([proj_lot_id] = @Original_proj_lot_id) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_agreement_num = 1 AND [agreement_num] IS NULL) OR ([agreement_num] = @Original_agreement_num)) AND ((@IsNull_pre_sale = 1 AND [pre_sale] IS NULL) OR ([pre_sale] = @Original_pre_sale)) AND ((@IsNull_sales_type_id = 1 AND [sales_type_id] IS NULL) OR ([sales_type_id] = @Original_sales_type_id)) AND ((@IsNull_gst = 1 AND [gst] IS NULL) OR ([gst] = @Original_gst)) AND ((@IsNull_pst = 1 AND [pst] IS NULL) OR ([pst] = @Original_pst)) AND ((@IsNull_sell_price = 1 AND [sell_price] IS NULL) OR ([sell_price] = @Original_sell_price)) AND ((@IsNull_sales_deposit = 1 AND [sales_deposit] IS NULL) OR ([sales_deposit] = @Original_sales_deposit)) AND ((@IsNull_down_payment = 1 AND [down_payment] IS NULL) OR ([down_payment] = @Original_down_payment)) AND ((@IsNull_damage_deposit = 1 AND [damage_deposit] IS NULL) OR ([damage_deposit] = @Original_damage_deposit)) AND ((@IsNull_discount_pct = 1 AND [discount_pct] IS NULL) OR ([discount_pct] = @Original_discount_pct)) AND ((@IsNull_discount_amt = 1 AND [discount_amt] IS NULL) OR ([discount_amt] = @Original_discount_amt)) AND ((@IsNull_penalty_pct = 1 AND [penalty_pct] IS NULL) OR ([penalty_pct] = @Original_penalty_pct)) AND ((@IsNull_penalty_amt = 1 AND [penalty_amt] IS NULL) OR ([penalty_amt] = @Original_penalty_amt)) AND ((@IsNull_purchaser_type_id = 1 AND [purchaser_type_id] IS NULL) OR ([purchaser_type_id] = @Original_purchaser_type_id)) AND ((@IsNull_purchaser_id = 1 AND [purchaser_id] IS NULL) OR ([purchaser_id] = @Original_purchaser_id)) AND ((@IsNull_purchaser_id2 = 1 AND [purchaser_id2] IS NULL) OR ([purchaser_id2] = @Original_purchaser_id2)) AND ((@IsNull_purchaser_id3 = 1 AND [purchaser_id3] IS NULL) OR ([purchaser_id3] = @Original_purchaser_id3)) AND ((@IsNull_agreement_date = 1 AND [agreement_date] IS NULL) OR ([agreement_date] = @Original_agreement_date)) AND ((@IsNull_closing_date = 1 AND [closing_date] IS NULL) OR ([closing_date] = @Original_closing_date)) AND ((@IsNull_sale_date = 1 AND [sale_date] IS NULL) OR ([sale_date] = @Original_sale_date)) AND ((@IsNull_interest_adjustment_date = 1 AND [interest_adjustment_date] IS NULL) OR ([interest_adjustment_date] = @Original_interest_adjustment_date)) AND ((@IsNull_arrears_interest_date = 1 AND [arrears_interest_date] IS NULL) OR ([arrears_interest_date] = @Original_arrears_interest_date)) AND ((@IsNull_payout_date = 1 AND [payout_date] IS NULL) OR ([payout_date] = @Original_payout_date)) AND ((@p3 = 1 AND [original_arrears_date] IS NULL) OR ([original_arrears_date] = @p2)) AND ((@IsNull_r_rate_type_id = 1 AND [r_rate_type_id] IS NULL) OR ([r_rate_type_id] = @Original_r_rate_type_id)) AND ((@IsNull_r_rate_based_on_id = 1 AND [r_rate_based_on_id] IS NULL) OR ([r_rate_based_on_id] = @Original_r_rate_based_on_id)) AND ((@IsNull_r_frequency_id = 1 AND [r_frequency_id] IS NULL) OR ([r_frequency_id] = @Original_r_frequency_id)) AND ((@IsNull_r_min_interest = 1 AND [r_min_interest] IS NULL) OR ([r_min_interest] = @Original_r_min_interest)) AND ((@IsNull_r_interest_rate = 1 AND [r_interest_rate] IS NULL) OR ([r_interest_rate] = @Original_r_interest_rate)) AND ((@IsNull_r_max_interest = 1 AND [r_max_interest] IS NULL) OR ([r_max_interest] = @Original_r_max_interest)) AND ((@IsNull_a_rate_type_id = 1 AND [a_rate_type_id] IS NULL) OR ([a_rate_type_id] = @Original_a_rate_type_id)) AND ((@IsNull_a_rate_based_on_id = 1 AND [a_rate_based_on_id] IS NULL) OR ([a_rate_based_on_id] = @Original_a_rate_based_on_id)) AND ((@IsNull_a_frequency_id = 1 AND [a_frequency_id] IS NULL) OR ([a_frequency_id] = @Original_a_frequency_id)) AND ((@IsNull_a_min_interest = 1 AND [a_min_interest] IS NULL) OR ([a_min_interest] = @Original_a_min_interest)) AND ((@IsNull_a_interest_rate = 1 AND [a_interest_rate] IS NULL) OR ([a_interest_rate] = @Original_a_interest_rate)) AND ((@IsNull_a_max_interest = 1 AND [a_max_interest] IS NULL) OR ([a_max_interest] = @Original_a_max_interest)) AND ((@IsNull_builders_id = 1 AND [builders_id] IS NULL) OR ([builders_id] = @Original_builders_id)) AND ((@IsNull_wcb = 1 AND [wcb] IS NULL) OR ([wcb] = @Original_wcb)) AND ((@IsNull_wcb_provider = 1 AND [wcb_provider] IS NULL) OR ([wcb_provider] = @Original_wcb_provider)) AND ((@IsNull_hoa_applicable = 1 AND [hoa_applicable] IS NULL) OR ([hoa_applicable] = @Original_hoa_applicable)) AND ((@IsNull_hoa_received = 1 AND [hoa_received] IS NULL) OR ([hoa_received] = @Original_hoa_received)) AND ((@IsNull_hoa_amount = 1 AND [hoa_amount] IS NULL) OR ([hoa_amount] = @Original_hoa_amount)) AND ((@IsNull_hoa_date = 1 AND [hoa_date] IS NULL) OR ([hoa_date] = @Original_hoa_date)) AND ((@IsNull_agreement_status_id = 1 AND [agreement_status_id] IS NULL) OR ([agreement_status_id] = @Original_agreement_status_id)) AND ((@IsNull_GST_PCT = 1 AND [GST_PCT] IS NULL) OR ([GST_PCT] = @Original_GST_PCT)) AND ((@IsNull_PST_PCT = 1 AND [PST_PCT] IS NULL) OR ([PST_PCT] = @Original_PST_PCT)) AND ((@IsNull_TotalSellPrice = 1 AND [TotalSellPrice] IS NULL) OR ([TotalSellPrice] = @Original_TotalSellPrice)) AND ((@IsNull_builder_models_id = 1 AND [builder_models_id] IS NULL) OR ([builder_models_id] = @Original_builder_models_id)) AND ((@IsNull_model_desc = 1 AND [model_desc] IS NULL) OR ([model_desc] = @Original_model_desc)) AND ((@IsNull_elevation = 1 AND [elevation] IS NULL) OR ([elevation] = @Original_elevation)) AND ((@IsNull_homebuilder_id = 1 AND [homebuilder_id] IS NULL) OR ([homebuilder_id] = @Original_homebuilder_id)) AND ((@IsNull_thrird_party_purchaser_id = 1 AND [thrird_party_purchaser_id] IS NULL) OR ([thrird_party_purchaser_id] = @Original_thrird_party_purchaser_id)) AND ([LoadedFromSetup] = @Original_LoadedFromSetup) AND ((@IsNull_thrird_party_purchaser2_id = 1 AND [thrird_party_purchaser2_id] IS NULL) OR ([thrird_party_purchaser2_id] = @Original_thrird_party_purchaser2_id)) AND ((@IsNull_thrird_party_purchaser3_id = 1 AND [thrird_party_purchaser3_id] IS NULL) OR ([thrird_party_purchaser3_id] = @Original_thrird_party_purchaser3_id)) AND ((@IsNull_estimated_release_date = 1 AND [estimated_release_date] IS NULL) OR ([estimated_release_date] = @Original_estimated_release_date)) AND ((@IsNull_actual_release_date = 1 AND [actual_release_date] IS NULL) OR ([actual_release_date] = @Original_actual_release_date)) AND ((@IsNull_SpecHome = 1 AND [SpecHome] IS NULL) OR ([SpecHome] = @Original_SpecHome)) AND ((@IsNull_CompoundUponArrears = 1 AND [CompoundUponArrears] IS NULL) OR ([CompoundUponArrears] = @Original_CompoundUponArrears)) AND ((@IsNull_LD_Lender_ID = 1 AND [LD_Lender_ID] IS NULL) OR ([LD_Lender_ID] = @Original_LD_Lender_ID)) AND ((@IsNull_ShowHome = 1 AND [ShowHome] IS NULL) OR ([ShowHome] = @Original_ShowHome)) AND ((@IsNull_thrird_party_purchaser4_id = 1 AND [thrird_party_purchaser4_id] IS NULL) OR ([thrird_party_purchaser4_id] = @Original_thrird_party_purchaser4_id)) AND ((@IsNull_thrird_party_purchaser5_id = 1 AND [thrird_party_purchaser5_id] IS NULL) OR ([thrird_party_purchaser5_id] = @Original_thrird_party_purchaser5_id)) AND ((@IsNull_thrird_party_purchaser6_id = 1 AND [thrird_party_purchaser6_id] IS NULL) OR ([thrird_party_purchaser6_id] = @Original_thrird_party_purchaser6_id)) AND ((@IsNull_AssumedPurchaser_ID = 1 AND [AssumedPurchaser_ID] IS NULL) OR ([AssumedPurchaser_ID] = @Original_AssumedPurchaser_ID)) AND ((@IsNull_Third_Party_Purchase = 1 AND [Third_Party_Purchase] IS NULL) OR ([Third_Party_Purchase] = @Original_Third_Party_Purchase)) AND ((@IsNull_Third_Party_Purchase_Date = 1 AND [Third_Party_Purchase_Date] IS NULL) OR ([Third_Party_Purchase_Date] = @Original_Third_Party_Purchase_Date)) AND ((@IsNull_SpecHomeStartDate = 1 AND [SpecHomeStartDate] IS NULL) OR ([SpecHomeStartDate] = @Original_SpecHomeStartDate)) AND ((@IsNull_ShowHomeStartDate = 1 AND [ShowHomeStartDate] IS NULL) OR ([ShowHomeStartDate] = @Original_ShowHomeStartDate)) AND ((@IsNull_AssumedDate = 1 AND [AssumedDate] IS NULL) OR ([AssumedDate] = @Original_AssumedDate)) AND ((@IsNull_UseCurrentPrice = 1 AND [UseCurrentPrice] IS NULL) OR ([UseCurrentPrice] = @Original_UseCurrentPrice)) AND ((@IsNull_ld_standard_terms_det_ID = 1 AND [ld_standard_terms_det_ID] IS NULL) OR ([ld_standard_terms_det_ID] = @Original_ld_standard_terms_det_ID)) AND ((@IsNull_file_number = 1 AND [file_number] IS NULL) OR ([file_number] = @Original_file_number)) AND ([ProbationLot] = @Original_ProbationLot) AND ((@IsNull_LD_WarrantyType_ID = 1 AND [LD_WarrantyType_ID] IS NULL) OR ([LD_WarrantyType_ID] = @Original_LD_WarrantyType_ID)) AND ([TransferRequested] = @Original_TransferRequested) AND ((@IsNull_TransferRequestedDate = 1 AND [TransferRequestedDate] IS NULL) OR ([TransferRequestedDate] = @Original_TransferRequestedDate)) AND ([TransferConfirmed] = @Original_TransferConfirmed) AND ((@IsNull_TransferConfirmedDate = 1 AND [TransferConfirmedDate] IS NULL) OR ([TransferConfirmedDate] = @Original_TransferConfirmedDate)) AND ([CollectionReminderSent] = @Original_CollectionReminderSent));
+SELECT id, username, agreement_id, proj_lot_id, pri_id, agreement_num, pre_sale, sales_type_id, gst, pst, sell_price, sales_deposit, down_payment, damage_deposit, discount_pct, discount_amt, penalty_pct, penalty_amt, purchaser_type_id, purchaser_id, purchaser_id2, purchaser_id3, agreement_date, closing_date, sale_date, interest_adjustment_date, arrears_interest_date, payout_date, original_arrears_date, r_rate_type_id, r_rate_based_on_id, r_frequency_id, r_min_interest, r_interest_rate, r_max_interest, a_rate_type_id, a_rate_based_on_id, a_frequency_id, a_min_interest, a_interest_rate, a_max_interest, builders_id, wcb, wcb_provider, hoa_applicable, hoa_received, hoa_amount, hoa_date, hoa_comment, agreement_status_id, GST_PCT, PST_PCT, TotalSellPrice, builder_models_id, model_desc, elevation, homebuilder_id, thrird_party_purchaser_id, LoadedFromSetup, thrird_party_purchaser2_id, thrird_party_purchaser3_id, estimated_release_date, actual_release_date, SpecHome, CompoundUponArrears, LD_Lender_ID, ShowHome, thrird_party_purchaser4_id, thrird_party_purchaser5_id, thrird_party_purchaser6_id, AssumedPurchaser_ID, Third_Party_Purchase, Third_Party_Purchase_Date, SpecHomeStartDate, ShowHomeStartDate, AssumedDate, UseCurrentPrice, ld_standard_terms_det_ID, file_number, ProbationLot, LD_WarrantyType_ID, TransferRequested, TransferRequestedDate, TransferConfirmed, TransferConfirmedDate, CollectionReminderSent FROM working_ld_laa_proj_lot_agreement WHERE (id = @id)</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [working_ld_laa_proj_lot_agreement] WHERE (([id] = @Original_id) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ([proj_lot_id] = @Original_proj_lot_id) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_agreement_num = 1 AND [agreement_num] IS NULL) OR ([agreement_num] = @Original_agreement_num)) AND ((@IsNull_pre_sale = 1 AND [pre_sale] IS NULL) OR ([pre_sale] = @Original_pre_sale)) AND ((@IsNull_sales_type_id = 1 AND [sales_type_id] IS NULL) OR ([sales_type_id] = @Original_sales_type_id)) AND ((@IsNull_gst = 1 AND [gst] IS NULL) OR ([gst] = @Original_gst)) AND ((@IsNull_pst = 1 AND [pst] IS NULL) OR ([pst] = @Original_pst)) AND ((@IsNull_sell_price = 1 AND [sell_price] IS NULL) OR ([sell_price] = @Original_sell_price)) AND ((@IsNull_sales_deposit = 1 AND [sales_deposit] IS NULL) OR ([sales_deposit] = @Original_sales_deposit)) AND ((@IsNull_down_payment = 1 AND [down_payment] IS NULL) OR ([down_payment] = @Original_down_payment)) AND ((@IsNull_damage_deposit = 1 AND [damage_deposit] IS NULL) OR ([damage_deposit] = @Original_damage_deposit)) AND ((@IsNull_discount_pct = 1 AND [discount_pct] IS NULL) OR ([discount_pct] = @Original_discount_pct)) AND ((@IsNull_discount_amt = 1 AND [discount_amt] IS NULL) OR ([discount_amt] = @Original_discount_amt)) AND ((@IsNull_penalty_pct = 1 AND [penalty_pct] IS NULL) OR ([penalty_pct] = @Original_penalty_pct)) AND ((@IsNull_penalty_amt = 1 AND [penalty_amt] IS NULL) OR ([penalty_amt] = @Original_penalty_amt)) AND ((@IsNull_purchaser_type_id = 1 AND [purchaser_type_id] IS NULL) OR ([purchaser_type_id] = @Original_purchaser_type_id)) AND ((@IsNull_purchaser_id = 1 AND [purchaser_id] IS NULL) OR ([purchaser_id] = @Original_purchaser_id)) AND ((@IsNull_purchaser_id2 = 1 AND [purchaser_id2] IS NULL) OR ([purchaser_id2] = @Original_purchaser_id2)) AND ((@IsNull_purchaser_id3 = 1 AND [purchaser_id3] IS NULL) OR ([purchaser_id3] = @Original_purchaser_id3)) AND ((@IsNull_agreement_date = 1 AND [agreement_date] IS NULL) OR ([agreement_date] = @Original_agreement_date)) AND ((@IsNull_closing_date = 1 AND [closing_date] IS NULL) OR ([closing_date] = @Original_closing_date)) AND ((@IsNull_sale_date = 1 AND [sale_date] IS NULL) OR ([sale_date] = @Original_sale_date)) AND ((@IsNull_interest_adjustment_date = 1 AND [interest_adjustment_date] IS NULL) OR ([interest_adjustment_date] = @Original_interest_adjustment_date)) AND ((@IsNull_arrears_interest_date = 1 AND [arrears_interest_date] IS NULL) OR ([arrears_interest_date] = @Original_arrears_interest_date)) AND ((@IsNull_payout_date = 1 AND [payout_date] IS NULL) OR ([payout_date] = @Original_payout_date)) AND ((@p3 = 1 AND [original_arrears_date] IS NULL) OR ([original_arrears_date] = @p2)) AND ((@IsNull_r_rate_type_id = 1 AND [r_rate_type_id] IS NULL) OR ([r_rate_type_id] = @Original_r_rate_type_id)) AND ((@IsNull_r_rate_based_on_id = 1 AND [r_rate_based_on_id] IS NULL) OR ([r_rate_based_on_id] = @Original_r_rate_based_on_id)) AND ((@IsNull_r_frequency_id = 1 AND [r_frequency_id] IS NULL) OR ([r_frequency_id] = @Original_r_frequency_id)) AND ((@IsNull_r_min_interest = 1 AND [r_min_interest] IS NULL) OR ([r_min_interest] = @Original_r_min_interest)) AND ((@IsNull_r_interest_rate = 1 AND [r_interest_rate] IS NULL) OR ([r_interest_rate] = @Original_r_interest_rate)) AND ((@IsNull_r_max_interest = 1 AND [r_max_interest] IS NULL) OR ([r_max_interest] = @Original_r_max_interest)) AND ((@IsNull_a_rate_type_id = 1 AND [a_rate_type_id] IS NULL) OR ([a_rate_type_id] = @Original_a_rate_type_id)) AND ((@IsNull_a_rate_based_on_id = 1 AND [a_rate_based_on_id] IS NULL) OR ([a_rate_based_on_id] = @Original_a_rate_based_on_id)) AND ((@IsNull_a_frequency_id = 1 AND [a_frequency_id] IS NULL) OR ([a_frequency_id] = @Original_a_frequency_id)) AND ((@IsNull_a_min_interest = 1 AND [a_min_interest] IS NULL) OR ([a_min_interest] = @Original_a_min_interest)) AND ((@IsNull_a_interest_rate = 1 AND [a_interest_rate] IS NULL) OR ([a_interest_rate] = @Original_a_interest_rate)) AND ((@IsNull_a_max_interest = 1 AND [a_max_interest] IS NULL) OR ([a_max_interest] = @Original_a_max_interest)) AND ((@IsNull_builders_id = 1 AND [builders_id] IS NULL) OR ([builders_id] = @Original_builders_id)) AND ((@IsNull_wcb = 1 AND [wcb] IS NULL) OR ([wcb] = @Original_wcb)) AND ((@IsNull_wcb_provider = 1 AND [wcb_provider] IS NULL) OR ([wcb_provider] = @Original_wcb_provider)) AND ((@IsNull_hoa_applicable = 1 AND [hoa_applicable] IS NULL) OR ([hoa_applicable] = @Original_hoa_applicable)) AND ((@IsNull_hoa_received = 1 AND [hoa_received] IS NULL) OR ([hoa_received] = @Original_hoa_received)) AND ((@IsNull_hoa_amount = 1 AND [hoa_amount] IS NULL) OR ([hoa_amount] = @Original_hoa_amount)) AND ((@IsNull_hoa_date = 1 AND [hoa_date] IS NULL) OR ([hoa_date] = @Original_hoa_date)) AND ((@IsNull_agreement_status_id = 1 AND [agreement_status_id] IS NULL) OR ([agreement_status_id] = @Original_agreement_status_id)) AND ((@IsNull_GST_PCT = 1 AND [GST_PCT] IS NULL) OR ([GST_PCT] = @Original_GST_PCT)) AND ((@IsNull_PST_PCT = 1 AND [PST_PCT] IS NULL) OR ([PST_PCT] = @Original_PST_PCT)) AND ((@IsNull_TotalSellPrice = 1 AND [TotalSellPrice] IS NULL) OR ([TotalSellPrice] = @Original_TotalSellPrice)) AND ((@IsNull_builder_models_id = 1 AND [builder_models_id] IS NULL) OR ([builder_models_id] = @Original_builder_models_id)) AND ((@IsNull_model_desc = 1 AND [model_desc] IS NULL) OR ([model_desc] = @Original_model_desc)) AND ((@IsNull_elevation = 1 AND [elevation] IS NULL) OR ([elevation] = @Original_elevation)) AND ((@IsNull_homebuilder_id = 1 AND [homebuilder_id] IS NULL) OR ([homebuilder_id] = @Original_homebuilder_id)) AND ((@IsNull_thrird_party_purchaser_id = 1 AND [thrird_party_purchaser_id] IS NULL) OR ([thrird_party_purchaser_id] = @Original_thrird_party_purchaser_id)) AND ([LoadedFromSetup] = @Original_LoadedFromSetup) AND ((@IsNull_thrird_party_purchaser2_id = 1 AND [thrird_party_purchaser2_id] IS NULL) OR ([thrird_party_purchaser2_id] = @Original_thrird_party_purchaser2_id)) AND ((@IsNull_thrird_party_purchaser3_id = 1 AND [thrird_party_purchaser3_id] IS NULL) OR ([thrird_party_purchaser3_id] = @Original_thrird_party_purchaser3_id)) AND ((@IsNull_estimated_release_date = 1 AND [estimated_release_date] IS NULL) OR ([estimated_release_date] = @Original_estimated_release_date)) AND ((@IsNull_actual_release_date = 1 AND [actual_release_date] IS NULL) OR ([actual_release_date] = @Original_actual_release_date)) AND ((@IsNull_SpecHome = 1 AND [SpecHome] IS NULL) OR ([SpecHome] = @Original_SpecHome)) AND ((@IsNull_CompoundUponArrears = 1 AND [CompoundUponArrears] IS NULL) OR ([CompoundUponArrears] = @Original_CompoundUponArrears)) AND ((@IsNull_LD_Lender_ID = 1 AND [LD_Lender_ID] IS NULL) OR ([LD_Lender_ID] = @Original_LD_Lender_ID)) AND ((@IsNull_ShowHome = 1 AND [ShowHome] IS NULL) OR ([ShowHome] = @Original_ShowHome)) AND ((@IsNull_thrird_party_purchaser4_id = 1 AND [thrird_party_purchaser4_id] IS NULL) OR ([thrird_party_purchaser4_id] = @Original_thrird_party_purchaser4_id)) AND ((@IsNull_thrird_party_purchaser5_id = 1 AND [thrird_party_purchaser5_id] IS NULL) OR ([thrird_party_purchaser5_id] = @Original_thrird_party_purchaser5_id)) AND ((@IsNull_thrird_party_purchaser6_id = 1 AND [thrird_party_purchaser6_id] IS NULL) OR ([thrird_party_purchaser6_id] = @Original_thrird_party_purchaser6_id)) AND ((@IsNull_AssumedPurchaser_ID = 1 AND [AssumedPurchaser_ID] IS NULL) OR ([AssumedPurchaser_ID] = @Original_AssumedPurchaser_ID)) AND ((@IsNull_Third_Party_Purchase = 1 AND [Third_Party_Purchase] IS NULL) OR ([Third_Party_Purchase] = @Original_Third_Party_Purchase)) AND ((@IsNull_Third_Party_Purchase_Date = 1 AND [Third_Party_Purchase_Date] IS NULL) OR ([Third_Party_Purchase_Date] = @Original_Third_Party_Purchase_Date)) AND ((@IsNull_SpecHomeStartDate = 1 AND [SpecHomeStartDate] IS NULL) OR ([SpecHomeStartDate] = @Original_SpecHomeStartDate)) AND ((@IsNull_ShowHomeStartDate = 1 AND [ShowHomeStartDate] IS NULL) OR ([ShowHomeStartDate] = @Original_ShowHomeStartDate)) AND ((@IsNull_AssumedDate = 1 AND [AssumedDate] IS NULL) OR ([AssumedDate] = @Original_AssumedDate)) AND ((@IsNull_UseCurrentPrice = 1 AND [UseCurrentPrice] IS NULL) OR ([UseCurrentPrice] = @Original_UseCurrentPrice)) AND ((@IsNull_ld_standard_terms_det_ID = 1 AND [ld_standard_terms_det_ID] IS NULL) OR ([ld_standard_terms_det_ID] = @Original_ld_standard_terms_det_ID)) AND ((@IsNull_file_number = 1 AND [file_number] IS NULL) OR ([file_number] = @Original_file_number)) AND ([ProbationLot] = @Original_ProbationLot) AND ((@IsNull_LD_WarrantyType_ID = 1 AND [LD_WarrantyType_ID] IS NULL) OR ([LD_WarrantyType_ID] = @Original_LD_WarrantyType_ID)) AND ([TransferRequested] = @Original_TransferRequested) AND ((@IsNull_TransferRequestedDate = 1 AND [TransferRequestedDate] IS NULL) OR ([TransferRequestedDate] = @Original_TransferRequestedDate)) AND ([TransferConfirmed] = @Original_TransferConfirmed) AND ((@IsNull_TransferConfirmedDate = 1 AND [TransferConfirmedDate] IS NULL) OR ([TransferConfirmedDate] = @Original_TransferConfirmedDate)) AND ([CollectionReminderSent] = @Original_CollectionReminderSent))</value>
+  </data>
+  <metadata name="da_agreement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>904, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand4.CommandText" xml:space="preserve">
+    <value>SELECT        id, username, agreement_id, deposit_amt, deposit_id, off_set_days, Ref_Deposits_Det_ID, Origional_ID, PresaleSeq
+FROM            working_ld_laa_proj_lot_agreement_deposits
+WHERE        (username = @username) AND (agreement_id = @agreement_id)</value>
+  </data>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [working_ld_laa_proj_lot_agreement_deposits] ([username], [agreement_id], [deposit_amt], [deposit_id], [off_set_days], [Ref_Deposits_Det_ID], [Origional_ID], [PresaleSeq]) VALUES (@username, @agreement_id, @deposit_amt, @deposit_id, @off_set_days, @Ref_Deposits_Det_ID, @Origional_ID, @PresaleSeq);
+SELECT id, username, agreement_id, deposit_amt, deposit_id, off_set_days, Ref_Deposits_Det_ID, Origional_ID, PresaleSeq FROM working_ld_laa_proj_lot_agreement_deposits WHERE (id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [working_ld_laa_proj_lot_agreement_deposits] SET [username] = @username, [agreement_id] = @agreement_id, [deposit_amt] = @deposit_amt, [deposit_id] = @deposit_id, [off_set_days] = @off_set_days, [Ref_Deposits_Det_ID] = @Ref_Deposits_Det_ID, [Origional_ID] = @Origional_ID, [PresaleSeq] = @PresaleSeq WHERE (([id] = @Original_id) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_deposit_amt = 1 AND [deposit_amt] IS NULL) OR ([deposit_amt] = @Original_deposit_amt)) AND ((@IsNull_deposit_id = 1 AND [deposit_id] IS NULL) OR ([deposit_id] = @Original_deposit_id)) AND ((@IsNull_off_set_days = 1 AND [off_set_days] IS NULL) OR ([off_set_days] = @Original_off_set_days)) AND ((@IsNull_Ref_Deposits_Det_ID = 1 AND [Ref_Deposits_Det_ID] IS NULL) OR ([Ref_Deposits_Det_ID] = @Original_Ref_Deposits_Det_ID)) AND ((@IsNull_Origional_ID = 1 AND [Origional_ID] IS NULL) OR ([Origional_ID] = @Original_Origional_ID)) AND ((@IsNull_PresaleSeq = 1 AND [PresaleSeq] IS NULL) OR ([PresaleSeq] = @Original_PresaleSeq)));
+SELECT id, username, agreement_id, deposit_amt, deposit_id, off_set_days, Ref_Deposits_Det_ID, Origional_ID, PresaleSeq FROM working_ld_laa_proj_lot_agreement_deposits WHERE (id = @id)</value>
+  </data>
+  <metadata name="sqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM [working_ld_laa_proj_lot_agreement_deposits] WHERE (([id] = @Original_id) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_deposit_amt = 1 AND [deposit_amt] IS NULL) OR ([deposit_amt] = @Original_deposit_amt)) AND ((@IsNull_deposit_id = 1 AND [deposit_id] IS NULL) OR ([deposit_id] = @Original_deposit_id)) AND ((@IsNull_off_set_days = 1 AND [off_set_days] IS NULL) OR ([off_set_days] = @Original_off_set_days)) AND ((@IsNull_Ref_Deposits_Det_ID = 1 AND [Ref_Deposits_Det_ID] IS NULL) OR ([Ref_Deposits_Det_ID] = @Original_Ref_Deposits_Det_ID)) AND ((@IsNull_Origional_ID = 1 AND [Origional_ID] IS NULL) OR ([Origional_ID] = @Original_Origional_ID)) AND ((@IsNull_PresaleSeq = 1 AND [PresaleSeq] IS NULL) OR ([PresaleSeq] = @Original_PresaleSeq)))</value>
+  </data>
+  <metadata name="da_Deposits.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>349, 95</value>
+  </metadata>
+  <metadata name="da_lueDepositType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>588, 95</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_Deposits] WHERE (([Deposit_ID] = @Original_Deposit_ID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_Off_Set_Days = 1 AND [Off_Set_Days] IS NULL) OR ([Off_Set_Days] = @Original_Off_Set_Days)))</value>
+  </data>
+  <metadata name="sqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand3.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_Deposits] ([Description], [Type], [Off_Set_Days]) VALUES (@Description, @Type, @Off_Set_Days);
+SELECT Deposit_ID, Description, Type, Off_Set_Days FROM LD_Deposits WHERE (Deposit_ID = SCOPE_IDENTITY()) ORDER BY Description</value>
+  </data>
+  <metadata name="sqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_Deposits] SET [Description] = @Description, [Type] = @Type, [Off_Set_Days] = @Off_Set_Days WHERE (([Deposit_ID] = @Original_Deposit_ID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_Off_Set_Days = 1 AND [Off_Set_Days] IS NULL) OR ([Off_Set_Days] = @Original_Off_Set_Days)));
+SELECT Deposit_ID, Description, Type, Off_Set_Days FROM LD_Deposits WHERE (Deposit_ID = @Deposit_ID) ORDER BY Description</value>
+  </data>
+  <metadata name="da3Elevation.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>787, 134</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="da3Builder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>308, 134</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="da3Purchaser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>662, 134</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="da3Model.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>908, 134</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand10.CommandText" xml:space="preserve">
+    <value>SELECT     ID, username, Agreement_ID, LD_Proj_AdditionalDates_ID, Date, AdditionalDates_ID, OffsetDays, OffsetDate_ID, hasKeyDate
+FROM         working_ld_laa_Proj_Agreement_AddDates
+WHERE     (username = @username) AND (Agreement_ID = @agreement_id)
+ORDER BY 
+                          (SELECT     Description
+                            FROM          LD_AdditionalDates AS ad
+                            WHERE      (ID = working_ld_laa_Proj_Agreement_AddDates.AdditionalDates_ID))</value>
+  </data>
+  <metadata name="sqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO [working_ld_laa_Proj_Agreement_AddDates] ([username], [Agreement_ID], [LD_Proj_AdditionalDates_ID], [Date], [AdditionalDates_ID], [OffsetDays], [OffsetDate_ID], [hasKeyDate]) VALUES (@username, @Agreement_ID, @LD_Proj_AdditionalDates_ID, @Date, @AdditionalDates_ID, @OffsetDays, @OffsetDate_ID, @hasKeyDate);
+SELECT ID, username, Agreement_ID, LD_Proj_AdditionalDates_ID, Date, AdditionalDates_ID, OffsetDays, OffsetDate_ID, hasKeyDate FROM working_ld_laa_Proj_Agreement_AddDates WHERE (ID = SCOPE_IDENTITY()) ORDER BY (SELECT Description FROM LD_AdditionalDates AS ad WHERE (ID = working_ld_laa_Proj_Agreement_AddDates.AdditionalDates_ID))</value>
+  </data>
+  <metadata name="sqlUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand5.CommandText" xml:space="preserve">
+    <value>UPDATE [working_ld_laa_Proj_Agreement_AddDates] SET [username] = @username, [Agreement_ID] = @Agreement_ID, [LD_Proj_AdditionalDates_ID] = @LD_Proj_AdditionalDates_ID, [Date] = @Date, [AdditionalDates_ID] = @AdditionalDates_ID, [OffsetDays] = @OffsetDays, [OffsetDate_ID] = @OffsetDate_ID, [hasKeyDate] = @hasKeyDate WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_Agreement_ID = 1 AND [Agreement_ID] IS NULL) OR ([Agreement_ID] = @Original_Agreement_ID)) AND ((@IsNull_LD_Proj_AdditionalDates_ID = 1 AND [LD_Proj_AdditionalDates_ID] IS NULL) OR ([LD_Proj_AdditionalDates_ID] = @Original_LD_Proj_AdditionalDates_ID)) AND ((@IsNull_Date = 1 AND [Date] IS NULL) OR ([Date] = @Original_Date)) AND ((@IsNull_AdditionalDates_ID = 1 AND [AdditionalDates_ID] IS NULL) OR ([AdditionalDates_ID] = @Original_AdditionalDates_ID)) AND ((@IsNull_OffsetDays = 1 AND [OffsetDays] IS NULL) OR ([OffsetDays] = @Original_OffsetDays)) AND ((@IsNull_OffsetDate_ID = 1 AND [OffsetDate_ID] IS NULL) OR ([OffsetDate_ID] = @Original_OffsetDate_ID)) AND ((@IsNull_hasKeyDate = 1 AND [hasKeyDate] IS NULL) OR ([hasKeyDate] = @Original_hasKeyDate)));
+SELECT ID, username, Agreement_ID, LD_Proj_AdditionalDates_ID, Date, AdditionalDates_ID, OffsetDays, OffsetDate_ID, hasKeyDate FROM working_ld_laa_Proj_Agreement_AddDates WHERE (ID = @ID) ORDER BY (SELECT Description FROM LD_AdditionalDates AS ad WHERE (ID = working_ld_laa_Proj_Agreement_AddDates.AdditionalDates_ID))</value>
+  </data>
+  <metadata name="sqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand5.CommandText" xml:space="preserve">
+    <value>DELETE FROM [working_ld_laa_Proj_Agreement_AddDates] WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_Agreement_ID = 1 AND [Agreement_ID] IS NULL) OR ([Agreement_ID] = @Original_Agreement_ID)) AND ((@IsNull_LD_Proj_AdditionalDates_ID = 1 AND [LD_Proj_AdditionalDates_ID] IS NULL) OR ([LD_Proj_AdditionalDates_ID] = @Original_LD_Proj_AdditionalDates_ID)) AND ((@IsNull_Date = 1 AND [Date] IS NULL) OR ([Date] = @Original_Date)) AND ((@IsNull_AdditionalDates_ID = 1 AND [AdditionalDates_ID] IS NULL) OR ([AdditionalDates_ID] = @Original_AdditionalDates_ID)) AND ((@IsNull_OffsetDays = 1 AND [OffsetDays] IS NULL) OR ([OffsetDays] = @Original_OffsetDays)) AND ((@IsNull_OffsetDate_ID = 1 AND [OffsetDate_ID] IS NULL) OR ([OffsetDate_ID] = @Original_OffsetDate_ID)) AND ((@IsNull_hasKeyDate = 1 AND [hasKeyDate] IS NULL) OR ([hasKeyDate] = @Original_hasKeyDate)))</value>
+  </data>
+  <metadata name="da_AdditionalDates.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>919, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand5.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_AdditionalDates] ([ID], [Description], [OffSetDays], [AdditinalDates_ID], [KeyDate]) VALUES (@ID, @Description, @OffSetDays, @AdditinalDates_ID, @KeyDate);
+SELECT ID, Description, OffSetDays, AdditinalDates_ID, KeyDate FROM LD_AdditionalDates WHERE (ID = @ID) ORDER BY Description</value>
+  </data>
+  <metadata name="sqlUpdateCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand6.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_AdditionalDates] SET [ID] = @ID, [Description] = @Description, [OffSetDays] = @OffSetDays, [AdditinalDates_ID] = @AdditinalDates_ID, [KeyDate] = @KeyDate WHERE (([ID] = @Original_ID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_OffSetDays = 1 AND [OffSetDays] IS NULL) OR ([OffSetDays] = @Original_OffSetDays)) AND ((@IsNull_AdditinalDates_ID = 1 AND [AdditinalDates_ID] IS NULL) OR ([AdditinalDates_ID] = @Original_AdditinalDates_ID)) AND ((@IsNull_KeyDate = 1 AND [KeyDate] IS NULL) OR ([KeyDate] = @Original_KeyDate)));
+SELECT ID, Description, OffSetDays, AdditinalDates_ID, KeyDate FROM LD_AdditionalDates WHERE (ID = @ID) ORDER BY Description</value>
+  </data>
+  <metadata name="sqlDeleteCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand6.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_AdditionalDates] WHERE (([ID] = @Original_ID) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_OffSetDays = 1 AND [OffSetDays] IS NULL) OR ([OffSetDays] = @Original_OffSetDays)) AND ((@IsNull_AdditinalDates_ID = 1 AND [AdditinalDates_ID] IS NULL) OR ([AdditinalDates_ID] = @Original_AdditinalDates_ID)) AND ((@IsNull_KeyDate = 1 AND [KeyDate] IS NULL) OR ([KeyDate] = @Original_KeyDate)))</value>
+  </data>
+  <metadata name="da_lueAdditionalDates.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>180, 212</value>
+  </metadata>
+  <metadata name="daAssumedPurchaser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>670, 212</value>
+  </metadata>
+  <metadata name="sqlCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [CUSTOMERS] WHERE (([CUSTOMER_ID] = @Original_CUSTOMER_ID) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_BILL_ADDRESS_1 = 1 AND [BILL_ADDRESS_1] IS NULL) OR ([BILL_ADDRESS_1] = @Original_BILL_ADDRESS_1)))</value>
+  </data>
+  <metadata name="sqlCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [CUSTOMERS] SET [CUSTOMER_ID] = @CUSTOMER_ID, [NAME] = @NAME, [BILL_ADDRESS_1] = @BILL_ADDRESS_1 WHERE (([CUSTOMER_ID] = @Original_CUSTOMER_ID) AND ((@IsNull_NAME = 1 AND [NAME] IS NULL) OR ([NAME] = @Original_NAME)) AND ((@IsNull_BILL_ADDRESS_1 = 1 AND [BILL_ADDRESS_1] IS NULL) OR ([BILL_ADDRESS_1] = @Original_BILL_ADDRESS_1)));
+SELECT CUSTOMER_ID, NAME, BILL_ADDRESS_1 FROM CUSTOMERS WHERE (CUSTOMER_ID = @CUSTOMER_ID) ORDER BY NAME, BILL_ADDRESS_1</value>
+  </data>
+  <metadata name="sqlSelectCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand7.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_WarrantyType] SET [WarrantyType] = @WarrantyType WHERE (([LD_WarrantyType_ID] = @Original_LD_WarrantyType_ID) AND ((@IsNull_WarrantyType = 1 AND [WarrantyType] IS NULL) OR ([WarrantyType] = @Original_WarrantyType)));
+SELECT LD_WarrantyType_ID, WarrantyType FROM LD_WarrantyType WHERE (LD_WarrantyType_ID = @LD_WarrantyType_ID) ORDER BY WarrantyType</value>
+  </data>
+  <metadata name="sqlDeleteCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="da_WarrantyType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 134</value>
+  </metadata>
+  <metadata name="ds_purchasers.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>665, 251</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand13.CommandText" xml:space="preserve">
+    <value>SELECT        ID, username, agreement_id, LD_Levy_ID, lv1id, lv2id, lv3id, lv4id, Amount, Supplier_ID, Matched, original_id
+FROM            working_ld_laa_proj_lot_agreement_levy
+WHERE        (username = @username) AND (agreement_id = @agreement_id)</value>
+  </data>
+  <metadata name="sqlInsertCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand7.CommandText" xml:space="preserve">
+    <value>INSERT INTO [working_ld_laa_proj_lot_agreement_levy] ([username], [agreement_id], [LD_Levy_ID], [lv1id], [lv2id], [lv3id], [lv4id], [Amount], [Supplier_ID], [Matched], [original_id]) VALUES (@username, @agreement_id, @LD_Levy_ID, @lv1id, @lv2id, @lv3id, @lv4id, @Amount, @Supplier_ID, @Matched, @p1);
+SELECT ID, username, agreement_id, LD_Levy_ID, lv1id, lv2id, lv3id, lv4id, Amount, Supplier_ID, Matched, original_id FROM working_ld_laa_proj_lot_agreement_levy WHERE (ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand8.CommandText" xml:space="preserve">
+    <value>UPDATE [working_ld_laa_proj_lot_agreement_levy] SET [username] = @username, [agreement_id] = @agreement_id, [LD_Levy_ID] = @LD_Levy_ID, [lv1id] = @lv1id, [lv2id] = @lv2id, [lv3id] = @lv3id, [lv4id] = @lv4id, [Amount] = @Amount, [Supplier_ID] = @Supplier_ID, [Matched] = @Matched, [original_id] = @p1 WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_LD_Levy_ID = 1 AND [LD_Levy_ID] IS NULL) OR ([LD_Levy_ID] = @Original_LD_Levy_ID)) AND ((@IsNull_lv1id = 1 AND [lv1id] IS NULL) OR ([lv1id] = @Original_lv1id)) AND ((@IsNull_lv2id = 1 AND [lv2id] IS NULL) OR ([lv2id] = @Original_lv2id)) AND ((@IsNull_lv3id = 1 AND [lv3id] IS NULL) OR ([lv3id] = @Original_lv3id)) AND ((@IsNull_lv4id = 1 AND [lv4id] IS NULL) OR ([lv4id] = @Original_lv4id)) AND ((@IsNull_Amount = 1 AND [Amount] IS NULL) OR ([Amount] = @Original_Amount)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_Matched = 1 AND [Matched] IS NULL) OR ([Matched] = @Original_Matched)) AND ((@p3 = 1 AND [original_id] IS NULL) OR ([original_id] = @p2)));
+SELECT ID, username, agreement_id, LD_Levy_ID, lv1id, lv2id, lv3id, lv4id, Amount, Supplier_ID, Matched, original_id FROM working_ld_laa_proj_lot_agreement_levy WHERE (ID = @ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand8.CommandText" xml:space="preserve">
+    <value>DELETE FROM [working_ld_laa_proj_lot_agreement_levy] WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_LD_Levy_ID = 1 AND [LD_Levy_ID] IS NULL) OR ([LD_Levy_ID] = @Original_LD_Levy_ID)) AND ((@IsNull_lv1id = 1 AND [lv1id] IS NULL) OR ([lv1id] = @Original_lv1id)) AND ((@IsNull_lv2id = 1 AND [lv2id] IS NULL) OR ([lv2id] = @Original_lv2id)) AND ((@IsNull_lv3id = 1 AND [lv3id] IS NULL) OR ([lv3id] = @Original_lv3id)) AND ((@IsNull_lv4id = 1 AND [lv4id] IS NULL) OR ([lv4id] = @Original_lv4id)) AND ((@IsNull_Amount = 1 AND [Amount] IS NULL) OR ([Amount] = @Original_Amount)) AND ((@IsNull_Supplier_ID = 1 AND [Supplier_ID] IS NULL) OR ([Supplier_ID] = @Original_Supplier_ID)) AND ((@IsNull_Matched = 1 AND [Matched] IS NULL) OR ([Matched] = @Original_Matched)) AND ((@p3 = 1 AND [original_id] IS NULL) OR ([original_id] = @p2)))</value>
+  </data>
+  <metadata name="daLevies.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1076, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand9.CommandText" xml:space="preserve">
+    <value>UPDATE [Level1_Codes] SET [lv1_code] = @lv1_code, [lv1_desc] = @lv1_desc WHERE (([lv1ID] = @Original_lv1ID) AND ((@IsNull_lv1_code = 1 AND [lv1_code] IS NULL) OR ([lv1_code] = @Original_lv1_code)) AND ((@IsNull_lv1_desc = 1 AND [lv1_desc] IS NULL) OR ([lv1_desc] = @Original_lv1_desc)));
+SELECT lv1ID, lv1_code, lv1_desc FROM Level1_Codes AS l1 WHERE (lv1ID = @lv1ID) ORDER BY lv1_code</value>
+  </data>
+  <metadata name="sqlDeleteCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand9.CommandText" xml:space="preserve">
+    <value>DELETE FROM [Level1_Codes] WHERE (([lv1ID] = @Original_lv1ID) AND ((@IsNull_lv1_code = 1 AND [lv1_code] IS NULL) OR ([lv1_code] = @Original_lv1_code)) AND ((@IsNull_lv1_desc = 1 AND [lv1_desc] IS NULL) OR ([lv1_desc] = @Original_lv1_desc)))</value>
+  </data>
+  <metadata name="daLv1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>890, 251</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daLv2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1062, 251</value>
+  </metadata>
+  <metadata name="sqlSelectCommand16.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand16.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand16.CommandText" xml:space="preserve">
+    <value>select l3.lv3ID, l3.lv3_code, l3.lv3_desc, l3.lv2id
+from Level1_Codes l1
+join Level2_Codes l2 on l2.lv1ID=l1.lv1ID
+join Level3_Codes l3 on l3.lv2ID=l2.lv2ID
+where l1.projtype=@projtype and isnull(l3.active,'F') = 'T'
+order by lv3_code</value>
+  </data>
+  <metadata name="daLv3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>106, 290</value>
+  </metadata>
+  <metadata name="sqlSelectCommand17.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand17.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand17.CommandText" xml:space="preserve">
+    <value>select l4.lv4ID, l4.lv4_code, l4.lv4_desc, l4.lv3id
+from Level1_Codes l1
+join Level2_Codes l2 on l2.lv1ID=l1.lv1ID
+join Level3_Codes l3 on l3.lv2ID=l2.lv2ID
+join Level4_Codes l4 on l4.lv3ID=l3.lv3ID
+where l1.projtype=@projtype and isnull(l4.active,'F') = 'T'
+order by lv4_code</value>
+  </data>
+  <metadata name="daLv4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>278, 290</value>
+  </metadata>
+  <metadata name="sqlSelectCommand18.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand18.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand18.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daLevyType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 329</value>
+  </metadata>
+  <metadata name="sqlSelectCommand19.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand19.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand19.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daSupplier.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>490, 329</value>
+  </metadata>
+  <metadata name="sqlSelectCommand20.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand20.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand20.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand20.CommandText" xml:space="preserve">
+    <value>SELECT        ID, username, agreement_id, LD_Discounts_ID, Type, Value, invoice_id, processed, AmountDiscounted, Origional_ID
+FROM            working_ld_laa_proj_lot_agreement_discounts
+WHERE        (username = @username) AND (agreement_id = @agreement_id)</value>
+  </data>
+  <metadata name="sqlInsertCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand9.CommandText" xml:space="preserve">
+    <value>INSERT INTO [working_ld_laa_proj_lot_agreement_discounts] ([username], [agreement_id], [LD_Discounts_ID], [Type], [Value], [invoice_id], [processed], [AmountDiscounted], [Origional_ID]) VALUES (@username, @agreement_id, @LD_Discounts_ID, @Type, @Value, @invoice_id, @processed, @AmountDiscounted, @Origional_ID);
+SELECT ID, username, agreement_id, LD_Discounts_ID, Type, Value, invoice_id, processed, AmountDiscounted, Origional_ID FROM working_ld_laa_proj_lot_agreement_discounts WHERE (ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="da_Discounts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>367, 329</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand.CommandText" xml:space="preserve">
+    <value>DELETE FROM [working_ld_laa_proj_lot_agreement_discounts] WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_LD_Discounts_ID = 1 AND [LD_Discounts_ID] IS NULL) OR ([LD_Discounts_ID] = @Original_LD_Discounts_ID)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_Value = 1 AND [Value] IS NULL) OR ([Value] = @Original_Value)) AND ((@IsNull_invoice_id = 1 AND [invoice_id] IS NULL) OR ([invoice_id] = @Original_invoice_id)) AND ((@IsNull_processed = 1 AND [processed] IS NULL) OR ([processed] = @Original_processed)) AND ((@IsNull_AmountDiscounted = 1 AND [AmountDiscounted] IS NULL) OR ([AmountDiscounted] = @Original_AmountDiscounted)) AND ((@IsNull_Origional_ID = 1 AND [Origional_ID] IS NULL) OR ([Origional_ID] = @Original_Origional_ID)))</value>
+  </data>
+  <metadata name="sqlUpdateCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand.CommandText" xml:space="preserve">
+    <value>UPDATE [working_ld_laa_proj_lot_agreement_discounts] SET [username] = @username, [agreement_id] = @agreement_id, [LD_Discounts_ID] = @LD_Discounts_ID, [Type] = @Type, [Value] = @Value, [invoice_id] = @invoice_id, [processed] = @processed, [AmountDiscounted] = @AmountDiscounted, [Origional_ID] = @Origional_ID WHERE (([ID] = @Original_ID) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_agreement_id = 1 AND [agreement_id] IS NULL) OR ([agreement_id] = @Original_agreement_id)) AND ((@IsNull_LD_Discounts_ID = 1 AND [LD_Discounts_ID] IS NULL) OR ([LD_Discounts_ID] = @Original_LD_Discounts_ID)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_Value = 1 AND [Value] IS NULL) OR ([Value] = @Original_Value)) AND ((@IsNull_invoice_id = 1 AND [invoice_id] IS NULL) OR ([invoice_id] = @Original_invoice_id)) AND ((@IsNull_processed = 1 AND [processed] IS NULL) OR ([processed] = @Original_processed)) AND ((@IsNull_AmountDiscounted = 1 AND [AmountDiscounted] IS NULL) OR ([AmountDiscounted] = @Original_AmountDiscounted)) AND ((@IsNull_Origional_ID = 1 AND [Origional_ID] IS NULL) OR ([Origional_ID] = @Original_Origional_ID)));
+SELECT ID, username, agreement_id, LD_Discounts_ID, Type, Value, invoice_id, processed, AmountDiscounted, Origional_ID FROM working_ld_laa_proj_lot_agreement_discounts WHERE (ID = @ID)</value>
+  </data>
+  <metadata name="sqlSelectCommand21.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand21.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand10.CommandText" xml:space="preserve">
+    <value>INSERT INTO [LD_Discounts] ([Code], [Description], [Type], [Value]) VALUES (@Code, @Description, @Type, @Value);
+SELECT LD_Discounts_ID, Code, Description, Type, Value FROM LD_Discounts AS d WHERE (LD_Discounts_ID = SCOPE_IDENTITY()) ORDER BY Code</value>
+  </data>
+  <metadata name="sqlUpdateCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand10.CommandText" xml:space="preserve">
+    <value>UPDATE [LD_Discounts] SET [Code] = @Code, [Description] = @Description, [Type] = @Type, [Value] = @Value WHERE (([LD_Discounts_ID] = @Original_LD_Discounts_ID) AND ((@IsNull_Code = 1 AND [Code] IS NULL) OR ([Code] = @Original_Code)) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_Value = 1 AND [Value] IS NULL) OR ([Value] = @Original_Value)));
+SELECT LD_Discounts_ID, Code, Description, Type, Value FROM LD_Discounts AS d WHERE (LD_Discounts_ID = @LD_Discounts_ID) ORDER BY Code</value>
+  </data>
+  <metadata name="sqlDeleteCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand10.CommandText" xml:space="preserve">
+    <value>DELETE FROM [LD_Discounts] WHERE (([LD_Discounts_ID] = @Original_LD_Discounts_ID) AND ((@IsNull_Code = 1 AND [Code] IS NULL) OR ([Code] = @Original_Code)) AND ((@IsNull_Description = 1 AND [Description] IS NULL) OR ([Description] = @Original_Description)) AND ((@IsNull_Type = 1 AND [Type] IS NULL) OR ([Type] = @Original_Type)) AND ((@IsNull_Value = 1 AND [Value] IS NULL) OR ([Value] = @Original_Value)))</value>
+  </data>
+  <metadata name="da_lueDiscountType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>352, 251</value>
+  </metadata>
+  <metadata name="da_lueValueType.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 368</value>
+  </metadata>
+  <metadata name="sqlCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+</root>
